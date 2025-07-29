@@ -5854,7 +5854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 474.98 182.372 90)
 			(effects
 				(font
@@ -6057,7 +6057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 299.72 244.602 90)
 			(effects
 				(font
@@ -6125,7 +6125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 486.41 227.33 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1_+5V"
+		(property "Value" "0_+3V3"
 			(at 429.26 280.6699 90)
 			(effects
 				(font
@@ -6265,7 +6265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 455.93 280.67 0)
 			(effects
 				(font
@@ -6339,7 +6339,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 			(at 481.33 78.74 0)
 			(effects
 				(font
@@ -6633,7 +6633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 486.41 184.15 0)
 			(effects
 				(font
@@ -6706,7 +6706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 377.19 118.11 0)
 			(effects
 				(font
@@ -6844,7 +6844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 378.46 215.9 0)
 			(effects
 				(font
@@ -6912,7 +6912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 394.97 134.62 0)
 			(effects
 				(font
@@ -7251,7 +7251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 553.72 215.9 0)
 			(effects
 				(font
@@ -7654,7 +7654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 378.46 234.95 0)
 			(effects
 				(font
@@ -7789,7 +7789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 430.53 118.11 0)
 			(effects
 				(font
@@ -7853,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1_+5V"
+		(property "Value" "0_+3V3"
 			(at 464.82 280.6699 90)
 			(effects
 				(font
@@ -7995,7 +7995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 299.72 206.502 90)
 			(effects
 				(font
@@ -8123,7 +8123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1_+5V"
+		(property "Value" "0_+3V3"
 			(at 411.48 280.6699 90)
 			(effects
 				(font
@@ -8198,7 +8198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 474.98 244.602 90)
 			(effects
 				(font
@@ -8534,7 +8534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 394.97 118.11 0)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 412.75 118.11 0)
 			(effects
 				(font
@@ -8743,7 +8743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 553.72 191.77 0)
 			(effects
 				(font
@@ -8880,7 +8880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 184.15 280.67 0)
 			(effects
 				(font
@@ -9066,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 311.15 208.28 0)
 			(effects
 				(font
@@ -9207,7 +9207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 163.83 280.67 0)
 			(effects
 				(font
@@ -9326,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 311.15 227.33 0)
 			(effects
 				(font
@@ -9459,7 +9459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1_+5V"
+		(property "Value" "0_+3V3"
 			(at 447.04 280.6699 90)
 			(effects
 				(font
@@ -9532,7 +9532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 402.59 280.67 0)
 			(effects
 				(font
@@ -9606,7 +9606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 553.72 254 0)
 			(effects
 				(font
@@ -9741,7 +9741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 378.46 191.77 0)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 			(at 419.1 78.74 0)
 			(effects
 				(font
@@ -9971,7 +9971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 430.53 134.62 0)
 			(effects
 				(font
@@ -10042,7 +10042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 420.37 280.67 0)
 			(effects
 				(font
@@ -10116,7 +10116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 486.41 246.38 0)
 			(effects
 				(font
@@ -10257,7 +10257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 474.98 225.552 90)
 			(effects
 				(font
@@ -10327,7 +10327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT60-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 417.83 205.74 0)
 			(effects
 				(font
@@ -10516,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 412.75 134.62 0)
 			(effects
 				(font
@@ -10587,7 +10587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 311.15 246.38 0)
 			(effects
 				(font
@@ -10728,7 +10728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 474.98 206.502 90)
 			(effects
 				(font
@@ -10796,7 +10796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 311.15 184.15 0)
 			(effects
 				(font
@@ -11003,7 +11003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 553.72 234.95 0)
 			(effects
 				(font
@@ -11140,7 +11140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT60-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 431.8 151.13 0)
 			(effects
 				(font
@@ -11463,7 +11463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 377.19 134.62 0)
 			(effects
 				(font
@@ -11536,7 +11536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 182.88 199.39 0)
 			(effects
 				(font
@@ -11655,7 +11655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 			(at 354.33 81.28 0)
 			(effects
 				(font
@@ -11750,7 +11750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 438.15 280.67 0)
 			(effects
 				(font
@@ -11825,7 +11825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 299.72 225.552 90)
 			(effects
 				(font
@@ -11961,7 +11961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 299.72 182.372 90)
 			(effects
 				(font
@@ -12031,7 +12031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 162.56 199.39 0)
 			(effects
 				(font
@@ -12150,7 +12150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 378.46 254 0)
 			(effects
 				(font
@@ -12285,7 +12285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO220-3_INF"
+		(property "Footprint" "footprints:PG-TO220-3_INF"
 			(at 486.41 208.28 0)
 			(effects
 				(font
