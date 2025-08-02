@@ -3685,7 +3685,7 @@
 			)
 		)
 	)
-	(global_label "1_GPIO5"
+	(global_label "0_GPIO21"
 		(shape input)
 		(at 481.33 81.28 0)
 		(fields_autoplaced yes)
@@ -3697,7 +3697,7 @@
 		)
 		(uuid "0b620d99-27d6-4851-8c83-1ce4eee4d224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 492.1771 81.28 0)
+			(at 493.3866 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +3883,7 @@
 			)
 		)
 	)
-	(global_label "1_GPIO2"
+	(global_label "0_GPIO11"
 		(shape input)
 		(at 481.33 86.36 0)
 		(fields_autoplaced yes)
@@ -3895,7 +3895,7 @@
 		)
 		(uuid "2474b779-0b28-4aee-8b08-64ff404f24ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 492.1771 86.36 0)
+			(at 493.3866 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5203,7 @@
 			)
 		)
 	)
-	(global_label "1_GPIO16"
+	(global_label "0_GPIO23"
 		(shape input)
 		(at 481.33 76.2 0)
 		(fields_autoplaced yes)
@@ -5313,7 +5313,7 @@
 			)
 		)
 	)
-	(global_label "1_GPIO4"
+	(global_label "0_GPIO22"
 		(shape input)
 		(at 481.33 91.44 0)
 		(fields_autoplaced yes)
@@ -5325,7 +5325,7 @@
 		)
 		(uuid "b894559c-f2d3-4bdb-b4a3-028521989cf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 492.1771 91.44 0)
+			(at 493.3866 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
