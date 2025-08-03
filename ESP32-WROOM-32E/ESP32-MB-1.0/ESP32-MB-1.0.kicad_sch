@@ -3553,6 +3553,28 @@
 			)
 		)
 	)
+	(global_label "0_GPIO17"
+		(shape input)
+		(at 524.51 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "028618c5-8adf-48ed-a8d9-e50c5092f2c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 536.5666 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "0_GPIO32"
 		(shape input)
 		(at 359.41 88.9 0)
@@ -3637,6 +3659,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "0_GPIO18"
+		(shape input)
+		(at 524.51 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08544581-00d1-460e-979f-0514eed1a97e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 536.5666 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3830,6 +3874,28 @@
 		(uuid "151f2606-8002-4641-bca2-137d2fe4ced2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 197.8395 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "0_GPIO16"
+		(shape input)
+		(at 524.51 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1aaaddce-b7ae-4c53-a829-bfc12b2d9fb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 536.5666 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,6 +5419,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "0_GPIO19"
+		(shape input)
+		(at 524.51 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9eedcf2-a1e8-453e-b6b3-a44961e2c071")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 536.5666 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8077,6 +8165,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 524.51 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58b0e646-357f-4b42-af85-9c7ae54a650f")
+		(property "Reference" "#PWR022"
+			(at 530.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 528.32 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 524.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee6ee0cb-ba08-4979-8923-06086ac3b987")
+		)
+		(instances
+			(project "ESP32-MB-1.0"
+				(path "/f192144f-1ca9-429a-9b75-464cafba9f58"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 382.27 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8632,6 +8787,73 @@
 			(project ""
 				(path "/f192144f-1ca9-429a-9b75-464cafba9f58"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 524.51 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "724e78d9-b9b8-4c9c-af1a-4cbb3d9a1cee")
+		(property "Reference" "#PWR027"
+			(at 530.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 528.32 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 524.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ad3e276-581e-4446-82b8-6b8912efa163")
+		)
+		(instances
+			(project "ESP32-MB-1.0"
+				(path "/f192144f-1ca9-429a-9b75-464cafba9f58"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12343,6 +12565,101 @@
 			(project ""
 				(path "/f192144f-1ca9-429a-9b75-464cafba9f58"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x11_Pin")
+		(at 519.43 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6140acc-903c-4813-9c60-524ca7820d93")
+		(property "Reference" "J17"
+			(at 520.065 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x11_Pin"
+			(at 520.065 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
+			(at 519.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 519.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x11, script generated"
+			(at 519.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e47dd064-ae3f-491c-8217-a5da799d00f8")
+		)
+		(pin "2"
+			(uuid "342da0cf-1eb9-41bd-a79d-6a75566e3d0f")
+		)
+		(pin "9"
+			(uuid "f0aca8f3-9a56-4e1d-ab18-487de2807534")
+		)
+		(pin "6"
+			(uuid "827d33b4-b208-4a3f-bf7b-2d998b62fe68")
+		)
+		(pin "8"
+			(uuid "c6982da3-3ffb-4de7-a9fe-ba36b75b0d6a")
+		)
+		(pin "10"
+			(uuid "38caa2e3-43fc-4d73-9242-295546e9337b")
+		)
+		(pin "11"
+			(uuid "ecb6b833-f0aa-4372-bcbd-bcd4bd677039")
+		)
+		(pin "4"
+			(uuid "fd72a6c8-bbbb-48af-9525-786ddd0e4364")
+		)
+		(pin "7"
+			(uuid "b4c6cc53-8126-43e1-9a04-03179940b878")
+		)
+		(pin "5"
+			(uuid "4c48d900-e395-420e-bb38-70b78b748017")
+		)
+		(pin "3"
+			(uuid "2d7defe4-9832-4918-a756-782ea41fae0d")
+		)
+		(instances
+			(project "ESP32-MB-1.0"
+				(path "/f192144f-1ca9-429a-9b75-464cafba9f58"
+					(reference "J17")
 					(unit 1)
 				)
 			)
