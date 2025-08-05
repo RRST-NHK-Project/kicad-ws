@@ -7052,16 +7052,6 @@
 		)
 		(uuid "72e91bc5-4c41-4e96-a743-f9c990d96ef6")
 	)
-	(text "汎用MD"
-		(exclude_from_sim no)
-		(at 232.156 97.536 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "98635de7-0303-4b56-ba25-6fdf893b616a")
-	)
 	(text "通信系\n"
 		(exclude_from_sim no)
 		(at 48.26 151.638 0)
@@ -7121,26 +7111,6 @@
 			(justify left top)
 		)
 		(uuid "b54d43a8-f3d5-41a3-abcf-b45504f2a934")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 195.58 100.33 0)
-		(size 73.66 36.83)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d2e1e1c8-5ec3-4610-aac6-e77dc712b10a")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -8696,28 +8666,6 @@
 	)
 	(global_label "PC_9"
 		(shape input)
-		(at 222.25 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e472190-3daf-4ef6-a64f-164b8bf45ef4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.9523 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PC_9"
-		(shape input)
 		(at 128.27 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8729,28 +8677,6 @@
 		(uuid "0fc635a6-fd53-464d-84d8-544798ccb167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.9723 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD_6"
-		(shape input)
-		(at 259.08 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1056d174-86fc-4996-b03b-86d2acc3e09d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7823 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,28 +8770,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD_3"
-		(shape input)
-		(at 241.3 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2424f71d-f4e2-41b1-9b96-a4854b2d5f91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.0023 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9037,28 +8941,6 @@
 		(uuid "32b91fdc-95fd-4675-86b2-fb03d3c7e792")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.0809 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PC_6"
-		(shape input)
-		(at 259.08 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35770ef3-6299-4c0e-810a-ac7db4e55882")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7823 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9442,28 +9324,6 @@
 			)
 		)
 	)
-	(global_label "PC_7"
-		(shape input)
-		(at 241.3 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5a84ec19-03c4-40f6-96f8-54f5fd750096")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.0023 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC_3"
 		(shape input)
 		(at 113.03 120.65 180)
@@ -9640,28 +9500,6 @@
 			)
 		)
 	)
-	(global_label "PC_10"
-		(shape input)
-		(at 222.25 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c0c6215-8b79-4f4c-a1ae-55e6eb8d13e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.1618 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB_11"
 		(shape input)
 		(at 162.56 152.4 0)
@@ -9741,28 +9579,6 @@
 		(uuid "79a0edfd-524a-4508-a3b8-ef3fca2df6ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.4709 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD_7"
-		(shape input)
-		(at 205.74 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79c1e30e-acff-45ba-8e9f-504c5d77d9ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4423 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,28 +9698,6 @@
 			)
 		)
 	)
-	(global_label "PA_0"
-		(shape input)
-		(at 205.74 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "86c85eb3-b3ec-4121-8811-e6f8cc4af3fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2609 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC_8"
 		(shape input)
 		(at 128.27 85.09 0)
@@ -9917,28 +9711,6 @@
 		(uuid "88c6fcea-a8e3-463c-9c3a-a3ae5659f1b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.9723 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PB_10"
-		(shape input)
-		(at 241.3 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b8428f3-2457-403f-96b0-fed46f8fac32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.2118 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,28 +9918,6 @@
 			)
 		)
 	)
-	(global_label "PG_2"
-		(shape input)
-		(at 222.25 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98475d86-3195-45a3-b726-2fc1f4769bc2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.9523 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PD_7"
 		(shape input)
 		(at 148.59 57.15 0)
@@ -10344,28 +10094,6 @@
 			)
 		)
 	)
-	(global_label "PD_4"
-		(shape input)
-		(at 259.08 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9bb7f25-a172-4179-a654-044f68f03247")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7823 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC_7"
 		(shape input)
 		(at 128.27 52.07 0)
@@ -10476,28 +10204,6 @@
 			)
 		)
 	)
-	(global_label "PE_5"
-		(shape input)
-		(at 259.08 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba2f57b0-9425-47b7-b2e5-1db4b0e2ab43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.6613 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PE_7"
 		(shape input)
 		(at 125.73 146.05 0)
@@ -10577,28 +10283,6 @@
 		(uuid "c4083f0a-eed9-410b-a1d8-5f969415850d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.1413 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD_2"
-		(shape input)
-		(at 205.74 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c92f6d74-aea9-4f31-99a2-5a229b1a1abe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4423 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,28 +10446,6 @@
 			)
 		)
 	)
-	(global_label "PA_3"
-		(shape input)
-		(at 222.25 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e35d2503-3f72-4bd9-9a49-a3335e962fed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7709 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PG_3"
 		(shape input)
 		(at 128.27 102.87 0)
@@ -10872,28 +10534,6 @@
 			)
 		)
 	)
-	(global_label "PC_8"
-		(shape input)
-		(at 205.74 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ecb1ba24-3d63-4197-8ad1-b4296422c6e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4423 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB_15"
 		(shape input)
 		(at 149.86 82.55 180)
@@ -10951,28 +10591,6 @@
 		(uuid "f5fe8598-2cd0-4de8-b120-b3f0c6fdca98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.3113 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD_5"
-		(shape input)
-		(at 241.3 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f64f24ec-81b8-42b5-8c6e-25386b3f14e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.0023 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,73 +10685,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 241.3 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "001b53dd-98ff-48d1-99d7-dda2c32cce7a")
-		(property "Reference" "#PWR043"
-			(at 237.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 245.11 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9383e461-a0c0-4c24-8f12-0425410b7f98")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR043")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -11233,73 +10784,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "054da2b3-3bdf-44d2-81e5-f7d44a95b3e4")
-		(property "Reference" "#PWR031"
-			(at 247.65 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73c6f332-6eb2-4f2c-b41a-c82d30177290")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
 		(at 147.32 144.78 270)
@@ -11367,73 +10851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09d1d72a-08cf-48a3-846b-4e922bd30338")
-		(property "Reference" "#PWR037"
-			(at 212.09 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "180d3409-4d85-4485-bf5c-d1f13eeb5d1a")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x17_Odd_Even")
 		(at 154.94 132.08 0)
 		(unit 1)
@@ -11461,7 +10878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -11594,73 +11011,6 @@
 			(project ""
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 241.3 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b54f991-50df-4889-92ba-3b5f83f9cb36")
-		(property "Reference" "#PWR032"
-			(at 237.49 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 245.11 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a98f02da-9656-4605-a721-4830342e5cce")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12071,147 +11421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 236.22 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2552af5c-3a28-4575-8161-dee7b704a934")
-		(property "Reference" "MD3"
-			(at 236.855 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD3"
-			(at 236.855 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 236.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6154763a-9820-4794-b5c0-ef3a8931fde8")
-		)
-		(pin "2"
-			(uuid "d6ca68f1-b69e-43cc-8046-33c71cd723b3")
-		)
-		(pin "3"
-			(uuid "e7069f5c-668c-4a45-8dd3-13d903fa0b79")
-		)
-		(pin "4"
-			(uuid "309d30f1-bd61-4be6-a34c-e39d6dba53f8")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2833af96-647d-4c44-a8d3-8987ca056948")
-		(property "Reference" "#PWR044"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c9f644b-1af2-4376-a2c6-431ec52a8515")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
 		(at 120.65 92.71 0)
 		(unit 1)
@@ -12239,7 +11448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
 			(at 120.65 92.71 0)
 			(effects
 				(font
@@ -12351,7 +11560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT60-M_footprint:AMASS_XT60-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 254 30.48 0)
 			(effects
 				(font
@@ -13094,80 +12303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 200.66 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "444a4f19-dc22-44b1-a99e-d83910574ca4")
-		(property "Reference" "MD1"
-			(at 201.295 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD1"
-			(at 201.295 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b8ab3fe-cbb4-41ab-9596-590e926c4a2e")
-		)
-		(pin "2"
-			(uuid "821e5afd-10bd-4de4-93f2-08bc1c4853c5")
-		)
-		(pin "3"
-			(uuid "a070dc3a-21ef-406a-a3e9-dcc2a9f1bcb6")
-		)
-		(pin "4"
-			(uuid "9a148287-d6d6-4015-972d-26bdaf84ec4a")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 83.82 0)
 		(unit 1)
@@ -13512,80 +12647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 254 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bfa4a8f-ea85-4360-9a26-e1c6a80b277e")
-		(property "Reference" "MD4"
-			(at 254.635 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD4"
-			(at 254.635 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 254 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9968a4b3-d9fe-4043-adc2-01f1879148cc")
-		)
-		(pin "2"
-			(uuid "d68db28d-9078-42e1-816d-1f29f9e85430")
-		)
-		(pin "3"
-			(uuid "c8cd58b5-fa32-4f6e-8fd1-4092edbdbb91")
-		)
-		(pin "4"
-			(uuid "133442e8-8600-4a42-8870-53b58939fddc")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 173.99 31.75 90)
@@ -13679,7 +12740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 241.3 62.23 0)
 			(effects
 				(font
@@ -13961,80 +13022,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 217.17 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5994370e-6993-4a0d-bdb5-f4637987190d")
-		(property "Reference" "MD2"
-			(at 217.805 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD2"
-			(at 217.805 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 217.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a84e4d2-5178-45fe-a715-5197185ee7fb")
-		)
-		(pin "2"
-			(uuid "f303020f-6cd3-4f13-8035-5b5d8e58eab4")
-		)
-		(pin "3"
-			(uuid "603fd84c-cf6f-4afb-93cb-e0623d6e7538")
-		)
-		(pin "4"
-			(uuid "0ff3179d-28f5-4f59-b9d3-9ff3db6c2014")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 107.95 36.83 90)
@@ -14164,73 +13151,6 @@
 			(project "catchrobo25"
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 205.74 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "607203f5-78d6-43cd-9431-1b9fe286136f")
-		(property "Reference" "#PWR039"
-			(at 201.93 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 209.55 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2ea695e-9b49-4faa-a349-7f0128f5bb79")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14439,73 +13359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 259.08 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66e961aa-a5f4-430e-a340-051f864cf3eb")
-		(property "Reference" "#PWR034"
-			(at 255.27 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 262.89 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be151a7f-4555-4b0f-8b26-4e969b4f99a0")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 107.95 0)
 		(unit 1)
@@ -14598,7 +13451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -14708,147 +13561,6 @@
 			(project "catchrobo25"
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 205.74 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7688d620-1529-43c9-81bf-1c5cea64537f")
-		(property "Reference" "#PWR019"
-			(at 212.09 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3709aa72-4afa-4f17-b911-dd32e0321bb6")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 200.66 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801361b7-4009-45ae-91eb-5c6164a67a80")
-		(property "Reference" "MD5"
-			(at 201.295 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD5"
-			(at 201.295 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f74ca084-6996-442c-91c9-9f58c0bc5175")
-		)
-		(pin "2"
-			(uuid "b936517f-1117-4679-9983-159588bc4257")
-		)
-		(pin "3"
-			(uuid "363ae4b7-31cb-4e0d-846f-948e13805b2a")
-		)
-		(pin "4"
-			(uuid "c5462c63-ccb0-4bf7-b3a8-bd61b5501352")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD5")
 					(unit 1)
 				)
 			)
@@ -15074,7 +13786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8919e3ea-8f44-4f60-ba45-1d341696e93e")
-		(property "Reference" "J2"
+		(property "Reference" "3.3V_OUT1"
 			(at 72.39 25.4 0)
 			(effects
 				(font
@@ -15082,7 +13794,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "3.3V_OUT"
 			(at 72.39 27.94 0)
 			(effects
 				(font
@@ -15090,7 +13802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -15156,7 +13868,7 @@
 		(instances
 			(project ""
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "J2")
+					(reference "3.3V_OUT1")
 					(unit 1)
 				)
 			)
@@ -15190,7 +13902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 154.94 90.17 0)
 			(effects
 				(font
@@ -15281,147 +13993,6 @@
 			(project ""
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f967062-bd8a-4782-901e-bf1d3415f9ef")
-		(property "Reference" "#PWR041"
-			(at 218.44 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aac574b2-c2ab-48b9-a13c-ead526689fe3")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 254 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90924eca-ea81-40db-8bda-bdcb6a8e7f61")
-		(property "Reference" "MD8"
-			(at 254.635 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD8"
-			(at 254.635 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 254 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeb4e64f-4fc3-4cfe-81c8-fa6f5229ca74")
-		)
-		(pin "2"
-			(uuid "c81da1e7-7436-4a64-82f7-e9e456587266")
-		)
-		(pin "3"
-			(uuid "c6aa73d7-bba6-44f1-82a4-29ba61895696")
-		)
-		(pin "4"
-			(uuid "c7740dce-2df1-43b1-8978-d8c47aabe6ed")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD8")
 					(unit 1)
 				)
 			)
@@ -15632,80 +14203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 236.22 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9897820c-8516-4f38-9319-88faf936bed8")
-		(property "Reference" "MD7"
-			(at 236.855 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD7"
-			(at 236.855 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 236.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "932d3b8b-dd07-4871-b448-6ff0c8dd20e3")
-		)
-		(pin "2"
-			(uuid "73883a82-adc8-4b0c-81e8-fd5a562e4d77")
-		)
-		(pin "3"
-			(uuid "43994ce9-f358-467e-9aa0-83b601db0ea5")
-		)
-		(pin "4"
-			(uuid "a99340d4-6183-4d3c-9818-8415d9509501")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 107.95 31.75 90)
@@ -15834,73 +14331,6 @@
 			(project ""
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 259.08 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a9e9997-698e-494b-8832-f1dc57c2001b")
-		(property "Reference" "#PWR045"
-			(at 255.27 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 262.89 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28eb6db1-1afc-441c-aed4-e2f06689f226")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -16277,73 +14707,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 205.74 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6f90a0f-f7fa-4214-b433-f0f3df15eee1")
-		(property "Reference" "#PWR020"
-			(at 201.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 209.55 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4483048-cd22-4c39-b844-04b73a5abb63")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 45.72 161.29 90)
@@ -16487,73 +14850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd438640-30dd-4d54-beb8-f7562a0f745b")
-		(property "Reference" "#PWR042"
-			(at 247.65 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ba94aaa-5486-4567-9b2a-03a40662926c")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 41.91 104.14 0)
 		(unit 1)
@@ -16685,80 +14981,6 @@
 			(project "catchrobo25"
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 217.17 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdc6f389-e7ad-4fe8-a061-4feb2a10cc14")
-		(property "Reference" "MD6"
-			(at 217.805 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD6"
-			(at 217.805 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 217.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "483bcbbc-8552-416c-bc9d-2b56c2ebce5a")
-		)
-		(pin "2"
-			(uuid "3ead304f-0ca2-45fe-bbdc-a44dc56fcbc5")
-		)
-		(pin "3"
-			(uuid "50faaca4-e3b5-4767-bb3d-3a02353eea0d")
-		)
-		(pin "4"
-			(uuid "8ec96c58-b460-4ba1-85c5-eeacf3dc5931")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "MD6")
 					(unit 1)
 				)
 			)
@@ -17045,73 +15267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da8b45f1-4ae7-4336-8f52-f126893d33e4")
-		(property "Reference" "#PWR021"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "266d0f3e-57fc-418a-8cbc-04b11285d205")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
 		(at 30.48 49.53 180)
@@ -17340,7 +15495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical"
 			(at 118.11 133.35 0)
 			(effects
 				(font
@@ -17476,7 +15631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8026aa3-8b98-4ff1-ad74-66dfde6430ac")
-		(property "Reference" "J1"
+		(property "Reference" "5V_OUT1"
 			(at 40.64 25.4 0)
 			(effects
 				(font
@@ -17484,7 +15639,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "5V_OUT"
 			(at 40.64 27.94 0)
 			(effects
 				(font
@@ -17492,7 +15647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -17558,7 +15713,7 @@
 		(instances
 			(project ""
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "J1")
+					(reference "5V_OUT1")
 					(unit 1)
 				)
 			)
@@ -17627,140 +15782,6 @@
 			(project ""
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebe70437-ca4f-4176-b2ef-650844e8688d")
-		(property "Reference" "#PWR040"
-			(at 228.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0a7f730-d175-4ba5-900b-59f0e24073ef")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eea8d146-5649-4d49-a280-dcc60f40d9c8")
-		(property "Reference" "#PWR033"
-			(at 265.43 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d0f342a-4567-4fde-a866-0e446f26b204")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17900,73 +15921,6 @@
 			(project ""
 				(path "/592df173-a32d-4402-87fb-f1381f41083e"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbba9ef9-9937-4260-8259-01ce3c7b1400")
-		(property "Reference" "#PWR022"
-			(at 218.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b149ce59-56d4-4da1-bc77-68af5b6cc5f2")
-		)
-		(instances
-			(project "catchrobo25"
-				(path "/592df173-a32d-4402-87fb-f1381f41083e"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
