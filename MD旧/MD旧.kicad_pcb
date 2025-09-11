@@ -1589,7 +1589,7 @@
 		(at 154.94 109.22)
 		(tags "IRLB3813PBF ")
 		(property "Reference" "REFG5V1"
-			(at 2.54 -3.81 0)
+			(at 2.54 -2.286 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c506330b-884f-4d9e-b10d-ee02eac815f3")
@@ -4927,7 +4927,7 @@
 		(tags "LED")
 		(property "Reference" "D3"
 			(at 1.27 -3.96 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c2f9471d-f447-4efd-bf74-2f4e67ac59fe")
 			(effects
 				(font
@@ -4936,9 +4936,9 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "12V"
 			(at 1.27 3.96 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "cd9d7974-5105-4af4-bc3e-0494d9863342")
 			(effects
 				(font
@@ -5332,7 +5332,7 @@
 		(tags "LED")
 		(property "Reference" "D2"
 			(at 1.27 -3.96 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fd50d8c6-d69d-45cd-8c0b-f8db3887b26d")
 			(effects
 				(font
@@ -5341,9 +5341,9 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "2.5V"
 			(at 1.27 3.96 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "9c94d496-2a9b-4ee5-97d5-6f567166b5a8")
 			(effects
 				(font
@@ -8384,7 +8384,7 @@
 		(at 154.94 121.92)
 		(tags "IRLB3813PBF ")
 		(property "Reference" "REG12V1"
-			(at 2.54 2.54 0)
+			(at 2.54 -2.286 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "75795dd5-3464-4577-9cb0-8db4425c8445")
@@ -11462,7 +11462,7 @@
 		(tags "LED")
 		(property "Reference" "D1"
 			(at 1.27 -3.96 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2abde43f-e25f-4b48-aaa1-18fe38068972")
 			(effects
 				(font
@@ -11471,9 +11471,9 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "PWM_IN"
 			(at 1.27 3.96 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "8c1e6042-beda-4c9a-b543-4e4977f9cd78")
 			(effects
 				(font
@@ -13048,8 +13048,8 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 2.5 3.75 0)
-			(layer "F.Fab")
+			(at 2.5 -3.556 0)
+			(layer "F.SilkS")
 			(uuid "cb8fe6f4-1899-4a9f-bbd4-399929444d5c")
 			(effects
 				(font
@@ -13485,7 +13485,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.38 90)
+			(at 0 3.81 180)
 			(layer "F.SilkS")
 			(uuid "c941bdae-9fda-437c-8d24-bc892a3b0286")
 			(effects
@@ -13777,6 +13777,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "OUT"
+		(at 159.258 124.968 0)
+		(layer "F.SilkS")
+		(uuid "4712867b-712a-4399-97b9-887c30959167")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IN"
+		(at 153.162 124.968 0)
+		(layer "F.SilkS")
+		(uuid "617bf132-8c9f-4967-a85e-a79326fb4249")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "G  D  S"
 		(at 140.335 108.585 270)
 		(layer "F.SilkS" knockout)
@@ -13829,6 +13853,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "OUT"
+		(at 159.512 106.172 0)
+		(layer "F.SilkS")
+		(uuid "ae128774-076b-4556-b795-160f789f7850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "D P GND1 5V"
 		(at 128.27 61.595 0)
 		(layer "F.SilkS" knockout)
@@ -13851,6 +13887,18 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IN"
+		(at 152.908 106.2736 0)
+		(layer "F.SilkS")
+		(uuid "df7f1987-0371-4924-bc32-c6066e417eaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
