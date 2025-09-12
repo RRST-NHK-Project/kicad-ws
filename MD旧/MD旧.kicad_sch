@@ -3537,6 +3537,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "74hc14"
+		(exclude_from_sim no)
+		(at 82.55 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24311722-8fe1-4f10-bb9d-c5730033d698")
+	)
+	(text "IR2302"
+		(exclude_from_sim no)
+		(at 266.7 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f2df9c4-ac44-4e70-9a93-022a7b12feb9")
+	)
+	(text "TLP2630-B"
+		(exclude_from_sim no)
+		(at 171.958 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bf0bcdc-a91f-4fde-85fc-10e69c2118b3")
+	)
+	(text "74hc08"
+		(exclude_from_sim no)
+		(at 82.55 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb164ceb-8737-40c4-98a7-765dfb4f16c1")
+	)
+	(text "IR2302"
+		(exclude_from_sim no)
+		(at 266.7 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d90b8899-4486-4821-8ce2-67ec5f984a29")
+	)
 	(junction
 		(at 374.65 88.9)
 		(diameter 0)
@@ -5491,7 +5541,7 @@
 			)
 		)
 	)
-	(global_label "MC"
+	(global_label "MOUT2"
 		(shape input)
 		(at 372.11 125.73 0)
 		(fields_autoplaced yes)
@@ -5503,7 +5553,7 @@
 		)
 		(uuid "1e1ad0e6-a134-4a14-86c1-5eb7715ef654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8166 125.73 0)
+			(at 381.3847 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +5915,7 @@
 			)
 		)
 	)
-	(global_label "MC"
+	(global_label "MOUT1"
 		(shape input)
 		(at 372.11 121.92 0)
 		(fields_autoplaced yes)
@@ -5877,7 +5927,7 @@
 		)
 		(uuid "b35f1a06-ceda-41e5-a433-78ec9ff82b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8166 121.92 0)
+			(at 381.3847 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6405,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "200Ω"
 			(at 154.432 185.42 90)
 			(effects
 				(font
@@ -6615,7 +6665,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "PWM_IN"
 			(at 181.61 81.5974 90)
 			(effects
 				(font
@@ -7236,7 +7286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "2.5V"
 			(at 194.31 84.1374 90)
 			(effects
 				(font
@@ -7315,7 +7365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "200Ω"
 			(at 180.34 72.3899 0)
 			(effects
 				(font
@@ -7522,7 +7572,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "200Ω"
 			(at 154.432 187.96 90)
 			(effects
 				(font
@@ -8364,7 +8414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330Ω"
 			(at 199.39 185.4199 0)
 			(effects
 				(font
@@ -8434,7 +8484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "200Ω"
 			(at 193.04 74.9299 0)
 			(effects
 				(font
@@ -8878,7 +8928,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "12V"
 			(at 207.01 84.1374 90)
 			(effects
 				(font
@@ -9312,7 +9362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330Ω"
 			(at 191.77 182.8799 0)
 			(effects
 				(font
@@ -9448,7 +9498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "200Ω"
 			(at 205.74 74.9299 0)
 			(effects
 				(font
