@@ -6141,7 +6141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 207.772 64.77 90)
 			(effects
 				(font
@@ -6413,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 144.78 151.892 90)
 			(effects
 				(font
@@ -6809,7 +6809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+5V/2"
 			(at 166.37 172.72 0)
 			(effects
 				(font
@@ -6945,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+5V/2"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -7011,7 +7011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+5V/2"
 			(at 186.69 139.7 0)
 			(effects
 				(font
@@ -7285,7 +7285,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.5V"
+		(property "Value" "5V/2"
 			(at 124.46 91.7574 90)
 			(effects
 				(font
@@ -7373,7 +7373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 106.172 78.74 90)
 			(effects
 				(font
@@ -7579,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 144.78 154.432 90)
 			(effects
 				(font
@@ -7978,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+5V/2"
 			(at 67.31 171.4499 90)
 			(effects
 				(font
@@ -8422,7 +8422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 178.562 152.4 90)
 			(effects
 				(font
@@ -8492,7 +8492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 118.872 81.28 90)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+5V/2"
 			(at 120.65 72.39 0)
 			(effects
 				(font
@@ -9142,7 +9142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+5V/2"
 			(at 67.31 139.6999 90)
 			(effects
 				(font
@@ -9370,7 +9370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 170.942 149.86 90)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 131.572 81.28 90)
 			(effects
 				(font
@@ -11005,7 +11005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 207.772 102.87 90)
 			(effects
 				(font
@@ -11369,7 +11369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 			(at 207.772 36.83 90)
 			(effects
 				(font
