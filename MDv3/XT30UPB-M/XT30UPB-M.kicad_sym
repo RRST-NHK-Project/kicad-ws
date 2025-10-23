@@ -355,7 +355,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "XT60PW-M"
+	(symbol "XT30UPB-M"
 		(pin_names
 			(offset 1.016)
 		)
@@ -363,7 +363,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -5.08 5.7234 0)
+			(at -3.81 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,8 +371,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "XT60PW-M"
-			(at -5.08 -5.0923 0)
+		(property "Value" "XT30UPB-M"
+			(at -4.064 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +380,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
+		(property "Footprint" "XT30UPB-M:AMASS_XT30UPB-M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -408,7 +408,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "AMASS"
+		(property "MF" "amass"
 			(at 0 0 0)
 			(effects
 				(font
@@ -418,7 +418,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.7mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -428,7 +428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "Package"
+		(property "CREATOR" "DIZAR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -448,7 +448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+		(property "Package" "None"
 			(at 0 0 0)
 			(effects
 				(font
@@ -458,7 +458,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer recommendations"
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -468,7 +468,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "V1.2"
+		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
 			(effects
 				(font
@@ -478,7 +478,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+		(property "PARTREV" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -488,7 +488,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XT60PW-M"
+		(property "VERIFIER" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -498,7 +498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Socket, DC supply, male, PIN: 2"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
 			(at 0 0 0)
 			(effects
 				(font
@@ -508,7 +508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "Not in stock"
+		(property "MP" "XT30UPB-M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -518,7 +518,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "AMASS"
+		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -528,10 +528,30 @@
 				(hide yes)
 			)
 		)
-		(symbol "XT60PW-M_0_0"
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "amass"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "XT30UPB-M_0_0"
 			(rectangle
-				(start -5.08 -2.54)
-				(end 5.08 5.08)
+				(start -3.81 -5.08)
+				(end 5.08 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -540,17 +560,39 @@
 					(type background)
 				)
 			)
+			(rectangle
+				(start -3.175 -0.3175)
+				(end -1.5875 0.3175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.175 -2.8575)
+				(end -1.5875 -2.2225)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
-				(at -10.16 2.54 0)
+				(at -7.62 0 0)
 				(length 5.08)
-				(name "+"
+				(name "P"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -559,16 +601,16 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 0 0)
+				(at -7.62 -2.54 0)
 				(length 5.08)
-				(name "-"
+				(name "N"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "N"
 					(effects
 						(font
 							(size 1.016 1.016)
