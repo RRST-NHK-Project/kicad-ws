@@ -6822,7 +6822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200Ω"
+		(property "Value" "330Ω"
 			(at 110.49 78.7399 0)
 			(effects
 				(font
