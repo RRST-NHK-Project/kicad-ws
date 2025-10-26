@@ -853,8 +853,8 @@
 			(uuid "3cc03ae0-aaba-4e81-8715-c6b1a0832085")
 		)
 		(fp_line
-			(start 2 12.25)
-			(end 3 12.25)
+			(start 5.5532 12.2428)
+			(end 6.5532 12.2428)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -1043,8 +1043,8 @@
 			(uuid "11b230d7-ddd1-4291-bda0-c7f4e78e2d51")
 		)
 		(fp_line
-			(start 2 12.25)
-			(end 3 12.25)
+			(start 5.5532 12.2428)
+			(end 6.5532 12.2428)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -1119,7 +1119,7 @@
 	(footprint "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 		(layer "F.Cu")
 		(uuid "16c45d29-291a-47cf-8462-a3b6a8866775")
-		(at 106.402 153.89 90)
+		(at 106.402 153.636 90)
 		(property "Reference" "R11"
 			(at 7 -2.25 90)
 			(unlocked yes)
@@ -1810,7 +1810,7 @@
 	(footprint "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_kai"
 		(layer "F.Cu")
 		(uuid "28c22210-bb05-49cf-a188-7e3037a88633")
-		(at 106.402 165.0232 90)
+		(at 106.402 165.234 90)
 		(property "Reference" "R9"
 			(at 7 -2.25 90)
 			(unlocked yes)
@@ -6622,7 +6622,7 @@
 			(at -4.8236 -13.51498 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4f59d373-d15d-4ebb-a9ba-85cf07f9d78f")
+			(uuid "60a67672-b393-47bc-afe0-8f2cd6b2dc13")
 			(effects
 				(font
 					(size 1.000441 1.000441)
@@ -6634,7 +6634,7 @@
 			(at 0.9054 -12.0434 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad3f98be-7011-4b0c-8acc-e3bdac4cc790")
+			(uuid "abc368dd-f466-464f-a156-83b626b223a6")
 			(effects
 				(font
 					(size 1.001732 1.001732)
@@ -6646,7 +6646,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8df47394-fd29-484d-93d7-532c653767c9")
+			(uuid "b276cd78-2197-42cc-9731-a08884003e8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +6658,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f946d38c-af95-4620-9a98-6cb948f5bcea")
+			(uuid "5599691b-0191-420e-9719-7c340aa17657")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,6 +14421,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND1"
+		(at 102.743 166.624 270)
+		(layer "F.SilkS" knockout)
+		(uuid "367644dc-d28b-438f-8af4-03697b15d64a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MOUT2"
 		(at 112.776 169.672 0)
 		(layer "F.SilkS" knockout)
@@ -14446,8 +14459,21 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "DIGITAL_IN"
+		(at 102.87 146.431 270)
+		(layer "F.SilkS" knockout)
+		(uuid "a8e17939-404d-4388-9736-7db054ed472d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PWM_IN"
-		(at 102.96775 152.4 270)
+		(at 102.87 152.273 270)
 		(layer "F.SilkS" knockout)
 		(uuid "db6fbf35-77d3-4e3d-a868-1fd55aefcd98")
 		(effects
@@ -14466,6 +14492,53 @@
 		(layer "F.Cu")
 		(net 42)
 		(uuid "d2664957-e062-4e32-a6b0-f0dc4b403b48")
+	)
+	(zone
+		(net 1)
+		(net_name "+24V")
+		(layer "B.Cu")
+		(uuid "1b04126d-9491-4f1c-b378-a5c07b86db37")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 128.905 174.625) (xy 122.555 174.625) (xy 122.555 167.005) (xy 114.3 167.005) (xy 114.3 145.415)
+				(xy 123.19 145.415) (xy 123.19 154.94) (xy 142.875 154.94) (xy 142.875 168.275) (xy 128.905 168.275)
+			)
+		)
+	)
+	(zone
+		(net 2)
+		(net_name "GND2")
+		(layer "B.Cu")
+		(uuid "fceda79d-213f-43f0-af42-edad692fba0e")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 129.54 168.91) (xy 129.54 175.26) (xy 121.92 175.26) (xy 121.92 167.64) (xy 113.665 167.64)
+				(xy 113.665 144.78) (xy 123.825 144.78) (xy 123.825 153.035) (xy 135.89 153.035) (xy 135.89 154.305)
+				(xy 142.875 154.305) (xy 142.875 125.095) (xy 132.715 125.095) (xy 132.715 124.46) (xy 89.535 124.46)
+				(xy 89.535 172.72) (xy 102.87 172.72) (xy 102.87 179.705) (xy 137.16 179.705) (xy 137.16 168.91)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
