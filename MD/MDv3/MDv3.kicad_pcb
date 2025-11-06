@@ -15320,7 +15320,7 @@
 	(segment
 		(start 98.30035 168.108)
 		(end 98.30035 163.108)
-		(width 0.2)
+		(width 0.6)
 		(layer "B.Cu")
 		(net 9)
 		(uuid "8cb59564-f5d4-490e-9105-ba2b25643fc4")
