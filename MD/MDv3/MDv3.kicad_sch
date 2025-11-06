@@ -5796,7 +5796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT30PW-M"
+		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
 			(at 31.75 80.01 0)
 			(effects
 				(font
@@ -9257,7 +9257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT30PW-M"
+		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
 			(at 31.75 72.39 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-25606388909541378
+25604630106663804
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102654,7 +102654,7 @@ Varistor VF
 0
 2
 2
-XT60-M
+XT30PW-M
 AMASS_XT30PW-M
 
 
@@ -102668,13 +102668,6 @@ AMASS_XT60-M
 0
 2
 2
-XT60-M
-AMASS_XT60PW-M
-
-
-0
-4
-4
 footprints
 PG-TO220-3_INF
 
