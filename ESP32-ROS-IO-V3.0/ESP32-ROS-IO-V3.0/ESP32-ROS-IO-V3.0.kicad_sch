@@ -10193,7 +10193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "XT60PW-M (2):AMASS_XT30PW-F"
 			(at 229.87 64.77 0)
 			(effects
 				(font
@@ -12573,7 +12573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "XT60PW-M (2):AMASS_XT30PW-F"
 			(at 227.33 134.62 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-(pcb freerouting.dsn
+(pcb "C:\Users\minio\kicad-ws\ESP32-ROS-IO-V3.0\ESP32-ROS-IO-V3.0\temp-freerouting.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
