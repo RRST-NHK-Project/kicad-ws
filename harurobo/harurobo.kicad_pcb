@@ -5592,6 +5592,17 @@
 			(uuid "3f66b173-aaa1-4239-aed7-d6b9337b8f0b")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/XT60-M/XT60-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -7222,6 +7233,17 @@
 			(uuid "98977c0c-12a0-4b96-93ba-d78e1fec7a35")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/XT60-M/XT60-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 -180)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
