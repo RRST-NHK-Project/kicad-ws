@@ -2258,6 +2258,17 @@
 			(uuid "ed4f72a5-76e3-4788-a2cd-93ff8b13cccc")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -4495,6 +4506,17 @@
 			(uuid "d6926e64-5db5-4c89-9989-17f0bcf75b5c")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/XT60-M/XT60-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -9266,6 +9288,17 @@
 			(uuid "314081e6-4c4d-4dcc-a183-d734dea16b05")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/XT60-M/XT60-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
@@ -10384,7 +10417,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "867b7b19-4912-4b4f-b74d-1ecbf01a784a")
-		(at 24.96 18.004)
+		(at 138.91 67.564)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J2"
@@ -12238,11 +12271,22 @@
 			(uuid "01a87092-58c7-45ef-97ef-65d8d0e5472f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 -180)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "954ce1c1-adb6-4a5e-af07-71b4993bbeaf")
-		(at 29.56 18.004)
+		(at 228.6 108.204)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J3"
@@ -14562,11 +14606,22 @@
 			(uuid "b0d0d786-b7df-41d5-871d-536e0e451be0")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "aea7d844-156b-49f2-8860-41bfc01b4ad2")
-		(at 20.36 18.004)
+		(at 199.39 108.204)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J1"
@@ -17825,11 +17880,22 @@
 			(uuid "f99122bb-e028-4c8d-824f-4a3c354bf8b6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 180)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "da331287-20aa-46f6-a7b6-becc51aeb869")
-		(at 34.16 18.004)
+		(at 148.11 67.564)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J4"
@@ -18795,6 +18861,17 @@
 			(uuid "b90d0803-94e3-4160-a10e-6f80155decfa")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -19769,6 +19846,17 @@
 			(uuid "00bb02fe-7f95-4b02-b75d-8795930519ab")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
