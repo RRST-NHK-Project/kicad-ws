@@ -38,7 +38,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(aux_axis_origin 71.12 54.61)
-		(grid_origin 70.739 30.2768)
+		(grid_origin 123.6218 158.623)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -3677,11 +3677,11 @@
 	(footprint "XT30PW-F:AMASS_XT30PW-F"
 		(layer "F.Cu")
 		(uuid "32654bcd-58ec-4e92-845b-7bac665c6e18")
-		(at 175.299 82.3468)
+		(at 146.4818 82.3468)
 		(property "Reference" "J11"
 			(at -3.635 8.805 0)
 			(layer "F.SilkS")
-			(uuid "bac433f7-3390-4721-aefc-766ba3f479d0")
+			(uuid "e37de8f5-bb19-4ecf-830b-c2a5eb261d91")
 			(effects
 				(font
 					(size 1 1)
@@ -3692,7 +3692,7 @@
 		(property "Value" "XT30PW-F"
 			(at 2.06 10.665 0)
 			(layer "F.Fab")
-			(uuid "512aafdd-a8b0-42e6-8877-553abe91dbe4")
+			(uuid "cedad1f0-9a77-40d6-aac2-0ba274c081de")
 			(effects
 				(font
 					(size 1 1)
@@ -3704,7 +3704,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df4cc805-1778-4013-9fd9-30025a99b0bf")
+			(uuid "0d09ee7b-bc7d-49fe-919d-1c717ef8c9b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3716,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca1ceffc-97af-48d8-a0e6-7732be61e86a")
+			(uuid "b93b7167-1bd2-43bc-a3f1-c01a8fb76878")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,7 +9870,7 @@
 		(property "Reference" "J2"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "52c75eb1-7422-4ac6-954d-9476e6333717")
+			(uuid "3d922ff0-9632-443c-bf3f-ebb9d54c94b0")
 			(effects
 				(font
 					(size 1 1)
@@ -9881,7 +9881,7 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at 0 48.49 0)
 			(layer "F.Fab")
-			(uuid "0abe3158-de2c-406d-ae5b-3458b58c47a4")
+			(uuid "097fd6a8-3b8f-44de-8201-188aefa52bbe")
 			(effects
 				(font
 					(size 1 1)
@@ -9893,7 +9893,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "890f5784-3b9e-4b83-b2fc-8a7a58ed2b34")
+			(uuid "98cf0121-2b59-4ae8-b8f9-ee97eb6be176")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +9905,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "badcd93e-1623-497e-bdaf-c4919f8de6a7")
+			(uuid "5dc7b3cb-8450-40c6-8424-42335a522861")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11829,6 +11829,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/MDv3.step"
+			(offset
+				(xyz -165.5 -82.5 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -13182,7 +13193,7 @@
 		(property "Reference" "J3"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "4199d29c-3122-4465-805c-65f174be1f69")
+			(uuid "c5e8e9cf-b56c-4612-8b47-ca0e222f7984")
 			(effects
 				(font
 					(size 1 1)
@@ -13193,7 +13204,7 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at 0 48.49 0)
 			(layer "F.Fab")
-			(uuid "f3b66bd5-1af0-4ab9-b1be-aa34f68e3de7")
+			(uuid "21f53a56-b652-4869-921c-0dea3ca458aa")
 			(effects
 				(font
 					(size 1 1)
@@ -13205,7 +13216,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "417d6b47-7308-41ac-84fd-0a08fc911073")
+			(uuid "e1372bd1-8974-408b-ac19-4e8ddd6e24d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +13228,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15bc7299-1141-4d26-b745-a8f41159a9ae")
+			(uuid "2e9a80be-11fe-4320-ba44-2d37768eaac0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,7 +13631,7 @@
 		(property "Reference" "J13"
 			(at -3.635 8.805 90)
 			(layer "F.SilkS")
-			(uuid "28520995-a0bb-4b05-b972-ef919b3f3db0")
+			(uuid "72402bd7-bd5d-4b65-8817-9a3a70c35674")
 			(effects
 				(font
 					(size 1 1)
@@ -13631,7 +13642,7 @@
 		(property "Value" "XT30PW-F"
 			(at 2.06 10.665 90)
 			(layer "F.Fab")
-			(uuid "72ef33b3-22c4-466c-88e1-1cfb253712cb")
+			(uuid "9a2d5fe5-a2d5-43d8-a15a-ae357e16590f")
 			(effects
 				(font
 					(size 1 1)
@@ -13643,7 +13654,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa09b804-4a46-4da8-b567-1735f0a0ce1c")
+			(uuid "f3a84a85-0aa6-4ce2-8d3a-09ef1af14d1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +13666,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffbb9765-dd93-44b0-aa5e-fdf2b7c01039")
+			(uuid "b48b9efe-b10e-425e-9071-168abd8c893d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15403,7 +15414,7 @@
 		(property "Reference" "J1"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "9ed62ff8-89fa-4717-9058-2d69c947aa65")
+			(uuid "07c0c047-fb67-412e-b980-9d462f6a1b61")
 			(effects
 				(font
 					(size 1 1)
@@ -15414,7 +15425,7 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at 0 48.49 0)
 			(layer "F.Fab")
-			(uuid "d21cf4ee-7c01-4f76-98d4-4c6051ae8282")
+			(uuid "803e5323-d972-4c55-a964-0dd041d5ee0c")
 			(effects
 				(font
 					(size 1 1)
@@ -15426,7 +15437,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b8184e6-dc23-40e2-947b-a072d993c3cd")
+			(uuid "b6155ffa-ab40-47d5-a6dc-56a9482eb4e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15438,7 +15449,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e43fcc84-496e-4478-98e9-87273212649b")
+			(uuid "7107ec70-8ea6-43f0-8d0a-d08ac992d8b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +16296,7 @@
 		(property "Reference" "J8"
 			(at -3.635 8.805 90)
 			(layer "F.SilkS")
-			(uuid "d9deca64-273a-4b71-a1ba-3da3cf11baa9")
+			(uuid "3e539663-2552-402f-924d-662a8cdc1b99")
 			(effects
 				(font
 					(size 1 1)
@@ -16296,7 +16307,7 @@
 		(property "Value" "XT30PW-F"
 			(at 2.06 10.665 90)
 			(layer "F.Fab")
-			(uuid "30c677e3-a989-45d1-845c-fb93b999fde7")
+			(uuid "4f6da5fc-b320-47a7-865b-c181f1d3738f")
 			(effects
 				(font
 					(size 1 1)
@@ -16308,7 +16319,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa872451-ed89-4d22-87b7-9d4ab67fc8e9")
+			(uuid "d3960f4c-9fd6-457f-b0fc-f9fc31181ecb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16320,7 +16331,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "877a89d9-d7bb-4690-ba45-386d339262c0")
+			(uuid "06cbb675-b2e4-4824-9fdb-cf792502fcde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,6 +16904,17 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
+			)
+		)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/MDv3.step"
+			(offset
+				(xyz -165.5 -82.5 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -17813,7 +17835,7 @@
 		(property "Reference" "J9"
 			(at -3.635 8.805 90)
 			(layer "F.SilkS")
-			(uuid "08072263-2d52-4845-bf67-995d9d507960")
+			(uuid "66b115f5-cca5-4817-a5d6-eb87217403c1")
 			(effects
 				(font
 					(size 1 1)
@@ -17824,7 +17846,7 @@
 		(property "Value" "XT30PW-F"
 			(at 2.06 10.665 90)
 			(layer "F.Fab")
-			(uuid "f51fff34-7109-46d2-98f0-936806be56a1")
+			(uuid "a9a0ca63-8527-49d0-9e06-ddc084411c0b")
 			(effects
 				(font
 					(size 1 1)
@@ -17836,7 +17858,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92deb0ef-1105-4dea-a9b4-4accf708840f")
+			(uuid "8f95de8f-42af-486a-a9cd-b0615b1808c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17848,7 +17870,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a94da56-99ac-4976-b83f-1f4d00c5a7c4")
+			(uuid "159b39a6-ff3f-4e47-b637-1ee09746618c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18433,7 +18455,7 @@
 		(property "Reference" "J4"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "f36a6c3b-3cc3-4378-989b-71a28612adc0")
+			(uuid "c118b024-f2e4-4184-a2ea-524ee4984860")
 			(effects
 				(font
 					(size 1 1)
@@ -18444,7 +18466,7 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at 0 48.49 0)
 			(layer "F.Fab")
-			(uuid "7cc2a23c-32bf-4a24-a1a9-1addbfc4800c")
+			(uuid "2d3ef215-74f3-4b39-9b56-0a0861b0e41d")
 			(effects
 				(font
 					(size 1 1)
@@ -18456,7 +18478,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f959d9bf-5de6-4e16-867d-6d751bef5607")
+			(uuid "88f01878-2b0c-454c-9bc6-de582d92f1af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18468,7 +18490,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c84116fb-5fd9-4dac-b5a8-d0df54cea372")
+			(uuid "41218ddd-c68f-4a45-a6e2-0b6332244ef8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19124,7 +19146,7 @@
 		(property "Reference" "J10"
 			(at -3.635 8.805 0)
 			(layer "F.SilkS")
-			(uuid "b2b2d24a-1a35-469c-aae5-8472f3683a9b")
+			(uuid "38a395fd-dca7-4f95-98e6-4ee906ffe427")
 			(effects
 				(font
 					(size 1 1)
@@ -19135,7 +19157,7 @@
 		(property "Value" "XT30PW-F"
 			(at 2.06 10.665 0)
 			(layer "F.Fab")
-			(uuid "abd56772-b705-4dfb-a96d-5a9cf14b3245")
+			(uuid "9bc60656-da0d-4598-88ee-a4b8d92532af")
 			(effects
 				(font
 					(size 1 1)
@@ -19147,7 +19169,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03844f4a-ee78-4a4f-b411-dc980a8123ae")
+			(uuid "7e065dca-5088-447a-bbc7-bb08a5d68df9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19159,7 +19181,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "150c76c4-e69e-49bd-ae49-b2fe5a669c59")
+			(uuid "d8e63518-48ac-47a9-866b-d0696d26d8e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19732,6 +19754,17 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
+			)
+		)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/MDv3.step"
+			(offset
+				(xyz -165.5 -82.5 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -20894,7 +20927,7 @@
 		(property "Reference" "J12"
 			(at -3.635 8.805 90)
 			(layer "F.SilkS")
-			(uuid "956fe066-91a1-4064-bc2c-c51b796dc1ae")
+			(uuid "a6d02d34-19e3-4f99-9459-b994478c4fa1")
 			(effects
 				(font
 					(size 1 1)
@@ -20905,7 +20938,7 @@
 		(property "Value" "XT30PW-F"
 			(at 2.06 10.665 90)
 			(layer "F.Fab")
-			(uuid "c1a08176-bdae-4edf-b287-cc240b0b668c")
+			(uuid "c3066eb3-aec2-4add-ba09-24c20f462811")
 			(effects
 				(font
 					(size 1 1)
@@ -20917,7 +20950,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "405b2a56-13eb-497d-9990-695957f3e7ca")
+			(uuid "8a70c9df-4d56-4b79-bac0-191f6a0fb3cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20929,7 +20962,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39c4173d-c72d-410e-97c8-12bc98e19948")
+			(uuid "7983ead5-03b8-498c-ac5d-119f61be145f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21502,6 +21535,17 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
+			)
+		)
+		(model "C:/Users/minio/kicad-ws/MD/MDv3/MDv3.step"
+			(offset
+				(xyz -165.5 -82.5 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -23335,11 +23379,11 @@
 	(footprint "XT30PW-F:AMASS_XT30PW-F"
 		(layer "F.Cu")
 		(uuid "f94dac28-a727-4a7f-9823-2e7306f4e18a")
-		(at 135.969 163.6268 180)
+		(at 134.9864 163.6268 180)
 		(property "Reference" "J14"
 			(at -3.635 8.805 0)
 			(layer "F.SilkS")
-			(uuid "c98f9bf3-6ca8-4029-ab7e-e1e5c695f89d")
+			(uuid "69ebb3b0-c01b-4a7b-b81b-0a28c51237a1")
 			(effects
 				(font
 					(size 1 1)
@@ -23350,7 +23394,7 @@
 		(property "Value" "XT30PW-F"
 			(at 2.06 10.665 0)
 			(layer "F.Fab")
-			(uuid "b40fdc19-ba41-45b6-be29-1fb28da7cda0")
+			(uuid "e62b6438-10b6-409e-bf80-1c40f677f0f2")
 			(effects
 				(font
 					(size 1 1)
@@ -23362,7 +23406,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1e6abe2-09a0-4792-b885-651c70dc9c0d")
+			(uuid "c5f199cf-719d-4af9-b3f0-3318881548e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23374,7 +23418,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6f474a2-32f2-43c1-a728-2807ff43e68e")
+			(uuid "e7be132e-100d-4164-8911-ced6e5cafa73")
 			(effects
 				(font
 					(size 1.27 1.27)
