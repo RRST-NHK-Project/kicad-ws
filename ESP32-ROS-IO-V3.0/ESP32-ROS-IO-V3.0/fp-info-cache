@@ -1,4 +1,4 @@
-25606396022372136
+25608159667756563
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102668,6 +102668,13 @@ AMASS_XT30PW-M
 0
 4
 4
+XT30UPB-F
+AMASS_XT30U-F_1x02_P5.0mm_Vertical
+Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
 XT30UPB-M
 AMASS_XT30UPB-M
 
