@@ -1197,13 +1197,13 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0c086897-0521-452d-8322-a6f9548c9a10")
-		(at 85.678 118.828)
+		(at 85.765 105.41)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J11"
 			(at 2.5 -4 0)
 			(layer "F.SilkS")
-			(uuid "f39c0340-be25-45b1-a427-2007149eff23")
+			(uuid "a615713c-57d5-4a7a-ba6d-b756bc600f9c")
 			(effects
 				(font
 					(size 1 1)
@@ -1214,7 +1214,7 @@
 		(property "Value" "XT30UPB-F"
 			(at 2.5 4 0)
 			(layer "F.Fab")
-			(uuid "99354f0a-9855-4712-b3f8-b3eafb274374")
+			(uuid "62ac4242-4f00-4a3e-a083-cdf25b3f890f")
 			(effects
 				(font
 					(size 1 1)
@@ -1226,7 +1226,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e65f010-9e16-461e-b5ef-7f8bfdbe577b")
+			(uuid "05082e8e-ceef-414f-b38d-a7da5f6ac430")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2d9dcd4-1c1f-4c34-83e9-20f2cc3c1377")
+			(uuid "b30975d1-a56f-4a60-92d4-4e4baf867750")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4633,7 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "396881d7-56ba-448c-9a06-47c648cf633e")
-		(at 85.678 104.328)
+		(at 85.765 97.028)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J9"
@@ -8698,13 +8698,13 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6a724332-574a-480a-aaa0-98cb6abca130")
-		(at 85.678 126.078)
+		(at 99.715 113.792)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J12"
 			(at 2.5 -4 0)
 			(layer "F.SilkS")
-			(uuid "c7cd7c14-fc12-4a46-ba9e-729b79182108")
+			(uuid "39276b26-054e-4057-a828-b847db92ad21")
 			(effects
 				(font
 					(size 1 1)
@@ -8715,7 +8715,7 @@
 		(property "Value" "XT30UPB-F"
 			(at 2.5 4 0)
 			(layer "F.Fab")
-			(uuid "a65b577e-b335-4fdc-88d4-dc8322ca5b7d")
+			(uuid "8758d059-2c48-4c62-b2c3-fa174e6fcd2d")
 			(effects
 				(font
 					(size 1 1)
@@ -8727,7 +8727,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f61e1e92-2f37-4ac4-8afb-59b15b713763")
+			(uuid "e7e2b22d-1e7e-4c7b-91f4-9b748e460253")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,7 +8739,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70a5e2ed-2396-4fd7-b81b-7d4b8f705c5b")
+			(uuid "19d2a677-5b08-425e-bef7-7f94cc078ed4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +10729,7 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "85c9093e-0e0d-471f-8e4d-764278222602")
-		(at 85.678 97.078)
+		(at 99.735 97.028)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J8"
@@ -12138,7 +12138,7 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "87b455b6-8168-4a5a-bb4a-03933637e706")
-		(at 85.678 133.328)
+		(at 85.745 113.792)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J13"
@@ -14416,7 +14416,7 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "93ddb46a-6152-42c7-bf5f-77a1f52af525")
-		(at 85.678 140.578)
+		(at 99.725 122.174)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J14"
@@ -16521,7 +16521,7 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ae62e04a-5a0a-4d6c-bf13-c5a2e80d98d1")
-		(at 85.678 111.578)
+		(at 99.735 105.41)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J10"
@@ -21590,13 +21590,13 @@
 	(footprint "XT30UPB-F:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f16b9d21-a330-4135-95c6-fadb33b87442")
-		(at 85.678 147.828)
+		(at 85.7552 122.174)
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J15"
 			(at 2.5 -4 0)
 			(layer "F.SilkS")
-			(uuid "da171c83-9480-4be9-8e96-bda2634cb780")
+			(uuid "36b54c1a-285a-4177-ac00-718c0109823c")
 			(effects
 				(font
 					(size 1 1)
@@ -21607,7 +21607,7 @@
 		(property "Value" "XT30UPB-F"
 			(at 2.5 4 0)
 			(layer "F.Fab")
-			(uuid "56b1d5ec-ffdb-439e-b2ec-bedec778ede0")
+			(uuid "88d9f2dd-06e0-48c7-9890-8790c8db7ff1")
 			(effects
 				(font
 					(size 1 1)
@@ -21619,7 +21619,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dba1a43-bd8e-437b-be17-5f8d6da107e4")
+			(uuid "d3f74755-7173-4049-a10c-402e86b847f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21631,7 +21631,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3b09649-d808-4166-91fe-ce65c65e3350")
+			(uuid "4ec0750c-f5dc-4911-b39f-efb448840cac")
 			(effects
 				(font
 					(size 1.27 1.27)
