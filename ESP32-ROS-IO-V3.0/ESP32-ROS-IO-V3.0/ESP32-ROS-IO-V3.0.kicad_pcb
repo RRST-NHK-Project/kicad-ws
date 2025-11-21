@@ -1673,6 +1673,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
@@ -5096,6 +5107,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -9152,6 +9174,28 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/MDv3.step"
+			(offset
+				(xyz -162.95 4 -82.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 90 -0)
+			)
+		)
 	)
 	(footprint "XT60-M:AMASS_XT60-M"
 		(layer "F.Cu")
@@ -11161,6 +11205,28 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/MDv3.step"
+			(offset
+				(xyz -162.95 4 -82.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 90 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -12546,6 +12612,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -14815,6 +14892,28 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/MDv3.step"
+			(offset
+				(xyz -162.95 4 -82.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 90 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -16896,6 +16995,28 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/MDv3.step"
+			(offset
+				(xyz -162.95 4 -82.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 90 -0)
 			)
 		)
 	)
@@ -21943,6 +22064,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/XT30UPB-M/XT30UPB-M.step"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
