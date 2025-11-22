@@ -23092,7 +23092,7 @@
 		)
 	)
 	(gr_text "MD4D MD4P"
-		(at 91.186 134.8478 90)
+		(at 91.186 134.62 90)
 		(layer "F.SilkS" knockout)
 		(uuid "1cd003a1-a58d-4add-b454-1e7a9164ee55")
 		(effects
@@ -23248,7 +23248,7 @@
 		)
 	)
 	(gr_text "MD3P MD3D"
-		(at 71.882 138.176 90)
+		(at 71.882 138.43 90)
 		(layer "F.SilkS" knockout)
 		(uuid "e848d424-f12d-4e22-a0bd-2c6a7365b295")
 		(effects
