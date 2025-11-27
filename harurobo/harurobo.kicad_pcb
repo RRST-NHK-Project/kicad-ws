@@ -1598,11 +1598,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "22751d84-4633-4dda-8ba7-98208aea0d57")
-		(at 15 113 -90)
+		(at 14.08 114 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TR2"
-			(at -1 1.905 90)
+			(at -5.75 2.17 90)
 			(layer "F.SilkS")
 			(uuid "5369dcda-d80d-43ff-bd4f-6c9af80aee68")
 			(effects
@@ -1613,7 +1613,7 @@
 			)
 		)
 		(property "Value" "TR2"
-			(at 0 4.92 90)
+			(at 0 1 90)
 			(layer "F.Fab")
 			(uuid "a26d0bd1-d4a0-4e4f-b0af-dffc62684397")
 			(effects
@@ -2939,7 +2939,7 @@
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J20"
-			(at -19.57 47.24 90)
+			(at -21.15 47.24 90)
 			(layer "F.SilkS")
 			(uuid "13e4d26d-3920-43ec-b74f-1235be814a55")
 			(effects
@@ -3744,7 +3744,7 @@
 			)
 		)
 		(property "Value" "Conn_01x19_Socket"
-			(at -15.96 11.24 0)
+			(at -10.46 -1.47 0)
 			(layer "F.Fab")
 			(uuid "b54c22e8-d8db-425b-9d13-aff5c6b989e1")
 			(effects
@@ -4169,7 +4169,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "628e0369-73a6-4ef5-8b12-65fcde64e12d")
-		(at 15.04 117 -90)
+		(at 14.08 118.5 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TR1"
@@ -4184,7 +4184,7 @@
 			)
 		)
 		(property "Value" "TR1"
-			(at 0 4.92 90)
+			(at 0.25 2.54 90)
 			(layer "F.Fab")
 			(uuid "4ba63edb-ffd8-453b-870a-be30ac11afa0")
 			(effects
@@ -5141,9 +5141,9 @@
 	(footprint "XT60-M:AMASS_XT60-M"
 		(layer "F.Cu")
 		(uuid "7cecb831-7a8b-4a4b-a78f-58fdfe2b6722")
-		(at 27.5 64)
+		(at 26.5 64)
 		(property "Reference" "J13"
-			(at -4.825 -5.935 0)
+			(at 3.5 1 0)
 			(layer "F.SilkS")
 			(uuid "d5157da5-8e04-43eb-81d0-b91598285930")
 			(effects
@@ -6782,9 +6782,9 @@
 	(footprint "XT60-M:AMASS_XT60-M"
 		(layer "F.Cu")
 		(uuid "8cabfbb4-6f31-448f-87e4-7ca611c7b953")
-		(at 45.235 64.08)
+		(at 44.235 64.08)
 		(property "Reference" "J12"
-			(at -5.975 -6.205 0)
+			(at 0.515 -0.08 0)
 			(layer "F.SilkS")
 			(uuid "58a24391-5b53-43cc-a051-154a209e632b")
 			(effects
@@ -8069,7 +8069,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a1eadd88-cbb6-4134-9a1c-58934f747fdd")
-		(at 15.04 104.75 -90)
+		(at 14.04 104.25 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TR4"
@@ -8322,7 +8322,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a516ed9e-e2bf-4c37-b3ce-b0ec33997169")
-		(at 24 72.34)
+		(at 24 71.92)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J19"
@@ -9839,7 +9839,7 @@
 		(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x11 2.54mm single row")
 		(property "Reference" "VMD3/VMD4"
-			(at -48.59 -50.615 0)
+			(at -47.75 -47.655 0)
 			(layer "F.SilkS")
 			(uuid "716f05aa-8b22-43a5-8ae3-556edce9f201")
 			(effects
@@ -10198,7 +10198,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b9297294-095a-42dd-bfda-5c90bdc6a8cc")
-		(at 20.25 72.34)
+		(at 20.25 71.92)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J18"
@@ -11458,7 +11458,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d2fb05b2-d18b-44e9-9b1b-83ee9e613d10")
-		(at 10.25 91.24 180)
+		(at 10.75 92.25 180)
 		(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x11 2.54mm single row")
 		(property "Reference" "VMD5/VMD6"
@@ -12919,7 +12919,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ec2630af-f570-4eb0-8e55-8e1f362faf2d")
-		(at 15 109 -90)
+		(at 14.065 109.25 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TR3"
@@ -13172,7 +13172,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f3ac9463-0eb1-4ae5-879b-266f0ec60339")
-		(at 44.87 127 -90)
+		(at 43.29 127 -90)
 		(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x11 2.54mm single row")
 		(property "Reference" "VMD1/VMD2"
@@ -13187,7 +13187,7 @@
 			)
 		)
 		(property "Value" "VMD1/VMD2"
-			(at -4.5 27.79 90)
+			(at -4.5 29 90)
 			(layer "F.Fab")
 			(uuid "639c7824-be3d-4e62-bb1d-a529612913bc")
 			(effects
