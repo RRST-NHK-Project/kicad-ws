@@ -135,7 +135,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "04da8727-d4e8-4a34-9e4b-4d5f59bd5c6b")
-		(at 119.487 67.473)
+		(at 119.487 67.818)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW6"
@@ -579,13 +579,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0b8f2ad1-a88b-4363-ad06-697b53e3c1c2")
-		(at 107.315 94.615)
+		(at 105.537 96.125)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 5.08 -2.37 0)
+			(at 5.08 2.173 0)
 			(layer "F.SilkS")
-			(uuid "1169d248-15b2-4905-857e-18a28745cacb")
+			(uuid "bca44b08-874a-429b-b59a-83c33f2251de")
 			(effects
 				(font
 					(size 1 1)
@@ -594,9 +594,9 @@
 			)
 		)
 		(property "Value" "330"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
-			(uuid "887de112-3110-4ca4-9cde-d791cd0f1eb8")
+			(at 5.08 0.014 0)
+			(layer "F.SilkS")
+			(uuid "afb627c9-a472-4a12-9db3-64b96cb4cd48")
 			(effects
 				(font
 					(size 1 1)
@@ -608,7 +608,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be4b5d7b-d532-4938-bba8-21d46d927bd9")
+			(uuid "558066bf-36a4-41e0-92e9-b16d0b4f460c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +620,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7fe4d5ec-55fb-4285-96a1-413dd3fec4f8")
+			(uuid "e364b0e3-5b9a-4653-a03a-9b694b1bbee9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1170,7 @@
 			(uuid "f48c4b00-06f7-43af-ac47-18318e6e5b61")
 		)
 		(fp_text user "+"
-			(at 9 0 90)
+			(at 8.7884 0 90)
 			(layer "F.SilkS")
 			(uuid "94373bf7-2252-430c-aa48-e375cf5d5236")
 			(effects
@@ -1695,7 +1695,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1da47bf4-664b-4f3b-a9b5-a725823d84b8")
-		(at 73.7 83.09)
+		(at 73.7 84.074)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN_BUS4"
@@ -2583,7 +2583,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2f5166d6-d2a2-4404-b00e-ee32e1c76f50")
-		(at 82.59 67.49)
+		(at 82.59 67.818)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN_BUS6"
@@ -3027,7 +3027,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2f6e65f3-866a-44bf-a829-a9d55a2d8c1b")
-		(at 128.905 75.258)
+		(at 128.905 75.946)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "Servo3"
@@ -4135,8 +4135,8 @@
 		(sheetfile "ESP32-ROS-IO-V3.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -9.5 0)
-			(end -8.5 0)
+			(start -9.136 0)
+			(end -8.136 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -4145,8 +4145,8 @@
 			(uuid "9d039550-65e1-4da1-8c73-da74585b29d0")
 		)
 		(fp_line
-			(start -9 -0.5)
-			(end -9 0.5)
+			(start -8.636 -0.5)
+			(end -8.636 0.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -4215,8 +4215,8 @@
 			(uuid "8bd867f2-2557-48f0-ac20-7b13f96e821f")
 		)
 		(fp_line
-			(start 8.5 0)
-			(end 9.5 0)
+			(start 8.128 0)
+			(end 9.128 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -4265,8 +4265,8 @@
 			(uuid "abc3b320-1162-4c30-9137-3fb8716c3eaf")
 		)
 		(fp_line
-			(start -9.5 0)
-			(end -8.5 0)
+			(start -9.136 0)
+			(end -8.136 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -4275,8 +4275,8 @@
 			(uuid "746c4038-fc20-4c77-99a8-ddbcce454fe5")
 		)
 		(fp_line
-			(start -9 -0.5)
-			(end -9 0.5)
+			(start -8.636 -0.5)
+			(end -8.636 0.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -4345,8 +4345,8 @@
 			(uuid "522ae069-c17d-463c-b40a-4ff5e239d46c")
 		)
 		(fp_line
-			(start 8.5 0)
-			(end 9.5 0)
+			(start 8.128 0)
+			(end 9.128 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at 9 0 90)
+			(at 8.7884 0 90)
 			(layer "F.SilkS")
 			(uuid "31dbfdad-2dee-438c-a7b7-1a468c07fe10")
 			(effects
@@ -5791,7 +5791,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4e05bb36-1540-482e-bc86-6dd249d1e064")
-		(at 119.487 75.273)
+		(at 119.487 75.946)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW7"
@@ -6235,7 +6235,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5086e0fe-0ba4-42a0-9c45-9c7aabdc5f06")
-		(at 128.905 83.058)
+		(at 128.905 84.328)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "Servo4"
@@ -6690,7 +6690,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "558e8344-ae9a-4019-9a97-5cabca156b22")
-		(at 92.115 75.29)
+		(at 92.115 75.946)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SV3"
@@ -7134,13 +7134,13 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "57cbbab6-59cd-41f5-94fe-4efcdaea0654")
-		(at 73.7 67.49)
+		(at 73.7 67.818)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN_BUS2"
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
-			(uuid "a16e76ac-d21e-42e6-aec8-e446884a2558")
+			(uuid "eb26ca15-842c-42b5-8591-74deca5773ab")
 			(effects
 				(font
 					(size 1 1)
@@ -7151,7 +7151,7 @@
 		(property "Value" "CAN_BUS"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
-			(uuid "a33cfee1-3246-4b8c-9b62-2fb2f6a63d0d")
+			(uuid "021c9766-2cdb-428e-afc0-444ac854d6fe")
 			(effects
 				(font
 					(size 1 1)
@@ -7163,7 +7163,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3887e6f0-dc06-4624-bc4e-2bdb5b83ae72")
+			(uuid "684d4a24-3ed6-4086-b0c7-c5b93f9cf967")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7175,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a588b138-65da-441a-8e09-667c2f215185")
+			(uuid "d96f7623-75e0-4314-8cd9-d2dfcb1a9eba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,13 +7578,13 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5b740f8b-0cda-4a57-b1b5-1e97e0eacfc0")
-		(at 140.97 83.058)
+		(at 140.97 84.074)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC4"
 			(at 3.75 -3.55 0)
 			(layer "F.SilkS")
-			(uuid "05841046-237a-461a-af34-374b113e39d8")
+			(uuid "aa9c2b68-7503-4a11-acd1-af42bd10823f")
 			(effects
 				(font
 					(size 1 1)
@@ -7595,7 +7595,7 @@
 		(property "Value" "ENC4"
 			(at 3.75 4.6 0)
 			(layer "F.Fab")
-			(uuid "e718f3f5-c5d4-4eba-83fe-58b29076e974")
+			(uuid "b1dd16bd-0048-44a7-a407-ad73580b5058")
 			(effects
 				(font
 					(size 1 1)
@@ -7607,7 +7607,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "975d0aae-dd77-4d11-bb47-5f0cccf88814")
+			(uuid "7998dce3-db11-4354-bf19-01d42efe1293")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7619,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31780eb0-00e0-48cf-bcb3-80cf1326ae67")
+			(uuid "a6aa0992-e2de-4845-89d1-4bf08cf44d5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,7 +8044,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5ea69245-5676-4e89-aaa5-33b8a3052515")
-		(at 92.115 83.09)
+		(at 92.115 84.074)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SV4"
@@ -8916,7 +8916,7 @@
 			)
 		)
 		(fp_text user "-"
-			(at -4 0 90)
+			(at -3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "765ffb9b-1f8e-484c-aad4-7ff135e2e041")
 			(effects
@@ -8993,11 +8993,55 @@
 				(xyz -90 90 -0)
 			)
 		)
+		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
+			(offset
+				(xyz 0 3 37)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
+			(offset
+				(xyz 0 3 25.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
+			(offset
+				(xyz -11 3 37.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
+			(offset
+				(xyz -11 3 25.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 90 -0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6e5b88ba-3fa1-4aa9-9707-21342e322b15")
-		(at 110.617 67.49)
+		(at 110.617 67.818)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW2"
@@ -9650,8 +9694,8 @@
 		(sheetfile "ESP32-ROS-IO-V3.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -9.5 0)
-			(end -8.5 0)
+			(start -9.136 0)
+			(end -8.136 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -9660,8 +9704,8 @@
 			(uuid "b5b6b575-157e-4602-b844-a93f1ca4d763")
 		)
 		(fp_line
-			(start -9 -0.5)
-			(end -9 0.5)
+			(start -8.636 -0.5)
+			(end -8.636 0.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -9730,8 +9774,8 @@
 			(uuid "8088834b-bbad-4101-868f-91d002bbe8d7")
 		)
 		(fp_line
-			(start 8.5 0)
-			(end 9.5 0)
+			(start 8.136 0)
+			(end 9.136 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -9780,8 +9824,8 @@
 			(uuid "9ce2d4d2-81c0-4cc4-8bd1-11f56b3001cc")
 		)
 		(fp_line
-			(start -9.5 0)
-			(end -8.5 0)
+			(start -9.136 0)
+			(end -8.136 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -9790,8 +9834,8 @@
 			(uuid "78fd4cda-74fd-4b30-a712-d275d473537d")
 		)
 		(fp_line
-			(start -9 -0.5)
-			(end -9 0.5)
+			(start -8.636 -0.5)
+			(end -8.636 0.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -9860,8 +9904,8 @@
 			(uuid "97c16a7d-53f9-42e3-982b-edefaed7698b")
 		)
 		(fp_line
-			(start 8.5 0)
-			(end 9.5 0)
+			(start 8.136 0)
+			(end 9.136 0)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -9915,6 +9959,7 @@
 		(property "Reference" "J6"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d402a84b-6ac3-49b3-abb5-b077d04da342")
 			(effects
 				(font
@@ -10162,7 +10207,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "839466a4-3594-4a15-be64-9eb61bee0018")
-		(at 82.59 75.2856)
+		(at 82.59 75.946)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN_BUS7"
@@ -11034,7 +11079,7 @@
 			)
 		)
 		(fp_text user "-"
-			(at -4 0 90)
+			(at -3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "e8d17874-228c-41b6-9cf2-ce5ac37d050e")
 			(effects
@@ -11983,7 +12028,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at 9 0 90)
+			(at 8.7884 0 90)
 			(layer "F.SilkS")
 			(uuid "cf284e7b-2981-4cdc-955f-074932830c3a")
 			(effects
@@ -13369,7 +13414,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at 9 0 90)
+			(at 8.7884 0 90)
 			(layer "F.SilkS")
 			(uuid "a3ee2543-9ecd-4b8c-b210-1a2c269226f6")
 			(effects
@@ -14345,7 +14390,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "972e672c-fe91-4f2d-a802-82c366955a05")
-		(at 101.005 75.29)
+		(at 101.005 75.946)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SV7"
@@ -14789,12 +14834,13 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "9a9b1b02-f197-4b72-b36b-c1de0f9584a3")
-		(at 153.67 90.17 -90)
+		(at 151.13 92.329 -90)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U2"
 			(at 3.81 -2.33 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a464fc5a-5ce4-4da9-a3c8-23187325cc34")
 			(effects
 				(font
@@ -15168,7 +15214,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a70bb706-8701-4e76-b841-07c379899ca2")
-		(at 128.905 67.458)
+		(at 128.905 67.818)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "Servo2"
@@ -15623,7 +15669,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a8af85ca-6e99-4fc0-825f-0316c2eedc16")
-		(at 92.115 67.49)
+		(at 92.115 67.818)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SV2"
@@ -16495,7 +16541,7 @@
 			)
 		)
 		(fp_text user "-"
-			(at -4 0 90)
+			(at -3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "e80a2f7c-2621-4902-95e9-20caf755a0a7")
 			(effects
@@ -17027,7 +17073,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b0e9e5f2-1073-43fc-8021-612296ea7ec1")
-		(at 82.59 83.0856)
+		(at 82.59 84.074)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN_BUS8"
@@ -17471,7 +17517,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b292e77f-2f42-41a0-b264-b52ef46d7a3a")
-		(at 119.487 83.073)
+		(at 119.487 84.074)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW8"
@@ -17915,7 +17961,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "bd1077c3-b4b6-4dd3-9098-9e21b47f78e9")
-		(at 110.617 75.29)
+		(at 110.617 75.946)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW3"
@@ -18359,7 +18405,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c637df00-c90c-4c2e-9d89-31359cd65bce")
-		(at 140.97 67.458)
+		(at 140.97 67.818)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC2"
@@ -18825,7 +18871,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cf25315a-a066-42a6-b09e-924a4f704e0d")
-		(at 101.005 67.49)
+		(at 101.005 67.801)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SV6"
@@ -19275,6 +19321,7 @@
 		(property "Reference" "J7"
 			(at 0 -2.77 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e57d6dee-736a-43c4-a97a-090f5066b518")
 			(effects
 				(font
@@ -19797,7 +19844,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d5704774-888c-40dd-8f31-b2d2b2f826e9")
-		(at 140.97 75.258)
+		(at 140.97 75.946)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC3"
@@ -20263,7 +20310,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d6df98bc-2ae5-4dd1-b745-09bbdf74d559")
-		(at 73.7 75.29)
+		(at 73.7 75.946)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN_BUS3"
@@ -21147,12 +21194,13 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "dda9596c-0260-4475-8452-850e47e8dfc5")
-		(at 96.52 89.54 -90)
+		(at 96.647 92.319 -90)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
 			(at 3.81 -2.33 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "13d417ca-3d87-4ba9-b3a6-315bea5ac91a")
 			(effects
 				(font
@@ -21438,13 +21486,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e61a3e00-9a13-4a1e-aa4f-018ba4ebcdc1")
-		(at 107.315 90.565)
+		(at 105.537 92.329)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 0)
+			(at 5.08 -2.159 0)
 			(layer "F.SilkS")
-			(uuid "4aec7fd6-ba62-4e60-8dc4-579ed1cf5ff0")
+			(uuid "d902fc9f-48b3-4389-957b-a473f5edc406")
 			(effects
 				(font
 					(size 1 1)
@@ -21453,9 +21501,9 @@
 			)
 		)
 		(property "Value" "120"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
-			(uuid "6b4e0fa6-0748-4b9a-879d-58ef7511cfc3")
+			(at 5.08 0 0)
+			(layer "F.SilkS")
+			(uuid "c0182947-148d-49b7-ae74-de1597fd8893")
 			(effects
 				(font
 					(size 1 1)
@@ -21467,7 +21515,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49a3a035-7bc9-4419-8766-9e4ce97d2282")
+			(uuid "59910a98-b594-40e2-8d0a-9550aae0195a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21479,7 +21527,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f1f562a-63b5-4bd8-ad73-efc760715c4c")
+			(uuid "89a8c7a4-4be9-49eb-9948-2e5a5a9d2803")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22040,7 +22088,7 @@
 			)
 		)
 		(fp_text user "-"
-			(at -4 0 90)
+			(at -3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "f6010b33-08df-486d-8ed7-7e134c685f24")
 			(effects
@@ -22119,26 +22167,60 @@
 		)
 		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
 			(offset
-				(xyz 0 2.5 25.5)
+				(xyz 0 3 25.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -180 -90 -0)
+				(xyz -180 90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
+			(offset
+				(xyz 0 3 37)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
+			(offset
+				(xyz -11 3 37)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/IRLB3813PBF/IRLB3813PBF.step"
+			(offset
+				(xyz -11 3 25.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 90 -0)
 			)
 		)
 	)
 	(footprint "LED_THT:LED_D5.0mm"
 		(layer "F.Cu")
 		(uuid "f270b501-d6a1-41ee-bcb5-9246a5a7b712")
-		(at 125.09 93.105)
+		(at 122.169 93.345)
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf, generated by kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
-			(uuid "a0c7743d-24a8-470e-b659-aec01eb583c0")
+			(hide yes)
+			(uuid "5d741057-6c12-4835-9328-854f398e315b")
 			(effects
 				(font
 					(size 1 1)
@@ -22149,7 +22231,7 @@
 		(property "Value" "LED"
 			(at 1.27 3.96 0)
 			(layer "F.Fab")
-			(uuid "faaea1ba-4fa1-4efa-a3f4-dffc948e6638")
+			(uuid "ea4cc1e3-c05d-4c70-8e27-d05af6031778")
 			(effects
 				(font
 					(size 1 1)
@@ -22161,7 +22243,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70d0c103-2ea5-4742-847c-deb99551fbbf")
+			(uuid "f7e28585-3af4-4f9f-af5b-e097f4738d45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22173,7 +22255,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54df086c-65e9-4d7b-96a4-456428869162")
+			(uuid "2e786417-1446-45ef-9be9-9c41b3aa5732")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22369,6 +22451,7 @@
 		(property "Reference" "J5"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "598b678c-20d8-444b-8958-3ecbcb5899ca")
 			(effects
 				(font
@@ -22616,7 +22699,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f8aa3fbf-dbd4-4e10-ba1e-c7d894e3f1bc")
-		(at 110.617 83.0834)
+		(at 110.617 84.074)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW4"
@@ -23081,6 +23164,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+ GND"
+		(at 118.11 89.408 0)
+		(layer "F.SilkS" knockout)
+		(uuid "157ffbff-1ef5-4ef5-bbda-fbd9d530cd9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MD4D MD4P"
 		(at 91.186 134.62 90)
 		(layer "F.SilkS" knockout)
@@ -23105,6 +23201,44 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "S + GND"
+		(at 128.016 89.662 0)
+		(layer "F.SilkS" knockout)
+		(uuid "39647083-2efe-45fc-9759-cd5587fc92e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V 24V"
+		(at 155.067 90.932 0)
+		(layer "F.SilkS" knockout)
+		(uuid "51cbe0b3-1d36-4c09-93dd-14675cf18325")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+ GND"
+		(at 109.474 89.408 0)
+		(layer "F.SilkS" knockout)
+		(uuid "5308d3d2-ffa5-47d6-a077-731ff01bc4c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MD1D MD1P"
 		(at 169.545 133.985 90)
 		(layer "F.SilkS" knockout)
@@ -23113,6 +23247,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND +"
+		(at 99.568 81.28 0)
+		(layer "F.SilkS" knockout)
+		(uuid "67e4609a-41db-4883-98c4-8fe1df156e30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -23129,6 +23276,44 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TBD62003APG"
+		(at 137.16 96.769 0)
+		(layer "F.SilkS")
+		(uuid "8e912d99-d51a-44b4-a2f9-ddad5e1468e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3 G  A  B"
+		(at 139.446 89.408 0)
+		(layer "F.SilkS" knockout)
+		(uuid "a6098a25-c925-40df-945d-8fc41b2d00ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H  L"
+		(at 73.152 89.408 0)
+		(layer "F.SilkS" knockout)
+		(uuid "b80e0abd-9494-4f18-b5a0-7030aa43e018")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND GND"
 		(at 169.545 118.745 90)
 		(layer "F.SilkS" knockout)
@@ -23137,6 +23322,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H  L"
+		(at 82.042 89.408 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cd34c93c-27b0-4615-b8cd-85c6111dc6b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -23161,6 +23359,44 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND +"
+		(at 90.678 89.408 0)
+		(layer "F.SilkS" knockout)
+		(uuid "f03382bc-0ff1-484b-b082-37009b62ffe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MCP2561"
+		(at 89.154 96.647 0)
+		(layer "F.SilkS")
+		(uuid "fbe10cc0-5597-4c10-b668-43103ea31bd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V  G  P  D"
+		(at 154.94 56.388 0)
+		(layer "F.SilkS" knockout)
+		(uuid "fc2f18ec-780b-4b3f-9980-adbe0604e219")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
