@@ -3027,7 +3027,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2f6e65f3-866a-44bf-a829-a9d55a2d8c1b")
-		(at 128.905 75.946)
+		(at 143.51 75.978)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "Servo3"
@@ -5336,13 +5336,13 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3f0c57d9-9356-4cf3-85d2-f019e6aa708a")
-		(at 128.905 59.658)
+		(at 143.51 59.69)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "Servo1"
 			(at 2.5 -3.55 0)
 			(layer "F.SilkS")
-			(uuid "aa6ef4ed-36f4-40d5-9d17-a73127c850f5")
+			(uuid "16ad819c-2c66-47b0-b778-a9a70e0f1826")
 			(effects
 				(font
 					(size 1 1)
@@ -5353,7 +5353,7 @@
 		(property "Value" "Servo1"
 			(at 2.5 4.6 0)
 			(layer "F.Fab")
-			(uuid "ebe7f55d-cf5f-4dcf-825d-cbb7a60a975f")
+			(uuid "fcee047f-b40f-4e24-a774-775283df4525")
 			(effects
 				(font
 					(size 1 1)
@@ -5365,7 +5365,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "484d6cf5-e634-4dec-8b9d-158ac5a98389")
+			(uuid "78718a17-df90-4293-86ed-87db57afb80b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5377,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e8ed6a0-3d3c-44ca-82a9-cdf0d47cfd74")
+			(uuid "69df6ce3-a4d9-44f7-8ce6-ea40212a6dd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6235,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5086e0fe-0ba4-42a0-9c45-9c7aabdc5f06")
-		(at 128.905 84.328)
+		(at 143.51 84.36)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "Servo4"
@@ -7578,7 +7578,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5b740f8b-0cda-4a57-b1b5-1e97e0eacfc0")
-		(at 140.97 84.074)
+		(at 129.159 84.106)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC4"
@@ -9953,7 +9953,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "75387db5-ad11-4f9e-88c1-4c4231ee5510")
-		(at 160.02 73.66)
+		(at 160.02 74.544)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
@@ -13924,7 +13924,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "96f58842-bf79-41d7-b13a-4ac9c1309e12")
-		(at 140.97 59.658)
+		(at 129.159 59.69)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC1"
@@ -15214,7 +15214,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a70bb706-8701-4e76-b841-07c379899ca2")
-		(at 128.905 67.818)
+		(at 143.51 67.85)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "Servo2"
@@ -18405,7 +18405,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c637df00-c90c-4c2e-9d89-31359cd65bce")
-		(at 140.97 67.818)
+		(at 129.159 67.85)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC2"
@@ -19591,7 +19591,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d1a8e1ee-4c40-4b1f-a0c6-47ee2e35ad9b")
-		(at 164.61 73.66)
+		(at 164.61 74.544)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "R120"
@@ -19844,7 +19844,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d5704774-888c-40dd-8f31-b2d2b2f826e9")
-		(at 140.97 75.946)
+		(at 129.159 75.978)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC3"
@@ -22445,7 +22445,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f51b4642-682d-47e4-8571-e94823016c50")
-		(at 155.43 73.66)
+		(at 155.43 74.544)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J5"
@@ -23202,7 +23202,7 @@
 		)
 	)
 	(gr_text "S + GND"
-		(at 128.016 89.662 0)
+		(at 142.621 89.694 0)
 		(layer "F.SilkS" knockout)
 		(uuid "39647083-2efe-45fc-9759-cd5587fc92e9")
 		(effects
@@ -23289,7 +23289,7 @@
 		)
 	)
 	(gr_text "3V3 G  A  B"
-		(at 139.446 89.408 0)
+		(at 127.635 89.44 0)
 		(layer "F.SilkS" knockout)
 		(uuid "a6098a25-c925-40df-945d-8fc41b2d00ff")
 		(effects
@@ -23400,6 +23400,262 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(segment
+		(start 151.638 70.739)
+		(end 163.703 70.739)
+		(width 4)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "2a2405b6-3c03-481c-9deb-f19575922eb9")
+	)
+	(segment
+		(start 151.6634 59.7408)
+		(end 151.638 59.7662)
+		(width 4)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "2a3f1f79-f980-45f5-933a-0681cc4e043d")
+	)
+	(segment
+		(start 151.638 84.3534)
+		(end 151.638 78.8924)
+		(width 4)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "43ffbdc4-3200-4549-915a-e40e136fe103")
+	)
+	(segment
+		(start 151.6314 75.978)
+		(end 151.638 75.9714)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "6593fae0-edc5-473d-9a49-734f1df6b671")
+	)
+	(segment
+		(start 148.5166 84.3534)
+		(end 151.638 84.3534)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "71e578ab-a383-40e1-b93c-819ea342fcc8")
+	)
+	(segment
+		(start 148.51 67.85)
+		(end 151.6192 67.85)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "7725101a-9b04-4569-a778-3427590169ec")
+	)
+	(segment
+		(start 164.1334 70.3086)
+		(end 164.1334 65.405)
+		(width 4)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "7ff0b587-20de-4e78-80a5-d46228059be9")
+	)
+	(segment
+		(start 163.703 70.739)
+		(end 164.1334 70.3086)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "8519ffd1-9bb8-404b-ba51-1219154b9f47")
+	)
+	(segment
+		(start 148.51 84.36)
+		(end 148.5166 84.3534)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "8b03a5dc-f287-430d-b77a-7e42c8487363")
+	)
+	(segment
+		(start 148.51 59.69)
+		(end 151.6126 59.69)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "a9859346-c20b-42b7-9c16-b765667d1985")
+	)
+	(segment
+		(start 148.51 75.978)
+		(end 151.6314 75.978)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "cd89b655-65cf-40bd-af97-e9c787902baf")
+	)
+	(segment
+		(start 151.638 59.7662)
+		(end 151.638 75.9714)
+		(width 4)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "dc927f63-c956-454a-8156-997e3889a966")
+	)
+	(segment
+		(start 151.638 75.9714)
+		(end 151.638 78.8924)
+		(width 4)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "f3b375c9-9738-4578-812b-6e22e021ffda")
+	)
+	(segment
+		(start 151.6126 59.69)
+		(end 151.6634 59.7408)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "f44e35ab-9613-4201-ac84-5360b86392a2")
+	)
+	(segment
+		(start 151.638 86.995)
+		(end 151.638 78.994)
+		(width 4)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "06584df0-074d-48e6-a125-7e65166903f6")
+	)
+	(segment
+		(start 146.05 78.994)
+		(end 151.638 78.994)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "09ce251f-73fb-4689-afb1-be5447a67530")
+	)
+	(segment
+		(start 146.05 59.73)
+		(end 146.05 64.135)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "1678d36c-b978-4e8e-9607-42cb6574944c")
+	)
+	(segment
+		(start 146.01 84.36)
+		(end 146.01 86.955)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "29cec0c1-404f-4976-a78b-806586c31829")
+	)
+	(segment
+		(start 151.638 65.405)
+		(end 151.638 71.882)
+		(width 4)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "2a445cbb-617a-4ca3-a392-ab2cf6d35682")
+	)
+	(segment
+		(start 151.638 65.405)
+		(end 150.368 64.135)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "3a49e300-8220-48ec-84a4-dc8cd18e567b")
+	)
+	(segment
+		(start 146.13 71.882)
+		(end 146.05 71.802)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "497b7e57-77cd-419c-bae7-32951aa1582c")
+	)
+	(segment
+		(start 146.01 78.954)
+		(end 146.05 78.994)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "506478e7-1bd2-43e9-983b-54c652fd4eef")
+	)
+	(segment
+		(start 146.05 86.995)
+		(end 151.638 86.995)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "6a78628c-1c41-4136-bfd5-ee540fff14fd")
+	)
+	(segment
+		(start 150.368 64.135)
+		(end 146.05 64.135)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "841084fa-b95c-4e65-9b06-5c820563f2c4")
+	)
+	(segment
+		(start 146.01 67.85)
+		(end 146.05 67.89)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "90af45bf-9041-4ccc-8980-da44e76b53e3")
+	)
+	(segment
+		(start 146.01 86.955)
+		(end 146.05 86.995)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "92a57b7b-c643-4d88-9f9c-4fa679d29a15")
+	)
+	(segment
+		(start 146.01 75.978)
+		(end 146.01 78.954)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "9424020b-f947-449e-80e4-f0d1bc5cd3ca")
+	)
+	(segment
+		(start 146.01 59.69)
+		(end 146.05 59.73)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "b3d96a9f-8273-47e0-86b8-182ef59be1f7")
+	)
+	(segment
+		(start 146.05 67.89)
+		(end 146.05 71.802)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "b5bd94eb-e185-442f-9a7a-c4bf8afbfe47")
+	)
+	(segment
+		(start 151.638 71.882)
+		(end 146.13 71.882)
+		(width 2)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "cbb919cb-eabf-46b2-b4af-f2d8169616b7")
+	)
+	(segment
+		(start 151.638 71.882)
+		(end 151.638 78.994)
+		(width 4)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "ec747c16-f038-4a82-9b1f-c69aa15fe2b1")
+	)
+	(segment
+		(start 156.9334 65.405)
+		(end 151.638 65.405)
+		(width 4)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "f4b33619-9f56-4e4a-8209-cbf8132d333f")
 	)
 	(embedded_fonts no)
 )
