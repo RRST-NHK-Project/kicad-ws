@@ -31444,6 +31444,28 @@
 		(net 52)
 		(uuid "e9dd5783-d6a2-40be-a5d2-24feb25a6bb1")
 	)
+	(zone
+		(net 3)
+		(net_name "GND")
+		(layers "F.Cu" "B.Cu")
+		(uuid "cdb616b6-150b-4ff7-bbdd-78dbe83497a0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 168 56) (xy 119.5 56) (xy 72 56) (xy 71 57) (xy 71 153) (xy 72 154) (xy 168 154) (xy 169 153)
+				(xy 169 57)
+			)
+		)
+	)
 	(group ""
 		(uuid "bfabab69-8d7a-4bf8-9bb7-d002f69a3c26")
 		(members "5f38a536-ef27-4f46-89b2-9639b49f1cd6" "638fe86b-e76c-41b8-b80d-2ee02813a6d1"
