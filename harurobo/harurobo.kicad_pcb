@@ -159,13 +159,13 @@
 	(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0405ff29-72f2-45e0-bffa-7de516679544")
-		(at 87.25 76.5 180)
+		(at 98.592 38.153 180)
 		(descr "JST EH series connector, B3B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SERVO6"
-			(at 0.89 -2.5 0)
+			(at 2.58 -2.7918 0)
 			(layer "F.SilkS")
-			(uuid "5b13d498-51bb-43b8-ad7a-82dfbf643bf7")
+			(uuid "1145d96e-643c-4066-ac38-b843479bde40")
 			(effects
 				(font
 					(size 1 1)
@@ -176,7 +176,8 @@
 		(property "Value" "SERVO6"
 			(at 2.25 -0.3 0)
 			(layer "F.Fab")
-			(uuid "e42ed054-753d-4b96-acd1-b53e0e4de82e")
+			(hide yes)
+			(uuid "947812e8-e71d-4e11-b2b4-d18f5ea9ad27")
 			(effects
 				(font
 					(size 1 1)
@@ -188,7 +189,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d353cf7-a7aa-4ae5-a3e0-6e89ab5b883d")
+			(uuid "62ff20e1-1cfe-42f1-899a-f90659378b81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +201,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d683c913-a5c8-4246-9e60-cda4ae09cbd4")
+			(uuid "3302088f-79cc-476b-8a8e-402953b52864")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,17 +464,6 @@
 			(layer "F.Fab")
 			(uuid "373495fb-2f25-41a5-a2df-bcf4de4b73cf")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0.89 -2.2 0)
-			(layer "F.Fab")
-			(uuid "d0d4c4a7-123d-446f-b3f9-cce3f5d84ad1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 1.7 1.95)
@@ -524,13 +514,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0ed57ec3-2e7c-44b3-8b70-14eda63cddb3")
-		(at 32.038 105.227)
+		(at 43.4232 68.9356)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW1"
-			(at 6.1 0.445 270)
+			(at 6.1576 0.445 270)
 			(layer "F.SilkS")
-			(uuid "761f677a-af77-4642-9548-eeadf3e95467")
+			(uuid "5a2f7804-478e-4561-80ae-59c603d18e0f")
 			(effects
 				(font
 					(size 1 1)
@@ -541,7 +531,8 @@
 		(property "Value" "SW1"
 			(at 0 0.54 0)
 			(layer "F.Fab")
-			(uuid "1d983166-7ef7-4876-aacc-080747629105")
+			(hide yes)
+			(uuid "a90b38a0-7fb3-4e1a-8f9f-1443d3943fc1")
 			(effects
 				(font
 					(size 1 1)
@@ -553,7 +544,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a7d074a-44d9-4662-85eb-a0795c8dca91")
+			(uuid "7e1a91b9-af58-4cce-83a8-f261e3b6f64e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +556,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed6ca6f4-be3f-4c91-8547-e9d3c7b94a63")
+			(uuid "c70ab664-c639-4e90-9fd6-b77ee792a545")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,13 +869,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "16a86ece-390c-4aac-96b8-601a274ec86f")
-		(at 22.538 116.227)
+		(at 33.5912 80.9244)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW6"
-			(at 5.85 0.695 270)
+			(at 6.178 0.6968 270)
 			(layer "F.SilkS")
-			(uuid "d0e63876-7eb8-4cb4-88ac-db6f89d17691")
+			(uuid "4a70904a-f92a-45aa-868e-cf5ac5bd4287")
 			(effects
 				(font
 					(size 1 1)
@@ -895,7 +886,7 @@
 		(property "Value" "SW6"
 			(at 5.85 0.695 270)
 			(layer "F.Fab")
-			(uuid "ee9eb7c9-be06-4fc6-9bf3-51aa6c988f7b")
+			(uuid "73ae7d20-f325-48c7-b493-08ae7413aadd")
 			(effects
 				(font
 					(size 1 1)
@@ -907,7 +898,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85520ab1-b17c-4ac8-9db7-b07ebd5b874d")
+			(uuid "cb038335-b8fd-42eb-bb51-9c353c41bf47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,7 +910,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43e5aec5-4297-4dad-8b90-19eb1eed0388")
+			(uuid "1f436b25-dfca-4f72-a580-1373d7da8c70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,17 +1173,6 @@
 			(layer "F.Fab")
 			(uuid "53d03479-4365-442f-8efc-5c76b1b9fbdd")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 2.35 -2.055 180)
-			(layer "F.Fab")
-			(uuid "444eb60e-63c2-40d2-8f00-0a5823eaf70d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 2)
@@ -1232,13 +1212,13 @@
 	(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "19144912-fbb5-4835-9164-0c24e53b1d53")
-		(at 75.5 76.5 180)
+		(at 86.842 38.153 180)
 		(descr "JST EH series connector, B3B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SERVO4"
-			(at -1.208 -2.75 180)
+			(at 2.514 -2.7918 180)
 			(layer "F.SilkS")
-			(uuid "9273afc1-c74f-4df1-8242-38678b2ce7b7")
+			(uuid "923d987a-5210-49c8-83a4-74e3229dedb5")
 			(effects
 				(font
 					(size 1 1)
@@ -1250,7 +1230,7 @@
 			(at -10 -12 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24f382ec-3f35-4428-b25d-1d23fc54aae1")
+			(uuid "2f7ea454-90ce-4321-ba0c-dc72caf27626")
 			(effects
 				(font
 					(size 1 1)
@@ -1262,7 +1242,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a72d087b-6af8-490f-ba44-eb08bda4d639")
+			(uuid "68e976d2-5367-4d2f-b515-325490c0e6ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1254,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bba3661-f7b5-4621-bed8-5bac7734848d")
+			(uuid "45b6ecaf-d148-465c-a0a2-80e387c0346c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,17 +1517,6 @@
 			(layer "F.Fab")
 			(uuid "e964c6fe-552a-4c11-84bf-3cad67a1cd41")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "4f96132a-7f25-4c42-bea6-a9ef1632fe96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 1.7 1.95)
@@ -1598,13 +1567,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "22751d84-4633-4dda-8ba7-98208aea0d57")
-		(at 14.264 112.62 -90)
+		(at 25.6032 74.4728 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "TR2"
-			(at -0.5 -2.17 90)
+		(property "Reference" "TR2_EN"
+			(at 2.4892 1.2192 0)
 			(layer "F.SilkS")
-			(uuid "5369dcda-d80d-43ff-bd4f-6c9af80aee68")
+			(uuid "3b6bd85a-1361-4002-b91a-f7f56cd5ca6a")
 			(effects
 				(font
 					(size 1 1)
@@ -1615,7 +1584,7 @@
 		(property "Value" "TR2"
 			(at 0 1 90)
 			(layer "F.Fab")
-			(uuid "a26d0bd1-d4a0-4e4f-b0af-dffc62684397")
+			(uuid "e7bf2e3b-eee5-4ebd-9a5d-ff3862849733")
 			(effects
 				(font
 					(size 1 1)
@@ -1627,7 +1596,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b22e829-3aee-45fb-8068-1c7a7b5c8394")
+			(uuid "42b55d74-22a9-4d5c-8d4e-560d6a19cdf1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1608,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ae5ad9a-7a62-4901-abde-99ab744e7985")
+			(uuid "5d5b337f-0b85-42c4-93cb-604ed1a25948")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,13 +1820,13 @@
 	(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2ed00af0-d6c7-46dc-a088-fe1d608b76b1")
-		(at 75.5 70.75 180)
+		(at 86.842 32.0048 180)
 		(descr "JST EH series connector, B3B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SERVO3"
-			(at -0.7 -2.656 180)
+			(at 2.514 -2.794 180)
 			(layer "F.SilkS")
-			(uuid "a3107378-f6b7-45b3-bec5-551dc1c81f9e")
+			(uuid "ef124e74-b20d-4b36-9e5e-4a3be362bd0d")
 			(effects
 				(font
 					(size 1 1)
@@ -1868,7 +1837,8 @@
 		(property "Value" "SERVO3"
 			(at 2.5 0.3 0)
 			(layer "F.Fab")
-			(uuid "6f39a7b9-63c4-4ec3-a662-a26edb1dcc38")
+			(hide yes)
+			(uuid "f7c0af63-5e7c-4fc7-89c8-5ab9726bd2ee")
 			(effects
 				(font
 					(size 1 1)
@@ -1880,7 +1850,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63c40e1e-9e4e-4739-8ce5-e2a6f7f84433")
+			(uuid "0f4f19b7-5a51-4940-8721-6d06e4b88a1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1862,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e664619-705d-4dc9-b4bd-7b02c314e987")
+			(uuid "9661bf2f-5d4e-42dd-b7c0-d71e2b2dcf45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,17 +2125,6 @@
 			(layer "F.Fab")
 			(uuid "b1c9b314-abce-49df-a6ab-0df57542b06c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "f694c04c-7048-48e1-8fe6-60b72a3d4b4a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 1.7 1.95)
@@ -2216,13 +2175,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3f105499-1576-45d1-98d4-8e9a685e37ae")
-		(at 22.538 99.677)
+		(at 33.568 62.484)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SV1"
-			(at 5.85 0.495 270)
+			(at 6.1504 0.4936 270)
 			(layer "F.SilkS")
-			(uuid "c965cce2-1479-4759-a843-4897e2766950")
+			(uuid "25fb1628-cb1b-46a6-994d-2e9ce6ed735e")
 			(effects
 				(font
 					(size 1 1)
@@ -2233,7 +2192,8 @@
 		(property "Value" "SV1"
 			(at 0.25 0.4 0)
 			(layer "F.Fab")
-			(uuid "41810d64-1fd5-41a7-ba83-492656dcaaae")
+			(hide yes)
+			(uuid "98fcb494-f1dc-467b-a9fc-f867c4425bae")
 			(effects
 				(font
 					(size 1 1)
@@ -2245,7 +2205,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c1a407a-b943-4aba-b2d9-a6f3f747739d")
+			(uuid "9c945a61-13da-4bd2-91fb-1490287f8acd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2217,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1ee5bda-3301-4eec-b837-5c95847040e9")
+			(uuid "b789ec1c-e69b-4c87-8ab3-54484f838c92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,17 +2480,6 @@
 			(layer "F.Fab")
 			(uuid "17ec0e21-be39-429a-9da5-8432f9e7931a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 1.25 1.5 0)
-			(layer "F.Fab")
-			(uuid "bd4c4717-74ac-47ae-8501-d6c4a6192740")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 2)
@@ -2570,13 +2519,13 @@
 	(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "59946a67-924f-4451-9e1b-f2a03c0ee6ef")
-		(at 87.25 70.75 180)
+		(at 98.592 32.0048 180)
 		(descr "JST EH series connector, B3B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SERVO5"
-			(at -0.126 -2.402 180)
+			(at 2.58 -2.794 180)
 			(layer "F.SilkS")
-			(uuid "2a5c0dfa-3935-48a8-b5c4-a4c5cdc77bdc")
+			(uuid "918f3e55-0888-441d-8454-b0dcd657dfd0")
 			(effects
 				(font
 					(size 1 1)
@@ -2587,7 +2536,8 @@
 		(property "Value" "SERVO5"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "7f9b0644-92bb-448e-be92-4c63be7b1979")
+			(hide yes)
+			(uuid "5ea7bd2b-a47a-4bf1-b86d-4d4dba064d71")
 			(effects
 				(font
 					(size 1 1)
@@ -2599,7 +2549,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29a99ddd-540b-4c15-929d-1c74acd27ef6")
+			(uuid "2720da29-c66f-4de3-984d-6a2806d8db52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2561,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8c81b0e-1c73-40db-b29d-ee57fff256c0")
+			(uuid "b24d0c67-adbe-41d5-8de5-88f6685b51f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,17 +2824,6 @@
 			(layer "F.Fab")
 			(uuid "cbeb86aa-a113-4b9a-8c74-e0075e7cce30")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.5 2.5 0)
-			(layer "F.Fab")
-			(uuid "b78f043d-3fd9-40d8-af81-85ec22e8258c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 1.7 1.95)
@@ -2935,13 +2874,14 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5e1e0590-27fe-4029-8bc3-8b7dea95cbf4")
-		(at 56.21 81.978)
+		(at 67.552 43.631)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J20"
 			(at -0.33 -2.476 0)
 			(layer "F.SilkS")
-			(uuid "13e4d26d-3920-43ec-b74f-1235be814a55")
+			(hide yes)
+			(uuid "59b860d8-dc79-4008-9020-8269af45c01d")
 			(effects
 				(font
 					(size 1 1)
@@ -2952,7 +2892,8 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at 0 3.57 90)
 			(layer "F.Fab")
-			(uuid "188c4902-b72f-4484-b5a2-9b6ad787f261")
+			(hide yes)
+			(uuid "448c3d94-0399-4e7d-8ead-cc1dc5827db6")
 			(effects
 				(font
 					(size 1 1)
@@ -2964,7 +2905,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2540cea1-c1a6-4197-9f48-f2f49f0f44a4")
+			(uuid "b2bce95d-d544-48ee-8a33-fdd076cfca56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2917,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55adb89a-262b-490a-bb2b-b924d96332d1")
+			(uuid "664a5160-60df-4f58-b624-9b76c90d438b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,17 +3312,28 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/minio/kicad-ws/ESP32-WROOM-32E/ESP32-ROS-IO-V4.0/ESP32_DEVKITC_32E/ESP32-DEVKITC-32E.STEP"
+			(offset
+				(xyz 12.7 -22.5 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "62055440-6cb2-47a0-b873-ae18845e0483")
-		(at 22.538 110.477)
+		(at 33.5912 75.1744)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW3"
-			(at 5.85 0.195 270)
+			(at 6.178 0.1984 270)
 			(layer "F.SilkS")
-			(uuid "0aa1dc1a-b275-4497-9dc0-f43935fa68ff")
+			(uuid "91958722-9f1d-49c1-9364-98fc00805db3")
 			(effects
 				(font
 					(size 1 1)
@@ -3392,7 +3344,7 @@
 		(property "Value" "SW3"
 			(at 5.85 0.195 270)
 			(layer "F.Fab")
-			(uuid "144ed53a-5dc7-47d5-a249-d02d071cbc89")
+			(uuid "b432f526-6218-4f68-99ad-2530e8629636")
 			(effects
 				(font
 					(size 1 1)
@@ -3404,7 +3356,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9518a3f4-5b2a-4fb7-8e52-5d10867062aa")
+			(uuid "4d08fba6-4d80-4d5b-804f-163e36801f09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3368,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "412c7047-89e2-4f53-8b44-e88ac7c966b7")
+			(uuid "44366c3e-9e94-452a-b269-20b6ca9d92f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,13 +3681,14 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "627ee9b5-2149-4f7e-8e48-ace0a9b70efd")
-		(at 85.42 81.978)
+		(at 96.762 43.631)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J21"
 			(at -26.975 -6.47 270)
 			(layer "F.SilkS")
-			(uuid "8f1c46ac-4f2b-4143-bf42-ddb26ca010a0")
+			(hide yes)
+			(uuid "d06110ec-3951-45d4-886c-a85459a3577a")
 			(effects
 				(font
 					(size 1 1)
@@ -3746,7 +3699,8 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at -25.96 1.284 0)
 			(layer "F.Fab")
-			(uuid "b54c22e8-d8db-425b-9d13-aff5c6b989e1")
+			(hide yes)
+			(uuid "5549a49b-80cf-4d1a-abd1-f3b09f0057cd")
 			(effects
 				(font
 					(size 1 1)
@@ -3758,7 +3712,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b13bd173-399a-42a8-a112-f31f708cbd25")
+			(uuid "f70e2d65-bc40-41da-950d-8ddf1bfa0ab9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3724,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e69ebe4b-590c-4483-b757-a7e6092286e6")
+			(uuid "aea5ef1d-b772-4f50-beab-f1bc0ffe875d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,13 +4123,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "628e0369-73a6-4ef5-8b12-65fcde64e12d")
-		(at 14.264 117.12 -90)
+		(at 25.606 79.4258 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "TR1"
-			(at 0 -2.38 90)
+		(property "Reference" "TR1_EN"
+			(at 2.4638 1.222 0)
 			(layer "F.SilkS")
-			(uuid "b4c5b568-1680-4836-b394-45a6a30c0da1")
+			(uuid "350c9b7a-2418-4a5d-ad63-07a8082cd2af")
 			(effects
 				(font
 					(size 1 1)
@@ -4186,7 +4140,7 @@
 		(property "Value" "TR1"
 			(at 0.25 2.54 90)
 			(layer "F.Fab")
-			(uuid "4ba63edb-ffd8-453b-870a-be30ac11afa0")
+			(uuid "32ecd27b-022f-4c89-b03e-d8b64a30785a")
 			(effects
 				(font
 					(size 1 1)
@@ -4198,7 +4152,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb207317-9724-4b95-a185-f58b36b30d86")
+			(uuid "5b9bcbbe-f0af-4fc8-8620-db34a90e0770")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4164,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84c719ee-1500-462a-975d-514bab2e8d2b")
+			(uuid "01e73516-29b3-480f-aa08-c791c81ab3cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,13 +4376,13 @@
 	(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "65a6439e-9d59-487d-8bf7-4db6437da7c0")
-		(at 63.5 76.5 180)
+		(at 74.842 38.153 180)
 		(descr "JST EH series connector, B3B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SERVO2"
-			(at -1.27 -3 0)
+			(at 2.198 -2.7918 0)
 			(layer "F.SilkS")
-			(uuid "b9c35e78-8257-40e6-b58f-7b4fb28baebd")
+			(uuid "9a99a058-0cd7-4f9b-a70f-07c2c42eeb27")
 			(effects
 				(font
 					(size 1 1)
@@ -4439,7 +4393,8 @@
 		(property "Value" "SERVO2"
 			(at 2.5 3.4 0)
 			(layer "F.Fab")
-			(uuid "69299f4e-90a1-4cb6-846f-5eca61fab04b")
+			(hide yes)
+			(uuid "37032f22-7e52-441d-bda4-544186da71ac")
 			(effects
 				(font
 					(size 1 1)
@@ -4451,7 +4406,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0426801-8b98-4a26-8dc1-7e6388092620")
+			(uuid "d5bd4a9a-90bc-4ff1-bf4d-8378109e306b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4418,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f3daee3-eee6-4e36-a0ba-e65df4889c09")
+			(uuid "c2b71f0c-b916-4d3a-aa81-d19b86512cbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,17 +4681,6 @@
 			(layer "F.Fab")
 			(uuid "7df7311f-fb6c-417f-83e6-ad8f695ebf1a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 2.5 1.5 0)
-			(layer "F.Fab")
-			(uuid "61387818-50f1-4377-87f8-77c02c81307b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 1.7 1.95)
@@ -4787,13 +4731,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "72f89ff4-60b5-4aeb-8305-24ea0df03590")
-		(at 41.788 115.927)
+		(at 53.1532 80.6388)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW8"
-			(at 6.1 0.245 270)
+			(at 6.1812 0.245 270)
 			(layer "F.SilkS")
-			(uuid "ac509e49-f2aa-4e02-b7b1-9cbe46c91050")
+			(uuid "2b48db5d-82aa-4e0f-b770-57002453f185")
 			(effects
 				(font
 					(size 1 1)
@@ -4804,7 +4748,8 @@
 		(property "Value" "SW8"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "70249f17-23f0-49b7-ada5-9028b204105b")
+			(hide yes)
+			(uuid "9ef8fe10-52d1-4c8d-99db-3d0453e83254")
 			(effects
 				(font
 					(size 1 1)
@@ -4816,7 +4761,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47a74374-6d0e-4daf-a75b-fe5afa568265")
+			(uuid "20ef13b7-5c4c-4423-a495-96ec2df048b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4773,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3dcba94-765b-45a1-a542-66e0e40c73af")
+			(uuid "d3103d6b-c936-4f62-a0f6-e461f94dee87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,11 +5086,12 @@
 	(footprint "XT60-M:AMASS_XT60-M"
 		(layer "F.Cu")
 		(uuid "7cecb831-7a8b-4a4b-a78f-58fdfe2b6722")
-		(at 26.5 64)
+		(at 37.842 25.653)
 		(property "Reference" "J13"
 			(at 3.5 1 0)
 			(layer "F.SilkS")
-			(uuid "d5157da5-8e04-43eb-81d0-b91598285930")
+			(hide yes)
+			(uuid "6773dfd0-e4bc-4c4f-a899-4b9641e071b8")
 			(effects
 				(font
 					(size 1 1)
@@ -5156,7 +5102,8 @@
 		(property "Value" "XT60-M"
 			(at 16.215 2.395 90)
 			(layer "F.Fab")
-			(uuid "bacd5c87-01d2-42d7-b054-ade1bae9e7c0")
+			(hide yes)
+			(uuid "1960389c-bb0b-4cdc-9b4a-6031e602107e")
 			(effects
 				(font
 					(size 1 1)
@@ -5168,7 +5115,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db2f5995-98eb-45ff-8be8-a089a473b77a")
+			(uuid "89b99639-a4c3-4b97-af31-7906579b23c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5127,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "244409ec-876c-4e7c-b992-b28da14cfaa5")
+			(uuid "314fa186-7b01-409f-898a-1e28b6b8c924")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,8 +5376,8 @@
 			(uuid "cf3fbc58-5f0e-4d45-be72-4b4fbd8c9d5c")
 		)
 		(fp_line
-			(start 8.5 0)
-			(end 9.5 0)
+			(start 8.0852 -0.5588)
+			(end 9.0852 -0.5588)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -5559,8 +5506,8 @@
 			(uuid "d2ff3d05-6252-456a-afdf-739a36d65546")
 		)
 		(fp_line
-			(start 8.5 0)
-			(end 9.5 0)
+			(start 8.0852 -0.5588)
+			(end 9.0852 -0.5588)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -5608,13 +5555,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "81c9960c-e9ae-441f-89cb-1eca12391499")
-		(at 32.038 110.477)
+		(at 43.4032 75.1888)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW4"
-			(at 5.85 0.445 270)
+			(at 6.1776 0.445 270)
 			(layer "F.SilkS")
-			(uuid "cbd3a70c-e38f-4c8c-a022-e5078eccecf1")
+			(uuid "3a24d2cb-fe06-4f68-9057-8029a8fdfd44")
 			(effects
 				(font
 					(size 1 1)
@@ -5625,7 +5572,8 @@
 		(property "Value" "SW4"
 			(at 2.25 1.9 0)
 			(layer "F.Fab")
-			(uuid "b59d707c-cefc-4339-abe3-2d9625695fda")
+			(hide yes)
+			(uuid "396e4abf-715d-4041-98c2-41e68f1461c2")
 			(effects
 				(font
 					(size 1 1)
@@ -5637,7 +5585,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4bff603-b541-45cc-b493-539b3ca99989")
+			(uuid "82360966-2a52-4504-b086-89943d09ca0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5597,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d8ed881-bf3a-4ea3-882f-d4c93638b99a")
+			(uuid "38f24962-4165-4a20-850f-c8dbe742607b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,17 +5860,6 @@
 			(layer "F.Fab")
 			(uuid "9bcfe56f-c4cf-4de8-aab9-62b977b87328")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 2.25 0 0)
-			(layer "F.Fab")
-			(uuid "507a3685-9cb3-450f-8782-8ddd88a47124")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 2)
@@ -5962,13 +5899,13 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "86be39da-e4c2-470d-b9b4-62c544c6b58f")
-		(at 36.138 81.697)
+		(at 47.48 43.35)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC4"
 			(at 11.106 0.091 270)
 			(layer "F.SilkS")
-			(uuid "c0d45ace-e4e2-4f6d-97c0-8b2a9d055fc7")
+			(uuid "33ee1784-3e92-4c31-9a42-14e729d78606")
 			(effects
 				(font
 					(size 1 1)
@@ -5979,7 +5916,8 @@
 		(property "Value" "ENC4"
 			(at 3.5 -6.725 0)
 			(layer "F.Fab")
-			(uuid "0c0a44ba-a3dd-40f7-bd4c-ef725ddececb")
+			(hide yes)
+			(uuid "d0590331-22c2-46d5-93df-2e44ec86ebbd")
 			(effects
 				(font
 					(size 1 1)
@@ -5991,7 +5929,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f34e2170-7851-4f62-ba4e-06897c2a9a86")
+			(uuid "771f73c3-b8df-401e-817c-144c9faa522e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +5941,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db140886-d9bc-419b-adb2-5a30f08266b7")
+			(uuid "3e5e72a9-b4d8-472d-b7ca-3c2cdbd4e194")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,17 +6294,6 @@
 			(layer "F.Fab")
 			(uuid "2599c370-b514-4158-9500-69d74b6abe24")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.75 2.7 0)
-			(layer "F.Fab")
-			(uuid "9d7b9653-16a4-425b-8fd2-dfaae41e8132")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 1.95)
@@ -6428,13 +6355,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "897bedf7-9337-4dbc-8060-74297c4eb62b")
-		(at 41.788 105.227)
+		(at 53.1732 68.9356)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW2"
-			(at 6.35 0.445 270)
+			(at 6.1612 0.445 270)
 			(layer "F.SilkS")
-			(uuid "a6347fb3-8903-48ec-aefc-97bddae40344")
+			(uuid "79fc0932-28a1-4014-a7e7-49fadb78b12d")
 			(effects
 				(font
 					(size 1 1)
@@ -6445,7 +6372,8 @@
 		(property "Value" "SW2"
 			(at 1.5 4.25 0)
 			(layer "F.Fab")
-			(uuid "995343fc-b526-4dc3-a66f-0244a355d57e")
+			(hide yes)
+			(uuid "0391fa9b-ae5a-4b01-aab7-5f56ac03aeb6")
 			(effects
 				(font
 					(size 1 1)
@@ -6457,7 +6385,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed8f514f-dbcd-4a00-8495-a44819d9a538")
+			(uuid "c7e31cc8-82d1-440e-9244-8f624c8112c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6397,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0ad457c-9937-48c9-9853-40ff4194376f")
+			(uuid "d9cbe65e-83f9-4c75-95cb-0449182adcad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,11 +6710,12 @@
 	(footprint "XT60-M:AMASS_XT60-M"
 		(layer "F.Cu")
 		(uuid "8cabfbb4-6f31-448f-87e4-7ca611c7b953")
-		(at 44.235 64.08)
+		(at 55.577 25.733)
 		(property "Reference" "J12"
 			(at 0.515 -0.08 0)
 			(layer "F.SilkS")
-			(uuid "58a24391-5b53-43cc-a051-154a209e632b")
+			(hide yes)
+			(uuid "6efabb25-8d91-4ab5-9aba-d70dea4e7121")
 			(effects
 				(font
 					(size 1 1)
@@ -6797,7 +6726,8 @@
 		(property "Value" "XT60-M"
 			(at -7.362 18.922 0)
 			(layer "F.Fab")
-			(uuid "4945c322-c7d7-433d-b835-149a68fd399f")
+			(hide yes)
+			(uuid "d290f470-cf9d-4472-85ce-411d5368dcb1")
 			(effects
 				(font
 					(size 1 1)
@@ -6809,7 +6739,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33a648fd-29a1-416b-ab2d-5ab9c4ba47ea")
+			(uuid "c9f84969-c62b-476a-9011-b52684919915")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +6751,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e96c45ee-5c0f-4e4e-9774-e018b735397b")
+			(uuid "4828fcd1-9c34-4c65-ab5f-fc22ce860275")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,8 +6920,8 @@
 		(sheetfile "harurobo.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -9.5 0)
-			(end -8.5 0)
+			(start -9.136 0.508)
+			(end -8.136 0.508)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -7000,8 +6930,8 @@
 			(uuid "f8b6cc50-9921-4ea9-98af-5c44b1082888")
 		)
 		(fp_line
-			(start -9 -0.5)
-			(end -9 0.5)
+			(start -8.636 0.008)
+			(end -8.636 1.008)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -7120,8 +7050,8 @@
 			(uuid "f14be76f-3b59-470c-805a-74786f5637ce")
 		)
 		(fp_line
-			(start -9.5 0)
-			(end -8.5 0)
+			(start -9.136 0.508)
+			(end -8.136 0.508)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -7130,8 +7060,8 @@
 			(uuid "07341d5a-9569-4e91-a1c9-3c687bccad8e")
 		)
 		(fp_line
-			(start -9 -0.5)
-			(end -9 0.5)
+			(start -8.636 0.008)
+			(end -8.636 1.008)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -7249,13 +7179,13 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "98cf8e95-8a94-4221-b7cb-6a7fdba50e95")
-		(at 22.138 81.672)
+		(at 33.48 43.325)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC2"
 			(at -3.85 0.878 270)
 			(layer "F.SilkS")
-			(uuid "ae969430-5c5c-43d8-8ff3-3fe3fd735943")
+			(uuid "8b942fe3-0a6c-4230-a6b4-d97226bfd522")
 			(effects
 				(font
 					(size 1 1)
@@ -7266,7 +7196,8 @@
 		(property "Value" "ENC2"
 			(at 3.75 0.525 90)
 			(layer "F.Fab")
-			(uuid "5d04f54f-6a0e-4be6-bb74-1dec51d28e8b")
+			(hide yes)
+			(uuid "d92d0c7e-d474-4660-9606-f456d4934f96")
 			(effects
 				(font
 					(size 1 1)
@@ -7278,7 +7209,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0789f3b4-6bce-4d6d-a0fb-7b51d08d0eee")
+			(uuid "5b538648-8e33-416a-a552-afdd7bfee76c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7221,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a316d89e-6f0f-4c54-815d-a2c61cc88946")
+			(uuid "417a5771-fdd2-4e14-b42d-922c66220abe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,17 +7574,6 @@
 			(layer "F.Fab")
 			(uuid "16368447-fccc-48ac-b175-8ed152f93e21")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 4.25 2.7 0)
-			(layer "F.Fab")
-			(uuid "00abdf46-fdcf-48f8-b9bf-8a9d51fdf327")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 1.95)
@@ -7715,13 +7635,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9c31321f-aaeb-4620-bf3c-06ec26ea6aaa")
-		(at 41.788 110.477)
+		(at 53.1532 75.1888)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW5"
-			(at 6.1 0.445 270)
+			(at 6.1812 0.4524 270)
 			(layer "F.SilkS")
-			(uuid "0b518a58-a7fd-4b4a-9b65-f5fba96b8a3c")
+			(uuid "6ed449fe-55cc-435e-b86d-7dbb8e3078cc")
 			(effects
 				(font
 					(size 1 1)
@@ -7732,7 +7652,8 @@
 		(property "Value" "SW5"
 			(at 7.1 4.195 270)
 			(layer "F.Fab")
-			(uuid "fa0ee2b8-b59c-4d67-ac88-399ae744e966")
+			(hide yes)
+			(uuid "c71ff57b-504a-4042-8ece-858294d43aa7")
 			(effects
 				(font
 					(size 1 1)
@@ -7744,7 +7665,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7912acff-c3c1-4fd9-b75d-7dc41eaf884c")
+			(uuid "a640645f-23d3-499f-87c0-6c3349478c9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +7677,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f66b917d-c45f-44da-8f99-4e6ff13e4b8e")
+			(uuid "b6bb686b-0d44-4c8d-82a6-24959301c64f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,17 +7940,6 @@
 			(layer "F.Fab")
 			(uuid "af4dd0f3-938b-44bf-aa40-370a3909ac00")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 6.95 4.195 270)
-			(layer "F.Fab")
-			(uuid "33c14827-80bd-426f-99f0-87305031df7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 2)
@@ -8069,13 +7979,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a1eadd88-cbb6-4134-9a1c-58934f747fdd")
-		(at 14.224 102.87 -90)
+		(at 25.566 64.523 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "TR4"
-			(at 0 -2.38 90)
+		(property "Reference" "TR4_EN"
+			(at 2.533 1.309 0)
 			(layer "F.SilkS")
-			(uuid "7fc5f95c-b0f2-438f-82fb-2be7697631c8")
+			(uuid "5281ea1b-5976-4c29-9d24-327c77d0678b")
 			(effects
 				(font
 					(size 1 1)
@@ -8086,7 +7996,7 @@
 		(property "Value" "TR4"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "32e6d31d-f998-4f5d-8b00-b9154634debd")
+			(uuid "c9cfd65e-148e-44dd-ac7f-efddaf75929f")
 			(effects
 				(font
 					(size 1 1)
@@ -8098,7 +8008,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "578e6ced-fa5e-42cd-b99b-f205b267c7a9")
+			(uuid "09866e0e-4dc7-4f05-9fc4-0c9048bcc908")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8020,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e690916-b6a8-40c2-8051-bab296e11ea0")
+			(uuid "e694b817-1821-45ae-a7fd-25ff5e0f0d25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,13 +8232,14 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a516ed9e-e2bf-4c37-b3ce-b0ec33997169")
-		(at 89.154 82.042)
+		(at 100.496 43.695)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J19"
 			(at 0.25 -2.42 0)
 			(layer "F.SilkS")
-			(uuid "dacff3f7-c749-4401-95e6-12f0a4efb151")
+			(hide yes)
+			(uuid "1de79ab1-e607-4702-9e5d-6f4bf00292f2")
 			(effects
 				(font
 					(size 1 1)
@@ -8339,7 +8250,8 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at -5.5 9.66 0)
 			(layer "F.Fab")
-			(uuid "e2e41f16-646c-45ec-8d8b-f1a5252b9af0")
+			(hide yes)
+			(uuid "a3fdb9fe-14ca-4326-ab08-0c8f9f218415")
 			(effects
 				(font
 					(size 1 1)
@@ -8351,7 +8263,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd44ac7e-427a-4d16-b62d-22386a1fa42f")
+			(uuid "73a15c7a-8103-4f3c-a3f1-7a83bef60a01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8275,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8c52d6d-bede-46ec-b41d-f245620f99fb")
+			(uuid "c0bdeaab-995c-4c8a-b372-4519afe150cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,13 +8674,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a872bd0c-e28a-4f03-8efd-7fd8a6f429e5")
-		(at 32.038 99.677)
+		(at 43.38 62.4984)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SV2"
-			(at 6.1 0.245 270)
+			(at 6.15 0.2396 270)
 			(layer "F.SilkS")
-			(uuid "ccab1e1f-6b0f-4b41-b299-4bb148a45a2d")
+			(uuid "d61d0cbb-e397-43d8-b150-c1a11bb24a55")
 			(effects
 				(font
 					(size 1 1)
@@ -8779,7 +8691,8 @@
 		(property "Value" "SV2"
 			(at 0.85 -2.505 0)
 			(layer "F.Fab")
-			(uuid "09827534-8e45-4b43-8c19-6634a2238c71")
+			(hide yes)
+			(uuid "2bf46aba-455c-4121-bb2f-817a0b4c79bc")
 			(effects
 				(font
 					(size 1 1)
@@ -8791,7 +8704,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f04b445-c3c4-41ad-92d2-9c76a03ddbd0")
+			(uuid "e36b6a2d-3199-4fda-ba5a-db3721dd70f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8716,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "560255f9-3853-4f8c-9a40-eb1cc13de086")
+			(uuid "15831d78-8592-4429-8d59-6689098246e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,17 +8979,6 @@
 			(layer "F.Fab")
 			(uuid "31f8e423-15e0-458d-91b4-b3584156a899")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 6.35 -0.005 270)
-			(layer "F.Fab")
-			(uuid "21f53ef1-0f45-428d-bd35-3a7a042e8ca5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 2)
@@ -9116,13 +9018,13 @@
 	(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "af7f4bc5-5b74-4b40-a300-fe88f29d49e7")
-		(at 44.538 94.227 90)
+		(at 55.88 55.88 90)
 		(descr "JST EH series connector, B3B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SERVO7"
-			(at 2.555 -2.65 270)
+			(at 2.555 -2.6924 270)
 			(layer "F.SilkS")
-			(uuid "bebcc173-3f24-402f-8af1-8127547d4ea4")
+			(uuid "f3670f7d-c547-40c2-8894-7751155d06be")
 			(effects
 				(font
 					(size 1 1)
@@ -9133,7 +9035,8 @@
 		(property "Value" "SERVO7"
 			(at 2.25 -0.3 90)
 			(layer "F.Fab")
-			(uuid "23de5551-56ff-44bf-a577-511b73c93490")
+			(hide yes)
+			(uuid "969d7bc9-3ec1-423d-b9ff-29e117073c8d")
 			(effects
 				(font
 					(size 1 1)
@@ -9145,7 +9048,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "507e50d2-c2f2-4de4-abb8-5c0ec73b70b0")
+			(uuid "f3eabb1e-8e73-4403-8200-75c55397b3f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,7 +9060,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "386cb637-0763-4c63-957d-f51e78567691")
+			(uuid "0299f5c1-86c5-407d-857e-3e0bb96aebc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,17 +9323,6 @@
 			(layer "F.Fab")
 			(uuid "2f5ecc5a-a5c9-42af-b324-a82e9e3a33cc")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.055 3.1 90)
-			(layer "F.Fab")
-			(uuid "a862e354-2fc7-4052-be1d-747ed1f16978")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
 			(size 1.7 1.95)
@@ -9481,13 +9373,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b63a08b3-81db-441f-8141-a5dbadee0b7a")
-		(at 41.788 99.727)
+		(at 53.13 62.5484)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SV3"
-			(at 6.1 0.445 270)
+			(at 6.1536 0.4436 270)
 			(layer "F.SilkS")
-			(uuid "79ac3cb1-cfb4-4852-8ce0-1c98585309f8")
+			(uuid "16bb2f9b-60e6-4d9f-b2a7-8f9bb93b10d3")
 			(effects
 				(font
 					(size 1 1)
@@ -9498,7 +9390,8 @@
 		(property "Value" "SV3"
 			(at 6.1 0.195 270)
 			(layer "F.Fab")
-			(uuid "13883085-69ed-4512-a841-e23221d1ee30")
+			(hide yes)
+			(uuid "716d290d-a1e3-4adc-a49f-e511df1b8d00")
 			(effects
 				(font
 					(size 1 1)
@@ -9510,7 +9403,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8e702ae-09c1-4d09-9b02-9018ca43aa93")
+			(uuid "7b4e3fbe-92d0-4c69-927c-635563c4099d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +9415,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ece0633-a1c7-47b7-a908-788d2af00041")
+			(uuid "f82d1f41-2bec-4b8e-b973-b8660b1eac94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,17 +9678,6 @@
 			(layer "F.Fab")
 			(uuid "78a8295f-45ec-41b5-b3ff-f9b8e6a8fee7")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -0.65 -2.805 0)
-			(layer "F.Fab")
-			(uuid "94a91e83-3aa2-46fd-a881-01aca43b7ef5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 2)
@@ -9835,13 +9717,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b646b9c3-4416-4c89-88eb-1bd9070ba734")
-		(at 63.47 61 90)
+		(at 74.812 22.653 90)
 		(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x11 2.54mm single row")
 		(property "Reference" "VMD3/VMD4"
-			(at -3 14.78 0)
+			(at -2.4676 11.2686 0)
 			(layer "F.SilkS")
-			(uuid "716f05aa-8b22-43a5-8ae3-556edce9f201")
+			(uuid "2bf92fa5-e2b3-4a94-8146-6a403ee39e97")
 			(effects
 				(font
 					(size 1 1)
@@ -9852,7 +9734,8 @@
 		(property "Value" "VMD3/VMD4"
 			(at -5.25 25.82 270)
 			(layer "F.Fab")
-			(uuid "2ae36041-93b6-4655-80c1-76af92d81852")
+			(hide yes)
+			(uuid "71ca1c7f-0977-4cfc-b4d2-d3df30d65689")
 			(effects
 				(font
 					(size 1 1)
@@ -9864,7 +9747,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71ea1fbf-b6cf-4b30-9c18-61dacd0ee50f")
+			(uuid "014ca572-7321-4542-b916-d8588bcea8a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +9759,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aef35853-43c1-4bc5-940c-283bcac1683f")
+			(uuid "b4fb6978-a5a7-4ea8-a0fc-80da930a845a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,17 +9922,6 @@
 			(layer "F.Fab")
 			(uuid "8ad4e2cd-d3c5-4e8f-bd91-bb5a48403a55")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 12.7 0)
-			(layer "F.Fab")
-			(uuid "d1962e3b-d48a-4688-9022-4771ce17386d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.7 1.7)
@@ -10198,13 +10070,14 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b9297294-095a-42dd-bfda-5c90bdc6a8cc")
-		(at 52.324 82.042)
+		(at 63.666 43.695)
 		(descr "Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x19 2.54mm single row")
 		(property "Reference" "J18"
 			(at 0.25 -2.67 0)
 			(layer "F.SilkS")
-			(uuid "9f593114-4067-4601-a823-f3eeaabb0228")
+			(hide yes)
+			(uuid "eb0fbcd8-557c-4c79-9121-e47c4894c83d")
 			(effects
 				(font
 					(size 1 1)
@@ -10215,7 +10088,8 @@
 		(property "Value" "Conn_01x19_Socket"
 			(at 4.25 -0.34 0)
 			(layer "F.Fab")
-			(uuid "198eafb9-955d-43bd-863d-cc356c01ac03")
+			(hide yes)
+			(uuid "a603bc49-5b19-4f26-98d0-def8d7efce6e")
 			(effects
 				(font
 					(size 1 1)
@@ -10227,7 +10101,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdd3447e-602f-43e2-b1b9-7a0cc70d7558")
+			(uuid "b0ae93d1-0ab9-4b79-9cf1-bcc29e2590ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10113,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b6c4630-9e44-4e54-aba1-f3e8792925b7")
+			(uuid "f154765c-66ec-41fe-b132-f6646f8748a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10638,13 +10512,13 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c358b045-93d9-49b4-a627-76e90c07260b")
-		(at 22.138 74.422)
+		(at 33.48 36.075)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC1"
 			(at -3.85 0.762 270)
 			(layer "F.SilkS")
-			(uuid "a812e67f-1279-41a1-ab0d-01b7b3cee62b")
+			(uuid "11ed278f-87e0-4086-9c1e-804b4cbc3044")
 			(effects
 				(font
 					(size 1 1)
@@ -10655,7 +10529,8 @@
 		(property "Value" "ENC1"
 			(at 3.5 4.35 0)
 			(layer "F.Fab")
-			(uuid "08b2afa4-1809-45fc-95f2-347fb1cfa296")
+			(hide yes)
+			(uuid "4c864a98-7ee7-4979-a660-3ded4e307283")
 			(effects
 				(font
 					(size 1 1)
@@ -10667,7 +10542,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5b383d4-21f9-486a-82f7-ebacc8c5375d")
+			(uuid "8d92c85b-7182-443e-9d23-2c5c70a9e9bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +10554,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8efdde35-7f0f-4ae6-8486-289d3309beaa")
+			(uuid "01213ea6-d73e-4258-bbf9-368e7ea42252")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,17 +10907,6 @@
 			(layer "F.Fab")
 			(uuid "965994eb-db8e-445b-bc13-733c7cc87442")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -3.5 0)
-			(layer "F.Fab")
-			(uuid "1d5cf9d1-ad64-4ccd-8e99-649e280ac794")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 1.95)
@@ -11104,13 +10968,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c44462fc-a819-423c-8cff-7f4769b55a0a")
-		(at 22.538 105.177)
+		(at 33.6112 68.8712)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SV4"
-			(at 5.85 0.245 270)
+			(at 6.2088 0.2532 270)
 			(layer "F.SilkS")
-			(uuid "08739fd3-9f03-4acd-bafc-33b9d20237bd")
+			(uuid "0319deda-0529-4ac2-80d2-3e38c72dbc5d")
 			(effects
 				(font
 					(size 1 1)
@@ -11121,7 +10985,8 @@
 		(property "Value" "SV4"
 			(at 1.65 4.83 0)
 			(layer "F.Fab")
-			(uuid "b09602e9-e349-48bc-97c1-a4f6a80f6ebf")
+			(hide yes)
+			(uuid "4e511abe-f5c6-468a-85ba-1483bddd800a")
 			(effects
 				(font
 					(size 1 1)
@@ -11133,7 +10998,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "981ac794-7dc2-4999-8789-9c4680ce2182")
+			(uuid "39a448d6-4ea6-4e48-ae1e-34d1f3ed56b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +11010,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1fbdad18-d2e9-4f2d-885d-1bb42956526c")
+			(uuid "8a6f6a19-73b8-4efa-9af6-123c209f1e0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11408,17 +11273,6 @@
 			(layer "F.Fab")
 			(uuid "07887f4d-7676-4f51-bf26-f6b9b79f4404")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -3.4 0.495 270)
-			(layer "F.Fab")
-			(uuid "494f58db-1289-4a21-8207-ffc69b68a92f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 2)
@@ -11458,13 +11312,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d2fb05b2-d18b-44e9-9b1b-83ee9e613d10")
-		(at 11.176 89.408 180)
+		(at 22.518 51.061 180)
 		(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x11 2.54mm single row")
 		(property "Reference" "VMD5/VMD6"
-			(at -3 17.25 270)
+			(at -2.501 8.7954 270)
 			(layer "F.SilkS")
-			(uuid "085f5f15-2c19-4092-b9bb-897bfdde6b91")
+			(uuid "eb2fa3c9-44c7-4e99-9f31-6bd3678f0137")
 			(effects
 				(font
 					(size 1 1)
@@ -11475,7 +11329,8 @@
 		(property "Value" "VMD5/VMD6"
 			(at -2.966 -0.206 270)
 			(layer "F.Fab")
-			(uuid "f057f53f-24ec-4150-b36d-e4bdf11663d9")
+			(hide yes)
+			(uuid "34a4db79-9577-444f-aa6b-3337864e6f86")
 			(effects
 				(font
 					(size 1 1)
@@ -11487,7 +11342,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "801ce617-4adb-4f8a-8637-f0764078ae03")
+			(uuid "712817cd-155f-4dc9-9182-4ed6c0be92b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11354,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d36e751a-0390-481a-a65f-ae6ddcc920e8")
+			(uuid "fb7580a4-dd27-4946-a988-d39236b3d8f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,17 +11517,6 @@
 			(layer "F.Fab")
 			(uuid "969922fc-1452-4cb9-a9a1-a0a01e6d56f6")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 12.7 90)
-			(layer "F.Fab")
-			(uuid "1d8bdea7-7bc1-4146-84c5-cb0664bfbcb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.7 1.7)
@@ -11821,13 +11665,13 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ddaf8e12-cd15-40e7-b87f-e78c4affa1bf")
-		(at 32.038 116.227)
+		(at 43.4032 80.9388)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SW7"
-			(at 6.1 0.195 270)
+			(at 6.1776 0.1888 270)
 			(layer "F.SilkS")
-			(uuid "2723c5c8-62b7-4e79-8c57-270ec9dd5b42")
+			(uuid "8c6c698b-f8ac-4787-8438-c315345f0cab")
 			(effects
 				(font
 					(size 1 1)
@@ -11838,7 +11682,8 @@
 		(property "Value" "SW7"
 			(at 0.25 0.4 0)
 			(layer "F.Fab")
-			(uuid "da2cbd27-076a-4a82-b76f-4c80b091c3d7")
+			(hide yes)
+			(uuid "5f6f3ac8-55da-41e6-b3b6-7fcc6c6c4030")
 			(effects
 				(font
 					(size 1 1)
@@ -11850,7 +11695,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cba96ef2-01dd-4cf7-b5b1-383937748691")
+			(uuid "7a0b14c8-e512-4c64-ad88-40ce85b66795")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,7 +11707,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7d51a77-5f9d-44d0-a865-ee71929bc432")
+			(uuid "1cd9c46e-edcb-4812-a735-eab9461d019f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,13 +12020,14 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "e750891a-1c52-47ce-97f8-91006bfaafa3")
-		(at 20.998 95.227 90)
+		(at 32.34 56.88 90)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
 			(at 3.81 -2.33 90)
 			(layer "F.SilkS")
-			(uuid "36c725f9-8640-4feb-964b-0faf1775ca00")
+			(hide yes)
+			(uuid "3fa1821b-7da8-43c1-892c-42f4991162b1")
 			(effects
 				(font
 					(size 1 1)
@@ -12192,7 +12038,8 @@
 		(property "Value" "~"
 			(at 4.415 26.41 90)
 			(layer "F.Fab")
-			(uuid "ac9cb146-48f5-4a25-9ad8-48e20426c5f6")
+			(hide yes)
+			(uuid "2edbdc94-0cf3-4b1a-bde3-3efc10bf9f68")
 			(effects
 				(font
 					(size 1 1)
@@ -12204,7 +12051,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1d9097d-789f-4497-b032-1ade986feaff")
+			(uuid "6092f812-26bd-4d8e-a249-ad017baeee92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12216,7 +12063,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a99c57c-697d-491c-99af-a252506d6219")
+			(uuid "501898a4-c27e-4b7d-b17e-c1c5bb8079a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,17 +12196,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "54694edc-ed1b-4ef2-99d1-4e41309868b1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.055 12.39 0)
-			(layer "F.Fab")
-			(uuid "b3f145a5-0eeb-441d-af2b-99b6e950bf6c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
@@ -12554,13 +12390,13 @@
 	(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e7a2bb9c-415c-4eb5-ae69-a2c5855ece50")
-		(at 63.5 70.8 180)
+		(at 74.842 32.0548 180)
 		(descr "JST EH series connector, B3B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "SERVO1"
-			(at -2.286 -2.352 0)
+			(at 2.198 -2.7948 0)
 			(layer "F.SilkS")
-			(uuid "40672a68-0c05-4225-992f-330f9b3c7c34")
+			(uuid "d80da8b3-d013-47b7-b3b0-31afb883b736")
 			(effects
 				(font
 					(size 1 1)
@@ -12571,7 +12407,8 @@
 		(property "Value" "SERVO1"
 			(at -2.286 -2.502 0)
 			(layer "F.Fab")
-			(uuid "ae5cf782-3b43-474e-8359-b50ae1e113ad")
+			(hide yes)
+			(uuid "92a5a594-c1ab-4770-a0a9-89f78fcbe6f1")
 			(effects
 				(font
 					(size 1 1)
@@ -12583,7 +12420,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85ee1ed9-bcbe-4cf5-b821-10340bbc9a46")
+			(uuid "942b7c2c-1f1c-4036-8369-69255c84cd25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12432,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5b3df87-4216-494f-9e98-8ba7d4267d48")
+			(uuid "7a150f53-c191-4e0e-82f2-79da96c4f55a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,17 +12695,6 @@
 			(layer "F.Fab")
 			(uuid "1587ffe6-f0cc-4659-ae63-7710ec8d2686")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5 5.05 0)
-			(layer "F.Fab")
-			(uuid "e8797717-bd15-47f3-a57f-5c231aaf0be3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 1.7 1.95)
@@ -12919,13 +12745,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ec2630af-f570-4eb0-8e55-8e1f362faf2d")
-		(at 14.249 107.87 -90)
+		(at 25.591 69.523 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "TR3"
-			(at -0.25 -2.435 90)
+		(property "Reference" "TR3_EN"
+			(at 2.486 1.207 0)
 			(layer "F.SilkS")
-			(uuid "d3d291ff-b0bf-47ae-9f8c-d0f4c49da77b")
+			(uuid "9980aa2b-13a8-443b-9fe8-3f3fae28b9f5")
 			(effects
 				(font
 					(size 1 1)
@@ -12936,7 +12762,7 @@
 		(property "Value" "TR3"
 			(at 0 1.5 0)
 			(layer "F.Fab")
-			(uuid "8f9b00ba-9c43-4ef8-8479-46457745aa9b")
+			(uuid "c190fbce-cea6-459a-b240-093a8a7420c9")
 			(effects
 				(font
 					(size 1 1)
@@ -12948,7 +12774,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8d518ab-d61e-480a-9dd3-0b6fbfda2df7")
+			(uuid "5a6d5075-3edf-4a91-ba35-59f603c16dc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12960,7 +12786,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ea27159-69b1-4b92-a0e8-cb7046109374")
+			(uuid "f4f3d81a-b03b-495f-9cb4-3ef240c27cd0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,13 +12998,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f3ac9463-0eb1-4ae5-879b-266f0ec60339")
-		(at 38.354 126.746 -90)
+		(at 49.696 88.399 -90)
 		(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x11 2.54mm single row")
 		(property "Reference" "VMD1/VMD2"
-			(at -2.54 11.176 0)
+			(at -2.6232 8.7004 0)
 			(layer "F.SilkS")
-			(uuid "dbe22266-64d3-4d11-9bc4-48f4cbea1ec8")
+			(uuid "9ba9512a-9677-476a-bb65-e0f8785d031e")
 			(effects
 				(font
 					(size 1 1)
@@ -13189,7 +13015,8 @@
 		(property "Value" "VMD1/VMD2"
 			(at -2.54 11.43 0)
 			(layer "F.Fab")
-			(uuid "639c7824-be3d-4e62-bb1d-a529612913bc")
+			(hide yes)
+			(uuid "d574ab32-0813-4064-ab2a-23508ef88efd")
 			(effects
 				(font
 					(size 1 1)
@@ -13201,7 +13028,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4385882-fc9f-4713-93e4-7ef1355be2af")
+			(uuid "6878fc62-aa37-41e5-8175-b7018176853f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13213,7 +13040,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1b1a02c-ea70-4aa5-b6b5-ffb20a751c84")
+			(uuid "0ceb9a4e-f730-4606-a975-78d6d88f6e14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13376,17 +13203,6 @@
 			(layer "F.Fab")
 			(uuid "90da112d-11b5-4757-9941-bc34b338dd8b")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 12.7 0)
-			(layer "F.Fab")
-			(uuid "c79f24be-5927-415e-94c1-70d9f3d65e35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.7 1.7)
@@ -13535,13 +13351,13 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "fa8ab2e4-1c1d-4a66-a3e7-1c447e9d5baf")
-		(at 36.138 74.422)
+		(at 47.48 36.075)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC3"
 			(at 11.36 0.508 90)
 			(layer "F.SilkS")
-			(uuid "c743c214-5011-4603-86bc-2c155a619af6")
+			(uuid "3cccb5b8-e679-4bcd-9f49-cfd3d2097bac")
 			(effects
 				(font
 					(size 1 1)
@@ -13552,7 +13368,8 @@
 		(property "Value" "ENC3"
 			(at 3.75 4.6 0)
 			(layer "F.Fab")
-			(uuid "734233d3-40a0-459c-a8a7-cc3532150340")
+			(hide yes)
+			(uuid "91281fa9-0ffd-449d-897d-a009929f1914")
 			(effects
 				(font
 					(size 1 1)
@@ -13564,7 +13381,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db8ce758-9757-4b24-92c1-b9a048a3d44a")
+			(uuid "e98850d7-c338-4cdd-af26-ea49661d0525")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,7 +13393,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9830e98-fb3d-4678-8524-d96314d563b2")
+			(uuid "ceda12b1-6214-4844-a4ab-86ed84bbef54")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,17 +13746,6 @@
 			(layer "F.Fab")
 			(uuid "3b7b8d85-ea4e-4341-9b58-593c6d4cdf0f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.5 -3.75 0)
-			(layer "F.Fab")
-			(uuid "723c5e90-9e3f-4495-a247-42e36d2fc8a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 1.7 1.95)
@@ -13998,44 +13804,46 @@
 			)
 		)
 	)
-	(gr_text "VD GND P P"
-		(at 35.052 71.12 0)
-		(layer "F.SilkS")
-		(uuid "0a5a5841-41da-4c06-9b21-570c5e93e9a9")
+	(gr_text "+ GND"
+		(at 32.2232 85.0356 0)
+		(layer "F.SilkS" knockout)
+		(uuid "0fa16e2e-0697-4ae1-9bd6-1c8deb67ceb0")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND(w)\n24(v)"
-		(at 24.892 118.364 270)
-		(layer "F.SilkS")
-		(uuid "0f00805c-c70a-4117-91f5-25ed5c748a00")
+	(gr_text "GND +"
+		(at 51.308 60.2996 0)
+		(layer "F.SilkS" knockout)
+		(uuid "25d2e4f5-a07b-4b1f-b761-0dd8d82725d1")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "SERVO+"
-		(at 38.1 69.596 0)
-		(layer "F.SilkS")
+	(gr_text "SERVO"
+		(at 50.5968 21.2852 0)
+		(layer "F.SilkS" knockout)
 		(uuid "2bcff3f1-ac54-40dd-b648-1e92f8b229fc")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 2 2)
+				(thickness 0.25)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "GND"
-		(at 37.084 124.714 0)
+		(at 48.3362 86.6394 0)
 		(layer "F.SilkS")
 		(uuid "337508db-696d-4105-991d-6638d377ba65")
 		(effects
@@ -14046,80 +13854,111 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND SV P"
-		(at 47.244 87.376 270)
-		(layer "F.SilkS")
-		(uuid "33b40757-b000-4a99-84c7-bc4aff6557cb")
+	(gr_text "3V3 G  A  B"
+		(at 45.8724 33.0962 0)
+		(layer "F.SilkS" knockout)
+		(uuid "3a7a90f0-cb0b-45a2-8151-fb36f2b32c14")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND SV P"
-		(at 56.388 68.072 0)
-		(layer "F.SilkS")
-		(uuid "3f4ce53e-5a57-420c-b3ea-31d3a2f781e5")
+	(gr_text "GND +"
+		(at 31.8952 60.2344 0)
+		(layer "F.SilkS" knockout)
+		(uuid "44f77ef3-86fd-4a0c-99b7-d0f31e155c95")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND SV P"
-		(at 80.264 67.818 0)
-		(layer "F.SilkS")
-		(uuid "51a1d39a-3ec5-4456-94b6-8b46f0980885")
+	(gr_text "GND + S"
+		(at 80.3402 29.1166 0)
+		(layer "F.SilkS" knockout)
+		(uuid "5828ddf6-5364-4da2-b5ee-8ade3b46954a")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND(w)\n24(v)"
-		(at 34.29 118.872 270)
-		(layer "F.SilkS")
-		(uuid "5c536236-1c7b-40b8-a62e-40be9a6e053e")
+	(gr_text "GND +"
+		(at 41.91 60.2488 0)
+		(layer "F.SilkS" knockout)
+		(uuid "608991a4-8ff7-457e-a953-137ded954432")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 46.482 69.596 0)
-		(layer "F.SilkS")
-		(uuid "73336847-a7f7-4079-9b40-4ff9f19c5055")
+	(gr_text "GND + S"
+		(at 92.202 29.1166 0)
+		(layer "F.SilkS" knockout)
+		(uuid "6dbfeb72-53d9-481f-8674-06ceec0c4c47")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "24V"
-		(at 21.59 69.342 0)
-		(layer "F.SilkS")
+	(gr_text "+ GND"
+		(at 51.8084 66.6732 0)
+		(layer "F.SilkS" knockout)
+		(uuid "71d7eb27-05b8-43e3-aca1-9e355b79bd9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND + S"
+		(at 68.3006 29.142 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7e8a3765-44b3-4d3b-98af-0b6805060d6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V 24V"
+		(at 30.6832 21.2344 0)
+		(layer "F.SilkS" knockout)
 		(uuid "836f0eb7-8c9e-47ed-b937-37fba03e8846")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 2 2)
+				(thickness 0.25)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "GND"
-		(at 10.414 92.456 0)
+		(at 25.5778 52.8574 90)
 		(layer "F.SilkS")
 		(uuid "84bb3974-2663-427e-9429-cc85d531efcd")
 		(effects
@@ -14131,31 +13970,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 80.01 82.296 0)
-		(layer "F.SilkS")
-		(uuid "91fdfb2e-edb2-44ab-80d9-4c9d01c8d8a4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 28.702 69.342 0)
-		(layer "F.SilkS")
-		(uuid "9ae92e31-6880-4db8-a2c3-659c085429db")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 61.468 64.008 0)
+		(at 73.0504 25.7302 0)
 		(layer "F.SilkS")
 		(uuid "9e92e90a-b44f-4130-b5fb-e8ddce94cac3")
 		(effects
@@ -14166,50 +13981,93 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VD GND P P"
-		(at 20.828 71.374 0)
-		(layer "F.SilkS")
+	(gr_text "+ GND"
+		(at 41.9024 66.6732 0)
+		(layer "F.SilkS" knockout)
+		(uuid "a92e072f-16fd-4f67-b105-645d22ff7604")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3 G  A  B"
+		(at 31.8516 33.0708 0)
+		(layer "F.SilkS" knockout)
 		(uuid "a9b7363f-0bac-45c4-97e4-67f006e0cf1f")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND(w)\n24(v)"
-		(at 44.704 119.126 270)
-		(layer "F.SilkS")
-		(uuid "c2b8dd02-f76a-41a9-b758-e5de7c000007")
+	(gr_text "GND +"
+		(at 31.8876 66.608 0)
+		(layer "F.SilkS" knockout)
+		(uuid "aa8cba22-c004-4057-b3f6-eb07fdfe1d4b")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND SV P"
-		(at 68.834 68.072 0)
-		(layer "F.SilkS")
-		(uuid "d1cfaff6-f668-4a37-be66-fef5a2d09c34")
+	(gr_text "+ GND"
+		(at 41.9332 85.05 0)
+		(layer "F.SilkS" knockout)
+		(uuid "b89190de-24a9-442d-8628-ae4156d1d35b")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "P"
-		(at 10.922 120.396 0)
-		(layer "F.SilkS")
-		(uuid "e03283f6-fbc0-45db-a94f-38dcf4934e57")
+	(gr_text "+ GND"
+		(at 51.7884 84.7452 0)
+		(layer "F.SilkS" knockout)
+		(uuid "bf18eed0-44c3-487d-9d78-78a13a78d89e")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S + GND"
+		(at 60.0456 56.642 90)
+		(layer "F.SilkS" knockout)
+		(uuid "d0531f14-5d6e-4c39-b3ee-6ab6325b6db9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+ GND"
+		(at 32.2232 72.996 0)
+		(layer "F.SilkS" knockout)
+		(uuid "db19385c-0401-4c5e-b14d-0077382fcf9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
