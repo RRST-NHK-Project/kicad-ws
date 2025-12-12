@@ -7812,7 +7812,7 @@
 	(footprint "XT60PW-M:AMASS_XT60PW-M"
 		(layer "F.Cu")
 		(uuid "64ba4887-acc4-4e47-919b-0e7981693a41")
-		(at 98.11 134.62 180)
+		(at 98.088 135.54 180)
 		(property "Reference" "J2"
 			(at -4.8236 -13.51498 0)
 			(layer "F.Fab")
@@ -14567,7 +14567,7 @@
 	(footprint "XT60PW-M:AMASS_XT60PW-M"
 		(layer "F.Cu")
 		(uuid "ff460877-8990-46e3-a22b-bd0399b847ed")
-		(at 79.61 134.62 180)
+		(at 79.588 135.54 180)
 		(property "Reference" "J1"
 			(at -4.8236 -13.51498 0)
 			(layer "F.Fab")
@@ -15040,7 +15040,7 @@
 	)
 	(gr_rect
 		(start 55.46 70)
-		(end 116.46 136)
+		(end 116.46 137)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15048,6 +15048,109 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "0c6a876a-cabe-4953-af71-25b18d25666e")
+	)
+	(gr_text "PWM_IN"
+		(at 68.834 106.045 270)
+		(layer "F.SilkS" knockout)
+		(uuid "16fcde17-b8db-4167-b28c-846d8776228a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND1"
+		(at 68.834 115.443 270)
+		(layer "F.SilkS" knockout)
+		(uuid "1d23463d-f9ba-471d-bb36-d2045df1565e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MOUT2"
+		(at 81.004 127.158 0)
+		(layer "F.SilkS" knockout)
+		(uuid "536a5b2b-01e1-4376-b73b-1dca39c747ba")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND2"
+		(at 100.308 127.412 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7e096569-58fe-4dc0-97fc-21d84eba33ce")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DIGITAL_IN"
+		(at 68.834 100.203 270)
+		(layer "F.SilkS" knockout)
+		(uuid "9d3b0981-5291-4e12-8466-4fb9621c3ebd")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND1"
+		(at 68.834 120.396 270)
+		(layer "F.SilkS" knockout)
+		(uuid "bed7f5b0-c590-41f2-8381-108ff93e5b7b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V24V24V"
+		(at 90.526 127.412 0)
+		(layer "F.SilkS" knockout)
+		(uuid "d5e0dc9b-e57a-4612-a69c-126afb289636")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MOUT1"
+		(at 74.019 127.158 0)
+		(layer "F.SilkS" knockout)
+		(uuid "e9da8db4-07aa-47cc-b3f0-4789c1fd2c8a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(embedded_fonts no)
 )
