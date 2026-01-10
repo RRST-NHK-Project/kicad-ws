@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.6,
-          "height": 2.4,
-          "width": 2.4
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MDv4.kicad_pro",
+    "filename": "ESP32-ROS-IO-V5.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "0fc8afd9-ca20-47bb-bbc9-c4ee4ebd765d",
+      "e7386fe4-fe2a-45c2-a55e-5e46f941877a",
       "Root"
     ]
   ],
