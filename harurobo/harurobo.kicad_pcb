@@ -163,7 +163,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SERVO6"
-			(at 2.54 -3.556 180)
+			(at 2.032 -3.81 180)
 			(layer "F.SilkS")
 			(uuid "6eaa43d8-bb8f-4ca5-a3ad-47ea8517b134")
 			(effects
@@ -1601,7 +1601,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SERVO4"
-			(at -1.27 -4.064 180)
+			(at 2.032 -3.81 180)
 			(layer "F.SilkS")
 			(uuid "044b30a7-3d83-4666-9ec8-caabc350cddb")
 			(effects
@@ -2404,7 +2404,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SERVO3"
-			(at -1.27 -3.539 180)
+			(at 2.286 -3.539 180)
 			(layer "F.SilkS")
 			(uuid "3bcfa206-34ca-431b-83b2-169cdf61094e")
 			(effects
@@ -3303,7 +3303,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SERVO5"
-			(at -0.762 -3.81 180)
+			(at 2.032 -3.81 180)
 			(layer "F.SilkS")
 			(uuid "319bb165-c8c7-4c4a-94a9-ce761d256f62")
 			(effects
@@ -5361,7 +5361,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SERVO2"
-			(at -0.762 -3.556 180)
+			(at 1.778 -3.556 180)
 			(layer "F.SilkS")
 			(uuid "c5520683-b845-420e-93de-3dd2bbfa17e7")
 			(effects
@@ -10603,7 +10603,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SERVO7"
-			(at 2.5 -3.55 180)
+			(at 2.46 -3.556 180)
 			(layer "F.SilkS")
 			(uuid "256cd43f-0f83-49b6-b844-92f330d7c095")
 			(effects
@@ -14459,7 +14459,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SERVO1"
-			(at 1.778 -3.81 180)
+			(at 1.778 -3.556 180)
 			(layer "F.SilkS")
 			(uuid "aae9cf47-a136-4835-b078-b41bdfea831d")
 			(effects
@@ -16199,7 +16199,6 @@
 		)
 	)
 	(gr_text "GND + S"
-		(locked yes)
 		(at 34.29 31.242 0)
 		(layer "F.SilkS" knockout)
 		(uuid "5828ddf6-5364-4da2-b5ee-8ade3b46954a")
