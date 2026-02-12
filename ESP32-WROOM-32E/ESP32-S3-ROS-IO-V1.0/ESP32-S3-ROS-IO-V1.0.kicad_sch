@@ -4942,7 +4942,7 @@
 			)
 		)
 	)
-	(global_label "VDD33"
+	(global_label "5VD"
 		(shape input)
 		(at 242.57 27.94 0)
 		(fields_autoplaced yes)
@@ -4954,7 +4954,7 @@
 		)
 		(uuid "0f9bc09e-76ae-43f9-9775-540666dc894e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.6028 27.94 0)
+			(at 249.1233 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5822,7 @@
 			)
 		)
 	)
-	(global_label "VDD33"
+	(global_label "5VD"
 		(shape input)
 		(at 242.57 48.26 0)
 		(fields_autoplaced yes)
@@ -5834,7 +5834,7 @@
 		)
 		(uuid "3f17f4ae-d82f-4ce8-9859-459f52df729a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.6028 48.26 0)
+			(at 249.1233 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7076,7 @@
 			)
 		)
 	)
-	(global_label "VDD33"
+	(global_label "5VD"
 		(shape input)
 		(at 242.57 67.31 0)
 		(fields_autoplaced yes)
@@ -7088,7 +7088,7 @@
 		)
 		(uuid "74eed6ce-baab-4f38-b94b-e3d4a3e3618c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.6028 67.31 0)
+			(at 249.1233 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8550,7 @@
 			)
 		)
 	)
-	(global_label "VDD33"
+	(global_label "5VD"
 		(shape input)
 		(at 242.57 85.09 0)
 		(fields_autoplaced yes)
@@ -8562,7 +8562,7 @@
 		)
 		(uuid "bb9b8048-0d5b-4444-b030-d8e2ecfddc3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.6028 85.09 0)
+			(at 249.1233 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32-ROS-IO-V6.0.kicad_pro",
+    "filename": "ESP32-S3-ROS-IO-V1.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -486,7 +486,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
