@@ -11564,6 +11564,71 @@
 		(layer "Edge.Cuts")
 		(uuid "c9fd2117-9114-4b29-a281-f93651678923")
 	)
+	(gr_text "3.3V"
+		(at 88.8238 113.411 0)
+		(layer "F.SilkS" knockout)
+		(uuid "1cfd76c0-8ea4-4ac2-b048-b2d8c1483f16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 88.773 123.571 0)
+		(layer "F.SilkS" knockout)
+		(uuid "6d88cef3-658c-4ec2-96ce-5c191576d448")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 78.5368 111.379 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7cb2f236-12c6-42b5-a799-cd60c96a5657")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 87.0966 111.379 0)
+		(layer "F.SilkS" knockout)
+		(uuid "998cd6be-4e20-4491-8730-79fea42f56a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LED"
+		(at 92.1447 99.536 0)
+		(layer "F.SilkS" knockout)
+		(uuid "eb5a7b4b-d4bb-4c84-a171-0732864aae59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RRST-ESP32-S3 Rev.1\n2026, NHK-Project, RRST\n"
 		(at 93.54 96.3 90)
 		(layer "B.SilkS" knockout)
