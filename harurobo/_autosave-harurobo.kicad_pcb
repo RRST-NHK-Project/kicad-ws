@@ -11838,13 +11838,13 @@
 		)
 		(model "C:/Users/凪紗/kicad-ws/ESP32-WROOM-32E/ESP32-ROS-IO-V3.0/step/MDD20A.STEP.step"
 			(offset
-				(xyz -4.5 -35.5 41)
+				(xyz 4 10 41)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 90)
+				(xyz -0 180 -90)
 			)
 		)
 	)
@@ -13199,7 +13199,7 @@
 		(property "Reference" "VMD5/VMD6"
 			(at -2.501 8.7954 270)
 			(layer "F.SilkS")
-			(uuid "eb2fa3c9-44c7-4e99-9f31-6bd3678f0137")
+			(uuid "e408bbff-adae-47db-9298-ff6e0607380b")
 			(effects
 				(font
 					(size 1 1)
@@ -13211,7 +13211,7 @@
 			(at -2.966 -0.206 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34a4db79-9577-444f-aa6b-3337864e6f86")
+			(uuid "95375c67-063d-4378-b877-f2d1e3ee136a")
 			(effects
 				(font
 					(size 1 1)
@@ -13223,7 +13223,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "712817cd-155f-4dc9-9182-4ed6c0be92b5")
+			(uuid "ea84c396-e846-4540-8b63-cfa97de12256")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +13235,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb7580a4-dd27-4946-a988-d39236b3d8f4")
+			(uuid "d2ce60c9-6c1b-4bc1-b031-95c7074d8f42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13528,18 +13528,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 		(model "C:/Users/凪紗/kicad-ws/ESP32-WROOM-32E/ESP32-ROS-IO-V3.0/step/MDD20A.STEP.step"
 			(offset
-				(xyz -4.5 -35.5 41)
+				(xyz 4 10 41)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 90)
+				(xyz -0 180 -90)
 			)
 		)
 	)
@@ -15598,13 +15598,13 @@
 		)
 		(model "C:/Users/凪紗/kicad-ws/ESP32-WROOM-32E/ESP32-ROS-IO-V3.0/step/MDD20A.STEP.step"
 			(offset
-				(xyz -4.5 -35.5 41)
+				(xyz 4 10 41)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 90)
+				(xyz -0 180 -90)
 			)
 		)
 	)
