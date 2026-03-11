@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RRST-ESP32-S3-Rev.1.step",
       "svg": "",
       "vrml": ""
     },
