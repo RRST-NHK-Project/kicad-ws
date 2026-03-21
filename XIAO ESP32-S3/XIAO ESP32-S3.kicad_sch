@@ -777,7 +777,7 @@
 	)
 	(rectangle
 		(start 15.24 54.61)
-		(end 69.85 83.82)
+		(end 69.85 78.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -839,16 +839,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 76.2) (xy 49.53 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c72ed0d-2faa-47cc-b853-d1e9fd2ccbc4")
-	)
-	(wire
-		(pts
 			(xy 34.29 73.66) (xy 49.53 73.66)
 		)
 		(stroke
@@ -876,16 +866,6 @@
 			(type default)
 		)
 		(uuid "4d733f7b-0783-4983-bd1f-360e6b687912")
-	)
-	(wire
-		(pts
-			(xy 176.53 49.53) (xy 194.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6328ca25-15b7-4208-9057-1314fc829088")
 	)
 	(wire
 		(pts
@@ -957,16 +937,6 @@
 		)
 		(uuid "ccfc56ac-c6d1-42a3-add2-96b85ae84456")
 	)
-	(wire
-		(pts
-			(xy 34.29 78.74) (xy 49.53 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ef66f4-f494-483b-800c-eac83f78df58")
-	)
 	(global_label "GND"
 		(shape input)
 		(at 110.49 26.67 0)
@@ -980,28 +950,6 @@
 		(uuid "04c7a391-ea54-4095-9aa8-12499dd58039")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.3457 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDM2_A"
-		(shape input)
-		(at 49.53 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05dcdf13-3a59-4802-a1f8-3501002f4110")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.7118 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,28 +999,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDM2_B"
-		(shape input)
-		(at 49.53 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11a559a1-2944-4d72-ab79-e8b117dec680")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.8932 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1539,28 +1465,6 @@
 			)
 		)
 	)
-	(global_label "GPIO8"
-		(shape input)
-		(at 34.29 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a6d2877-7edb-4783-86a0-dac94ef6a93a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape input)
 		(at 54.61 29.21 0)
@@ -1671,28 +1575,6 @@
 			)
 		)
 	)
-	(global_label "SDM2_A"
-		(shape input)
-		(at 176.53 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d907833-0006-42a6-8d29-1908e7ec28d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.7118 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO3"
 		(shape input)
 		(at 34.29 66.04 180)
@@ -1733,28 +1615,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO7"
-		(shape input)
-		(at 34.29 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "902a1f32-baa6-40b1-90ff-9d5831a5450d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -1821,50 +1681,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 176.53 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d874b55-be12-431f-9b82-d31bcdd19a87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.8133 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDM2_B"
-		(shape input)
-		(at 176.53 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f4b711c-b0fd-4a5a-a960-25c94e33c235")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8932 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2290,72 +2106,6 @@
 			(project "XIAO ESP32-S3"
 				(path "/dc57f7a2-fe0b-4ebf-9df3-c5f5c465d888"
 					(reference "SMD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 194.31 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "285fc17f-9e30-4d1c-b73f-77fb6594a4bc")
-		(property "Reference" "#PWR02"
-			(at 194.31 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80270903-bb1e-412e-bfa5-8e111e60fb8d")
-		)
-		(instances
-			(project "XIAO ESP32-S3"
-				(path "/dc57f7a2-fe0b-4ebf-9df3-c5f5c465d888"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2806,80 +2556,6 @@
 			(project "XIAO ESP32-S3"
 				(path "/dc57f7a2-fe0b-4ebf-9df3-c5f5c465d888"
 					(reference "ENC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 171.45 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c48b282e-37ed-4909-a7bb-560af92bc82c")
-		(property "Reference" "SMD2"
-			(at 172.085 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMD2"
-			(at 172.085 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 171.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 171.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d5a197c3-4966-4088-8ef6-e2d9bf767af0")
-		)
-		(pin "1"
-			(uuid "131fb4ec-cd17-47b5-8988-537d8d0a45d2")
-		)
-		(pin "2"
-			(uuid "8cbd9bae-12e9-4270-b9ff-b918fd74b237")
-		)
-		(pin "4"
-			(uuid "21570484-1400-4965-90c8-0a019412ef53")
-		)
-		(instances
-			(project "XIAO ESP32-S3"
-				(path "/dc57f7a2-fe0b-4ebf-9df3-c5f5c465d888"
-					(reference "SMD2")
 					(unit 1)
 				)
 			)
