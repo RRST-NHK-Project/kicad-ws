@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TBD62003AFNG
+D Power Switch/Driver 1:1 N-Channel 300mA 16-SOP
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=29886&prodName=TBD62003AFNG
+$ENDCMP
+#
+#End Doc Library

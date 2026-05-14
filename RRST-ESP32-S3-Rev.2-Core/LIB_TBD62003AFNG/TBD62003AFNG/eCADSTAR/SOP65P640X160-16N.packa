@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TBD62003AFNG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-05-21-11:55:02)
+    (mountForm default
+        (footprintRef "SOP65P640X160-16N")
+        (spec "System")
+    )
+)

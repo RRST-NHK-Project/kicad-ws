@@ -1,0 +1,18 @@
+.TBD62003AFNG :1 ;Power Switch/Driver 1:1 N-Channel 300mA 16-SOP
+SOP65P640X160-16N
+*STM IC
+*NGS
+*PLB 1="I1" 2="I2" 3="I3" 4="I4" 5="I5" 6="I6" 7="I7" 8="GND" 9="COMMON" 10="O7" 11="O6" 12="O5" 13="O4" 14="O3" 15="O2" 16="O1"
+*MXP 16
+*DFN TBD62003AFNG
+~!Manufacturer_Name (Toshiba)
+~!Manufacturer_Part_Number (TBD62003AFNG)
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62003AFNG?qs=By6Nw2ByBD2S7CAJp1Mq6Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://toshiba.semicon-storage.com/info/docget.jsp?did=29886&prodName=TBD62003AFNG)
+~!Height (1.6mm)
+~!3D_Model (TBD62003AFNG)
+TBD62003AFNG
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

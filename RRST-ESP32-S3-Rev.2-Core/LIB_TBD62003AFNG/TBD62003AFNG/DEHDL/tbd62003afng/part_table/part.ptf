@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TBD62003AFNG'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Toshiba", "TBD62003AFNG" (!) = "", "SOP65P640X160-16N", "Small Outline Packages", "N/A", "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62003AFNG?qs=By6Nw2ByBD2S7CAJp1Mq6Q%3D%3D", "", "", "Power Switch/Driver 1:1 N-Channel 300mA 16-SOP", "https://toshiba.semicon-storage.com/info/docget.jsp?did=29886&prodName=TBD62003AFNG", "1.6 mm"
+END_PART
+
+END.
