@@ -5056,6 +5056,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 128.27) (xy 336.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8037e6-57b5-45cd-b908-6bcaed61d957")
+	)
+	(wire
+		(pts
 			(xy 31.75 157.48) (xy 36.83 157.48)
 		)
 		(stroke
@@ -7574,6 +7584,30 @@
 			)
 		)
 	)
+	(global_label "CAN_RX"
+		(shape input)
+		(at 336.55 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ba185ca-6e3b-4b56-9b93-c0304b8f36cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.4286 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CANH"
 		(shape input)
 		(at 312.42 60.96 0)
@@ -7683,6 +7717,30 @@
 		(uuid "a23c5c91-7646-420f-a39e-f7755fc6bcf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.1005 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 336.55 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a665be81-ee81-4888-8dc4-29d075aa8b90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 329.6943 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7859,6 +7917,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_TX"
+		(shape input)
+		(at 336.55 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8944748-2c9c-4999-b065-06d6b2ddbc28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.731 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -13425,6 +13507,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 332.74 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1613a48-3b13-4c72-8e4b-644c124f12aa")
+		(property "Reference" "#PWR026"
+			(at 332.74 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 332.74 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 332.74 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "060fc4f6-b9d7-4096-b2dd-b42f90f03507")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 340.36 68.58 0)
 		(unit 1)
@@ -13500,6 +13660,94 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 341.63 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de6dd943-9b15-404f-9b1b-b4d12fb56be6")
+		(property "Reference" "J7"
+			(at 342.9 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 342.9 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 341.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 341.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be8f794b-1e0e-4be8-b211-82d9427bee3d")
+		)
+		(pin "4"
+			(uuid "134036c2-d2cb-40ad-99ba-df20fd7723ae")
+		)
+		(pin "3"
+			(uuid "29ad9bc4-5491-480a-be5b-30134050b53c")
+		)
+		(pin "2"
+			(uuid "65452228-1d83-40b8-9902-45d05a43b72d")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J7")
 					(unit 1)
 				)
 			)
