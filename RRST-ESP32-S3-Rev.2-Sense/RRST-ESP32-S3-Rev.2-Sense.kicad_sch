@@ -5,6 +5,189 @@
 	(uuid "08e3d388-f335-4566-99a5-7a0a51e9e065")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -4804,7 +4987,7 @@
 	)
 	(rectangle
 		(start 20.32 25.4)
-		(end 381 185.42)
+		(end 133.35 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -4813,6 +4996,18 @@
 			(type none)
 		)
 		(uuid "02252bd0-18ba-483a-ad08-154ec6256775")
+	)
+	(rectangle
+		(start 161.29 96.52)
+		(end 223.52 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "428a3a0d-5391-4e37-8e5e-6e1648bdd54e")
 	)
 	(rectangle
 		(start 222.25 60.96)
@@ -4825,6 +5020,54 @@
 			(type none)
 		)
 		(uuid "59557451-366f-40d1-a6d6-787310485934")
+	)
+	(rectangle
+		(start 274.32 104.14)
+		(end 367.03 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8c066ba1-3a32-49a3-a1b9-ca6e30e4eb67")
+	)
+	(rectangle
+		(start 273.05 40.64)
+		(end 347.98 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c75f498d-9158-4376-81bc-e9922d6472d8")
+	)
+	(rectangle
+		(start 158.75 25.4)
+		(end 262.89 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d95f2010-d69a-4688-b086-f3a3a7c1861b")
+	)
+	(rectangle
+		(start 21.59 88.9)
+		(end 148.59 185.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "edc7bd41-34c7-42fc-a590-b33b3c50d10e")
 	)
 	(text "ESD保護"
 		(exclude_from_sim no)
@@ -5016,6 +5259,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 256.54) (xy 180.34 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f641e7d-f47a-42d2-bdc1-f770173dd649")
+	)
+	(wire
+		(pts
 			(xy 31.75 154.94) (xy 31.75 157.48)
 		)
 		(stroke
@@ -5023,6 +5276,16 @@
 			(type default)
 		)
 		(uuid "12a24d15-528b-444f-961d-7aeb2f8e6184")
+	)
+	(wire
+		(pts
+			(xy 106.68 240.03) (xy 109.22 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c3a333-6078-4bf2-8acd-600ed5c41f82")
 	)
 	(wire
 		(pts
@@ -5043,6 +5306,16 @@
 			(type default)
 		)
 		(uuid "15830ffe-f34a-4ce9-adb3-fa45c31147e9")
+	)
+	(wire
+		(pts
+			(xy 104.14 237.49) (xy 109.22 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c767716-f0d7-45fb-b652-aa2ffc5e080c")
 	)
 	(wire
 		(pts
@@ -5076,6 +5349,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 212.09) (xy 109.22 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e90cbb4-7c5d-4790-808d-24a61dc8e808")
+	)
+	(wire
+		(pts
 			(xy 69.85 118.11) (xy 69.85 124.46)
 		)
 		(stroke
@@ -5086,7 +5369,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 111.76) (xy 292.1 111.76)
+			(xy 172.72 200.66) (xy 180.34 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5166,6 +5449,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 218.44) (xy 180.34 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a586f3-7670-417a-9232-da923ff6e030")
+	)
+	(wire
+		(pts
+			(xy 172.72 213.36) (xy 180.34 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ff6141-d84e-4936-ba39-cac0a7f1185f")
+	)
+	(wire
+		(pts
 			(xy 55.88 102.87) (xy 55.88 110.49)
 		)
 		(stroke
@@ -5173,6 +5476,16 @@
 			(type default)
 		)
 		(uuid "364fe26e-0366-43dc-9380-807680bb91da")
+	)
+	(wire
+		(pts
+			(xy 172.72 231.14) (xy 180.34 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376e3fb6-6c05-428f-9849-ff3309b8a380")
 	)
 	(wire
 		(pts
@@ -5256,6 +5569,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 236.22) (xy 180.34 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b604b5b-736b-4a48-beab-af91acec9ba4")
+	)
+	(wire
+		(pts
+			(xy 172.72 223.52) (xy 180.34 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcca7c9-5910-4a38-85a7-9cd31c783ea9")
+	)
+	(wire
+		(pts
 			(xy 62.23 62.23) (xy 62.23 68.58)
 		)
 		(stroke
@@ -5263,6 +5596,16 @@
 			(type default)
 		)
 		(uuid "4e1fcc95-c758-4c67-ad2a-042569ace4d2")
+	)
+	(wire
+		(pts
+			(xy 163.83 195.58) (xy 180.34 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51aca7b7-913e-435a-914b-65c684ead6d7")
 	)
 	(wire
 		(pts
@@ -5303,6 +5646,16 @@
 			(type default)
 		)
 		(uuid "54c9d3be-653e-49e4-ad7a-3e71ccc2d343")
+	)
+	(wire
+		(pts
+			(xy 106.68 220.98) (xy 109.22 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dad965-8d7b-4947-80ee-d5f1234d7026")
 	)
 	(wire
 		(pts
@@ -5356,6 +5709,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 228.6) (xy 63.5 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628210f0-f48a-4768-bda0-23b38edce53d")
+	)
+	(wire
+		(pts
 			(xy 36.83 157.48) (xy 36.83 160.02)
 		)
 		(stroke
@@ -5373,6 +5736,16 @@
 			(type default)
 		)
 		(uuid "64695a07-f996-4251-917b-867a342a57e7")
+	)
+	(wire
+		(pts
+			(xy 172.72 205.74) (xy 180.34 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6513468e-9983-4aeb-9db6-2994f0b0f8b0")
 	)
 	(wire
 		(pts
@@ -5403,6 +5776,16 @@
 			(type default)
 		)
 		(uuid "6aa98f09-7a43-42fe-9a1f-aa3a966972f1")
+	)
+	(wire
+		(pts
+			(xy 172.72 210.82) (xy 180.34 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d627294-7ef0-48ec-98a3-32bc7a6d1caa")
 	)
 	(wire
 		(pts
@@ -5446,6 +5829,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 241.3) (xy 180.34 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a17b47-f035-49ca-8b56-6134cb60181e")
+	)
+	(wire
+		(pts
 			(xy 226.06 38.1) (xy 226.06 62.23)
 		)
 		(stroke
@@ -5453,6 +5846,16 @@
 			(type default)
 		)
 		(uuid "729f94ed-984d-4268-b2f5-c2f741eca646")
+	)
+	(wire
+		(pts
+			(xy 48.26 212.09) (xy 63.5 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735b65ee-960c-4733-87a1-9e9d0db67558")
 	)
 	(wire
 		(pts
@@ -5556,6 +5959,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 246.38) (xy 180.34 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85adfe26-5c12-405f-bd07-07b273ae5c56")
+	)
+	(wire
+		(pts
 			(xy 198.12 58.42) (xy 200.66 58.42)
 		)
 		(stroke
@@ -5566,6 +5979,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 229.87) (xy 109.22 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b225f03-fe39-4726-82fc-63bb63f107d8")
+	)
+	(wire
+		(pts
+			(xy 104.14 218.44) (xy 109.22 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbdcf0e-cf6b-41e2-baca-370f9e10fbd3")
+	)
+	(wire
+		(pts
 			(xy 62.23 36.83) (xy 62.23 46.99)
 		)
 		(stroke
@@ -5573,6 +6006,16 @@
 			(type default)
 		)
 		(uuid "8f9ab9ee-4561-425c-b775-1849f11a5cfe")
+	)
+	(wire
+		(pts
+			(xy 172.72 238.76) (xy 180.34 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9086e04c-cddd-415c-b25f-ee05e422d52b")
 	)
 	(wire
 		(pts
@@ -5593,6 +6036,16 @@
 			(type default)
 		)
 		(uuid "92e963a6-660a-4597-a39d-0318743d59d8")
+	)
+	(wire
+		(pts
+			(xy 104.14 227.33) (xy 109.22 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969e1e17-b1c1-4204-ad09-8f6917e6808d")
 	)
 	(wire
 		(pts
@@ -5666,6 +6119,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 220.98) (xy 180.34 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac820eb3-621f-47c4-8083-600e285eca12")
+	)
+	(wire
+		(pts
 			(xy 58.42 173.99) (xy 58.42 171.45)
 		)
 		(stroke
@@ -5723,6 +6186,16 @@
 			(type default)
 		)
 		(uuid "b4ae6614-8571-43fe-88e5-54a160261be1")
+	)
+	(wire
+		(pts
+			(xy 172.72 228.6) (xy 180.34 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ee8dd3-1ed3-46e6-9e4a-91e53821d42f")
 	)
 	(wire
 		(pts
@@ -5816,6 +6289,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 254) (xy 180.34 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad9c055-2450-4aeb-8d03-d0e95b6c8b2a")
+	)
+	(wire
+		(pts
 			(xy 242.57 55.88) (xy 247.65 55.88)
 		)
 		(stroke
@@ -5846,6 +6329,36 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 251.46) (xy 180.34 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd61cd1-d8ba-44c8-a546-6cef97aa2273")
+	)
+	(wire
+		(pts
+			(xy 172.72 226.06) (xy 180.34 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb0f733-d02e-47c5-b24d-7fb96926e835")
+	)
+	(wire
+		(pts
+			(xy 172.72 248.92) (xy 180.34 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce53deed-64b9-414b-954a-be6569c6bedf")
+	)
+	(wire
+		(pts
 			(xy 97.79 46.99) (xy 110.49 46.99)
 		)
 		(stroke
@@ -5856,6 +6369,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 233.68) (xy 180.34 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb6426b-da34-473c-a53c-c9a4aae754a0")
+	)
+	(wire
+		(pts
+			(xy 172.72 215.9) (xy 180.34 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16f5a27-e6f1-4a66-827a-9636efc0b432")
+	)
+	(wire
+		(pts
 			(xy 62.23 46.99) (xy 73.66 46.99)
 		)
 		(stroke
@@ -5863,6 +6396,16 @@
 			(type default)
 		)
 		(uuid "d8aedf30-50b6-461c-beff-73d44dc5e92c")
+	)
+	(wire
+		(pts
+			(xy 104.14 209.55) (xy 109.22 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f6856e-133a-4248-bc6d-4fcd1f469adf")
 	)
 	(wire
 		(pts
@@ -5916,7 +6459,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 109.22) (xy 292.1 109.22)
+			(xy 172.72 198.12) (xy 180.34 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6006,6 +6549,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 203.2) (xy 180.34 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb251a62-32f3-4995-a695-65ba03e5a597")
+	)
+	(wire
+		(pts
+			(xy 172.72 243.84) (xy 180.34 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbbb25df-d139-4b8c-908d-18bab94bbf7f")
+	)
+	(wire
+		(pts
 			(xy 58.42 154.94) (xy 58.42 157.48)
 		)
 		(stroke
@@ -6023,6 +6586,208 @@
 			(type default)
 		)
 		(uuid "fce29adc-9ad9-4605-a47a-2ee01884a95f")
+	)
+	(wire
+		(pts
+			(xy 172.72 208.28) (xy 180.34 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe91c815-4570-4847-a705-4de1fc002504")
+	)
+	(global_label "IO42"
+		(shape input)
+		(at 172.72 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0022af87-79bb-465b-9a2e-7bc39774c3b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SW3"
+		(shape input)
+		(at 104.14 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0283d2ad-a435-4872-98e9-bd94d8f59b79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.2844 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MD1P"
+		(shape input)
+		(at 180.34 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "036ada2b-d3fb-431d-8b4b-af6d4f1fb2b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ENC2_A"
+		(shape input)
+		(at 180.34 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05af520f-d1aa-4eed-af5a-3c4fffc98b4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.3404 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SW1"
+		(shape input)
+		(at 180.34 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05c26d28-a91c-4f56-b34a-fe2b5abca28e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1956 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IO10"
+		(shape input)
+		(at 172.72 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07fca49e-d85a-4972-91cd-23882e138e19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO5"
+		(shape input)
+		(at 172.72 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08d7337a-d95e-4fb3-8331-5ae488b74eb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.59 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MD2P"
+		(shape input)
+		(at 223.52 180.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09744e22-29e4-47a4-878b-8663a0b53658")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 172.1539 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "CANH"
 		(shape input)
@@ -6048,6 +6813,30 @@
 			)
 		)
 	)
+	(global_label "IO37"
+		(shape input)
+		(at 172.72 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b99afd7-7017-4f99-9a95-d21639bfc1a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RXD0"
 		(shape input)
 		(at 121.92 114.3 0)
@@ -6061,6 +6850,30 @@
 		(uuid "0bf16f53-94e3-4166-a077-2a877d64176f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.8642 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TR4"
+		(shape input)
+		(at 180.34 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10a89645-b1fa-48ac-964b-516e84a9b0d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7723 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6120,6 +6933,54 @@
 			)
 		)
 	)
+	(global_label "MD3P"
+		(shape input)
+		(at 233.68 180.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "137da39e-ef82-45e7-ac4b-4ff635bb2f8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 172.1539 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TR1"
+		(shape input)
+		(at 180.34 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14efd963-197d-4a1d-96fc-ddf003b55369")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7723 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO45"
 		(shape input)
 		(at 121.92 149.86 0)
@@ -6144,6 +7005,30 @@
 			)
 		)
 	)
+	(global_label "ENC2_A"
+		(shape input)
+		(at 63.5 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15bf44cd-bb94-4085-9eb2-6d6601a27b61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.4996 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO36"
 		(shape input)
 		(at 207.01 133.35 0)
@@ -6157,6 +7042,30 @@
 		(uuid "15c8a68f-11f2-426e-9466-09a5ea13c800")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.3495 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ENC1_B"
+		(shape input)
+		(at 180.34 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1707a446-e670-46f3-ab0b-fe132e0ffbf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5218 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,6 +7245,30 @@
 			)
 		)
 	)
+	(global_label "IO8"
+		(shape input)
+		(at 172.72 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "216a41ce-9200-480a-97f3-e8b15a7df9fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.59 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO3"
 		(shape input)
 		(at 91.44 124.46 180)
@@ -6357,6 +7290,78 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "IO48"
+		(shape input)
+		(at 172.72 254 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2466e21c-1139-4097-b503-496aa4520e5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SW4"
+		(shape input)
+		(at 180.34 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "246d10f5-3976-4660-a971-c0152718c701")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1956 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TR4"
+		(shape input)
+		(at 303.53 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "290708c2-e2be-4ce8-baf5-4704ccd09675")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 303.53 172.6377 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6421,6 +7426,54 @@
 		(uuid "29adbb5d-bd30-44e3-894d-55c32c6d681c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.48 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MD2D"
+		(shape input)
+		(at 180.34 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bdebb0b-fbb4-46e9-ac9d-add1577b4905")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IO40"
+		(shape input)
+		(at 172.72 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3160555f-3866-47c0-a63d-0ff21319b114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +7607,7 @@
 	)
 	(global_label "CAN_RX"
 		(shape input)
-		(at 292.1 111.76 0)
+		(at 180.34 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6564,7 +7617,7 @@
 		)
 		(uuid "37f6d3a8-849c-4dc6-b4e4-3e9d369011ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.2214 111.76 0)
+			(at 190.4614 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,6 +7626,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "IO38"
+		(shape input)
+		(at 172.72 220.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3949021e-a159-43cb-9276-916d0774b01e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6621,6 +7698,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SW4"
+		(shape input)
+		(at 104.14 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cef1599-983d-4a9f-9f54-99dfe4b5c69e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.2844 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6720,6 +7821,30 @@
 			)
 		)
 	)
+	(global_label "TR3"
+		(shape input)
+		(at 292.1 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4196f9b7-e96e-4e01-8e3c-153533a2477d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.1 172.6377 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO9"
 		(shape input)
 		(at 91.44 139.7 180)
@@ -6744,6 +7869,54 @@
 			)
 		)
 	)
+	(global_label "ENC2_B"
+		(shape input)
+		(at 180.34 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42da159f-89a6-47b6-8295-271d899564ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5218 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MD2D"
+		(shape input)
+		(at 223.52 212.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43707e72-29f9-4b0b-bac6-bbdec3ab9f2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 203.9039 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO17"
 		(shape input)
 		(at 181.61 128.27 180)
@@ -6757,6 +7930,54 @@
 		(uuid "44825cc9-d15d-4891-8182-bd355ad8ed4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.2705 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO15"
+		(shape input)
+		(at 172.72 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47aa1be1-a76f-41e9-9de2-06e62b8d118a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ENC2_B"
+		(shape input)
+		(at 63.5 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "485f8811-72ee-48f8-a0d5-041d71cafba9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.3182 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,6 +8133,78 @@
 			)
 		)
 	)
+	(global_label "IO9"
+		(shape input)
+		(at 172.72 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "518fb2ca-8674-4e3f-ac03-c108aa6cb741")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.59 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO1"
+		(shape input)
+		(at 172.72 256.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "523222b7-64aa-4ada-8348-f1cd6dac94d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.59 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TR3"
+		(shape input)
+		(at 180.34 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "530dd2f3-5275-4ae7-96f2-560a0446fb6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7723 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO39"
 		(shape input)
 		(at 121.92 139.7 0)
@@ -6949,6 +8242,30 @@
 		(uuid "556bac3e-380c-4769-bf68-38d87fb1d962")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.0157 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TR6"
+		(shape input)
+		(at 326.39 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "562c41bf-6936-4295-a8ec-e6c384dc42e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 172.6377 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7008,6 +8325,54 @@
 			)
 		)
 	)
+	(global_label "MD2P"
+		(shape input)
+		(at 180.34 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e1a8456-9d74-4456-9204-c4c1a7ac3945")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IO6"
+		(shape input)
+		(at 172.72 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e32f360-9978-4a04-8b42-d96c181736e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.59 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 31.75 154.94 90)
@@ -7032,6 +8397,102 @@
 			)
 		)
 	)
+	(global_label "TR5"
+		(shape input)
+		(at 316.23 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60bdca02-395a-427a-95da-c906e0c4fb98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.23 172.6377 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SW3"
+		(shape input)
+		(at 180.34 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62174675-926f-4d53-8cd6-1d0c027e7197")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1956 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MD3D"
+		(shape input)
+		(at 180.34 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64032994-9d2d-4751-be22-a45feb611937")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IO35"
+		(shape input)
+		(at 172.72 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6524acda-16be-433b-8ae7-0f49e5a1d064")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 207.01 156.21 0)
@@ -7045,6 +8506,30 @@
 		(uuid "65f15055-fc63-440e-b662-90662453c0fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.8657 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TR5"
+		(shape input)
+		(at 180.34 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66d8539e-bf14-4be9-a5d2-edf2ad83c828")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7723 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7202,7 +8687,7 @@
 	)
 	(global_label "IO2"
 		(shape input)
-		(at 284.48 109.22 180)
+		(at 172.72 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7212,7 +8697,7 @@
 		)
 		(uuid "768d8cf2-a33f-4cf6-86b9-c573f2acf10b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.35 109.22 0)
+			(at 166.59 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,6 +8949,54 @@
 			)
 		)
 	)
+	(global_label "IO47"
+		(shape input)
+		(at 172.72 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "880dc60e-20af-4b6a-b877-136e332e7770")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TR1"
+		(shape input)
+		(at 271.78 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8874795d-393f-457a-9280-94f8f74919ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 172.6377 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DN"
 		(shape input)
 		(at 247.65 50.8 0)
@@ -7584,6 +9117,30 @@
 			)
 		)
 	)
+	(global_label "MD4P"
+		(shape input)
+		(at 180.34 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b6df419-44c4-4877-bed6-e75e30231173")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CAN_RX"
 		(shape input)
 		(at 336.55 135.89 180)
@@ -7605,6 +9162,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MD4D"
+		(shape input)
+		(at 180.34 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c744106-4c49-4310-9470-64a69a1b5a53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7632,6 +9213,30 @@
 			)
 		)
 	)
+	(global_label "IO12"
+		(shape input)
+		(at 172.72 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d03ccdc-d1b0-42e9-b2cf-62ae8ef2ce80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO42"
 		(shape input)
 		(at 121.92 147.32 0)
@@ -7656,6 +9261,30 @@
 			)
 		)
 	)
+	(global_label "IO13"
+		(shape input)
+		(at 172.72 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fd51a11-dae3-4dc4-bf8b-f5c73195d95a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 38.1 110.49 0)
@@ -7669,6 +9298,30 @@
 		(uuid "9ffe2990-407b-4ffb-8898-23457731416a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.5647 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MD4D"
+		(shape input)
+		(at 245.11 212.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0dbdd68-9afc-4154-b68d-85e6b6c2e1f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 203.9039 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,6 +9357,30 @@
 			)
 		)
 	)
+	(global_label "MD3P"
+		(shape input)
+		(at 180.34 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1491d87-24b2-48b5-b5a4-f56c1d103c2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO13"
 		(shape input)
 		(at 91.44 149.86 180)
@@ -7717,6 +9394,30 @@
 		(uuid "a23c5c91-7646-420f-a39e-f7755fc6bcf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.1005 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO14"
+		(shape input)
+		(at 172.72 208.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a46c6427-f07e-4200-9a8d-d6d0f284e295")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,6 +9501,30 @@
 			)
 		)
 	)
+	(global_label "IO7"
+		(shape input)
+		(at 172.72 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8c9f7ff-bd87-48df-bf95-c6723d9d9ea6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.59 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 207.01 158.75 0)
@@ -7845,6 +9570,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SW2"
+		(shape input)
+		(at 180.34 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b071fe33-50fd-4a94-9c33-0d22827a9e69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1956 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7896,6 +9645,54 @@
 			)
 		)
 	)
+	(global_label "ENC1_B"
+		(shape input)
+		(at 63.5 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b65ebed8-34ec-4f70-927a-56b7b5ec7c27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.3182 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ENC1_A"
+		(shape input)
+		(at 63.5 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7d5ea94-b976-4989-b566-8ae37f8de647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.4996 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO18"
 		(shape input)
 		(at 121.92 119.38 0)
@@ -7909,6 +9706,30 @@
 		(uuid "b80718c0-2eaf-44c2-b713-e99cb001f509")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.2595 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TR2"
+		(shape input)
+		(at 180.34 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b81435c7-195a-45c1-a5a2-733b4f9142e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7723 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,6 +9765,78 @@
 			)
 		)
 	)
+	(global_label "SW1"
+		(shape input)
+		(at 104.14 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba736fdc-d418-45b8-b180-8f34513d9a64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.2844 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO41"
+		(shape input)
+		(at 172.72 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd5d5827-ce33-4575-9229-8b041aecada7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MD1D"
+		(shape input)
+		(at 213.36 212.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdea8974-f46d-412d-ae64-203a30d5b4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 203.9039 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO38"
 		(shape input)
 		(at 207.01 128.27 0)
@@ -7957,6 +9850,30 @@
 		(uuid "c0052165-1a65-4208-9d44-9d1a2bc27584")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.3495 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MD3D"
+		(shape input)
+		(at 233.68 212.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0fd2519-b71b-4b91-842e-04ee6aeb1189")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 203.9039 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,6 +9981,102 @@
 			)
 		)
 	)
+	(global_label "ENC1_A"
+		(shape input)
+		(at 180.34 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c885aae5-8fb9-46e2-aa75-c66a82a225a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.3404 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IO4"
+		(shape input)
+		(at 172.72 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8d12fec-7bbc-41fc-a5bf-8240fc559d1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.59 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TR2"
+		(shape input)
+		(at 281.94 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbbc6732-700f-4071-9d52-4bfb8393c047")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.94 172.6377 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MD1P"
+		(shape input)
+		(at 213.36 180.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd8f8215-1efd-411b-afce-6a2ecf6bf0e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 172.1539 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO12"
 		(shape input)
 		(at 91.44 147.32 180)
@@ -8138,7 +10151,7 @@
 	)
 	(global_label "IO3"
 		(shape input)
-		(at 284.48 111.76 180)
+		(at 172.72 200.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8148,7 +10161,7 @@
 		)
 		(uuid "d09965ab-3aaf-4630-9974-92279f760e97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.35 111.76 0)
+			(at 166.59 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,9 +10221,57 @@
 			)
 		)
 	)
+	(global_label "IO11"
+		(shape input)
+		(at 172.72 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8e7e884-ff23-40f0-8d88-2617e7fc1201")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TR6"
+		(shape input)
+		(at 180.34 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d935d7ab-6b94-4b92-9b6e-b562fabc113e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7723 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CAN_TX"
 		(shape input)
-		(at 292.1 109.22 0)
+		(at 180.34 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8220,7 +10281,7 @@
 		)
 		(uuid "d9fcce6a-2001-4e88-8027-65b5f1de2436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.919 109.22 0)
+			(at 190.159 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8293,6 +10354,30 @@
 		(uuid "dd455627-3ca7-402e-aa39-cf9863c9477e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.3495 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MD4P"
+		(shape input)
+		(at 245.11 180.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd87f177-6130-4eab-870e-fceb23643a9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 172.1539 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8424,6 +10509,30 @@
 			)
 		)
 	)
+	(global_label "IO36"
+		(shape input)
+		(at 172.72 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e93a1d74-77be-4bce-aa27-c6d3afb1e6a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DP"
 		(shape input)
 		(at 207.01 151.13 0)
@@ -8445,6 +10554,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "5V0"
+		(shape input)
+		(at 63.5 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eaa1e40a-e3ed-42ae-a1db-4af5e188b6bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0072 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8493,6 +10626,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SW2"
+		(shape input)
+		(at 104.14 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f29f4551-091e-4fa5-87be-a2c8ce1bf762")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.2844 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8592,6 +10749,54 @@
 			)
 		)
 	)
+	(global_label "5V0"
+		(shape input)
+		(at 63.5 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f82c15b1-2312-412e-bc89-11566e7fbecf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0072 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MD1D"
+		(shape input)
+		(at 180.34 233.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9e8b8a2-3019-44f8-a6f2-77fa877896d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5261 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO11"
 		(shape input)
 		(at 91.44 144.78 180)
@@ -8677,6 +10882,30 @@
 		(uuid "fdd66873-cef4-41aa-a25a-0a8a5e71cace")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 320.1224 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "5V0"
+		(shape input)
+		(at 180.34 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fddbb800-38c2-43a2-85d9-f9c20efc070d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.8328 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,6 +11097,84 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "095b0019-a1de-4b72-bd87-24f99883c6de")
+		(property "Reference" "#PWR039"
+			(at 223.52 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "149dca02-64ff-4f16-92e7-54c51d7977fe")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9108,6 +11415,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd66781-52a8-495c-a926-79ed05f9de62")
+		(property "Reference" "#PWR035"
+			(at 223.52 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c5ff38c-ee5c-436b-b198-782fa8c9d57d")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 55.88 100.33 0)
 		(unit 1)
@@ -9180,6 +11565,99 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 223.52 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "109b9f5f-1e59-410f-b7bd-466ac26db9b2")
+		(property "Reference" "D9"
+			(at 227.33 184.4674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 227.33 187.0074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06cfba4c-3af8-4067-bca0-93bccbe1eb73")
+		)
+		(pin "2"
+			(uuid "f3f7eae2-a998-4758-bc11-0b54c496495f")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9345,6 +11823,240 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14fe51c3-9fb0-4a34-a86d-b3858309f716")
+		(property "Reference" "#PWR037"
+			(at 245.11 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82e59ba5-398e-4d6e-aa78-88ddfd3a0160")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 163.83 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15b9407e-c3cd-4187-b23d-bb8a74395218")
+		(property "Reference" "#PWR027"
+			(at 163.83 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 163.83 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 163.83 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dc2de35-8657-4674-8ebe-45338bcc1fa1")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "175b7524-5f58-42d7-9c1d-cbf901d7fe66")
+		(property "Reference" "#PWR030"
+			(at 106.68 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "675144b5-6888-49d2-9b2b-90a8ae6d7436")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10051,6 +12763,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 292.1 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "256d2b7d-66c3-48e4-afb7-651206e0dea7")
+		(property "Reference" "#PWR046"
+			(at 292.1 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9108068b-4197-430c-8187-5f6e90db5023")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_CAN_LIN:MCP2561-E-SN")
 		(at 299.72 63.5 0)
 		(unit 1)
@@ -10146,6 +12936,99 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 245.11 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c2b8d11-ac6b-4e74-896b-ab661836fe18")
+		(property "Reference" "D15"
+			(at 248.92 216.2174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 248.92 218.7574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 245.11 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 245.11 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15c36fa6-3ca2-444e-8de0-0076c04ca12c")
+		)
+		(pin "2"
+			(uuid "edea44ca-749d-4652-921a-53fee9b39250")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -10317,6 +13200,88 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 114.3 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fca4da9-4261-46c6-8f8a-ba796f46aa0c")
+		(property "Reference" "J12"
+			(at 115.57 237.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 115.57 240.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+			(at 114.3 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 114.3 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bc98fac-5b8d-4bae-9691-aef648264be4")
+		)
+		(pin "2"
+			(uuid "bbea3381-c17b-40db-8711-cb7295dbb724")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10559,6 +13524,615 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 114.3 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33f14db4-f8d5-4010-b94b-1a6aa6ba28a0")
+		(property "Reference" "J9"
+			(at 115.57 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 115.57 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+			(at 114.3 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 114.3 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "358f4465-5fac-4577-ba76-0c8cd52a92f6")
+		)
+		(pin "2"
+			(uuid "519d0b3d-0837-444f-a9a6-a4c106f5614f")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34176d64-1677-470c-b3c7-8b204aaadda7")
+		(property "Reference" "#PWR044"
+			(at 271.78 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a6beece-558a-4d40-8be7-561ad23daa17")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 292.1 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3782b26a-5824-4d9e-b9f2-538fd1388994")
+		(property "Reference" "D18"
+			(at 295.91 183.1974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 295.91 185.7374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 292.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 292.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 292.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "448f7fdd-99e1-40ea-9aa7-19ea09ff0fe1")
+		)
+		(pin "2"
+			(uuid "b97772e0-f726-4218-a4c1-8e696ac615dc")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 68.58 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c711b1a-0feb-4c59-b204-bed1c0af24ed")
+		(property "Reference" "J4"
+			(at 69.85 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 69.85 214.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
+			(at 68.58 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 68.58 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ddc1c577-87e5-4116-ac9e-98d074695924")
+		)
+		(pin "4"
+			(uuid "cbd29bb6-1b4c-4468-b860-574566dddc23")
+		)
+		(pin "1"
+			(uuid "106bb61d-e9ec-4ae2-aaf9-74c74898009e")
+		)
+		(pin "3"
+			(uuid "6f8d2647-6d6d-4e5f-8597-e20cc3196e21")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 223.52 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d439d92-5776-4d00-8d0c-d477d45ffa31")
+		(property "Reference" "D13"
+			(at 227.33 216.2174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 227.33 218.7574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e6fd493-7e1f-4503-b5b2-c9b0df21e603")
+		)
+		(pin "2"
+			(uuid "4e25383d-cd5b-4bd3-bd2a-f9ab68f442a5")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fc4e658-250d-40ac-8c50-b612935a6f27")
+		(property "Reference" "R10"
+			(at 226.06 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 226.06 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 221.742 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bf5e562-a353-4654-8d2e-73c28b037ac1")
+		)
+		(pin "2"
+			(uuid "5e23eaea-2e66-4b32-a4a1-848474b7ce1d")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 271.78 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff5f85e-3f2f-419f-bd4b-0dc4cfc0b60f")
+		(property "Reference" "D16"
+			(at 275.59 183.1974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 275.59 185.7374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 271.78 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 271.78 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 271.78 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dca0f586-3377-4d46-90a4-aaeb7c3b4e48")
+		)
+		(pin "2"
+			(uuid "18b22281-f4f6-40f8-a4a8-48da90dd8b62")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 72.39 0)
 		(unit 1)
@@ -10631,6 +14205,88 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "446a15b2-3b50-40b4-b84d-9d291645c20a")
+		(property "Reference" "R13"
+			(at 215.9 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 215.9 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 211.582 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de9bcc76-4889-4f47-a6da-7d956052b948")
+		)
+		(pin "2"
+			(uuid "5dd6106e-97d3-469d-9edc-9dadc8d8659a")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10770,6 +14426,181 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4865a0f0-760e-47d2-9df4-b615ca174be9")
+		(property "Reference" "R15"
+			(at 236.22 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 236.22 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.902 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc0a350b-53f2-46a2-aae5-93e6135a2b2e")
+		)
+		(pin "2"
+			(uuid "60c2aab1-1adf-4c97-82da-b310364852e7")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a758d8d-f5a0-4e8e-b22f-9c7349d7d056")
+		(property "Reference" "D12"
+			(at 217.17 216.2174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 218.7574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d63c048-0356-4d08-8552-83513012f51c")
+		)
+		(pin "2"
+			(uuid "11107b99-f9fc-40a7-8f28-60cdcc1ea672")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11062,6 +14893,88 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 114.3 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526c4f69-f045-4e36-813f-e04efc74007d")
+		(property "Reference" "J10"
+			(at 115.57 218.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 115.57 220.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+			(at 114.3 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 114.3 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be791e7c-a3e2-4d46-a481-9fdffebfbaab")
+		)
+		(pin "2"
+			(uuid "865f7591-2f1b-46d5-993f-d1b68b2bfccd")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11683,6 +15596,265 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 245.11 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bd266da-1370-4bf2-a68f-0deeb3ed47d3")
+		(property "Reference" "D11"
+			(at 248.92 184.4674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 248.92 187.0074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 245.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 245.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb87ea4-987a-454a-a44a-e81fcf3a5c6b")
+		)
+		(pin "2"
+			(uuid "c903b9ea-eb9a-4e4f-98f6-f09c38f7982f")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 68.58 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c56a3ea-c223-4ea2-9c28-320193e8b023")
+		(property "Reference" "J8"
+			(at 69.85 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 69.85 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
+			(at 68.58 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 68.58 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5fe413c-df5a-41ca-b964-e501f1453670")
+		)
+		(pin "4"
+			(uuid "4fdc2ddb-3235-4a2f-a06e-e3f93c62534e")
+		)
+		(pin "1"
+			(uuid "f60d5f69-1516-4aee-a838-6d1036f708e2")
+		)
+		(pin "3"
+			(uuid "09b49621-c20f-4d7b-aa3e-081b1a4345df")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e35a991-0aa0-4e87-8dff-f01912ce6281")
+		(property "Reference" "#PWR040"
+			(at 233.68 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0c1a2c0-2474-4ba1-b8c1-24e071fef49a")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 58.42 0)
 		(unit 1)
@@ -11759,6 +15931,88 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67025d02-6025-4d1d-9298-53634f9aac68")
+		(property "Reference" "R12"
+			(at 247.65 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 247.65 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.332 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14d15e7d-325f-4053-99c1-9666c8bbd07e")
+		)
+		(pin "2"
+			(uuid "63cca2aa-271d-4b77-a3c7-b805bb900329")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12129,6 +16383,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 223.52 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "720de4be-0ffe-4b98-b5ba-dd378b65eccc")
+		(property "Reference" "R14"
+			(at 226.06 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 226.06 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 221.742 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad6e87a2-7c5b-4268-8649-fd2f602d897a")
+		)
+		(pin "2"
+			(uuid "605bbddf-fe69-49f4-b11d-61b7d6edaf1e")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 246.38 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -12285,6 +16621,356 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 281.94 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745fa018-708e-4e46-807e-7ca07d34f29c")
+		(property "Reference" "D17"
+			(at 285.75 183.1974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 285.75 185.7374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 281.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 281.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 281.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88caf565-ba0c-423a-aae5-c7d1b99478c5")
+		)
+		(pin "2"
+			(uuid "971d0aac-133a-4c81-b37d-a6dfe174f2ac")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 326.39 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758e5026-d682-44c6-979f-475c047713a5")
+		(property "Reference" "R22"
+			(at 328.93 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 328.93 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 324.612 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 326.39 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40562cd0-8ab9-4ba2-942e-4ead34a628cd")
+		)
+		(pin "2"
+			(uuid "db555fb7-5078-4533-b4c7-0309a0b5c420")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a652f67-1523-474f-856a-3caae1aa2d26")
+		(property "Reference" "R9"
+			(at 215.9 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 215.9 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 211.582 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a796ec3e-5933-4682-902d-5837ebbffde8")
+		)
+		(pin "2"
+			(uuid "35fe4ae7-bc18-4a18-8d3b-31517eb7be44")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 233.68 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e46f794-ad8f-4568-b69c-b7aaa289b2b7")
+		(property "Reference" "D14"
+			(at 237.49 216.2174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 237.49 218.7574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7da6d0f1-ae9a-452d-8760-9f67631ebba0")
+		)
+		(pin "2"
+			(uuid "364d0845-79fa-4278-8898-bcdf3c41b822")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -12458,6 +17144,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 303.53 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d7ccd8e-a50b-48b0-8f34-d54ed3a085bb")
+		(property "Reference" "D19"
+			(at 307.34 183.1974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 307.34 185.7374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 303.53 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 303.53 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 303.53 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e063c35-fb34-467f-be6a-44e6420ead88")
+		)
+		(pin "2"
+			(uuid "2808075e-8dad-4e1b-b83a-9dfeff40a562")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 62.23 36.83 0)
 		(unit 1)
@@ -12530,6 +17309,330 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 271.78 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f8f4eba-9259-4a29-a8ba-1586f76625f0")
+		(property "Reference" "R17"
+			(at 274.32 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 274.32 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 270.002 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db4c5420-dd27-4878-8046-1a69111b045a")
+		)
+		(pin "2"
+			(uuid "d5b82ed0-7f12-430e-88d3-53ff2914c857")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 281.94 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "918b5258-89e6-4eff-87e4-11fb61abfb60")
+		(property "Reference" "R18"
+			(at 284.48 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 284.48 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 280.162 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 281.94 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "743b466a-cef5-47af-b1bb-e2b5a9b6a8f3")
+		)
+		(pin "2"
+			(uuid "de8dbed8-0433-499a-aba9-f9ed50756e8c")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 292.1 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991acd57-ab22-4dea-9473-21c10701db0a")
+		(property "Reference" "R19"
+			(at 294.64 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 294.64 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 290.322 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 292.1 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10ad9bb7-4d3c-44d4-8fe5-b3de389a6da9")
+		)
+		(pin "2"
+			(uuid "c9f84093-b3dd-440d-95ba-bdfd8aa0bff2")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a8c305-8690-420d-ba1e-a9564299bb83")
+		(property "Reference" "#PWR036"
+			(at 233.68 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc3c9c66-8f60-4139-b9d4-079db23e08c4")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12694,6 +17797,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 233.68 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e5b3476-feb6-45c2-ae0b-59ab54e52a94")
+		(property "Reference" "R11"
+			(at 236.22 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 236.22 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.902 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2016afdf-2a43-4106-ae16-3f6c74d980e2")
+		)
+		(pin "2"
+			(uuid "94bfb73e-6e13-46e6-9603-816b64744428")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 173.99 0)
 		(unit 1)
@@ -12766,6 +17951,88 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 114.3 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f3a395c-3d16-4eec-a14d-15e8a7dcda6d")
+		(property "Reference" "J11"
+			(at 115.57 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 115.57 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+			(at 114.3 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 114.3 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b6bea2-d329-4197-9f90-ce8140ea61d1")
+		)
+		(pin "2"
+			(uuid "844007d8-2b86-4a3f-9c81-b21cc5fa96c5")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -13187,6 +18454,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 245.11 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb52616-f8da-4dac-83fe-bf8f0fff2f11")
+		(property "Reference" "R16"
+			(at 247.65 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 247.65 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.332 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "876cb700-4a1b-4689-bf85-e5d99a68b5ba")
+		)
+		(pin "2"
+			(uuid "d76c8893-9ca3-421b-ad49-d6288a72f185")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 80.01 0)
 		(unit 1)
@@ -13259,6 +18608,259 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 316.23 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23fb65e-eaef-47d5-913c-193c63da1cbf")
+		(property "Reference" "R21"
+			(at 318.77 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 318.77 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 314.452 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 316.23 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a857aba-d5c5-4924-aa0d-55ee8547f956")
+		)
+		(pin "2"
+			(uuid "4f0829c3-5984-4d4a-9e38-4d745fdec233")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 233.68 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6473263-a62e-4d30-987e-22b192cd09a3")
+		(property "Reference" "D10"
+			(at 237.49 184.4674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 237.49 187.0074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 233.68 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 233.68 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 233.68 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d9d42f8-6bc8-430d-bc09-2ebb35aa7c0f")
+		)
+		(pin "2"
+			(uuid "910059e7-21c2-4bc7-9999-0936206567da")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 316.23 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bad38cf8-14f1-4867-a953-c8e4d93fb2b7")
+		(property "Reference" "#PWR048"
+			(at 316.23 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 316.23 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5d22332-5e7d-409a-841d-11af8dc911ed")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13343,6 +18945,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 303.53 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1376d68-50b3-45c4-8912-707d75f021e6")
+		(property "Reference" "#PWR047"
+			(at 303.53 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 303.53 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 303.53 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89ae6f9a-368b-4eac-8983-62d2e40dd324")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 63.5 163.83 0)
 		(unit 1)
@@ -13419,6 +19099,84 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 281.94 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6205ced-2510-4539-b5f4-d051bff19d41")
+		(property "Reference" "#PWR045"
+			(at 281.94 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bf43ebe-5099-44b1-a355-389602af8000")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -13660,6 +19418,244 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d52f78f9-e837-4b4b-a814-5616d7ec4cb7")
+		(property "Reference" "#PWR033"
+			(at 106.68 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e13e36d-89f8-47dd-ae77-6fab2e82dcbe")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 303.53 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d587c6d1-081d-415d-8a59-93633851e17c")
+		(property "Reference" "R20"
+			(at 306.07 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 306.07 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 301.752 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 303.53 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bf15d42-0479-4813-87b7-3aa6fa94f1e2")
+		)
+		(pin "2"
+			(uuid "d78ae81c-d381-464e-823a-b88bb7762c0b")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbac9246-3861-4550-8774-3034ddaeadbf")
+		(property "Reference" "#PWR043"
+			(at 48.26 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cebebe7-f172-4db5-a3ad-1e04fa6d7950")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14140,6 +20136,426 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23b92e2-0bd1-4ac1-8f7b-a2fb1d74a0c7")
+		(property "Reference" "D7"
+			(at 217.17 184.4674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 187.0074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 213.36 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e813d85e-d09c-490c-b84e-3ddaf6513b72")
+		)
+		(pin "2"
+			(uuid "8ab84284-9dfa-4398-a43e-5380652497ab")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 316.23 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e69234d9-3c40-4b59-a93b-ecfc2b8c4285")
+		(property "Reference" "D20"
+			(at 320.04 183.1974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 320.04 185.7374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 316.23 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 316.23 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 316.23 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82badd5d-1782-4866-b5bb-5d062c74f2fe")
+		)
+		(pin "2"
+			(uuid "81f4b3f0-dd1f-4cda-a882-47d25eecb7c8")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eae10d43-f863-4ecd-aec5-3c543aa88840")
+		(property "Reference" "#PWR042"
+			(at 48.26 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "968163c4-ca08-4947-a63b-bf923c07dc03")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edc61003-fd06-4d0d-9a21-47d3e0c3fe50")
+		(property "Reference" "#PWR041"
+			(at 245.11 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee561028-5c47-4e7d-95c4-238cde3214ee")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f294780f-48d3-461c-96c6-691e20fbae23")
+		(property "Reference" "#PWR032"
+			(at 106.68 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1cd233b-e66a-47a5-ac97-4a6044d8f24c")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 214.63 74.93 0)
 		(unit 1)
@@ -14215,6 +20631,84 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89d057b-a8fb-4ba6-bad0-bd0ce93ab9ba")
+		(property "Reference" "#PWR049"
+			(at 326.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49165e25-9136-4c75-8b37-a44e0948598b")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14304,6 +20798,162 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 213.36 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb9fe913-fb8b-40b4-a403-c837e9503fc5")
+		(property "Reference" "#PWR038"
+			(at 213.36 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cf60c41-b30a-45de-b9a7-89ab4e1cc4a7")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc0fe3dc-1e8b-417a-ac4b-097125653014")
+		(property "Reference" "#PWR034"
+			(at 213.36 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d988e9d4-cdca-4507-bbeb-aee57a6d575f")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 55.88 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -14375,6 +21025,177 @@
 			(project "RRST-ESP32-S3-Rev.2-Sense"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 326.39 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fecf8ad2-f9a9-4241-b955-1288db4a460e")
+		(property "Reference" "D21"
+			(at 330.2 183.1974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 330.2 185.7374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1d850da-57a0-4135-9b41-aece9ead2161")
+		)
+		(pin "2"
+			(uuid "fccea4b5-2a7d-4ad9-8e15-94aafa890a9a")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffb93731-db5e-49c4-b702-0159d35cfca3")
+		(property "Reference" "#PWR031"
+			(at 106.68 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ea47a1b-a095-43c9-bd50-ef86654b0105")
+		)
+		(instances
+			(project "RRST-ESP32-S3-Rev.2-Sense"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
