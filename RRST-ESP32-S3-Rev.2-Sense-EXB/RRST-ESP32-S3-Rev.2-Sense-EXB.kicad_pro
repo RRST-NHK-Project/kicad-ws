@@ -8,7 +8,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.1,
+        "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -22,9 +22,9 @@
           "arrow_length": 1270000,
           "extension_offset": 500000,
           "keep_text_aligned": true,
-          "suppress_zeroes": false,
+          "suppress_zeroes": true,
           "text_position": 0,
-          "units_format": 1
+          "units_format": 0
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
@@ -32,22 +32,22 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
+          "drill": 0.95,
+          "height": 1.95,
           "width": 1.7
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
@@ -93,8 +93,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -143,7 +142,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -157,9 +156,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.1,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -442,17 +439,24 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -465,9 +469,16 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -478,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "F767ZI_MB_V1.4.kicad_pro",
+    "filename": "RRST-ESP32-S3-Rev.2-Sense-EXB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -496,10 +507,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -515,10 +526,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "order1/",
+      "plot": "Gerber/",
       "pos_files": "",
-      "specctra_dsn": "F767ZI_MB_V1.4.dsn",
-      "step": "F767ZI_MB_V1.4.step",
+      "specctra_dsn": "",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -526,7 +537,11 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -548,24 +563,6 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
@@ -573,14 +570,45 @@
         },
         {
           "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "リファレンス"
     },
@@ -592,6 +620,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -613,16 +642,10 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -633,16 +656,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "F767ZI_MB_V1.4.kicad_sch",
-        "name": "F767ZI_MB_V1.4",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "RRST-ESP32-S3-Rev.2-Sense-EXB.kicad_sch",
+        "name": "RRST-ESP32-S3-Rev.2-Sense-EXB",
+        "uuid": "014e2009-c134-443a-9ecf-ce6ef526cc4e"
       }
-    ]
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
-      "eae74ee6-7f25-4ac8-b059-961e47bccfad",
-      "ルート"
+      "014e2009-c134-443a-9ecf-ce6ef526cc4e",
+      "RRST-ESP32-S3-Rev.2-Sense-EXB"
     ]
   ],
   "text_variables": {},

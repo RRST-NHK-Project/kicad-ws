@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -30,7 +30,7 @@
       "zones": true
     },
     "visible_items": [
-      "vias",
+      "footprint_text",
       "footprint_anchors",
       "ratsnest",
       "grid",
@@ -38,29 +38,27 @@
       "footprints_back",
       "footprint_values",
       "footprint_references",
-      "tracks",
       "drc_errors",
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "F767ZI_MB_V1.4.kicad_prl",
+    "filename": "RRST-ESP32-S3-Rev.2-Sense-EXB.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -89,16 +87,16 @@
       9
     ],
     "col_widths": [
-      162,
+      333,
+      311,
+      204,
       147,
-      89,
-      70,
-      89,
-      89,
-      89,
-      53,
-      89,
-      89
+      204,
+      204,
+      204,
+      110,
+      204,
+      204
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
