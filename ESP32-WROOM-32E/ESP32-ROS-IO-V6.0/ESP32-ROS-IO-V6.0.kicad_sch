@@ -6106,7 +6106,7 @@
 			)
 		)
 	)
-	(global_label "TR6_Bypass_OUT"
+	(global_label "TR7_Bypass_OUT"
 		(shape input)
 		(at 50.8 176.53 180)
 		(fields_autoplaced yes)
@@ -8922,7 +8922,7 @@
 			)
 		)
 	)
-	(global_label "TR7_Bypass_OUT"
+	(global_label "TR6_Bypass_OUT"
 		(shape input)
 		(at 50.8 173.99 180)
 		(fields_autoplaced yes)
