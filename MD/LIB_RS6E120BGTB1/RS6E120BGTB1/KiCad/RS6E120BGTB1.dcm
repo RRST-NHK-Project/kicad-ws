@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RS6E120BGTB1
+D MOSFET 30V 270A HSOP8, Power MOSFET
+K
+F https://fscdn.rohm.com//en/products/databook/datasheet/discrete/transistor/mosfet/rs6e120bgtb1-e.pdf
+$ENDCMP
+#
+#End Doc Library
