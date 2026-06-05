@@ -7624,7 +7624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L7805"
+		(property "Value" "MC7805CDTG"
 			(at 132.08 185.4199 90)
 			(effects
 				(font
@@ -7633,7 +7633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:PG-TO220-3_INF"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 124.46 184.785 0)
 			(effects
 				(font
@@ -10746,7 +10746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L7812"
+		(property "Value" "L7812CD2T-TR"
 			(at 86.36 170.1799 90)
 			(effects
 				(font
@@ -10755,7 +10755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:PG-TO220-3_INF"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 78.74 169.545 0)
 			(effects
 				(font
