@@ -30,7 +30,6 @@
       "zones": true
     },
     "visible_items": [
-      "vias",
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
@@ -39,19 +38,17 @@
       "footprints_back",
       "footprint_values",
       "footprint_references",
-      "tracks",
       "drc_errors",
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -61,13 +58,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "RRST-ESP32-S3-Rev.2.kicad_prl",
+    "filename": "XIAO ESP32-S3-SMD.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -89,23 +84,19 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
-      162,
+      333,
+      311,
+      204,
       147,
-      89,
-      85,
-      89,
-      89,
-      89,
-      63,
-      89,
-      89,
-      89,
-      89
+      204,
+      204,
+      204,
+      110,
+      204,
+      204
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
