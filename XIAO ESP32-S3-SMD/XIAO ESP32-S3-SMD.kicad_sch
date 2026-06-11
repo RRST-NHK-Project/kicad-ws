@@ -2084,16 +2084,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 35.56) (xy 332.74 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197b44aa-de19-4689-9dd6-5abb7a993a27")
-	)
-	(wire
-		(pts
 			(xy 203.2 123.19) (xy 196.85 123.19)
 		)
 		(stroke
@@ -2224,6 +2214,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 33.02) (xy 330.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9284d385-7ac1-491e-8b36-572c6f8aa3d6")
+	)
+	(wire
+		(pts
 			(xy 203.2 107.95) (xy 196.85 107.95)
 		)
 		(stroke
@@ -2254,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 35.56) (xy 332.74 36.83)
+			(xy 345.44 33.02) (xy 345.44 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3222,6 +3222,30 @@
 			)
 		)
 	)
+	(global_label "EXT_POWER"
+		(shape input)
+		(at 330.2 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2e34580-d213-43f3-9269-3311337afdae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 343.9498 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO5"
 		(shape input)
 		(at 196.85 118.11 180)
@@ -3451,30 +3475,6 @@
 		(uuid "c45e0ca1-4fac-4d91-9444-d1e1692be25c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.6628 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "EXT_POWER"
-		(shape input)
-		(at 330.2 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9ae82f4-a672-4178-b732-267fd87b822b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 343.9498 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,7 +4913,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 36.83 0)
+		(at 345.44 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4924,7 +4924,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d55298c-472c-4b27-be17-ca3f59e7febb")
 		(property "Reference" "#PWR05"
-			(at 332.74 43.18 0)
+			(at 345.44 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +4935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 38.0999 0)
+			(at 347.98 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4946,7 +4946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 36.83 0)
+			(at 345.44 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4957,7 +4957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 36.83 0)
+			(at 345.44 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4968,7 +4968,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 332.74 36.83 0)
+			(at 345.44 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

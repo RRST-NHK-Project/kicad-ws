@@ -93,10 +93,10 @@
 		(at 151.795 91.09)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
-		(property "Reference" "U1"
-			(at 3.81 -2.33 0)
+		(property "Reference" "MCP2561"
+			(at 4.405 -2.89 0)
 			(layer "F.SilkS")
-			(uuid "9e1e85bf-c70f-43a9-8485-15edb84a76aa")
+			(uuid "c3875e09-a3a7-41cc-b8f3-927538caa7c0")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "~"
 			(at 3.81 9.95 0)
 			(layer "F.Fab")
-			(uuid "ea2d2ef7-268b-4821-b75a-d64da30625ec")
+			(uuid "e0932365-27c2-4a6a-9e07-667ff0211ea6")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e086a3d0-08e1-4fd8-9ce4-4c7967a119b7")
+			(uuid "22e7e0a3-5be7-4a7a-91ae-138977557c0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd27a1e7-8d64-4aab-a29e-6f24912a943f")
+			(uuid "abd39429-d8ad-4d25-8d9e-5a27c0fbff23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,10 +407,10 @@
 		(at 157.175 85.5 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "R120"
+		(property "Reference" "TERM"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
-			(uuid "c79da99f-8d97-40be-bac1-ad2a46fd8e12")
+			(uuid "9cc05c9d-1b5f-4782-a6bd-4ddf7e79e321")
 			(effects
 				(font
 					(size 1 1)
@@ -421,7 +421,7 @@
 		(property "Value" "R120"
 			(at 0 4.92 90)
 			(layer "F.Fab")
-			(uuid "da22fc62-0863-47e8-b44d-a897994a41e2")
+			(uuid "fd3fe934-e782-4eb4-aa1b-973c22e9d92c")
 			(effects
 				(font
 					(size 1 1)
@@ -433,7 +433,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee8fff35-a6bb-49b4-bfe7-3d2274923ff5")
+			(uuid "b81f9e90-5414-45d1-b825-a6bc40925bcb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +444,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2abc5e5-e1e4-4daf-9a3e-4b7716730884")
+			(uuid "2f404f96-d53a-497f-a7b8-c4308521f912")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,10 +648,10 @@
 		(at 142.6 90.3)
 		(descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf")
 		(tags "RC Connector XT30")
-		(property "Reference" "J6"
-			(at 2.5 -4 0)
-			(layer "F.SilkS")
-			(uuid "436486f7-bc07-4c0e-a8b1-9c16968a01b0")
+		(property "Reference" "EXT"
+			(at 8.9 -2.1 90)
+			(layer "F.SilkS" knockout)
+			(uuid "61fe5721-1108-4a6e-a1ac-07a77f6d2c69")
 			(effects
 				(font
 					(size 1 1)
@@ -662,7 +662,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 2.5 4 0)
 			(layer "F.Fab")
-			(uuid "ca7dda43-6dea-4bbf-9756-2c2b54f6380c")
+			(uuid "bb45da3b-4723-4a3f-8435-347ecd6e3702")
 			(effects
 				(font
 					(size 1 1)
@@ -675,7 +675,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ac12d27-cdb9-4947-b8dc-9c2fcf2dab75")
+			(uuid "6cbcde53-85f3-4c13-97be-96d9ebcc69c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +688,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab7bb380-b7c3-4411-8d1e-10567acfc40a")
+			(uuid "0b0503fc-1475-4cb1-ae1e-358ebaa32945")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +889,7 @@
 			(uuid "7dc4f2ad-5d10-4063-b929-9efedf2c0b71")
 		)
 		(fp_text user "-"
-			(at -4 0 0)
+			(at -2.2 -2.9 0)
 			(layer "F.SilkS")
 			(uuid "44c212f0-6e1b-46dc-b11a-1c7b028835ec")
 			(effects
@@ -900,7 +900,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at 9 0 0)
+			(at 7 -2 0)
 			(layer "F.SilkS")
 			(uuid "b0b4790e-f9b1-4683-9625-f4f6cc46ceeb")
 			(effects
@@ -928,7 +928,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.2)
-			(net "EXT_POWER")
+			(net "GND")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "bc7304e7-8ae9-4402-b7fc-b2f8bdc84e22")
@@ -939,7 +939,7 @@
 			(drill 2.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
+			(net "EXT_POWER")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "8c77c949-af1a-40ab-acce-941b1bec730b")
@@ -974,9 +974,9 @@
 		(at 164.4 78.82125 -90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J3"
-			(at 3.75 -3.55 90)
-			(layer "F.SilkS")
+		(property "Reference" "L H G 5V"
+			(at 1.17875 4.3 90)
+			(layer "F.SilkS" knockout)
 			(uuid "69d720c3-0b7e-43e3-8832-e5ce1ffbed43")
 			(effects
 				(font
@@ -1283,10 +1283,10 @@
 		(at 135.6 86.3 90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "ENC2"
-			(at 3.75 -3.55 90)
-			(layer "F.SilkS")
-			(uuid "7d7c1147-20c8-46bd-b18b-5bd484d416c8")
+		(property "Reference" "5V G A B"
+			(at 3.75 4.3 90)
+			(layer "F.SilkS" knockout)
+			(uuid "1e499e57-75a0-4621-b521-34c9da64d1d4")
 			(effects
 				(font
 					(size 1 1)
@@ -1297,7 +1297,7 @@
 		(property "Value" "ENC2"
 			(at 3.75 4.6 90)
 			(layer "F.Fab")
-			(uuid "374645e6-f9fe-4001-81c0-d4292e9e4959")
+			(uuid "0f647f4a-38b6-4704-8413-8c6a17a8a51e")
 			(effects
 				(font
 					(size 1 1)
@@ -1309,7 +1309,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5e9791e-fa28-44e5-9b46-e00625e2b279")
+			(uuid "892bf4c4-8268-4336-afd8-198a4f818be7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1320,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4eb8b0b0-634f-4702-af82-e9f01ee31576")
+			(uuid "11b7de52-00cc-4f61-8a9d-fcb53d95a500")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,9 +1592,9 @@
 		(at 164.4 65.4 -90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J1"
-			(at 3.75 -3.55 90)
-			(layer "F.SilkS")
+		(property "Reference" "L H G 5V"
+			(at 3.75 4.3 90)
+			(layer "F.SilkS" knockout)
 			(uuid "a9f8375b-b3a0-45a5-b374-314c86f8c77d")
 			(effects
 				(font
@@ -1901,10 +1901,10 @@
 		(at 135.6 72.9 90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "ENC1"
-			(at 3.75 -3.55 90)
-			(layer "F.SilkS")
-			(uuid "b8000449-66cd-4732-b6d8-4e8426260ef7")
+		(property "Reference" "5V G A B"
+			(at 3.75 4.3 90)
+			(layer "F.SilkS" knockout)
+			(uuid "e32a179a-900d-4a2d-8ce4-724a2cf5ae9e")
 			(effects
 				(font
 					(size 1 1)
@@ -1915,7 +1915,7 @@
 		(property "Value" "ENC1"
 			(at 3.75 4.6 90)
 			(layer "F.Fab")
-			(uuid "683fc8a6-36a3-4084-944b-f17013956bf2")
+			(uuid "02bcc824-d0d8-4a84-9467-1dc676653d60")
 			(effects
 				(font
 					(size 1 1)
@@ -1927,7 +1927,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b128c034-7715-4a49-a17d-5ba273f5dd6a")
+			(uuid "95863591-9fe2-4e13-aac9-4ea512da208a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1938,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81d8c7f3-a52f-4ea1-a3f4-637db78c1a0f")
+			(uuid "1a490d45-4e72-4fe4-b79b-540c75766135")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,13 +2207,14 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "99e8b1ae-c2eb-4cd5-800c-5d086cc089dd")
-		(at 147.5 97.425 180)
+		(at 147.7 97.425 180)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J5"
-			(at 2.5 -3.55 0)
-			(layer "F.SilkS")
-			(uuid "8e51fd7e-998f-4510-9c36-3569da87a4e7")
+		(property "Reference" "G S E"
+			(at 2.5 1.725 0)
+			(layer "F.SilkS" knockout)
+			(hide yes)
+			(uuid "8e53ce4e-4499-4504-b81f-88bc321a5894")
 			(effects
 				(font
 					(size 1 1)
@@ -2224,7 +2225,7 @@
 		(property "Value" "Conn_01x03_Socket"
 			(at 2.5 4.6 0)
 			(layer "F.Fab")
-			(uuid "8854a1cc-9fd7-41da-a93b-eb93ab3fe53d")
+			(uuid "02b7b5b4-ced1-4296-8ba3-9a4b3f28fea9")
 			(effects
 				(font
 					(size 1 1)
@@ -2236,7 +2237,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "768e880e-e716-4c82-b558-fd3db97d4eea")
+			(uuid "2c32c597-b6c6-4aa9-b8ab-78547ed9c1a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2248,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ed7d9be-1bec-41a7-8175-3c96d8c97c4a")
+			(uuid "8a6ab2c5-e3c8-4c1f-a57c-506b4c06cfff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,10 +2509,10 @@
 		(at 151.58 85.3 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R3"
-			(at 5.08 -2.37 0)
+		(property "Reference" "120"
+			(at 5.08 -0.1 0)
 			(layer "F.SilkS")
-			(uuid "53201b88-786c-40ff-8f53-e0aaaf12256a")
+			(uuid "5b2cfc4c-2cbe-42c5-8faf-2c464850a0b1")
 			(effects
 				(font
 					(size 1 1)
@@ -2522,7 +2523,7 @@
 		(property "Value" "120"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
-			(uuid "16480abb-165a-409b-a991-bdcd5e84efac")
+			(uuid "f6b74492-69e7-4c7c-9046-94df94712e43")
 			(effects
 				(font
 					(size 1 1)
@@ -2534,7 +2535,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "491c0f5e-4e8e-48f1-b4bd-2b5cc23dacce")
+			(uuid "3cfe4f28-6ca3-4b7a-8d72-8424c68c3f13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2546,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9f87081-e662-43a9-a0eb-a3f738b637a7")
+			(uuid "6d8e1f8f-a837-4532-ad39-3cb57498cf8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29276,10 +29277,11 @@
 		(at 164.4 92.3 -90)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J4"
-			(at 2.5 -3.55 90)
-			(layer "F.SilkS")
-			(uuid "5cd46e68-cb4a-4670-a0a3-aad6278113e9")
+		(property "Reference" "G S E"
+			(at 2.5 1.8 90)
+			(layer "F.SilkS" knockout)
+			(hide yes)
+			(uuid "1e141938-ad4a-4595-b081-d46c576bb323")
 			(effects
 				(font
 					(size 1 1)
@@ -29290,7 +29292,7 @@
 		(property "Value" "Conn_01x03_Socket"
 			(at 2.5 4.6 90)
 			(layer "F.Fab")
-			(uuid "e23d2f22-8218-4263-bd76-b1f07d519012")
+			(uuid "a7756278-49df-4066-b7ca-ed81b2efdeaa")
 			(effects
 				(font
 					(size 1 1)
@@ -29302,7 +29304,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4eceb79b-e9f3-4f6c-98b7-1edbbaf480e7")
+			(uuid "0cef093e-7418-4172-9dcf-e625e93f8338")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29313,7 +29315,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8fe2839-71bf-48a5-ba1c-25da2aba97d5")
+			(uuid "9846f47a-64ce-4819-bed4-fee3b9aa62cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29574,10 +29576,11 @@
 		(at 135.6 97.3 90)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J2"
-			(at 2.5 -3.55 90)
-			(layer "F.SilkS")
-			(uuid "ded8b0ae-1c74-4022-bbed-79292f13625b")
+		(property "Reference" "E S G"
+			(at 2.7 1.9 90)
+			(layer "F.SilkS" knockout)
+			(hide yes)
+			(uuid "4d57ead0-b7ab-40e4-9689-fdc16ad5e8c3")
 			(effects
 				(font
 					(size 1 1)
@@ -29588,7 +29591,7 @@
 		(property "Value" "Conn_01x03_Socket"
 			(at 2.5 4.6 90)
 			(layer "F.Fab")
-			(uuid "6eb4f0c7-6238-41e4-b0a6-2d6d076353aa")
+			(uuid "7958eda9-a1e5-4469-82ce-f7f710e73305")
 			(effects
 				(font
 					(size 1 1)
@@ -29600,7 +29603,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29649d1c-7125-44ea-817b-f56ca8f102d4")
+			(uuid "7edcf26c-413f-4fce-ae20-c4716b445468")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29611,7 +29614,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "877b6eb7-795f-4584-9473-21cd17b5305b")
+			(uuid "88e5a64d-9ed0-43bf-82f2-8b228b29c519")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29876,6 +29879,126 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "9bc1a53c-d0d1-40cf-8477-e4e59b3b8cab")
+	)
+	(gr_text "G S E"
+		(at 143.8 93.915 0)
+		(layer "F.SilkS" knockout)
+		(uuid "633af8c3-b827-4279-9ec1-d437abc3359a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "E S G"
+		(at 140.14 96.4 90)
+		(layer "F.SilkS" knockout)
+		(uuid "d6de9e8e-a516-42a1-8135-771b234e34d5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G S E"
+		(at 160.89 90.4 90)
+		(layer "F.SilkS" knockout)
+		(uuid "c3dd2b7a-02b6-4131-a8ae-91647fc81f4d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MULTI3"
+		(at 145.3 95.7 0)
+		(layer "B.SilkS")
+		(uuid "533efe61-4b15-4e28-bea0-82af1f36a48e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MULTI1"
+		(at 137.4 94.5 90)
+		(layer "B.SilkS")
+		(uuid "ab3f9a72-8da5-44b0-a819-3a463c0871a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "ENC1"
+		(at 137.5 69.2 90)
+		(layer "B.SilkS")
+		(uuid "5cd821a5-2120-4b86-9834-99519e0642bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "ENC2"
+		(at 137.6 82.5 90)
+		(layer "B.SilkS")
+		(uuid "f66325fc-88f5-4924-a922-f5fa27206058")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "CAN"
+		(at 162.6 69.1 90)
+		(layer "B.SilkS")
+		(uuid "b77846f4-419c-41aa-90b9-50a797602e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "CAN"
+		(at 162.6 82.4 90)
+		(layer "B.SilkS")
+		(uuid "5a2c743f-a524-4c16-90e7-60313a2d4861")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MULTI2"
+		(at 162.6 94.8 90)
+		(layer "B.SilkS")
+		(uuid "bf1be17e-eca2-4878-859e-6a6873a9fd28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
 	)
 	(embedded_fonts no)
 )
