@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+120,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,120,
+"CAN1, CAN2",JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,2,Conn_01x04_Socket,
+ENC1,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,ENC1,
+ENC2,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,ENC2,
+"ESG1, GSE2, GSE3",JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,3,Conn_01x03_Socket,
+EXT,AMASS_XT30U-M_1x02_P5.0mm_Vertical,1,Conn_01x02_Pin,
+MCP2561,DIP-8_W7.62mm,1,~,
+TERM,PinHeader_1x02_P2.54mm_Vertical,1,R120,
+U2,XIAO-ESP32-S3-SMD,1,XIAO-ESP32-S3-SMD,
