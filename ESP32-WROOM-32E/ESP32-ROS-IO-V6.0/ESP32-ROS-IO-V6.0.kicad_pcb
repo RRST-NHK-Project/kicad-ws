@@ -19389,6 +19389,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND +"
+		(at 144.8816 77.0128 0)
+		(layer "F.SilkS" knockout)
+		(uuid "2970decd-82e6-4ae2-bc57-3ab90012e5a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MD2D MD2P"
 		(at 194.845 125.73 90)
 		(layer "F.SilkS" knockout)
@@ -19449,8 +19462,8 @@
 			)
 		)
 	)
-	(gr_text "+ GND"
-		(at 154.559 84.963 0)
+	(gr_text "GND +"
+		(at 135.636 84.836 0)
 		(layer "F.SilkS" knockout)
 		(uuid "5d0b868f-5f86-4490-8138-8ba9c027b320")
 		(effects
@@ -19466,19 +19479,6 @@
 		(at 109.5502 129.3368 90)
 		(layer "F.SilkS" knockout)
 		(uuid "6581ac10-afac-40da-beb6-f1a9feec7188")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+ GND"
-		(at 119.2584 94.6912 0)
-		(layer "F.SilkS" knockout)
-		(uuid "6e280863-b8ef-49e5-8f20-7c71b24a3d1f")
 		(effects
 			(font
 				(size 1 1)
@@ -19604,19 +19604,6 @@
 		(at 117.094 84.8106 0)
 		(layer "F.SilkS" knockout)
 		(uuid "d5fe5552-cb66-4b0c-8117-24e1aa90099d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+ GND"
-		(at 149.6568 94.6084 0)
-		(layer "F.SilkS" knockout)
-		(uuid "d9b244d1-436b-463d-bffc-c430e7ed054d")
 		(effects
 			(font
 				(size 1 1)
