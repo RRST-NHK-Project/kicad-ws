@@ -10137,7 +10137,7 @@
 			)
 		)
 	)
-	(global_label "CAN_TX"
+	(global_label "GPIO4{slash}GPIOS3"
 		(shape input)
 		(at 105.41 201.93 180)
 		(fields_autoplaced yes)
@@ -10149,7 +10149,7 @@
 		)
 		(uuid "8c3eaf96-2f9e-45c2-a363-cdc5431808a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.591 201.93 0)
+			(at 88.5152 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
