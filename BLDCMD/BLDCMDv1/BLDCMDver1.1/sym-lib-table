@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS54360BDDAR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54360BDDAR.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8323RS")(type "KiCad")(uri "${KIPRJMOD}/library/DRV8323RS.kicad_sym")(options "")(descr ""))
+)
