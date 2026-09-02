@@ -186,7 +186,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Socket"
+		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -197,7 +197,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -206,7 +206,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Socket"
+			(property "Value" "Conn_01x02_Socket"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -238,7 +238,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -281,19 +281,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x02_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.508 0)
@@ -310,18 +298,6 @@
 					(pts
 						(xy -1.27 -2.54) (xy -0.508 -2.54)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -355,7 +331,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -373,7 +349,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -383,24 +359,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2176,16 +2134,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 34.29) (xy 144.78 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d468e6-b167-4799-bef2-f6e2841a74f0")
-	)
-	(wire
-		(pts
 			(xy 46.99 22.86) (xy 46.99 19.05)
 		)
 		(stroke
@@ -2236,6 +2184,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 35.56) (xy 146.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bcb36a-5868-4ce5-8c0e-3c9a2403d100")
+	)
+	(wire
+		(pts
 			(xy 113.03 106.68) (xy 123.19 106.68)
 		)
 		(stroke
@@ -2243,16 +2201,6 @@
 			(type default)
 		)
 		(uuid "8468101c-edce-493e-b122-a63932b953f7")
-	)
-	(wire
-		(pts
-			(xy 231.14 29.21) (xy 231.14 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8892cfec-7809-4670-9f10-8c451a06b772")
 	)
 	(wire
 		(pts
@@ -2293,16 +2241,6 @@
 			(type default)
 		)
 		(uuid "94302ce0-aff0-45f1-876a-79a82961c291")
-	)
-	(wire
-		(pts
-			(xy 231.14 29.21) (xy 215.9 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d5e138-5a68-49f4-b28d-777349995fa8")
 	)
 	(wire
 		(pts
@@ -2376,16 +2314,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 34.29) (xy 144.78 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddae6ad8-f359-43dc-8bd4-f469245ceb2d")
-	)
-	(wire
-		(pts
 			(xy 92.71 35.56) (xy 110.49 35.56)
 		)
 		(stroke
@@ -2396,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 35.56) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1413dd-cb8d-41bc-879e-e639a99cae72")
+	)
+	(wire
+		(pts
 			(xy 100.33 109.22) (xy 87.63 109.22)
 		)
 		(stroke
@@ -2403,30 +2341,6 @@
 			(type default)
 		)
 		(uuid "ff2f01d4-7124-4b84-9902-3fa753b917c3")
-	)
-	(global_label "EXT_POWER"
-		(shape input)
-		(at 142.24 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "017b8b1a-859d-44ea-8335-9b9cdfe63c47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9898 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "5V0"
 		(shape input)
@@ -3076,30 +2990,6 @@
 			)
 		)
 	)
-	(global_label "SW1"
-		(shape input)
-		(at 142.24 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "67676f42-bf60-4e5f-94f8-253c9d2d4c43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0956 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MD1P"
 		(shape input)
 		(at 55.88 105.41 0)
@@ -3244,6 +3134,30 @@
 			)
 		)
 	)
+	(global_label "SW1"
+		(shape input)
+		(at 143.51 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87209c7c-c117-4f80-b17f-a2f2af6191d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.3656 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ENC1_A"
 		(shape input)
 		(at 92.71 38.1 0)
@@ -3353,30 +3267,6 @@
 		(uuid "982447ad-4f78-4d0b-8dea-3dc4be4a7880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "EXT_POWER"
-		(shape input)
-		(at 215.9 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9973e61b-9a66-44a2-9a58-969018883eed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6498 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,85 +3879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 231.14 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12f872cd-a120-4421-8dae-909b894ae4d0")
-		(property "Reference" "#PWR05"
-			(at 231.14 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4bb99d9-9636-4fae-b5fa-d47cce1a7671")
-		)
-		(instances
-			(project "XIAO-ESP32-S3-MES"
-				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 170.18 34.29 0)
 		(unit 1)
@@ -4484,86 +4295,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 210.82 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "493e07d0-9717-48fc-b5f1-1b804c0cfea8")
-		(property "Reference" "J6"
-			(at 211.455 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 211.455 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 210.82 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 210.82 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2f3f089-b889-4223-b608-c1143440f605")
-		)
-		(pin "2"
-			(uuid "984f4449-efc6-439c-91c9-2fbcf62a36e5")
-		)
-		(instances
-			(project "XIAO-ESP32-S3-MES"
-				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 147.32 115.57 0)
 		(mirror y)
@@ -4724,6 +4455,85 @@
 			(project "XIAO-ESP32-S3-MES"
 				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d847986-2eb7-4bda-99d6-ab1904a9a3a3")
+		(property "Reference" "#PWR03"
+			(at 146.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "357f8a69-a2a6-4559-b0c7-f5109ab006d8")
+		)
+		(instances
+			(project "XIAO-ESP32-S3-MES"
+				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5142,7 +4952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b461dcac-717f-4381-ba3f-89e3f8217053")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 105.41 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,92 +5016,7 @@
 		(instances
 			(project "XIAO-ESP32-S3-MES"
 				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 137.16 31.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bca35ee9-7ea9-4829-b2b6-2bb418e6f23e")
-		(property "Reference" "J2"
-			(at 135.89 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 135.89 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 137.16 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 137.16 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c891bb1-bc4b-4ec3-a97c-9bb31bac5536")
-		)
-		(pin "3"
-			(uuid "6c188fb3-494a-4c52-9c46-c690fbc6bf3d")
-		)
-		(pin "2"
-			(uuid "a1b6f160-e6b3-4a6a-bff8-06f4cdc04c3c")
-		)
-		(instances
-			(project "XIAO-ESP32-S3-MES"
-				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
-					(reference "J2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5370,6 +5095,88 @@
 			(project "XIAO-ESP32-S3-MES"
 				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 138.43 33.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5fe390d-7465-4dab-a23b-612f4c581721")
+		(property "Reference" "J2"
+			(at 137.16 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 137.16 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8db2021b-0f1b-4028-af57-a1b29f1e2b99")
+		)
+		(pin "1"
+			(uuid "692e01cf-c5e9-47b5-833b-4cb9fcfbfb9b")
+		)
+		(instances
+			(project "XIAO-ESP32-S3-MES"
+				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5539,85 +5346,6 @@
 			(project "XIAO-ESP32-S3-MES"
 				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
 					(reference "ENC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0d661cc-c14d-49f6-bd12-8df90f7e6156")
-		(property "Reference" "#PWR02"
-			(at 144.78 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2afe3d4b-fdc1-4e08-9704-3a48a8167d7d")
-		)
-		(instances
-			(project "XIAO-ESP32-S3-MES"
-				(path "/d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
