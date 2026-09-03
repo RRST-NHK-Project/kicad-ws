@@ -661,7 +661,7 @@
         "uuid": "d516d3ab-0e47-4bf5-957d-d8c7a3e589e6"
       }
     ],
-    "used_designators": "ENC1-4,#PWR1-8,#PWR11-12,#PWR23-30,VMD3/VMD4,R3,R120,J1-7,U1-2,VMD1/VMD2,MD3-4",
+    "used_designators": "ENC1-4,#PWR1-8,#PWR11-12,#PWR23-30,VMD3/VMD4,R3,R120,J1-7,U1-2,VMD1/VMD2,MD3-4,SW2-3",
     "variants": []
   },
   "sheets": [
