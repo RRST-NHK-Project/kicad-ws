@@ -96,7 +96,7 @@
 		(property "Reference" "ENC1"
 			(at -0.508 4.318 90)
 			(layer "F.SilkS")
-			(uuid "e9210215-bfcd-4dca-abbf-42e9259ce66a")
+			(uuid "918faf24-4561-4039-948b-bef8c67841de")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "ENC1"
 			(at 3.75 4.6 90)
 			(layer "F.Fab")
-			(uuid "1c5b8797-f5c5-447d-818c-ac36c0295f98")
+			(uuid "29219520-7205-4941-84d5-4c58daa27b4f")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +119,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18d680ee-1c34-45b1-991b-56173e20deee")
+			(uuid "2500f5d3-46f3-4e1b-9b62-bdfcb5d6529f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b4ed407-08d3-4de5-9544-c00ce119158a")
+			(uuid "6a3a872c-c333-4ee8-8d49-d1fa7e3f44b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,14 +328,15 @@
 			(uuid "abca140d-1a82-42da-b4df-ea71cdef765d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 2.7 90)
-			(layer "F.Fab")
+			(at 3.75 2.7 -90)
+			(layer "B.SilkS")
 			(uuid "effa7ec4-d6ca-413e-9458-b0417f672bfa")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole roundrect
@@ -637,14 +638,15 @@
 			(uuid "7ae2039c-871a-4206-937d-bd3a8e2057ea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 2.7 0)
-			(layer "F.Fab")
+			(at 1.25 2.7 -0)
+			(layer "B.SilkS")
 			(uuid "6cca955a-a832-4de6-8f3c-665e850064b0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole roundrect
@@ -924,14 +926,15 @@
 			(uuid "f47191d8-1a4d-4170-871d-e7751bbb39e3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 2.7 0)
-			(layer "F.Fab")
+			(at 3.75 2.7 -0)
+			(layer "B.SilkS")
 			(uuid "9e3a37eb-f634-4897-9374-a237546406fe")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole roundrect
@@ -1424,14 +1427,15 @@
 			(uuid "5095f54b-6d5a-482a-8270-1f09b1375d3c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 2.7 90)
-			(layer "F.Fab")
+			(at 3.75 2.7 -90)
+			(layer "B.SilkS")
 			(uuid "4388c560-74fd-4610-ac51-5c5671a0e3f6")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole roundrect
@@ -28310,14 +28314,15 @@
 			(uuid "c82b0b9e-f675-4731-b7c7-74a6bab0f7a4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 2.7 0)
-			(layer "F.Fab")
+			(at 3.75 2.7 -0)
+			(layer "B.SilkS")
 			(uuid "247b5ebe-fc87-4673-9671-9895a2ad817b")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole roundrect
@@ -28619,14 +28624,15 @@
 			(uuid "241c9eff-195b-4ebf-9435-583bec75c007")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 2.7 90)
-			(layer "F.Fab")
+			(at 3.75 2.7 -90)
+			(layer "B.SilkS")
 			(uuid "4070702f-c0ce-4945-82c7-08c25f0ca1d5")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole roundrect
@@ -29483,14 +29489,15 @@
 			(uuid "9b314060-efca-4c51-9673-e97504aff3a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 2.7 90)
-			(layer "F.Fab")
+			(at 3.75 2.7 -90)
+			(layer "B.SilkS")
 			(uuid "8eed806e-3296-484b-aa76-320132c6eb78")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole roundrect
@@ -29574,7 +29581,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "D P G 5V0"
+	(gr_text "D P G 5V"
 		(at 98.0948 84.4804 0)
 		(layer "F.SilkS" knockout)
 		(uuid "b3e318a3-70a7-4697-9b41-2477050ac436")
@@ -29587,7 +29594,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "D P G 5V0"
+	(gr_text "D P G 5V"
 		(at 111.8338 84.5198 0)
 		(layer "F.SilkS" knockout)
 		(uuid "194b0605-84d2-42f7-9fca-4b4488edf0e9")
@@ -29600,7 +29607,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V0 G A B"
+	(gr_text "5V G A B"
 		(at 104.775 61.007 90)
 		(layer "F.SilkS" knockout)
 		(uuid "b649b709-dbdc-4d94-9e83-f0d69b2b0b37")
@@ -29613,7 +29620,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V0 G A B"
+	(gr_text "5V G A B"
 		(at 104.775 74.8792 90)
 		(layer "F.SilkS" knockout)
 		(uuid "1e60cef1-bd84-4f81-9a09-6fb5c17e9eca")
@@ -29626,7 +29633,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "L H G 5V0"
+	(gr_text "L H G 5V"
 		(at 126.492 74.7776 90)
 		(layer "F.SilkS" knockout)
 		(uuid "fb7c7ca8-15dd-407d-9bfa-077b19c85540")
@@ -29639,7 +29646,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "L H G 5V0"
+	(gr_text "L H G 5V"
 		(at 126.515 60.9092 90)
 		(layer "F.SilkS" knockout)
 		(uuid "35bd31b4-2471-43d6-9af7-5b27706fd6f1")
@@ -29650,6 +29657,20 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "XIAO ESP32-S3\nMES v1.0"
+		(at 125 79.5 0)
+		(layer "B.SilkS" knockout)
+		(uuid "d405d204-354c-41c8-a8c5-18cd874cc5d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(embedded_fonts no)
