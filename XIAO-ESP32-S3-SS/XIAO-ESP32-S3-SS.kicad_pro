@@ -661,7 +661,7 @@
         "uuid": "4e9a55bb-aa52-4145-afac-71373ee412d4"
       }
     ],
-    "used_designators": "ENC1-2,#PWR1-6,#PWR11-18,#PWR21-24,R3,R120,J1-6,J16-17,U1-3,SV1-7,Servo1-5",
+    "used_designators": "ENC1-2,#PWR1-7,#PWR11-18,#PWR21-24,R3,R120,J1-7,J16-17,U1-3,SV1-7,Servo1-5",
     "variants": []
   },
   "sheets": [
