@@ -32102,14 +32102,6 @@
 		(uuid "9dce3b26-93e1-4931-b7ce-70f97006751e")
 	)
 	(segment
-		(start 137.414 122.114)
-		(end 137.4 122.1)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "SERVO+")
-		(uuid "a431a77a-1cba-4b11-94ec-7237f6ec2e61")
-	)
-	(segment
 		(start 127.096 128.404)
 		(end 127.1 128.4)
 		(width 0.2)
