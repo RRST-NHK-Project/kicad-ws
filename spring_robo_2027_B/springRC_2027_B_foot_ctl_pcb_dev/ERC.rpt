@@ -1,0 +1,120 @@
+ERC report (2026-10-22T05:37:52, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[multiple_net_names]: IO16 と MD1_PWM1 は、ともに同じ配線に接続されています; IO16 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(7150 mils, 4800 mils): グローバル ラベル 'IO16'
+    @(1200 mils, 5650 mils): グローバル ラベル 'MD1_PWM1'
+[multiple_net_names]: IO9 と MD2_DIR1 は、ともに同じ配線に接続されています; IO9 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 6100 mils): グローバル ラベル 'IO9'
+    @(1200 mils, 6100 mils): グローバル ラベル 'MD2_DIR1'
+[multiple_net_names]: IO10 と MD2_PWM1 は、ともに同じ配線に接続されています; IO10 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 6250 mils): グローバル ラベル 'IO10'
+    @(1200 mils, 6250 mils): グローバル ラベル 'MD2_PWM1'
+[multiple_net_names]: IO12 と MD2_PWM2 は、ともに同じ配線に接続されています; IO12 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(7150 mils, 5700 mils): グローバル ラベル 'IO12'
+    @(1200 mils, 6550 mils): グローバル ラベル 'MD2_PWM2'
+[multiple_net_names]: ENC1_B_BUF と IO2 は、ともに同じ配線に接続されています; ENC1_B_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 6850 mils): グローバル ラベル 'ENC1_B_BUF'
+    @(1200 mils, 6850 mils): グローバル ラベル 'IO2'
+[multiple_net_names]: ENC1_X_BUF と IO42 は、ともに同じ配線に接続されています; ENC1_X_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(10050 mils, 1400 mils): グローバル ラベル 'ENC1_X_BUF'
+    @(1200 mils, 7000 mils): グローバル ラベル 'IO42'
+[multiple_net_names]: ENC2_B_BUF と IO40 は、ともに同じ配線に接続されています; ENC2_B_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(12600 mils, 1700 mils): グローバル ラベル 'ENC2_B_BUF'
+    @(1200 mils, 7300 mils): グローバル ラベル 'IO40'
+[multiple_net_names]: ENC2_X_BUF と IO39 は、ともに同じ配線に接続されています; ENC2_X_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(11800 mils, 1500 mils): グローバル ラベル 'ENC2_X_BUF'
+    @(1200 mils, 7450 mils): グローバル ラベル 'IO39'
+[multiple_net_names]: ENC3_A_BUF と IO48 は、ともに同じ配線に接続されています; ENC3_A_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(10850 mils, 2000 mils): グローバル ラベル 'ENC3_A_BUF'
+    @(1200 mils, 7600 mils): グローバル ラベル 'IO48'
+[multiple_net_names]: ENC3_X_BUF と IO21 は、ともに同じ配線に接続されています; ENC3_X_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 7900 mils): グローバル ラベル 'ENC3_X_BUF'
+    @(1200 mils, 7900 mils): グローバル ラベル 'IO21'
+[multiple_net_names]: ENC4_A_BUF と IO4 は、ともに同じ配線に接続されています; ENC4_A_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(12600 mils, 2100 mils): グローバル ラベル 'ENC4_A_BUF'
+    @(1200 mils, 8050 mils): グローバル ラベル 'IO4'
+[multiple_net_names]: 3V3 と +3.3V は、ともに同じ配線に接続されています; 3V3 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(900 mils, 3900 mils): グローバル ラベル '3V3'
+    @(3700 mils, 4150 mils): Symbol #PWR08 ピン 1 [電源入力, ライン]
+[multiple_net_names]: ENC4_X_BUF と IO6 は、ともに同じ配線に接続されています; ENC4_X_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 8350 mils): グローバル ラベル 'ENC4_X_BUF'
+    @(4450 mils, 5350 mils): グローバル ラベル 'IO6'
+[multiple_net_names]: ENC3_B_BUF と IO47 は、ともに同じ配線に接続されています; ENC3_B_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(10850 mils, 2200 mils): グローバル ラベル 'ENC3_B_BUF'
+    @(5650 mils, 6250 mils): グローバル ラベル 'IO47'
+[lib_symbol_mismatch]: シンボル 'USB_C_Receptacle_USB2.0_16P' が、ライブラリ 'Connector' のコピーと一致しません
+    ; warning
+    @(6200 mils, 1850 mils): シンボル J1 [USB_C_Receptacle_USB2.0_16P]
+[multiple_net_names]: ENC4_B_BUF と IO5 は、ともに同じ配線に接続されています; ENC4_B_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 8200 mils): グローバル ラベル 'ENC4_B_BUF'
+    @(7150 mils, 4400 mils): グローバル ラベル 'IO5'
+[lib_symbol_issues]: 現在の構成にはシンボル ライブラリ 'LESD5D5.0CT1G' が含まれていません
+    ; warning
+    @(7900 mils, 2400 mils): シンボル D4 [LESD5D5.0CT1G]
+[multiple_net_names]: ENC1_A_BUF と IO1 は、ともに同じ配線に接続されています; ENC1_A_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(10850 mils, 1400 mils): グローバル ラベル 'ENC1_A_BUF'
+    @(8150 mils, 4300 mils): グローバル ラベル 'IO1'
+[multiple_net_names]: ENC2_A_BUF と IO41 は、ともに同じ配線に接続されています; ENC2_A_BUF をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 7150 mils): グローバル ラベル 'ENC2_A_BUF'
+    @(8150 mils, 4600 mils): グローバル ラベル 'IO41'
+[lib_symbol_issues]: 現在の構成にはシンボル ライブラリ 'LESD5D5.0CT1G' が含まれていません
+    ; warning
+    @(8200 mils, 2400 mils): シンボル D5 [LESD5D5.0CT1G]
+[lib_symbol_issues]: 現在の構成にはシンボル ライブラリ 'LESD5D5.0CT1G' が含まれていません
+    ; warning
+    @(8550 mils, 2400 mils): シンボル D6 [LESD5D5.0CT1G]
+[multiple_net_names]: IO18 と MD1_DIR2 は、ともに同じ配線に接続されています; IO18 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(7150 mils, 5000 mils): グローバル ラベル 'IO18'
+    @(9800 mils, 4300 mils): グローバル ラベル 'MD1_DIR2'
+[multiple_net_names]: IO17 と MD1_PWM2 は、ともに同じ配線に接続されています; IO17 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 5950 mils): グローバル ラベル 'IO17'
+    @(9900 mils, 4300 mils): グローバル ラベル 'MD1_PWM2'
+[multiple_net_names]: IO15 と MD1_DIR1 は、ともに同じ配線に接続されています; IO15 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(1200 mils, 5500 mils): グローバル ラベル 'IO15'
+    @(10000 mils, 4300 mils): グローバル ラベル 'MD1_DIR1'
+[footprint_link_issues]: 現在の構成にはフットプリント ライブラリ 'easyeda2kicad' が含まれていません
+    ; warning
+    @(10450 mils, 1450 mils): シンボル U3 [SN74LVC3G34DCUR]
+[footprint_link_issues]: 現在の構成にはフットプリント ライブラリ 'easyeda2kicad' が含まれていません
+    ; warning
+    @(10450 mils, 2050 mils): シンボル U4 [SN74LVC3G34DCUR]
+[multiple_net_names]: IO11 と MD2_DIR2 は、ともに同じ配線に接続されています; IO11 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(7150 mils, 5600 mils): グローバル ラベル 'IO11'
+    @(10550 mils, 4300 mils): グローバル ラベル 'MD2_DIR2'
+[footprint_link_issues]: 現在の構成にはフットプリント ライブラリ 'easyeda2kicad' が含まれていません
+    ; warning
+    @(12200 mils, 1550 mils): シンボル U5 [SN74LVC3G34DCUR]
+[footprint_link_issues]: 現在の構成にはフットプリント ライブラリ 'easyeda2kicad' が含まれていません
+    ; warning
+    @(12200 mils, 2150 mils): シンボル U6 [SN74LVC3G34DCUR]
+
+ ** ERC messages: 29  Errors 0  Warnings 29
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
