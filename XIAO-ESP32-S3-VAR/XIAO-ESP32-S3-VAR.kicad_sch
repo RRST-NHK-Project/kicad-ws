@@ -5094,7 +5094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c47bb209-9f56-4964-bbc3-0e43b5c2972d")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 139.7 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,7 +5161,7 @@
 		(instances
 			(project "XIAO-ESP32-S3-VAR"
 				(path "/f176684b-fd0e-445e-a6e8-0bba85d607c3"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5581,7 +5581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe78a372-910b-48a0-99c2-ea64c5ffed82")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 149.86 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5651,7 +5651,7 @@
 		(instances
 			(project "XIAO-ESP32-S3-VAR"
 				(path "/f176684b-fd0e-445e-a6e8-0bba85d607c3"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
