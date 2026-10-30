@@ -96,7 +96,7 @@
 		(property "Reference" "ESC"
 			(at 1.2414 -3.4544 0)
 			(layer "F.SilkS")
-			(uuid "8d0cd54e-2ccf-4e14-9ed2-c7b96d757950")
+			(uuid "3032fbfb-6a6a-40c1-b50e-5d722bf67cdc")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "CAN_BUS"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
-			(uuid "04db20e2-b87c-4484-a9a0-793631cf9d9e")
+			(uuid "305500c6-1359-4247-9ce7-c64c9caddd59")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57411052-c0a8-4d5a-af7e-17b98692588d")
+			(uuid "b2edacc7-9696-451a-b878-cdb68d7fd803")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69f400e8-5ff9-444f-a47e-3a309ba0848b")
+			(uuid "791d8492-fdf4-47ac-b973-edd229994d0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +489,7 @@
 		(property "Reference" "OUT"
 			(at 1.25 -3.4544 0)
 			(layer "F.SilkS")
-			(uuid "5d04e028-60dd-4e86-9daf-bd5f10b8a583")
+			(uuid "1aedd4e5-a59e-4d5f-9218-66d569068f4c")
 			(effects
 				(font
 					(size 1 1)
@@ -500,7 +500,7 @@
 		(property "Value" "CAN_BUS"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
-			(uuid "543ddf86-2c55-45fb-9f5f-2e728abbdf5d")
+			(uuid "a7771d55-715d-4ec0-b0e3-e895eca32ff5")
 			(effects
 				(font
 					(size 1 1)
@@ -512,7 +512,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02b53354-cf1a-4c52-87c4-a94640f9f187")
+			(uuid "f5924694-7384-415d-96f1-d18d24948675")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +523,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f0660af-a463-48c8-a1cd-6eb00a608e17")
+			(uuid "2b2ee085-2312-40ff-bbdb-18fb9513f594")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +882,7 @@
 		(property "Reference" "IN"
 			(at 1.25 -3.4592 0)
 			(layer "F.SilkS")
-			(uuid "202889e1-691a-4fb7-8f29-083f57c552e6")
+			(uuid "d908bf47-6e74-4999-83a2-9d9cfda68c08")
 			(effects
 				(font
 					(size 1 1)
@@ -893,7 +893,7 @@
 		(property "Value" "CAN_BUS"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
-			(uuid "93e6dcc5-c66c-49be-9cbd-29f87a03eb7e")
+			(uuid "0f3f5103-3207-413b-8083-319d08f1e8f0")
 			(effects
 				(font
 					(size 1 1)
@@ -905,7 +905,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5824bd14-6a94-4aeb-855b-886cf3a822c4")
+			(uuid "0eb3958c-fd2f-4381-8d91-6b1a9f8f476e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,7 +916,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30607233-74e3-47de-89e3-51a52be422f2")
+			(uuid "8d0b9d99-f605-4839-a01a-3fd0f99b7db3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,20 +1245,20 @@
 		(uuid "192fee7a-d7df-4644-9c4b-66bc7a4fcfda")
 	)
 	(segment
-		(start 120.3 81.9012)
-		(end 120.3 97.9968)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "CANL")
-		(uuid "88168e6d-02ca-47b6-b8e5-c1bdcddce17a")
-	)
-	(segment
 		(start 120.0032 97.9968)
 		(end 120 98)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "CANL")
 		(uuid "ae1957ee-e1be-427a-a783-ab65d147147e")
+	)
+	(segment
+		(start 120.3 97.9968)
+		(end 120.2968 98)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "CANL")
+		(uuid "addd42c5-b6b0-4cd4-8e3a-03b5c2ef2ecb")
 	)
 	(segment
 		(start 117.5032 97.9968)
@@ -1268,13 +1268,46 @@
 		(net "CANH")
 		(uuid "4118be85-4104-43f9-9a41-053816fe58de")
 	)
-	(segment
-		(start 117.8 81.9012)
-		(end 117.8 97.9968)
-		(width 0.2)
-		(layer "F.Cu")
+	(zone
 		(net "CANH")
-		(uuid "9499532f-2634-441e-90a4-d6f980ea10b1")
+		(layer "F.Cu")
+		(uuid "9e0cb778-bc51-4760-a4c5-328102e3c9d6")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 114.5 79) (xy 123.5 79) (xy 123.5 102) (xy 114.5 102)
+			)
+		)
+	)
+	(zone
+		(net "CANL")
+		(layer "B.Cu")
+		(uuid "483950df-790f-4941-ae81-1b5cc8272b62")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 114.5 79) (xy 123.5 79) (xy 123.5 102) (xy 114.5 102)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
