@@ -455,8 +455,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "407549fc-eb7f-414e-8d54-537de09aaefc")
-		(property "Reference" "CAN_BUS_ESC1"
-			(at 33.528 44.45 0)
+		(property "Reference" "CAN_BUS2"
+			(at 36.83 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -519,7 +519,7 @@
 		(instances
 			(project "CAN hub-ESC"
 				(path "/69e9cccd-1b1f-431b-a94e-52c5c1905914"
-					(reference "CAN_BUS_ESC1")
+					(reference "CAN_BUS2")
 					(unit 1)
 				)
 			)
@@ -537,8 +537,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c5193fc-9796-43e3-9ebb-8d79c750b04b")
-		(property "Reference" "CAN_BUS_O1"
-			(at 35.814 52.07 0)
+		(property "Reference" "CAN_BUS3"
+			(at 36.83 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -601,7 +601,7 @@
 		(instances
 			(project "CAN hub-ESC"
 				(path "/69e9cccd-1b1f-431b-a94e-52c5c1905914"
-					(reference "CAN_BUS_O1")
+					(reference "CAN_BUS3")
 					(unit 1)
 				)
 			)
@@ -619,8 +619,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f383bf13-dd79-49fe-b628-de6aa653a8e2")
-		(property "Reference" "CAN_BUS_I1"
-			(at 36.068 36.83 0)
+		(property "Reference" "CAN_BUS1"
+			(at 36.83 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -683,7 +683,7 @@
 		(instances
 			(project "CAN hub-ESC"
 				(path "/69e9cccd-1b1f-431b-a94e-52c5c1905914"
-					(reference "CAN_BUS_I1")
+					(reference "CAN_BUS1")
 					(unit 1)
 				)
 			)
