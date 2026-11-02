@@ -4388,279 +4388,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "imported lib:SN74LVC3G17DCUR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74LVC3G17DCUR"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "TI(德州仪器)"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SN74LVC3G17DCUR"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C68245"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Buffers / Drivers"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74LVC3G17DCUR_0_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -6.98 5.71)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "3Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "2Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "1Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -6353,30 +6081,7 @@
 		)
 		(uuid "fce29adc-9ad9-4605-a47a-2ee01884a95f")
 	)
-	(global_label "ENC4_A"
-		(shape input)
-		(at 299.72 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03290a2a-06ca-412d-b77a-38505c9ea50b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.7196 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "IO12"
 		(shape input)
 		(at 30.48 166.37 180)
@@ -6425,30 +6130,7 @@
 			)
 		)
 	)
-	(global_label "ENC4_X"
-		(shape input)
-		(at 320.04 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08c1572b-c461-47c0-8eef-a6511c0f3eb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.1613 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(global_label "MD2_PWM2"
 		(shape input)
 		(at 270.51 109.22 270)
@@ -6545,7 +6227,7 @@
 			)
 		)
 	)
-	(global_label "ENC4_A_BUF"
+	(global_label "ENC4_A"
 		(shape input)
 		(at 30.48 204.47 0)
 		(fields_autoplaced yes)
@@ -6569,30 +6251,7 @@
 			)
 		)
 	)
-	(global_label "ENC3_X_BUF"
-		(shape input)
-		(at 255.27 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f93d092-84f0-44d2-9e4b-755abb1f0ce5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.492 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "RXD0"
 		(shape input)
 		(at 207.01 106.68 0)
@@ -7169,78 +6828,9 @@
 			)
 		)
 	)
-	(global_label "ENC1_B"
-		(shape input)
-		(at 255.27 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2dc7b809-e848-4b41-a853-03e821afd063")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0882 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ENC2_B_BUF"
-		(shape input)
-		(at 320.04 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2eff1f65-f56a-4516-b565-1aaffc000f7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.8785 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ENC4_B_BUF"
-		(shape input)
-		(at 320.04 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3027380c-7b79-4dc2-b906-fe1e57130f7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.8785 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
+
+
 	(global_label "IO2"
 		(shape input)
 		(at 207.01 111.76 0)
@@ -7337,30 +6927,7 @@
 			)
 		)
 	)
-	(global_label "ENC3_A"
-		(shape input)
-		(at 255.27 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35250109-08b9-4336-b5a4-af71a3c30e5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.2696 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "IO48"
 		(shape input)
 		(at 30.48 193.04 180)
@@ -7481,30 +7048,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_A"
-		(shape input)
-		(at 255.27 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3d081a20-5774-4013-9ce1-4caebd859a30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.2696 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "RE3"
 		(shape input)
 		(at 69.85 163.83 0)
@@ -7673,7 +7217,7 @@
 			)
 		)
 	)
-	(global_label "ENC3_A_BUF"
+	(global_label "ENC3_A"
 		(shape input)
 		(at 30.48 193.04 0)
 		(fields_autoplaced yes)
@@ -7697,30 +7241,7 @@
 			)
 		)
 	)
-	(global_label "ENC3_A_BUF"
-		(shape input)
-		(at 275.59 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "480b74aa-79fc-403d-9012-b821250d4ad3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.2471 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(global_label "3V3"
 		(shape input)
 		(at 22.86 99.06 90)
@@ -8009,78 +7530,9 @@
 			)
 		)
 	)
-	(global_label "ENC3_B"
-		(shape input)
-		(at 255.27 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "55c1f827-c1aa-411b-9f95-13766b878c6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0882 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ENC3_X"
-		(shape input)
-		(at 275.59 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "561358a6-79f9-4e87-995f-05282ab67bd1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.7113 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ENC2_B"
-		(shape input)
-		(at 299.72 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "570439de-09da-49dd-9d84-199212c1e702")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.5382 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
+
+
 	(global_label "IO8"
 		(shape input)
 		(at 113.03 140.97 180)
@@ -8105,7 +7557,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_X_BUF"
+	(global_label "ENC1_X"
 		(shape input)
 		(at 30.48 177.8 0)
 		(fields_autoplaced yes)
@@ -8321,30 +7773,7 @@
 			)
 		)
 	)
-	(global_label "ENC2_A"
-		(shape input)
-		(at 299.72 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69ede3d2-d3c8-436a-861e-9f3131891fd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.7196 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "IO0"
 		(shape input)
 		(at 207.01 134.62 0)
@@ -8417,30 +7846,7 @@
 			)
 		)
 	)
-	(global_label "ENC2_A_BUF"
-		(shape input)
-		(at 320.04 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7065616f-0898-4050-943b-4da4ff8c1be1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.6971 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(global_label "IO6"
 		(shape input)
 		(at 181.61 114.3 180)
@@ -8465,30 +7871,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_X"
-		(shape input)
-		(at 275.59 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7420c7a9-311f-4266-a10f-66d1d40de6ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.7113 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(global_label "RE5"
 		(shape input)
 		(at 69.85 168.91 0)
@@ -8561,7 +7944,7 @@
 			)
 		)
 	)
-	(global_label "ENC3_X_BUF"
+	(global_label "ENC3_X"
 		(shape input)
 		(at 30.48 200.66 0)
 		(fields_autoplaced yes)
@@ -8633,30 +8016,7 @@
 			)
 		)
 	)
-	(global_label "ENC3_B_BUF"
-		(shape input)
-		(at 275.59 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b61be73-0f77-493f-9f5d-eb5941b809eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.4285 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(global_label "IO15"
 		(shape input)
 		(at 181.61 119.38 180)
@@ -8921,30 +8281,7 @@
 			)
 		)
 	)
-	(global_label "ENC4_B"
-		(shape input)
-		(at 299.72 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "869712fc-4ac3-4bae-b9dc-8902ed91aa66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.5382 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "IO11"
 		(shape input)
 		(at 30.48 162.56 180)
@@ -8969,30 +8306,7 @@
 			)
 		)
 	)
-	(global_label "ENC2_X_BUF"
-		(shape input)
-		(at 299.72 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86d0daf8-2a1e-4ee8-aa4e-aca0b9d46036")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.942 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "ENC1_B"
 		(shape input)
 		(at 247.65 77.47 270)
@@ -9185,54 +8499,8 @@
 			)
 		)
 	)
-	(global_label "ENC1_A_BUF"
-		(shape input)
-		(at 275.59 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d3e9d18-1a01-4f79-9a03-52cca083127a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.2471 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ENC1_B_BUF"
-		(shape input)
-		(at 275.59 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f34d172-c610-48c4-b3cd-541a93005e1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.4285 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
+
 	(global_label "IO42"
 		(shape input)
 		(at 143.51 151.13 0)
@@ -9497,7 +8765,7 @@
 			)
 		)
 	)
-	(global_label "ENC2_B_BUF"
+	(global_label "ENC2_B"
 		(shape input)
 		(at 30.48 185.42 0)
 		(fields_autoplaced yes)
@@ -9545,30 +8813,7 @@
 			)
 		)
 	)
-	(global_label "ENC4_X_BUF"
-		(shape input)
-		(at 299.72 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b210490a-e014-486d-b0d9-1db0160ff807")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.942 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
+
 	(global_label "DP"
 		(shape input)
 		(at 152.4 128.27 0)
@@ -9641,7 +8886,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_A_BUF"
+	(global_label "ENC1_A"
 		(shape input)
 		(at 30.48 170.18 0)
 		(fields_autoplaced yes)
@@ -9809,54 +9054,8 @@
 			)
 		)
 	)
-	(global_label "ENC1_X_BUF"
-		(shape input)
-		(at 255.27 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c20b4754-9b2d-43b3-9214-386ad9e81ae0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.492 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ENC2_X"
-		(shape input)
-		(at 320.04 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2de2bca-09ca-440c-a692-c97a26e5e991")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.1613 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
+
 	(global_label "3V3"
 		(shape input)
 		(at 228.6 106.68 90)
@@ -10097,7 +9296,7 @@
 			)
 		)
 	)
-	(global_label "ENC2_X_BUF"
+	(global_label "ENC2_X"
 		(shape input)
 		(at 30.48 189.23 0)
 		(fields_autoplaced yes)
@@ -10169,7 +9368,7 @@
 			)
 		)
 	)
-	(global_label "ENC2_A_BUF"
+	(global_label "ENC2_A"
 		(shape input)
 		(at 30.48 181.61 0)
 		(fields_autoplaced yes)
@@ -10433,7 +9632,7 @@
 			)
 		)
 	)
-	(global_label "ENC3_B_BUF"
+	(global_label "ENC3_B"
 		(shape input)
 		(at 30.48 196.85 0)
 		(fields_autoplaced yes)
@@ -10505,7 +9704,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_B_BUF"
+	(global_label "ENC1_B"
 		(shape input)
 		(at 30.48 173.99 0)
 		(fields_autoplaced yes)
@@ -10649,30 +9848,7 @@
 			)
 		)
 	)
-	(global_label "ENC4_A_BUF"
-		(shape input)
-		(at 320.04 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f216e719-59fa-4639-bb53-23e3e464c2f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.6971 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(global_label "IO36"
 		(shape input)
 		(at 143.51 135.89 0)
@@ -10745,7 +9921,7 @@
 			)
 		)
 	)
-	(global_label "ENC4_X_BUF"
+	(global_label "ENC4_X"
 		(shape input)
 		(at 30.48 212.09 0)
 		(fields_autoplaced yes)
@@ -10769,7 +9945,7 @@
 			)
 		)
 	)
-	(global_label "ENC4_B_BUF"
+	(global_label "ENC4_B"
 		(shape input)
 		(at 30.48 208.28 0)
 		(fields_autoplaced yes)
@@ -11331,85 +10507,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 299.72 58.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0efa2d5e-3bcf-43da-bfc1-f510ff04c865")
-		(property "Reference" "#PWR010"
-			(at 293.37 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 295.91 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 299.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c49390d-b4d4-4d77-9c34-7e0c71f9d126")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 69.85 195.58 270)
@@ -11650,85 +10748,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 255.27 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "175c3d37-6812-4239-9e41-b2e545ea1143")
-		(property "Reference" "#PWR05"
-			(at 248.92 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 40.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "935402e8-b13b-4aee-9d21-41cf15ce8fd3")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Connector:Conn_01x22_Pin")
 		(at 186.69 127 0)
@@ -12827,85 +11847,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 299.72 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3367a85b-e585-419b-bac9-0db706947fa9")
-		(property "Reference" "#PWR06"
-			(at 293.37 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 295.91 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 299.72 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa58062b-85d0-437e-a2e6-bdac5b516809")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:GND")
 		(at 69.85 187.96 90)
@@ -12985,267 +11927,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
-		(at 265.43 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40970b36-4bc2-4456-858d-0d9cb4126634")
-		(property "Reference" "U4"
-			(at 265.176 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G17DCUR"
-			(at 265.176 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
-			(at 265.43 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
-			(at 265.43 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 265.43 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G17DCUR"
-			(at 265.43 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C68245"
-			(at 265.43 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "5e2d9156-fd70-45b0-9b4c-7dd64a506c89")
-		)
-		(pin "7"
-			(uuid "6b88f615-52a0-4ca4-9221-0aabdf2c54ad")
-		)
-		(pin "8"
-			(uuid "d45cdd19-741d-4e13-b8ea-7be6f31f3fba")
-		)
-		(pin "1"
-			(uuid "62479765-ca7f-4cf8-a5ce-9808bf1af23b")
-		)
-		(pin "3"
-			(uuid "5c4eb11e-f2f5-4159-8557-25c3bdba7163")
-		)
-		(pin "4"
-			(uuid "78d767cd-e59f-440c-9406-a089bf45aa0e")
-		)
-		(pin "6"
-			(uuid "92d71b80-f98a-4c9c-ba88-08941d9d81d6")
-		)
-		(pin "2"
-			(uuid "53e74cb9-89dc-47c7-92fc-79d78f84f31a")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
-		(at 265.43 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "410dfd8e-c96a-4a00-a229-aa6c503ad94c")
-		(property "Reference" "U1"
-			(at 265.43 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G17DCUR"
-			(at 265.43 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
-			(at 265.43 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
-			(at 265.43 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 265.43 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G17DCUR"
-			(at 265.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C68245"
-			(at 265.43 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "3b6ea212-0fc3-4260-bfc7-cb2e16095e6a")
-		)
-		(pin "7"
-			(uuid "66604ff2-58da-44e5-a6e8-da54db04b271")
-		)
-		(pin "8"
-			(uuid "03dceda9-4a42-4c14-8909-b29a000f1edf")
-		)
-		(pin "1"
-			(uuid "3d060b26-28b4-44ef-8a1d-188b503c1d86")
-		)
-		(pin "3"
-			(uuid "0d56d593-b409-4b00-86f2-dcc8ada0b3c5")
-		)
-		(pin "4"
-			(uuid "dd7403c3-4c4b-4ee9-bf6f-d2285c0a3d35")
-		)
-		(pin "6"
-			(uuid "4f6aa61e-2239-467f-b473-672d110d9fe1")
-		)
-		(pin "2"
-			(uuid "8dd81bb7-a71e-41d7-8ba7-3928483732c6")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
+
+
 	(symbol
 		(lib_id "power:GND")
 		(at 52.07 72.39 0)
@@ -15057,164 +13740,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 275.59 33.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75e30979-44e0-47c6-b01f-a1ab72c914c8")
-		(property "Reference" "#PWR01"
-			(at 271.78 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 279.4 33.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 275.59 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80af59a9-efdb-4cf5-bbd2-caf848af3419")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 255.27 55.88 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "787ece32-6246-45b1-9308-f77dc4777959")
-		(property "Reference" "#PWR09"
-			(at 248.92 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "057b9c4b-cd4c-4c64-b24d-bcecf8749e8d")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
+
+
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 69.85 143.51 90)
@@ -16422,137 +14949,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
-		(at 309.88 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7a1d24e-d51c-4baa-beeb-c64d62a29721")
-		(property "Reference" "U2"
-			(at 309.88 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G17DCUR"
-			(at 309.88 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
-			(at 309.88 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
-			(at 309.88 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 309.88 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G17DCUR"
-			(at 309.88 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C68245"
-			(at 309.88 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "afd1b192-9026-4ef5-be49-665695446aef")
-		)
-		(pin "7"
-			(uuid "65cbdd5b-d503-4d57-94ed-cddde64546e2")
-		)
-		(pin "8"
-			(uuid "45a04743-29a5-4e29-ae8b-59c1b3624a9a")
-		)
-		(pin "1"
-			(uuid "a8b55e35-1847-4b68-8236-7c023245a7af")
-		)
-		(pin "3"
-			(uuid "46ca4225-da3d-4d76-9eb2-d729bddd8913")
-		)
-		(pin "4"
-			(uuid "ba64c2d9-969b-4177-8c89-d9bd95765411")
-		)
-		(pin "6"
-			(uuid "ce5f936c-9bd9-45a3-bf34-fc8217b659cf")
-		)
-		(pin "2"
-			(uuid "9e405745-2eb5-476b-b14f-69d0c33ed0a6")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 251.46 104.14 90)
@@ -17604,85 +16001,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 320.04 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ceffcb3b-27cd-4629-bcf8-fd34343f5a4d")
-		(property "Reference" "#PWR08"
-			(at 316.23 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 323.85 50.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 320.04 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "008721d2-25c7-44b1-b1e7-6ef5c4abfa8a")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 64.77 179.07 180)
@@ -17852,136 +16171,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
-		(at 309.88 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dbe8ab49-555b-4335-bfa6-ad4ae1b14318")
-		(property "Reference" "U5"
-			(at 309.88 62.992 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G17DCUR"
-			(at 309.88 65.532 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
-			(at 309.88 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
-			(at 309.88 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 309.88 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G17DCUR"
-			(at 309.88 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C68245"
-			(at 309.88 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "e9bef875-6b35-482e-8feb-0e903f3ad897")
-		)
-		(pin "7"
-			(uuid "f60ce808-d33d-4b42-a869-247f9b7cb605")
-		)
-		(pin "8"
-			(uuid "17707f98-f45f-4791-ae40-3c4e7fa6719a")
-		)
-		(pin "1"
-			(uuid "9c0fd550-8e28-45d5-82d7-1feb604e42ad")
-		)
-		(pin "3"
-			(uuid "985b8ea1-415b-49a3-b76c-02935300e6d3")
-		)
-		(pin "4"
-			(uuid "191f4f73-8a8e-4249-9b75-2b8dfc983d9e")
-		)
-		(pin "6"
-			(uuid "70dd1739-e06c-4f48-a85a-cbb7351b8725")
-		)
-		(pin "2"
-			(uuid "8475c76b-580f-4e0f-aca8-35f8d25b8cb7")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:GND")
 		(at 208.28 68.58 0)
@@ -18536,85 +16726,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 320.04 35.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4e3e156-c93c-48bb-9d49-71ce6d37616f")
-		(property "Reference" "#PWR02"
-			(at 316.23 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 323.85 35.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 320.04 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1c84731-b8db-4479-9ef2-ac16447966ee")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:R")
 		(at 189.23 68.58 0)
@@ -18785,85 +16897,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 275.59 48.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f63163bc-bc48-4961-9ad7-aa6a2371477a")
-		(property "Reference" "#PWR07"
-			(at 271.78 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 279.4 48.2599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 275.59 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dceb1cbf-90cf-4e4a-a2d4-a10ca0147bff")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:C")
 		(at 62.23 58.42 0)
