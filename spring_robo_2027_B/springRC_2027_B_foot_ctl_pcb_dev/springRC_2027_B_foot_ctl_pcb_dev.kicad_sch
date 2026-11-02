@@ -18705,7 +18705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ff5960-0646-4981-89df-20ec89c298a8")
-		(property "Reference" "J7_MD２"
+		(property "Reference" "J7_MD2"
 			(at 270.51 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18776,7 +18776,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J7_MD２")
+					(reference "J7_MD2")
 					(unit 1)
 				)
 			)
