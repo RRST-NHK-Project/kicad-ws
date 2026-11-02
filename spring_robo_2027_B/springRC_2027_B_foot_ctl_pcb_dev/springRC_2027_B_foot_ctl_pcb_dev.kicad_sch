@@ -5,6 +5,189 @@
 	(uuid "08e3d388-f335-4566-99a5-7a0a51e9e065")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2690,339 +2873,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LESD5D5.0CT1G:LESD5D5.0CT1G"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LESD5D5.0CT1G"
-				(at -5.08 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LESD5D5.0CT1G:TVS_LESD5D5.0CT1G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Leshan Radio Co."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "O"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "LESD5D5.0CT1G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Transient Voltage Suppressors for ESD Protection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "LRC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "LESD5D5.0CT1G_0_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0.254 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 -0.762) (xy -1.27 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 0.762) (xy 1.27 -0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4202,7 +4052,340 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "imported lib:SN74LVC3G34DCUR"
+		(symbol "imported lib:LESD5D5.0CT1G"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LESD5D5.0CT1G"
+				(at -5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LESD5D5.0CT1G:TVS_LESD5D5.0CT1G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "Leshan Radio Co."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "O"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "LESD5D5.0CT1G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description_1" "Transient Voltage Suppressors for ESD Protection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "LRC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "LESD5D5.0CT1G_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0.254 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -0.762) (xy -1.27 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0.762) (xy 1.27 -0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "imported lib:SN74LVC3G17DCUR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4218,7 +4401,7 @@
 					)
 				)
 			)
-			(property "Value" "SN74LVC3G34DCUR"
+			(property "Value" "SN74LVC3G17DCUR"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4239,7 +4422,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4272,7 +4455,7 @@
 					)
 				)
 			)
-			(property "MPN" "SN74LVC3G34DCUR"
+			(property "MPN" "SN74LVC3G17DCUR"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4283,7 +4466,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C130024"
+			(property "LCSC Part" "C68245"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4305,10 +4488,10 @@
 					)
 				)
 			)
-			(symbol "SN74LVC3G34DCUR_0_1"
+			(symbol "SN74LVC3G17DCUR_0_1"
 				(rectangle
-					(start -7.62 6.86)
-					(end 7.62 -6.86)
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -4318,18 +4501,7 @@
 					)
 				)
 				(circle
-					(center -6.35 5.59)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -6.35 5.59)
+					(center -6.98 5.71)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -4989,6 +5161,18 @@
 		(uuid "8f9cd276-f3e0-42b5-a96d-0717e1c66ab4")
 	)
 	(rectangle
+		(start 55.88 135.89)
+		(end 85.09 205.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aeb6edb0-beac-4c24-af78-015540748fa2")
+	)
+	(rectangle
 		(start 139.7 22.86)
 		(end 232.41 90.17)
 		(stroke
@@ -5102,6 +5286,16 @@
 		)
 		(uuid "7c9a3202-1e39-4f78-a166-d7d9714c2431")
 	)
+	(text "予備機能ピン"
+		(exclude_from_sim no)
+		(at 70.612 202.438 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a6f51fb2-f461-4669-84f1-164be2325e82")
+	)
 	(text "MD"
 		(exclude_from_sim no)
 		(at 52.324 153.67 90)
@@ -5131,6 +5325,16 @@
 			)
 		)
 		(uuid "d4883912-256e-403d-b53a-6e6d87f2b77f")
+	)
+	(text "5V系はVBUSからの供給であるため電圧降下に注意"
+		(exclude_from_sim no)
+		(at 384.556 249.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6310096-7ca6-47de-a7b8-483f01624b8c")
 	)
 	(text "USB周辺回路"
 		(exclude_from_sim no)
@@ -5181,12 +5385,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22bc1bf3-89dc-4b87-ae46-398a57af6a29")
-	)
-	(junction
-		(at 128.27 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ed3a389-9a44-41e9-9594-54f92a3ad2c6")
 	)
 	(junction
 		(at 44.45 101.6)
@@ -5292,10 +5490,6 @@
 		(at 172.72 59.69)
 		(uuid "759c9806-6c53-4595-81ae-39e777d30eab")
 	)
-	(no_connect
-		(at 149.86 69.85)
-		(uuid "e36b3218-a716-4bfc-84b1-9bd97f29eff5")
-	)
 	(wire
 		(pts
 			(xy 93.98 114.3) (xy 105.41 114.3)
@@ -5345,16 +5539,6 @@
 			(type default)
 		)
 		(uuid "12a24d15-528b-444f-961d-7aeb2f8e6184")
-	)
-	(wire
-		(pts
-			(xy 228.6 129.54) (xy 228.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b1c4a1-5c11-49a1-bd38-1e57c8bbae4b")
 	)
 	(wire
 		(pts
@@ -5445,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "31f5a4f1-8b16-4528-91bf-5a94d8af1217")
-	)
-	(wire
-		(pts
-			(xy 157.48 69.85) (xy 157.48 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a6e317-c9d3-46e9-8cc0-31362be51e70")
 	)
 	(wire
 		(pts
@@ -5598,6 +5772,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 46.99) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a76dde-7580-4119-963f-fe700d39120c")
+	)
+	(wire
+		(pts
 			(xy 172.72 31.75) (xy 200.66 31.75)
 		)
 		(stroke
@@ -5648,7 +5832,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 106.68) (xy 228.6 110.49)
+			(xy 228.6 106.68) (xy 228.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5705,6 +5889,16 @@
 			(type default)
 		)
 		(uuid "750911c8-8329-4888-ac82-2b50329397e9")
+	)
+	(wire
+		(pts
+			(xy 228.6 119.38) (xy 228.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fcde8d-c870-4613-8f4f-6ca8c7f8d986")
 	)
 	(wire
 		(pts
@@ -5815,16 +6009,6 @@
 			(type default)
 		)
 		(uuid "8f9ab9ee-4561-425c-b775-1849f11a5cfe")
-	)
-	(wire
-		(pts
-			(xy 228.6 118.11) (xy 228.6 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b3a5ea-dfb5-4d3e-b379-0a1b2affec3e")
 	)
 	(wire
 		(pts
@@ -5988,16 +6172,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 104.14) (xy 128.27 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fed160-8861-405d-9375-87e25316265a")
-	)
-	(wire
-		(pts
 			(xy 123.19 46.99) (xy 123.19 49.53)
 		)
 		(stroke
@@ -6148,6 +6322,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 128.27) (xy 228.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3894dfb-9057-4ce7-92c8-692793eb04b1")
+	)
+	(wire
+		(pts
 			(xy 68.58 99.06) (xy 68.58 101.6)
 		)
 		(stroke
@@ -6275,6 +6459,30 @@
 		(uuid "0a3c48d4-e0de-4207-b715-fb5ad2bc8302")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.51 122.486 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RE1"
+		(shape input)
+		(at 64.77 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a702b2e-bc3e-4ac2-a77f-d58305002ae9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 155.2037 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,6 +6686,30 @@
 			)
 		)
 	)
+	(global_label "IO7"
+		(shape input)
+		(at 69.85 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1689418f-a5ea-45a1-a2af-b2ac522fa06e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MD1_DIR1"
 		(shape input)
 		(at 254 109.22 270)
@@ -6659,6 +6891,30 @@
 		(uuid "20075d4b-aef2-49ad-aabd-b5dea68dc7fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.6905 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO13"
+		(shape input)
+		(at 69.85 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2068b28a-b861-406a-8226-132da09771bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.5105 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,6 +7502,30 @@
 			)
 		)
 	)
+	(global_label "RE3"
+		(shape input)
+		(at 69.85 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d752afb-c274-4089-be49-a387b34ebe06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4637 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO47"
 		(shape input)
 		(at 207.01 142.24 0)
@@ -7486,6 +7766,30 @@
 			)
 		)
 	)
+	(global_label "RE4"
+		(shape input)
+		(at 69.85 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a7e1ade-9d6f-4c74-9576-9c991779c12f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4637 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO14"
 		(shape input)
 		(at 113.03 156.21 180)
@@ -7595,6 +7899,54 @@
 		(uuid "50e30d5e-576c-4a54-80c9-e5977ba14a8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.1405 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RE3"
+		(shape input)
+		(at 69.85 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51889a38-ca99-4821-8556-93ec0a1a6544")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 155.2037 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RE2"
+		(shape input)
+		(at 67.31 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53e2335b-4737-48d8-b91a-15a8625faec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 155.2037 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,6 +8486,30 @@
 			)
 		)
 	)
+	(global_label "RE5"
+		(shape input)
+		(at 69.85 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7733da4e-1183-41bf-84d2-9d14d43033d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4637 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ENC4_A"
 		(shape input)
 		(at 309.88 77.47 270)
@@ -8302,6 +8678,30 @@
 			)
 		)
 	)
+	(global_label "IO8"
+		(shape input)
+		(at 69.85 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bf2573e-a9f8-41d1-9d17-904fa78a1c7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.72 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO12"
 		(shape input)
 		(at 181.61 144.78 180)
@@ -8339,6 +8739,30 @@
 		(uuid "7d4aa839-1c37-447a-a7f2-3413bbe2177f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.2705 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RE5"
+		(shape input)
+		(at 74.93 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7dd76bc2-5cfe-4ca5-a175-e28bb58bf311")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 155.2037 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8950,6 +9374,30 @@
 			)
 		)
 	)
+	(global_label "IO14"
+		(shape input)
+		(at 69.85 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6d18f00-fa2b-45e8-adf9-653f8d4469b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.5105 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 181.61 106.68 180)
@@ -9235,6 +9683,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "RE4"
+		(shape input)
+		(at 72.39 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "babdaec2-ad47-4a0c-8939-8018cd008702")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 155.2037 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9646,6 +10118,30 @@
 			)
 		)
 	)
+	(global_label "IO38"
+		(shape input)
+		(at 69.85 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d236e8b2-0e04-4882-a004-33c0cd9e4c96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.5105 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO46"
 		(shape input)
 		(at 181.61 134.62 180)
@@ -9683,6 +10179,30 @@
 		(uuid "d354e93e-c708-4f09-be3d-734658c435f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.1371 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RE2"
+		(shape input)
+		(at 69.85 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d497d4c0-dffe-49f2-aab7-1e2a7f0f0c3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4637 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10102,6 +10622,30 @@
 			)
 		)
 	)
+	(global_label "RE1"
+		(shape input)
+		(at 69.85 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1fed858-3d85-4a7e-8cfb-4ffc1a4c8070")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4637 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ENC4_A_BUF"
 		(shape input)
 		(at 320.04 53.34 0)
@@ -10344,7 +10888,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 128.27 104.14 90)
+		(at 127 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10354,7 +10898,7 @@
 		)
 		(uuid "fc139888-dcdd-416e-ab0b-b2af56f37dc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 97.6472 90)
+			(at 133.4928 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10402,7 +10946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08562e11-0439-4eb0-9694-c4bc36c8ee6b")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 25.4 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10466,7 +11010,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10484,7 +11028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b351500-ece5-4194-bafd-145745d6fed3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR016"
 			(at 217.17 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10544,7 +11088,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR021")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10562,7 +11106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b56cbf7-c434-4278-8b96-9171b2ba5123")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR037"
 			(at 194.31 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10622,7 +11166,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR018")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10640,7 +11184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d535aa0-ccf8-412c-bdf6-c938707e170e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 110.49 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10700,7 +11244,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10718,7 +11262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e658eb3-1cf8-4a57-ad53-bab8e85e0ace")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR030"
 			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10778,7 +11322,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR08")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10796,7 +11340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efa2d5e-3bcf-43da-bfc1-f510ff04c865")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR010"
 			(at 293.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10857,7 +11401,164 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR035")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f40f8fb-e112-44d9-b75c-fe75f87e0390")
+		(property "Reference" "#PWR044"
+			(at 66.04 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 73.66 195.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2711ad04-27cb-48e2-87ee-e363002f7566")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "110d91ab-d1a3-426a-8637-6f300930d8f8")
+		(property "Reference" "#PWR046"
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "902d8719-dbd2-42b9-addf-4ae378522bab")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10875,7 +11576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "125e7e42-201f-4b4b-9552-f7688cbccca9")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 83.82 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10940,7 +11641,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10958,7 +11659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "175c3d37-6812-4239-9e41-b2e545ea1143")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR05"
 			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11019,7 +11720,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR024")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11037,7 +11738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "198a13ec-1f6c-4f3f-a8f8-9682c1921d6c")
-		(property "Reference" "J2"
+		(property "Reference" "J8"
 			(at 186.055 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11159,7 +11860,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11177,7 +11878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a0957ef-903c-4c33-88f6-eec4d9222e78")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR03"
 			(at 123.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11237,7 +11938,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR011")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11255,7 +11956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b5eba25-27d7-46b1-b44a-2931e680366b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11315,7 +12016,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11332,7 +12033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d20c156-367f-4e32-922c-c869f13d690e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR025"
 			(at 276.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11392,7 +12093,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR031")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11410,7 +12111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d3684a1-065d-4285-a884-c4cd1304f805")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 180.34 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11470,7 +12171,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11488,7 +12189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21be7a47-cb56-44fe-af2c-c18b63caf14c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 62.23 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11548,7 +12249,87 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR05")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 64.77 198.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "246fab8f-c12a-48f4-b4af-f736abb61f28")
+		(property "Reference" "J13"
+			(at 65.405 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 65.405 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 64.77 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d1a49866-994c-4a69-9eb4-5dc70dce4ff3")
+		)
+		(pin "1"
+			(uuid "06b73783-514b-47eb-b123-91ed89167868")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -11566,7 +12347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "246fe9a4-1325-4c5c-9601-5bb515dd9c4f")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 54.61 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11630,7 +12411,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11648,7 +12429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25372344-f8cf-4530-924a-f78831ad346a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 189.23 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11708,7 +12489,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11726,7 +12507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d8d3b97-f3d4-4e44-9039-541a3e5d399d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR036"
 			(at 22.86 127 0)
 			(hide yes)
 			(show_name no)
@@ -11786,7 +12567,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR01")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11804,7 +12585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f654b11-6d2c-4856-831b-3d6607014ae1")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 55.88 65.0874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11879,7 +12660,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11897,7 +12678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "301244e5-7ddf-4313-935b-2e949670e301")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR014"
 			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11957,7 +12738,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR019")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12055,7 +12836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3367a85b-e585-419b-bac9-0db706947fa9")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR06"
 			(at 293.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12116,14 +12897,93 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR034")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G34DCUR")
+		(lib_id "power:GND")
+		(at 69.85 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38a47d87-d836-4060-925d-807a9766a5b6")
+		(property "Reference" "#PWR043"
+			(at 76.2 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf4ce979-c209-4964-9dfc-160455eeb212")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "imported lib:SN74LVC3G17DCUR")
 		(at 265.43 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -12143,7 +13003,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G34DCUR"
+		(property "Value" "SN74LVC3G17DCUR"
 			(at 265.176 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12164,7 +13024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
 			(at 265.43 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12197,7 +13057,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G34DCUR"
+		(property "MPN" "SN74LVC3G17DCUR"
 			(at 265.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12208,7 +13068,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C130024"
+		(property "LCSC Part" "C68245"
 			(at 265.43 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12253,7 +13113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G34DCUR")
+		(lib_id "imported lib:SN74LVC3G17DCUR")
 		(at 265.43 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -12264,7 +13124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "410dfd8e-c96a-4a00-a229-aa6c503ad94c")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 265.43 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12274,7 +13134,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G34DCUR"
+		(property "Value" "SN74LVC3G17DCUR"
 			(at 265.43 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12295,7 +13155,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
 			(at 265.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12328,7 +13188,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G34DCUR"
+		(property "MPN" "SN74LVC3G17DCUR"
 			(at 265.43 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12339,7 +13199,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C130024"
+		(property "LCSC Part" "C68245"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12377,7 +13237,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12395,7 +13255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "441fc2a5-ab8e-4aec-98a4-4770c70c4f60")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR017"
 			(at 52.07 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12455,7 +13315,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR03")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12472,7 +13332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "480753a4-64c7-4516-9ce0-0e25b0af68e8")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 202.565 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12594,7 +13454,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12612,7 +13472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d210e34-598b-4c3f-9be5-ce45e8ca0457")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 130.4133 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12793,7 +13653,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12811,7 +13671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f72f8f0-0ae5-40f7-b34a-6488626e0654")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 127 65.0874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12886,14 +13746,14 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
+		(lib_id "imported lib:LESD5D5.0CT1G")
 		(at 217.17 60.96 270)
 		(unit 1)
 		(body_style 1)
@@ -12903,7 +13763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53a8f8d5-71ae-482d-b418-c2dadb2a7e19")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 219.71 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13112,7 +13972,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13120,7 +13980,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 58.42 0)
+		(at 110.49 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13129,8 +13989,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54f31a44-9667-44e0-963e-c2a2ec2862d4")
-		(property "Reference" "C7"
-			(at 101.6 57.1499 0)
+		(property "Reference" "C4"
+			(at 116.586 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13141,7 +14001,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 101.6 59.6899 0)
+			(at 118.872 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13152,7 +14012,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 98.7552 62.23 0)
+			(at 109.5248 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13163,7 +14023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 58.42 0)
+			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13174,7 +14034,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 97.79 58.42 0)
+			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13193,7 +14053,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13282,7 +14142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
+		(lib_id "imported lib:LESD5D5.0CT1G")
 		(at 208.28 60.96 270)
 		(unit 1)
 		(body_style 1)
@@ -13292,7 +14152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56ec4d46-3746-471d-b3d1-88eba731a903")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 210.82 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13501,7 +14361,86 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "D5")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 185.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62da4adf-d9c5-4675-9d61-0272e0b39cf0")
+		(property "Reference" "#PWR042"
+			(at 66.04 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 73.66 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68d6b0cf-07d0-4ce8-8d28-36f7e4797886")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13518,7 +14457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6463bbe6-d337-49da-a4b4-39c19a009890")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR031"
 			(at 246.38 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13578,7 +14517,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR022")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13586,7 +14525,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 58.42 0)
+		(at 97.79 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13596,30 +14535,30 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "660c7968-7526-4c2c-8aee-2692688dfcaf")
-		(property "Reference" "C9"
-			(at 114.3 57.1499 0)
+		(property "Reference" "C3"
+			(at 101.6 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uF"
-			(at 114.3 59.6899 0)
+			(at 101.6 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 111.4552 62.23 0)
+			(at 96.8248 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13630,7 +14569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 58.42 0)
+			(at 97.79 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13641,7 +14580,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 110.49 58.42 0)
+			(at 97.79 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13660,7 +14599,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13678,7 +14617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a7b65a8-f761-425d-9a75-8b893d47a5cc")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 125.73 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13742,7 +14681,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13760,7 +14699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f0f9972-4956-4231-a854-60d33aba871f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 123.19 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13820,7 +14759,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13953,7 +14892,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 228.6 125.73 0)
+		(at 228.6 115.57 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13964,7 +14904,7 @@
 		(fields_autoplaced yes)
 		(uuid "72188d93-0a25-476e-aaa2-a0ba2aceb4d1")
 		(property "Reference" "R6"
-			(at 231.14 124.4599 0)
+			(at 231.14 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13975,7 +14915,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 231.14 126.9999 0)
+			(at 231.14 114.3001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13986,7 +14926,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.822 125.73 90)
+			(at 226.822 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13997,7 +14937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 125.73 0)
+			(at 228.6 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14008,7 +14948,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 228.6 125.73 0)
+			(at 228.6 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14044,7 +14984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7388a7b2-97bb-48e7-a4a2-dc36225e0bbf")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 181.61 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14108,7 +15048,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14126,7 +15066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e30979-44e0-47c6-b01f-a1ab72c914c8")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR01"
 			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14187,7 +15127,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR029")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -14205,7 +15145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787ece32-6246-45b1-9308-f77dc4777959")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR09"
 			(at 248.92 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14266,7 +15206,96 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR025")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 69.85 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a4ed99e-d118-422e-860a-f5e4ca3a5385")
+		(property "Reference" "J10"
+			(at 69.85 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Socket"
+			(at 69.85 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 69.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 69.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "25db2f8e-0933-41fa-9e8c-3a0b13420368")
+		)
+		(pin "5"
+			(uuid "045b01ad-e36a-40a6-a77d-65f5242a73c6")
+		)
+		(pin "3"
+			(uuid "065fa47c-116e-49a3-9345-61d98f097155")
+		)
+		(pin "1"
+			(uuid "93187f73-4e0d-45e4-a350-d4b97bcae870")
+		)
+		(pin "2"
+			(uuid "0b119845-4d7f-46f4-9d37-3d973df01579")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -14283,7 +15312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80ffb867-6dc0-4adb-b25a-2a3868690f63")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR028"
 			(at 307.34 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14343,7 +15372,87 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR036")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 64.77 187.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "898e5ba1-2fdc-4295-ac68-63ff0e60af17")
+		(property "Reference" "J12"
+			(at 65.405 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 65.405 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 64.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a4c82b6-e45a-4ebf-9044-165651b88de8")
+		)
+		(pin "1"
+			(uuid "39c43c0f-1870-4685-a922-4e3f271e45c7")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -14360,7 +15469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89c36a73-c031-481e-8198-55e319bf70e2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 257.81 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14420,7 +15529,86 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR026")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c077cda-1f3c-43c7-85ed-d62355397e7a")
+		(property "Reference" "#PWR041"
+			(at 76.2 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 179.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1ae15c2-c942-4927-beef-cb5947632cd9")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14515,7 +15703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97ad9f9c-e5f6-4900-8348-294605e7865b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR032"
 			(at 265.43 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -14575,7 +15763,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR027")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14592,7 +15780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98464b9a-df27-4f3e-9dec-3b5d6d92d0e6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 250.19 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14652,7 +15840,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -14750,7 +15938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dea4936-7d35-4dbd-b3c3-004e1ada4496")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR039"
 			(at 128.27 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14810,7 +15998,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR013")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14828,7 +16016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e664020-f202-4b60-85e1-9186267b6537")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR035"
 			(at 68.58 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14888,7 +16076,86 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR06")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 198.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe6842b-87d3-4c55-816a-26aad3c20b27")
+		(property "Reference" "#PWR045"
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 198.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccaa1f9f-63e7-4d95-ba9f-02eac7549684")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14906,7 +16173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e612e6-4507-49a6-9cec-0cb16cdaebf3")
-		(property "Reference" "J5"
+		(property "Reference" "J2_ENC1"
 			(at 252.73 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14926,7 +16193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 252.73 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14977,7 +16244,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J5")
+					(reference "J2_ENC1")
 					(unit 1)
 				)
 			)
@@ -14985,7 +16252,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 228.6 114.3 90)
+		(at 228.6 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14993,10 +16260,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5f9fc6f-bd4c-47db-94b9-a0bbec2f3583")
 		(property "Reference" "D7"
-			(at 232.41 114.6174 90)
+			(at 232.41 124.7774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15007,7 +16273,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 232.41 117.1574 90)
+			(at 232.41 127.3174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15018,7 +16284,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 228.6 114.3 0)
+			(at 228.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15029,7 +16295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 114.3 0)
+			(at 228.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15040,7 +16306,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 228.6 114.3 0)
+			(at 228.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15051,7 +16317,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 114.3 0)
+			(at 228.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15087,7 +16353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a717e545-b7f4-48ac-b463-c62c9c6e6e3f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR026"
 			(at 288.29 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15147,14 +16413,14 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR032")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G34DCUR")
+		(lib_id "imported lib:SN74LVC3G17DCUR")
 		(at 309.88 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -15165,7 +16431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a1d24e-d51c-4baa-beeb-c64d62a29721")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 309.88 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15175,7 +16441,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G34DCUR"
+		(property "Value" "SN74LVC3G17DCUR"
 			(at 309.88 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15196,7 +16462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
 			(at 309.88 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15229,7 +16495,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G34DCUR"
+		(property "MPN" "SN74LVC3G17DCUR"
 			(at 309.88 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15240,7 +16506,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C130024"
+		(property "LCSC Part" "C68245"
 			(at 309.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15278,7 +16544,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15296,7 +16562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a825c08a-7ac5-4373-ad0e-f19f9e9c20c0")
-		(property "Reference" "J4"
+		(property "Reference" "J6_MD1"
 			(at 251.46 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15316,7 +16582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 251.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15367,7 +16633,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J4")
+					(reference "J6_MD1")
 					(unit 1)
 				)
 			)
@@ -15385,7 +16651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a86a82c0-6b2b-42e5-a1e1-b75ac314c138")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR034"
 			(at 44.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15445,7 +16711,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR02")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15463,7 +16729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a893055f-10cd-43c1-a79c-327f09cca701")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 97.79 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15527,7 +16793,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15545,7 +16811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae62ad9d-8f2a-4ac9-adf7-abd90ccdf2ef")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 53.34 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15609,7 +16875,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15706,7 +16972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afdd2c07-7036-47b9-acf3-1acbffc7d2a6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR027"
 			(at 295.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15766,7 +17032,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR033")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15774,7 +17040,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 73.66 0)
+		(at 157.48 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15784,8 +17050,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f721a4-dc55-482f-9e64-fed1ea85a6ed")
-		(property "Reference" "#PWR014"
-			(at 157.48 80.01 0)
+		(property "Reference" "#PWR019"
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15796,7 +17062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 78.74 0)
+			(at 157.48 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15806,7 +17072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 73.66 0)
+			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15817,7 +17083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 73.66 0)
+			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15828,7 +17094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 73.66 0)
+			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15844,7 +17110,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR014")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15861,7 +17127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb3b9c66-0c81-4dea-be7b-254d9cdad0a1")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR029"
 			(at 314.96 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15921,7 +17187,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR037")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15939,7 +17205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf71e717-34ba-4723-bcc0-d5fb3630c3ce")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR038"
 			(at 170.18 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15999,7 +17265,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR015")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16017,7 +17283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3685836-543e-4b44-bbc1-1e0df5e8b0cd")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 77.47 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16081,7 +17347,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16099,7 +17365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caf0353f-36f0-4e38-be43-96510a038df2")
-		(property "Reference" "J7"
+		(property "Reference" "J3_ENC2"
 			(at 271.78 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16119,7 +17385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 271.78 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16170,7 +17436,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J7")
+					(reference "J3_ENC2")
 					(unit 1)
 				)
 			)
@@ -16188,7 +17454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb3c2a6c-e1b7-4e0e-96cd-86397febe8c8")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 77.47 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16252,7 +17518,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -16269,7 +17535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce76137b-44e9-45ef-9a35-61972ed361af")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 269.24 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16329,7 +17595,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16347,7 +17613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceffcb3b-27cd-4629-bcf8-fd34343f5a4d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR08"
 			(at 316.23 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16408,7 +17674,87 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR039")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 64.77 179.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d367613b-49dd-4a77-bdfa-79ef9e6c05c0")
+		(property "Reference" "J11"
+			(at 65.405 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 65.405 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 64.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0b890376-4ee6-4829-a994-62228b177cbd")
+		)
+		(pin "1"
+			(uuid "0ddc98f3-8fc0-4f87-a46b-c1cf7bc316d9")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -16426,7 +17772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5bb93b6-c86f-4257-93a8-70ea21d62bb4")
-		(property "Reference" "J8"
+		(property "Reference" "J4_ENC3"
 			(at 290.83 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16446,7 +17792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 290.83 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16497,14 +17843,14 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J8")
+					(reference "J4_ENC3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G34DCUR")
+		(lib_id "imported lib:SN74LVC3G17DCUR")
 		(at 309.88 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -16514,7 +17860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbe8ab49-555b-4335-bfa6-ad4ae1b14318")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 309.88 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16524,7 +17870,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G34DCUR"
+		(property "Value" "SN74LVC3G17DCUR"
 			(at 309.88 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16545,7 +17891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
 			(at 309.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16578,7 +17924,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G34DCUR"
+		(property "MPN" "SN74LVC3G17DCUR"
 			(at 309.88 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16589,7 +17935,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C130024"
+		(property "LCSC Part" "C68245"
 			(at 309.88 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16627,7 +17973,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -16645,7 +17991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "defed6e5-3481-45f1-9646-d872f525ff56")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR015"
 			(at 208.28 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16705,7 +18051,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR020")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16723,7 +18069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df06bad9-77af-49c7-a246-bee0084be9ee")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 26.67 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16787,14 +18133,93 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
+		(lib_id "power:+5V")
+		(at 69.85 176.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df172cf9-750f-488c-a4c5-b72eebf3cadf")
+		(property "Reference" "#PWR040"
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 176.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 69.85 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da2e6154-92a2-43ff-8f35-47734d5a3b9b")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "imported lib:LESD5D5.0CT1G")
 		(at 200.66 60.96 270)
 		(unit 1)
 		(body_style 1)
@@ -16804,7 +18229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1f385ef-3fe0-4913-aa96-bf5a367e6da6")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 203.2 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17013,7 +18438,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17031,7 +18456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b003f3-7ebc-4097-b29f-ca79647fa424")
-		(property "Reference" "J9"
+		(property "Reference" "J5_ENC4"
 			(at 309.88 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17051,7 +18476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 309.88 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17102,7 +18527,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J9")
+					(reference "J5_ENC4")
 					(unit 1)
 				)
 			)
@@ -17120,7 +18545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4e3e156-c93c-48bb-9d49-71ce6d37616f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR02"
 			(at 316.23 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17181,7 +18606,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR038")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -17198,7 +18623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3696923-b87d-4bd6-8c52-650bbba653df")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 190.754 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17262,7 +18687,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -17280,7 +18705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ff5960-0646-4981-89df-20ec89c298a8")
-		(property "Reference" "J6"
+		(property "Reference" "J7_MD２"
 			(at 270.51 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17300,7 +18725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 270.51 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17351,7 +18776,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J6")
+					(reference "J7_MD２")
 					(unit 1)
 				)
 			)
@@ -17369,7 +18794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f63163bc-bc48-4961-9ad7-aa6a2371477a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR07"
 			(at 271.78 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17430,7 +18855,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR030")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17448,7 +18873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa53b60e-6852-49fb-a800-8b41ffb79919")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 66.04 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17512,7 +18937,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -17530,7 +18955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe289157-3690-410e-947c-daedd83d4c0a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR033"
 			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -17590,7 +19015,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR09")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
