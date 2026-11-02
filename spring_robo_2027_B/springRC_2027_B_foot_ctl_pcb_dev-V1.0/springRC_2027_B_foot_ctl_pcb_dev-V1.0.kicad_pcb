@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "1.0")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -207,7 +210,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/6fe15ed6-5651-4eda-9060-4d631a3fd4de")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -678,7 +681,7 @@
 		)
 		(path "/40970b36-4bc2-4456-858d-0d9cb4126634")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1118,7 +1121,7 @@
 		)
 		(path "/e1f385ef-3fe0-4913-aa96-bf5a367e6da6")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1417,7 +1420,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/2f654b11-6d2c-4856-831b-3d6607014ae1")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1626,7 +1629,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c3685836-543e-4b44-bbc1-1e0df5e8b0cd")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1784,7 +1787,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7a4ed99e-d118-422e-860a-f5e4ca3a5385")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2115,7 +2118,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/198a13ec-1f6c-4f3f-a8f8-9682c1921d6c")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2622,7 +2625,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/246fe9a4-1325-4c5c-9601-5bb515dd9c4f")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2780,7 +2783,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/55ab67ab-f86a-4971-98ff-278d093b37e3")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2961,7 +2964,7 @@
 		)
 		(path "/dbe8ab49-555b-4335-bfa6-ad4ae1b14318")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3267,7 +3270,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4f72f8f0-0ae5-40f7-b34a-6488626e0654")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3476,7 +3479,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f3696923-b87d-4bd6-8c52-650bbba653df")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3657,7 +3660,7 @@
 		)
 		(path "/410dfd8e-c96a-4a00-a229-aa6c503ad94c")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3950,7 +3953,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e4b003f3-7ebc-4097-b29f-ca79647fa424")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4280,7 +4283,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f5ff5960-0646-4981-89df-20ec89c298a8")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4623,7 +4626,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a5f9fc6f-bd4c-47db-94b9-a0bbec2f3583")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4979,7 +4982,7 @@
 		)
 		(path "/53a8f8d5-71ae-482d-b418-c2dadb2a7e19")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5265,7 +5268,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/caf0353f-36f0-4e38-be43-96510a038df2")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5595,7 +5598,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fa53b60e-6852-49fb-a800-8b41ffb79919")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5753,7 +5756,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a893055f-10cd-43c1-a79c-327f09cca701")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5905,7 +5908,7 @@
 		(property ki_fp_filters "ESP32?S3?WROOM?1*")
 		(path "/4d210e34-598b-4c3f-9be5-ce45e8ca0457")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6852,7 +6855,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/08562e11-0439-4eb0-9694-c4bc36c8ee6b")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7011,7 +7014,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/246fab8f-c12a-48f4-b4af-f736abb61f28")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7302,7 +7305,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/660c7968-7526-4c2c-8aee-2692688dfcaf")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7460,7 +7463,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/72188d93-0a25-476e-aaa2-a0ba2aceb4d1")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7618,7 +7621,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/898e5ba1-2fdc-4295-ac68-63ff0e60af17")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7909,7 +7912,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a5e612e6-4507-49a6-9cec-0cb16cdaebf3")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8239,7 +8242,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/df06bad9-77af-49c7-a246-bee0084be9ee")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8389,7 +8392,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/125e7e42-201f-4b4b-9552-f7688cbccca9")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8661,7 +8664,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/9cd29a53-3ff6-4dd6-913b-8c23f9f1901f")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8949,7 +8952,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cb3c2a6c-e1b7-4e0e-96cd-86397febe8c8")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9107,7 +9110,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d5bb93b6-c86f-4257-93a8-70ea21d62bb4")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9437,7 +9440,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/480753a4-64c7-4516-9ce0-0e25b0af68e8")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9944,7 +9947,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d367613b-49dd-4a77-bdfa-79ef9e6c05c0")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10235,7 +10238,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6a7b65a8-f761-425d-9a75-8b893d47a5cc")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10393,7 +10396,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/54f31a44-9667-44e0-963e-c2a2ec2862d4")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10542,7 +10545,7 @@
 		)
 		(path "/ae81886b-c9ab-449d-8c25-0d483a3adc15")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10802,7 +10805,7 @@
 		)
 		(path "/32ed3e51-a18d-42e0-a519-b1c9aa66b64e")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11071,7 +11074,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae62ad9d-8f2a-4ac9-adf7-abd90ccdf2ef")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11229,7 +11232,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7388a7b2-97bb-48e7-a4a2-dc36225e0bbf")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11387,7 +11390,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a825c08a-7ac5-4373-ad0e-f19f9e9c20c0")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11740,7 +11743,7 @@
 		)
 		(path "/a7a1d24e-d51c-4baa-beeb-c64d62a29721")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12180,7 +12183,7 @@
 		)
 		(path "/56ec4d46-3746-471d-b3d1-88eba731a903")
 		(sheetname "/")
-		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch")
+		(sheetfile "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch")
 		(units
 			(unit
 				(name "A")

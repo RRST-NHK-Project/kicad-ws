@@ -1,0 +1,59 @@
+情報: シンボル 'R3:Resistor_SMD:R_0603_1608Metric' を処理中です。
+情報: シンボル 'J5:Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J6:Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J7:Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J8:Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'J9:Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'J10:Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J11:Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J12:Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J13:Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'R1:Resistor_SMD:R_0603_1608Metric' を処理中です。
+情報: シンボル 'R2:Resistor_SMD:R_0603_1608Metric' を処理中です。
+情報: シンボル 'C2:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'R4:Resistor_SMD:R_0603_1608Metric' を処理中です。
+情報: シンボル 'R5:Resistor_SMD:R_0603_1608Metric' を処理中です。
+情報: シンボル 'R6:Resistor_SMD:R_0603_1608Metric' を処理中です。
+情報: シンボル 'SW1:Button_Switch_SMD:SW_SPST_TS-1088-xR020' を処理中です。
+情報: シンボル 'SW2:Button_Switch_SMD:SW_SPST_TS-1088-xR020' を処理中です。
+情報: シンボル 'U1:easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR' を処理中です。
+情報: シンボル 'U2:easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR' を処理中です。
+情報: シンボル 'U3:Package_TO_SOT_SMD:SOT-223-3_TabPin2' を処理中です。
+情報: シンボル 'U4:easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR' を処理中です。
+情報: シンボル 'U5:easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR' を処理中です。
+情報: シンボル 'U6:RF_Module:ESP32-S3-WROOM-1' を処理中です。
+情報: シンボル 'J3:Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'C1:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'C3:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'C4:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'C5:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'C6:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'C7:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'C8:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'C9:Capacitor_SMD:C_0603_1608Metric' を処理中です。
+情報: シンボル 'D1:Diode_SMD:D_SMA' を処理中です。
+情報: シンボル 'D2:Diode_SMD:D_SOD-523' を処理中です。
+情報: シンボル 'D3:Diode_SMD:D_SOD-523' を処理中です。
+情報: シンボル 'D5:LED_SMD:LED_0603_1608Metric' を処理中です。
+情報: シンボル 'D6:LED_SMD:LED_0603_1608Metric' を処理中です。
+情報: シンボル 'D7:LED_SMD:LED_0603_1608Metric' を処理中です。
+情報: シンボル 'J1:Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11' を処理中です。
+情報: シンボル 'J4:Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J2:Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'D4:Diode_SMD:D_SOD-523' を処理中です。
+フィールド U2 を更新.
+フィールド U5 を更新.
+U5 の値を SN74LVC3G34DCUR から SN74LVC3G17DCUR に変更しました。
+フィールド U4 を更新.
+U4 の値を SN74LVC3G34DCUR から SN74LVC3G17DCUR に変更しました。
+U2 の値を SN74LVC3G34DCUR から SN74LVC3G17DCUR に変更しました。
+フィールド U1 を更新.
+U1 の値を SN74LVC3G34DCUR から SN74LVC3G17DCUR に変更しました。
+警告: コンポーネント J1 パッド SH に対するネットが見つかりません（ピン SH がシンボルにありません）。
+警告: コンポーネント J1 パッド SH に対するネットが見つかりません（ピン SH がシンボルにありません）。
+警告: コンポーネント J1 パッド SH に対するネットが見つかりません（ピン SH がシンボルにありません）。
+警告: コンポーネント J1 パッド SH に対するネットが見つかりません（ピン SH がシンボルにありません）。
+エラー: J1 パッド S1 が Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11 に見つかりません。
+
+
+情報: 合計警告数: 4、エラー数: 1.

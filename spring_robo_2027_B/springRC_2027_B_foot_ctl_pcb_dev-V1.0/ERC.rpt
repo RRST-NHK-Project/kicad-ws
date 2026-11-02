@@ -1,0 +1,27 @@
+ERC report (2026-10-28T06:08:13, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: シンボル 'USB_C_Receptacle_USB2.0_16P' が、ライブラリ 'Connector' のコピーと一致しません
+    ; warning
+    @(6200 mils, 1850 mils): シンボル J1 [USB_C_Receptacle_USB2.0_16P]
+[lib_symbol_issues]: シンボル ライブラリ 'imported lib' が '/home/oshiruko41/Workspaces/spring_robo_2027/kicad-ws/spring_robo_2027_B/springRC_2027_B_foot_ctl_pcb_dev/lib/easyeda2kicad.kicad_sym' 内に見つかりません
+    ; warning
+    @(10450 mils, 1450 mils): シンボル U1 [SN74LVC3G34DCUR]
+[lib_symbol_issues]: シンボル ライブラリ 'imported lib' が '/home/oshiruko41/Workspaces/spring_robo_2027/kicad-ws/spring_robo_2027_B/springRC_2027_B_foot_ctl_pcb_dev/lib/easyeda2kicad.kicad_sym' 内に見つかりません
+    ; warning
+    @(10450 mils, 2050 mils): シンボル U4 [SN74LVC3G34DCUR]
+[lib_symbol_issues]: シンボル ライブラリ 'imported lib' が '/home/oshiruko41/Workspaces/spring_robo_2027/kicad-ws/spring_robo_2027_B/springRC_2027_B_foot_ctl_pcb_dev/lib/easyeda2kicad.kicad_sym' 内に見つかりません
+    ; warning
+    @(12200 mils, 1550 mils): シンボル U2 [SN74LVC3G34DCUR]
+[lib_symbol_issues]: シンボル ライブラリ 'imported lib' が '/home/oshiruko41/Workspaces/spring_robo_2027/kicad-ws/spring_robo_2027_B/springRC_2027_B_foot_ctl_pcb_dev/lib/easyeda2kicad.kicad_sym' 内に見つかりません
+    ; warning
+    @(12200 mils, 2150 mils): シンボル U5 [SN74LVC3G34DCUR]
+
+ ** ERC messages: 5  Errors 0  Warnings 5
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -2873,6 +2873,339 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "imported lib:LESD5D5.0CT1G"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LESD5D5.0CT1G"
+				(at -5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LESD5D5.0CT1G:TVS_LESD5D5.0CT1G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "Leshan Radio Co."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "O"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "LESD5D5.0CT1G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description_1" "Transient Voltage Suppressors for ESD Protection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "LRC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "LESD5D5.0CT1G_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0.254 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -0.762) (xy -1.27 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0.762) (xy 1.27 -0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4052,340 +4385,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "imported lib:LESD5D5.0CT1G"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LESD5D5.0CT1G"
-				(at -5.08 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LESD5D5.0CT1G:TVS_LESD5D5.0CT1G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Leshan Radio Co."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "O"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "LESD5D5.0CT1G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Transient Voltage Suppressors for ESD Protection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "LRC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "LESD5D5.0CT1G_0_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0.254 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 -0.762) (xy -1.27 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 0.762) (xy 1.27 -0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "imported lib:SN74LVC3G17DCUR"
+		(symbol "imported lib:SN74LVC3G34DCUR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4401,7 +4401,7 @@
 					)
 				)
 			)
-			(property "Value" "SN74LVC3G17DCUR"
+			(property "Value" "SN74LVC3G34DCUR"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4422,7 +4422,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4455,7 +4455,7 @@
 					)
 				)
 			)
-			(property "MPN" "SN74LVC3G17DCUR"
+			(property "MPN" "SN74LVC3G34DCUR"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4466,7 +4466,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C68245"
+			(property "LCSC Part" "C130024"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4488,10 +4488,10 @@
 					)
 				)
 			)
-			(symbol "SN74LVC3G17DCUR_0_1"
+			(symbol "SN74LVC3G34DCUR_0_1"
 				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
+					(start -7.62 6.86)
+					(end 7.62 -6.86)
 					(stroke
 						(width 0)
 						(type default)
@@ -4501,7 +4501,18 @@
 					)
 				)
 				(circle
-					(center -6.98 5.71)
+					(center -6.35 5.59)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.35 5.59)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -5387,6 +5398,12 @@
 		(uuid "22bc1bf3-89dc-4b87-ae46-398a57af6a29")
 	)
 	(junction
+		(at 128.27 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ed3a389-9a44-41e9-9594-54f92a3ad2c6")
+	)
+	(junction
 		(at 44.45 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5490,6 +5507,10 @@
 		(at 172.72 59.69)
 		(uuid "759c9806-6c53-4595-81ae-39e777d30eab")
 	)
+	(no_connect
+		(at 149.86 69.85)
+		(uuid "e36b3218-a716-4bfc-84b1-9bd97f29eff5")
+	)
 	(wire
 		(pts
 			(xy 93.98 114.3) (xy 105.41 114.3)
@@ -5539,6 +5560,16 @@
 			(type default)
 		)
 		(uuid "12a24d15-528b-444f-961d-7aeb2f8e6184")
+	)
+	(wire
+		(pts
+			(xy 228.6 129.54) (xy 228.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b1c4a1-5c11-49a1-bd38-1e57c8bbae4b")
 	)
 	(wire
 		(pts
@@ -5629,6 +5660,16 @@
 			(type default)
 		)
 		(uuid "31f5a4f1-8b16-4528-91bf-5a94d8af1217")
+	)
+	(wire
+		(pts
+			(xy 157.48 69.85) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a6e317-c9d3-46e9-8cc0-31362be51e70")
 	)
 	(wire
 		(pts
@@ -5772,16 +5813,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 46.99) (xy 123.19 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56a76dde-7580-4119-963f-fe700d39120c")
-	)
-	(wire
-		(pts
 			(xy 172.72 31.75) (xy 200.66 31.75)
 		)
 		(stroke
@@ -5832,7 +5863,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 106.68) (xy 228.6 111.76)
+			(xy 228.6 106.68) (xy 228.6 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5889,16 +5920,6 @@
 			(type default)
 		)
 		(uuid "750911c8-8329-4888-ac82-2b50329397e9")
-	)
-	(wire
-		(pts
-			(xy 228.6 119.38) (xy 228.6 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78fcde8d-c870-4613-8f4f-6ca8c7f8d986")
 	)
 	(wire
 		(pts
@@ -6009,6 +6030,16 @@
 			(type default)
 		)
 		(uuid "8f9ab9ee-4561-425c-b775-1849f11a5cfe")
+	)
+	(wire
+		(pts
+			(xy 228.6 118.11) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b3a5ea-dfb5-4d3e-b379-0a1b2affec3e")
 	)
 	(wire
 		(pts
@@ -6172,6 +6203,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 104.14) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fed160-8861-405d-9375-87e25316265a")
+	)
+	(wire
+		(pts
 			(xy 123.19 46.99) (xy 123.19 49.53)
 		)
 		(stroke
@@ -6319,16 +6360,6 @@
 			(type default)
 		)
 		(uuid "f16dd943-bbf4-4338-8614-f7b44adcf74c")
-	)
-	(wire
-		(pts
-			(xy 228.6 128.27) (xy 228.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3894dfb-9057-4ce7-92c8-692793eb04b1")
 	)
 	(wire
 		(pts
@@ -10888,7 +10919,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 127 46.99 0)
+		(at 128.27 104.14 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10898,7 +10929,7 @@
 		)
 		(uuid "fc139888-dcdd-416e-ab0b-b2af56f37dc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.4928 46.99 0)
+			(at 128.27 97.6472 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11481,84 +11512,6 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "110d91ab-d1a3-426a-8637-6f300930d8f8")
-		(property "Reference" "#PWR046"
-			(at 149.86 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "902d8719-dbd2-42b9-addf-4ae378522bab")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12983,7 +12936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
+		(lib_id "imported lib:SN74LVC3G34DCUR")
 		(at 265.43 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -13003,7 +12956,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G17DCUR"
+		(property "Value" "SN74LVC3G34DCUR"
 			(at 265.176 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13024,7 +12977,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
 			(at 265.43 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13057,7 +13010,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G17DCUR"
+		(property "MPN" "SN74LVC3G34DCUR"
 			(at 265.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13068,7 +13021,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C68245"
+		(property "LCSC Part" "C130024"
 			(at 265.43 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
+		(lib_id "imported lib:SN74LVC3G34DCUR")
 		(at 265.43 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -13134,7 +13087,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G17DCUR"
+		(property "Value" "SN74LVC3G34DCUR"
 			(at 265.43 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13155,7 +13108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
 			(at 265.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13188,7 +13141,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G17DCUR"
+		(property "MPN" "SN74LVC3G34DCUR"
 			(at 265.43 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13199,7 +13152,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C68245"
+		(property "LCSC Part" "C130024"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13980,7 +13933,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 58.42 180)
+		(at 97.79 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13989,8 +13942,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54f31a44-9667-44e0-963e-c2a2ec2862d4")
-		(property "Reference" "C4"
-			(at 116.586 60.198 0)
+		(property "Reference" "C3"
+			(at 101.6 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14001,7 +13954,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 118.872 57.658 0)
+			(at 101.6 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14012,7 +13965,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 109.5248 54.61 0)
+			(at 98.7552 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14023,7 +13976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 58.42 0)
+			(at 97.79 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14034,7 +13987,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 110.49 58.42 0)
+			(at 97.79 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14053,7 +14006,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -14525,7 +14478,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 58.42 180)
+		(at 110.49 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14535,30 +14488,30 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "660c7968-7526-4c2c-8aee-2692688dfcaf")
-		(property "Reference" "C3"
-			(at 101.6 57.1499 0)
+		(property "Reference" "C4"
+			(at 114.3 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 101.6 59.6899 0)
+			(at 114.3 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 96.8248 54.61 0)
+			(at 111.4552 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14569,7 +14522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 58.42 0)
+			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14580,7 +14533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 97.79 58.42 0)
+			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,7 +14552,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14892,8 +14845,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 228.6 115.57 0)
-		(mirror x)
+		(at 228.6 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14904,7 +14856,7 @@
 		(fields_autoplaced yes)
 		(uuid "72188d93-0a25-476e-aaa2-a0ba2aceb4d1")
 		(property "Reference" "R6"
-			(at 231.14 116.8401 0)
+			(at 231.14 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14915,7 +14867,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 231.14 114.3001 0)
+			(at 231.14 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14926,7 +14878,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.822 115.57 90)
+			(at 226.822 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14937,7 +14889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 115.57 0)
+			(at 228.6 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14948,7 +14900,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 228.6 115.57 0)
+			(at 228.6 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16173,7 +16125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e612e6-4507-49a6-9cec-0cb16cdaebf3")
-		(property "Reference" "J2_ENC1"
+		(property "Reference" "J2"
 			(at 252.73 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16244,7 +16196,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J2_ENC1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -16252,7 +16204,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 228.6 124.46 90)
+		(at 228.6 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16260,9 +16212,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a5f9fc6f-bd4c-47db-94b9-a0bbec2f3583")
 		(property "Reference" "D7"
-			(at 232.41 124.7774 90)
+			(at 232.41 114.6174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16273,7 +16226,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 232.41 127.3174 90)
+			(at 232.41 117.1574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16284,7 +16237,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 228.6 124.46 0)
+			(at 228.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16295,7 +16248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 124.46 0)
+			(at 228.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16306,7 +16259,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 228.6 124.46 0)
+			(at 228.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16317,7 +16270,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 124.46 0)
+			(at 228.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16420,7 +16373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
+		(lib_id "imported lib:SN74LVC3G34DCUR")
 		(at 309.88 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -16441,7 +16394,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G17DCUR"
+		(property "Value" "SN74LVC3G34DCUR"
 			(at 309.88 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16462,7 +16415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
 			(at 309.88 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16495,7 +16448,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G17DCUR"
+		(property "MPN" "SN74LVC3G34DCUR"
 			(at 309.88 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16506,7 +16459,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C68245"
+		(property "LCSC Part" "C130024"
 			(at 309.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16562,7 +16515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a825c08a-7ac5-4373-ad0e-f19f9e9c20c0")
-		(property "Reference" "J6_MD1"
+		(property "Reference" "J6"
 			(at 251.46 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16633,7 +16586,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J6_MD1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -17040,7 +16993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 69.85 0)
+		(at 157.48 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17051,7 +17004,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1f721a4-dc55-482f-9e64-fed1ea85a6ed")
 		(property "Reference" "#PWR019"
-			(at 157.48 76.2 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17062,7 +17015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 74.93 0)
+			(at 157.48 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17072,7 +17025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 69.85 0)
+			(at 157.48 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17083,7 +17036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 69.85 0)
+			(at 157.48 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17094,7 +17047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 69.85 0)
+			(at 157.48 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17365,7 +17318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caf0353f-36f0-4e38-be43-96510a038df2")
-		(property "Reference" "J3_ENC2"
+		(property "Reference" "J3"
 			(at 271.78 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17436,7 +17389,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J3_ENC2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -17772,7 +17725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5bb93b6-c86f-4257-93a8-70ea21d62bb4")
-		(property "Reference" "J4_ENC3"
+		(property "Reference" "J4"
 			(at 290.83 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17843,14 +17796,14 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J4_ENC3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "imported lib:SN74LVC3G17DCUR")
+		(lib_id "imported lib:SN74LVC3G34DCUR")
 		(at 309.88 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -17870,7 +17823,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC3G17DCUR"
+		(property "Value" "SN74LVC3G34DCUR"
 			(at 309.88 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17891,7 +17844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_SN74LVC3G17DCUR_Texas-Instruments-TI-SN74LVC3G17DCUR_C68245.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC3G34DCUR_SN74LVC3G34DCUR_C130024.html"
 			(at 309.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -17924,7 +17877,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC3G17DCUR"
+		(property "MPN" "SN74LVC3G34DCUR"
 			(at 309.88 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17935,7 +17888,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C68245"
+		(property "LCSC Part" "C130024"
 			(at 309.88 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18456,7 +18409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b003f3-7ebc-4097-b29f-ca79647fa424")
-		(property "Reference" "J5_ENC4"
+		(property "Reference" "J5"
 			(at 309.88 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18527,7 +18480,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J5_ENC4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -18705,7 +18658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ff5960-0646-4981-89df-20ec89c298a8")
-		(property "Reference" "J7_MD2"
+		(property "Reference" "J7"
 			(at 270.51 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18776,7 +18729,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J7_MD2")
+					(reference "J7")
 					(unit 1)
 				)
 			)

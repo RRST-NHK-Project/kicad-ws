@@ -528,7 +528,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "springRC_2027_B_foot_ctl_pcb_dev.kicad_pro",
+    "filename": "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -937,8 +937,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "springRC_2027_B_foot_ctl_pcb_dev.kicad_sch",
-        "name": "springRC_2027_B_foot_ctl_pcb_dev",
+        "filename": "springRC_2027_B_foot_ctl_pcb_dev-V1.0.kicad_sch",
+        "name": "springRC_2027_B_foot_ctl_pcb_dev-V1.0",
         "uuid": "08e3d388-f335-4566-99a5-7a0a51e9e065"
       }
     ],
@@ -948,7 +948,7 @@
   "sheets": [
     [
       "08e3d388-f335-4566-99a5-7a0a51e9e065",
-      "springRC_2027_B_foot_ctl_pcb_dev"
+      "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
     ]
   ],
   "text_variables": {},
