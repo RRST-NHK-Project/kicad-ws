@@ -661,7 +661,7 @@
         "uuid": "69e9cccd-1b1f-431b-a94e-52c5c1905914"
       }
     ],
-    "used_designators": "CAN_BUS1-3,CAN_BUS_O1,CAN_BUS_ESC1,CAN_BUS_I1",
+    "used_designators": "CAN_BUS1-6,CAN_BUS_O1,CAN_BUS_ESC1,CAN_BUS_I1",
     "variants": []
   },
   "sheets": [
