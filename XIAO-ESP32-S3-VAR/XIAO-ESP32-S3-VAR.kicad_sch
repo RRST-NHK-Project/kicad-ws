@@ -2329,16 +2329,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 54.61) (xy 195.58 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316c95cc-9546-4c64-9c96-1577d1ebc5cd")
-	)
-	(wire
-		(pts
 			(xy 144.78 50.8) (xy 144.78 52.07)
 		)
 		(stroke
@@ -2727,7 +2717,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_A{slash}MD2P"
+	(global_label "ENC1_A"
 		(shape input)
 		(at 96.52 36.83 0)
 		(fields_autoplaced yes)
@@ -2739,7 +2729,7 @@
 		)
 		(uuid "1cdb3557-1e2b-4da5-b136-2f283e0290e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.0518 36.83 0)
+			(at 106.5204 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +2765,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_B{slash}MD2D"
+	(global_label "ENC1_B"
 		(shape input)
 		(at 59.69 111.76 0)
 		(fields_autoplaced yes)
@@ -2787,7 +2777,7 @@
 		)
 		(uuid "1eab19da-ddca-4aa8-adaf-bb263ebfe117")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.4032 111.76 0)
+			(at 69.8718 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,30 +2810,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ENC1_B{slash}MD2D"
-		(shape input)
-		(at 176.53 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "205eead0-a4bf-4d24-9c4f-fa46724f6c83")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.2432 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -3183,7 +3149,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_A{slash}MD2P"
+	(global_label "ENC1_A"
 		(shape input)
 		(at 59.69 109.22 0)
 		(fields_autoplaced yes)
@@ -3195,7 +3161,7 @@
 		)
 		(uuid "597149b8-69bc-4071-b078-e8594d7186df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2218 109.22 0)
+			(at 69.6904 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,30 +3389,6 @@
 			)
 		)
 	)
-	(global_label "5V0"
-		(shape input)
-		(at 176.53 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "839865a0-a98d-4c0b-aecb-e1640959e2d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0228 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO5"
 		(shape input)
 		(at 53.34 114.3 180)
@@ -3615,7 +3557,7 @@
 			)
 		)
 	)
-	(global_label "ENC1_B{slash}MD2D"
+	(global_label "ENC1_B"
 		(shape input)
 		(at 96.52 39.37 0)
 		(fields_autoplaced yes)
@@ -3627,7 +3569,7 @@
 		)
 		(uuid "a786dfaf-f0a3-45fb-86a2-ed8593536a8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.2332 39.37 0)
+			(at 106.7018 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,30 +3938,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ENC1_A{slash}MD2P"
-		(shape input)
-		(at 176.53 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "efe04081-a13a-4821-8f31-aa8ae0601844")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.0618 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5992,84 +5910,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df2f979b-d030-4a83-bb10-8e5544c9daff")
-		(property "Reference" "#PWR026"
-			(at 195.58 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6104092f-4fa3-45a0-a845-983dc2be9ca4")
-		)
-		(instances
-			(project "XIAO-ESP32-S3-VAR"
-				(path "/f176684b-fd0e-445e-a6e8-0bba85d607c3"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 149.86 134.62 0)
 		(mirror y)
@@ -6146,92 +5986,6 @@
 			(project "XIAO-ESP32-S3-VAR"
 				(path "/f176684b-fd0e-445e-a6e8-0bba85d607c3"
 					(reference "CANhub1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 171.45 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec40c305-57ec-48e7-b0a1-c4a45a5cf292")
-		(property "Reference" "MD2"
-			(at 172.085 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MD2"
-			(at 172.085 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 171.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 171.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8a26518f-dde3-43fe-b906-711703354b6d")
-		)
-		(pin "1"
-			(uuid "299507bf-090b-4c72-801c-272ccbd076fa")
-		)
-		(pin "2"
-			(uuid "82d50c6a-097b-43bb-a28e-927b8653d00b")
-		)
-		(pin "4"
-			(uuid "4aa17b78-ae2d-4f41-a021-dcf316294769")
-		)
-		(instances
-			(project "XIAO-ESP32-S3-VAR"
-				(path "/f176684b-fd0e-445e-a6e8-0bba85d607c3"
-					(reference "MD2")
 					(unit 1)
 				)
 			)
