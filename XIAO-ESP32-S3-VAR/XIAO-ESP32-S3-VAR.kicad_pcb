@@ -90,7 +90,7 @@
 	(footprint "Seeed Studio XIAO Series Library:XIAO-ESP32-S3-SMD"
 		(layer "F.Cu")
 		(uuid "0a91b78d-4115-4d4f-bddc-1bfabe7e6d3e")
-		(at 82.84 54.132)
+		(at 84.19 54.1)
 		(property "Reference" "U2"
 			(at 7.112 -21.336 0)
 			(layer "F.SilkS")
@@ -26656,7 +26656,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0e805570-9351-4112-bbf4-cb3d24e423b8")
-		(at 75.9 70.5 90)
+		(at 77.25 70.7 90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "MD1"
@@ -26965,7 +26965,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3a11a8dd-213b-4e2f-b87a-f13e22c87503")
-		(at 75.906 43.7045 90)
+		(at 77.256 43.9045 90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC1"
@@ -27274,7 +27274,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3ac2fe17-96c8-443b-b299-248a2f95db12")
-		(at 107.4 36.2 -90)
+		(at 108.75 36.4 -90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN1"
@@ -27583,7 +27583,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4b6327b8-df48-465f-86a9-d371d58677dc")
-		(at 75.9 57.1 90)
+		(at 77.25 57.3 90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "ENC2"
@@ -27892,7 +27892,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "62606f76-cdf8-4fd6-8099-ffa975d32f1f")
-		(at 88.7 76.6 180)
+		(at 90.05 76.8 180)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW3"
@@ -28190,7 +28190,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "750dd6a1-f2d6-47fc-917a-fb41a6f785eb")
-		(at 107.4 71.4 -90)
+		(at 108.75 71.6 -90)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW1"
@@ -28488,7 +28488,7 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "83ab4680-20b9-4785-81bd-c919f30603bb")
-		(at 107.4 49.6 -90)
+		(at 108.75 49.8 -90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CAN2"
@@ -28797,7 +28797,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "89a86903-bd09-4cf3-b510-1c6284548f2f")
-		(at 75.46 77 90)
+		(at 76.81 77.2 90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TERM"
@@ -29038,7 +29038,7 @@
 	(footprint "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9e303abd-7945-496d-865f-84de7e08190c")
-		(at 98.3 60.4 -90)
+		(at 99.65 60.6 -90)
 		(descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "EXT"
@@ -29347,7 +29347,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a816dd5c-8b75-4fad-98a2-7de1a0b1c6e1")
-		(at 83.02 57.5)
+		(at 85.59 56.8)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "120"
@@ -29538,7 +29538,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c1a9cc27-c697-4782-9844-a4d8dd4524f9")
-		(at 107.4 63 -90)
+		(at 108.75 63.2 -90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "CANhub"
@@ -29825,7 +29825,7 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "d76f6281-ec1d-4553-ba38-fe9f7776ba5e")
-		(at 84.59 69.005 90)
+		(at 86.63 68.12 90)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "MCP2561"
@@ -30029,7 +30029,7 @@
 			)
 		)
 		(point
-			(at 88.4 65.195)
+			(at 90.44 64.31)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "2c4726f2-5785-4066-8ffc-ed11d657c299")
@@ -30139,7 +30139,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e1218a30-345d-4034-a77a-2d9db0d32c0e")
-		(at 99.6 76.6 180)
+		(at 100.95 76.8 180)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW2"
@@ -30435,8 +30435,8 @@
 		)
 	)
 	(gr_rect
-		(start 72 33)
-		(end 111 80)
+		(start 74 33)
+		(end 112 80)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -30446,7 +30446,7 @@
 		(uuid "dff9462f-1276-495d-9c40-d96188042e3b")
 	)
 	(gr_text "- +"
-		(at 82.4 73 0)
+		(at 83.75 73.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "b7c85651-dd7b-49d2-b03f-a7e63acf7932")
 		(effects
@@ -30458,7 +30458,7 @@
 		)
 	)
 	(gr_text "- +"
-		(at 93.4 73 0)
+		(at 94.75 73.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "4137602d-338f-4402-8f9a-1bdb679cabb6")
 		(effects
@@ -30470,7 +30470,7 @@
 		)
 	)
 	(gr_text "- +"
-		(at 103.8 77.5 90)
+		(at 105.15 77.7 90)
 		(layer "F.SilkS" knockout)
 		(uuid "7df6ca2c-ba90-4ece-beb6-f524d5375a54")
 		(effects
@@ -30482,7 +30482,7 @@
 		)
 	)
 	(gr_text "5V G P D"
-		(at 80.725 69.05 90)
+		(at 82.075 69.25 90)
 		(layer "F.SilkS" knockout)
 		(uuid "49ce6902-6d85-4967-91d4-95cf61cf6f56")
 		(effects
@@ -30495,7 +30495,7 @@
 		)
 	)
 	(gr_text "5V G A B"
-		(at 80.8 55.01 90)
+		(at 82.15 55.21 90)
 		(layer "F.SilkS" knockout)
 		(uuid "3146f928-323d-4231-b9ed-22ced6ea3f11")
 		(effects
@@ -30508,7 +30508,7 @@
 		)
 	)
 	(gr_text "5V G A B"
-		(at 80.806 41.5545 90)
+		(at 82.156 41.7545 90)
 		(layer "F.SilkS" knockout)
 		(uuid "fac683b8-b041-4d26-8c54-7a54a6dcb2ca")
 		(effects
@@ -30521,7 +30521,7 @@
 		)
 	)
 	(gr_text "L H G 5V"
-		(at 103.8 41.5 90)
+		(at 105.15 41.7 90)
 		(layer "F.SilkS" knockout)
 		(uuid "d9dcb729-8a21-4126-9f7d-922972fa4cc8")
 		(effects
@@ -30534,7 +30534,7 @@
 		)
 	)
 	(gr_text "L H G 5V"
-		(at 103.8 55 90)
+		(at 105.15 55.2 90)
 		(layer "F.SilkS" knockout)
 		(uuid "d7e69b5e-017a-4b1e-b71d-9cab2e9231c4")
 		(effects
@@ -30547,7 +30547,7 @@
 		)
 	)
 	(gr_text "L H"
-		(at 103.8 63.1 90)
+		(at 105.15 63.3 90)
 		(layer "F.SilkS" knockout)
 		(uuid "0ed7f041-bc51-427b-b2a7-8c3b6576b1ea")
 		(effects
