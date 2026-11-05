@@ -661,7 +661,7 @@
         "uuid": "f176684b-fd0e-445e-a6e8-0bba85d607c3"
       }
     ],
-    "used_designators": "ENC1-2,#PWR1-6,#PWR11-12,#PWR23-24,R3,R120,J1-7,U1-2",
+    "used_designators": "ENC1-2,#PWR1-6,#PWR11-12,#PWR23-26,R3,R120,J1-7,U1-2,CANhub1,MD1-2",
     "variants": []
   },
   "sheets": [
