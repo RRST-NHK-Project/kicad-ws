@@ -218,6 +218,18 @@
 		(uuid "ad393308-5ea5-4fd1-981e-6f5d343b92fa")
 	)
 	(junction
+		(at 63.5 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4cebebe-b8a3-45f3-84d4-8238aeb4f962")
+	)
+	(junction
+		(at 66.04 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6821ca2-5174-4195-b32f-462a29458ced")
+	)
+	(junction
 		(at 66.04 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -232,6 +244,16 @@
 			(type default)
 		)
 		(uuid "0f8d7167-aac3-467a-b6a8-cf943630b06b")
+	)
+	(wire
+		(pts
+			(xy 66.04 69.85) (xy 66.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13df573e-b2b8-4921-bd6b-88b0d60e7dad")
 	)
 	(wire
 		(pts
@@ -275,13 +297,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 66.04 69.85)
+			(xy 59.69 77.47) (xy 66.04 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a82cfa6-14a5-496e-8f1b-161b934d34af")
+	)
+	(wire
+		(pts
+			(xy 59.69 69.85) (xy 66.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbba40a-cd37-44ec-a6f7-1c224ca56579")
 	)
 	(wire
 		(pts
@@ -292,6 +324,16 @@
 			(type default)
 		)
 		(uuid "3d2ba050-28e7-41ac-9b87-e5fc3014ee91")
+	)
+	(wire
+		(pts
+			(xy 63.5 67.31) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563ebc16-dc5b-4a7f-bd47-dc096532826f")
 	)
 	(wire
 		(pts
@@ -325,7 +367,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 67.31) (xy 63.5 67.31)
+			(xy 59.69 74.93) (xy 63.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -352,6 +394,16 @@
 			(type default)
 		)
 		(uuid "a021ac18-3064-4296-ad99-c94fd5ff600a")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b447a5d2-164e-4521-ab6c-c113a15500bb")
 	)
 	(wire
 		(pts
@@ -501,7 +553,7 @@
 	)
 	(global_label "CANL"
 		(shape input)
-		(at 54.61 69.85 180)
+		(at 54.61 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -511,7 +563,7 @@
 		)
 		(uuid "63f3c032-7313-4026-ae70-529ed5484b54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.9076 69.85 0)
+			(at 46.9076 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -560,6 +612,30 @@
 		(uuid "989cd4d2-0447-495f-9466-ab5b65e7f6da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.9076 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 54.61 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0930462-4b16-4cd8-9a5f-8295f23b968e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9076 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -629,7 +705,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ee04800a-f9ed-4c7d-b4a8-47e96ddad2db")
+		(uuid "ec5b6306-704c-4199-bacc-ae55a13101e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.6052 67.31 0)
 			(hide yes)
@@ -640,6 +716,112 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 54.61 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee04800a-f9ed-4c7d-b4a8-47e96ddad2db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.6052 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 59.69 67.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36b14592-6239-4be4-a52d-9f57013fdd45")
+		(property "Reference" "CAN_BUS5"
+			(at 36.83 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CAN_BUS"
+			(at 36.83 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 59.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 59.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfd49042-1487-4fc9-bb43-8bc224bf8ccc")
+		)
+		(pin "2"
+			(uuid "a1d9361b-faa8-42e0-9063-ffc403ae3957")
+		)
+		(instances
+			(project "CAN hub-ESC"
+				(path "/69e9cccd-1b1f-431b-a94e-52c5c1905914"
+					(reference "CAN_BUS5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -809,7 +991,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 59.69 67.31 0)
+		(at 59.69 74.93 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -819,8 +1001,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74e65295-e943-461c-90f9-29b90fd71466")
-		(property "Reference" "CAN_BUS5"
-			(at 36.83 67.31 0)
+		(property "Reference" "CAN_BUS6"
+			(at 36.83 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -831,7 +1013,7 @@
 			)
 		)
 		(property "Value" "CAN_BUS"
-			(at 36.83 69.85 0)
+			(at 36.83 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -842,7 +1024,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 59.69 67.31 0)
+			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -853,7 +1035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 67.31 0)
+			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -864,7 +1046,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 59.69 67.31 0)
+			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -883,7 +1065,7 @@
 		(instances
 			(project "CAN hub-ESC"
 				(path "/69e9cccd-1b1f-431b-a94e-52c5c1905914"
-					(reference "CAN_BUS5")
+					(reference "CAN_BUS6")
 					(unit 1)
 				)
 			)
