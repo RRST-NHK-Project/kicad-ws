@@ -22160,7 +22160,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 100.33 0)
+		(at 101.6 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22170,7 +22170,7 @@
 		(dnp no)
 		(uuid "016239fc-0414-4ea0-9302-94d1a398658c")
 		(property "Reference" "TP1"
-			(at 354.33 99.06 0)
+			(at 105.41 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22180,7 +22180,8 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 354.33 101.6 0)
+			(at 105.41 191.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22190,7 +22191,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 350.52 100.33 0)
+			(at 101.6 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22201,7 +22202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 100.33 0)
+			(at 101.6 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22212,7 +22213,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 350.52 100.33 0)
+			(at 101.6 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22236,7 +22237,7 @@
 	)
 	(global_label "VBUS"
 		(shape bidirectional)
-		(at 350.52 100.33 180)
+		(at 101.6 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22248,7 +22249,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 107.95 0)
+		(at 101.6 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22258,7 +22259,7 @@
 		(dnp no)
 		(uuid "88d25b9b-bfc5-4cd3-9eb0-93d540af6a6d")
 		(property "Reference" "TP2"
-			(at 354.33 106.68 0)
+			(at 105.41 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22268,7 +22269,8 @@
 			)
 		)
 		(property "Value" "CAN_H"
-			(at 354.33 109.22 0)
+			(at 105.41 199.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22278,7 +22280,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 350.52 107.95 0)
+			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22289,7 +22291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 107.95 0)
+			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22300,7 +22302,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 350.52 107.95 0)
+			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22324,7 +22326,7 @@
 	)
 	(global_label "CAN_H"
 		(shape bidirectional)
-		(at 350.52 107.95 180)
+		(at 101.6 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22336,7 +22338,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 115.57 0)
+		(at 101.6 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22346,7 +22348,7 @@
 		(dnp no)
 		(uuid "35b87bcb-7697-4399-a926-d1593eee48ce")
 		(property "Reference" "TP3"
-			(at 354.33 114.3 0)
+			(at 105.41 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22356,7 +22358,8 @@
 			)
 		)
 		(property "Value" "CAN_L"
-			(at 354.33 116.83999999999999 0)
+			(at 105.41 207.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22366,7 +22369,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 350.52 115.57 0)
+			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22377,7 +22380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 115.57 0)
+			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22388,7 +22391,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 350.52 115.57 0)
+			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22412,7 +22415,7 @@
 	)
 	(global_label "CAN_L"
 		(shape bidirectional)
-		(at 350.52 115.57 180)
+		(at 101.6 205.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22424,7 +22427,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 123.19 0)
+		(at 101.6 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22434,7 +22437,7 @@
 		(dnp no)
 		(uuid "02f471d0-fb99-44e7-9afc-b89af4211c1b")
 		(property "Reference" "TP4"
-			(at 354.33 121.92 0)
+			(at 105.41 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22444,7 +22447,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 354.33 124.46 0)
+			(at 105.41 214.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22454,7 +22458,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 350.52 123.19 0)
+			(at 101.6 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22465,7 +22469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 123.19 0)
+			(at 101.6 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22476,7 +22480,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 350.52 123.19 0)
+			(at 101.6 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22500,7 +22504,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 350.52 123.19 180)
+		(at 101.6 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22512,7 +22516,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 130.81 0)
+		(at 101.6 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22522,7 +22526,7 @@
 		(dnp no)
 		(uuid "607a7508-2c29-42dd-b4c1-dfae3ed2c61a")
 		(property "Reference" "TP5"
-			(at 354.33 129.54 0)
+			(at 105.41 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22532,7 +22536,8 @@
 			)
 		)
 		(property "Value" "DP"
-			(at 354.33 132.08 0)
+			(at 105.41 222.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22542,7 +22547,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 350.52 130.81 0)
+			(at 101.6 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22553,7 +22558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 130.81 0)
+			(at 101.6 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22564,7 +22569,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 350.52 130.81 0)
+			(at 101.6 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22588,7 +22593,7 @@
 	)
 	(global_label "DP"
 		(shape bidirectional)
-		(at 350.52 130.81 180)
+		(at 101.6 220.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22600,7 +22605,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 138.43 0)
+		(at 101.6 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22610,7 +22615,7 @@
 		(dnp no)
 		(uuid "a46e14fc-38df-4ab8-a3d2-f738bcc6543c")
 		(property "Reference" "TP6"
-			(at 354.33 137.16 0)
+			(at 105.41 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22620,7 +22625,8 @@
 			)
 		)
 		(property "Value" "DN"
-			(at 354.33 139.70000000000002 0)
+			(at 105.41 229.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22630,7 +22636,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 350.52 138.43 0)
+			(at 101.6 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22641,7 +22647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 138.43 0)
+			(at 101.6 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22652,7 +22658,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 350.52 138.43 0)
+			(at 101.6 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22676,7 +22682,7 @@
 	)
 	(global_label "DN"
 		(shape bidirectional)
-		(at 350.52 138.43 180)
+		(at 101.6 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22688,7 +22694,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 350.52 146.05 0)
+		(at 101.6 236.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22698,7 +22704,7 @@
 		(dnp no)
 		(uuid "55acc97c-c0ff-40b8-8aa5-b9bb5c19b7a5")
 		(property "Reference" "TP7"
-			(at 354.33 144.78 0)
+			(at 105.41 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22708,7 +22714,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 354.33 147.32000000000002 0)
+			(at 105.41 237.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22718,7 +22725,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 350.52 146.05 0)
+			(at 101.6 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22729,7 +22736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 146.05 0)
+			(at 101.6 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22740,7 +22747,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 350.52 146.05 0)
+			(at 101.6 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22764,7 +22771,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 350.52 146.05 180)
+		(at 101.6 236.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
