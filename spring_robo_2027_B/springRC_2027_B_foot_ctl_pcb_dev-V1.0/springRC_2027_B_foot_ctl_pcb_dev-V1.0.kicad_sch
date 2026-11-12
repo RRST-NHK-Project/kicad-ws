@@ -191,6 +191,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2876,254 +3101,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:MCP2561-E-P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP2561-E-P"
-				(at 2.54 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DIP-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "High-Speed CAN Transceiver"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP2561-E-P_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP2561-E-P_1_1"
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "SPLIT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "STBY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5029,6 +5006,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "springRC_2027_B:MCP2562FD-E-SN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP2562FD-E-SN"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High-Speed CAN FD Transceiver, 8Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8. MCP2562 とピン配置同一"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN FD Transceiver CAN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP2562FD-E-SN_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP2562FD-E-SN_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "Vio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 24.13 25.4)
@@ -5053,6 +5278,18 @@
 			(type none)
 		)
 		(uuid "14b0132c-c84c-43c8-bf49-d0aaeedbf0fb")
+	)
+	(rectangle
+		(start 22.86 214.63)
+		(end 50.8 224.79)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2a6049b5-f895-4eb4-9d43-e8cd5c174018")
 	)
 	(rectangle
 		(start 165.1 95.25)
@@ -5080,7 +5317,7 @@
 	)
 	(rectangle
 		(start 20.32 135.89)
-		(end 54.61 222.25)
+		(end 54.61 231.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -5174,6 +5411,18 @@
 		)
 		(uuid "d3f316d6-2fa2-4fcf-87ec-650531b8c0a1")
 	)
+	(rectangle
+		(start 336.55 21.59)
+		(end 394.97 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e1ac321b-018b-4e10-8d82-04c5b8029fe5")
+	)
 	(text "ENC"
 		(exclude_from_sim no)
 		(at 52.324 192.024 90)
@@ -5184,15 +5433,15 @@
 		)
 		(uuid "19ad7d22-596f-4df6-9c94-bd933ff29f43")
 	)
-	(text ""
+	(text "CAN\n"
 		(exclude_from_sim no)
-		(at 36.068 219.964 0)
+		(at 368.554 90.678 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
-		(uuid "2661caa5-e99d-411c-a140-80ddda1e9653")
+		(uuid "27da044d-cfa3-4f52-86b8-3cfb7b6821d1")
 	)
 	(text "ESP32書き込みリセット周辺回路"
 		(exclude_from_sim no)
@@ -5214,16 +5463,6 @@
 		)
 		(uuid "5cabb9f9-b4bc-43f5-96b8-67b0a5d3fc89")
 	)
-	(text ""
-		(exclude_from_sim no)
-		(at 40.64 219.71 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "6cee7e0a-c0d4-45e7-853c-0a68edfe3b62")
-	)
 	(text "ESD保護"
 		(exclude_from_sim no)
 		(at 210.312 81.788 0)
@@ -5236,7 +5475,7 @@
 	)
 	(text "機能割当"
 		(exclude_from_sim no)
-		(at 37.592 218.694 0)
+		(at 37.592 228.346 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5294,16 +5533,6 @@
 		)
 		(uuid "d327fd55-25d2-4b77-8729-9e667e6a0d0f")
 	)
-	(text ""
-		(exclude_from_sim no)
-		(at 34.798 218.44 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "d4883912-256e-403d-b53a-6e6d87f2b77f")
-	)
 	(text "5V系はVBUSからの供給であるため電圧降下に注意"
 		(exclude_from_sim no)
 		(at 384.556 249.174 0)
@@ -5313,6 +5542,16 @@
 			)
 		)
 		(uuid "e6310096-7ca6-47de-a7b8-483f01624b8c")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 52.324 220.472 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6d3a2d1-2e5e-4ca3-a3b5-28bd577e4e72")
 	)
 	(text "USB周辺回路"
 		(exclude_from_sim no)
@@ -6330,7 +6569,7 @@
 	)
 	(global_label "CAN_TX"
 		(shape input)
-		(at 254 38.1 180)
+		(at 354.33 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6340,7 +6579,7 @@
 		)
 		(uuid "0267bbd0-e666-4fa1-8a05-ec1c8189ccd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.181 38.1 0)
+			(at 344.511 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,6 +6756,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_RX"
+		(shape input)
+		(at 30.48 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f76484a-c2bf-4a7d-ba97-725a2635f289")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6014 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 353.06 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fac933f-06fd-4cd5-b268-d9f4e69b8df9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.06 77.5524 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7146,7 +7433,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 279.4 45.72 0)
+		(at 379.73 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7156,7 +7443,7 @@
 		)
 		(uuid "32258894-6fd3-4c25-a664-ba7846760f9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.07 45.72 0)
+			(at 388.4 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8680,6 +8967,30 @@
 			)
 		)
 	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 355.6 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8adc0746-c96e-4ac5-9114-1f202f167ce2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 77.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 33.02 46.99 180)
@@ -9042,7 +9353,7 @@
 	)
 	(global_label "CAN_RX"
 		(shape input)
-		(at 254 40.64 180)
+		(at 354.33 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9052,7 +9363,7 @@
 		)
 		(uuid "ae00877c-1992-4efd-8388-1682e20c61f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.8786 40.64 0)
+			(at 344.2086 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9293,6 +9604,30 @@
 		(uuid "bcb0bc36-3fad-4b05-b5e4-b9c54576b8ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 267.97 121.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TXD0"
+		(shape input)
+		(at 30.48 220.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf8bd75f-ce12-47c7-8e1a-9e8f2d8970bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.8382 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9616,6 +9951,30 @@
 			)
 		)
 	)
+	(global_label "RXD0"
+		(shape input)
+		(at 30.48 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1c35597-0b1a-4f0c-a1d4-ad8fd6650272")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5358 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO38"
 		(shape input)
 		(at 69.85 168.91 180)
@@ -9834,7 +10193,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 279.4 40.64 0)
+		(at 379.73 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9844,7 +10203,7 @@
 		)
 		(uuid "e458b5df-35ad-4672-bac9-54369378b4ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.3724 40.64 0)
+			(at 388.7024 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,6 +10396,30 @@
 		(uuid "e9c94483-84f5-4691-b9d8-bcb89379209a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.3185 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_TX"
+		(shape input)
+		(at 30.48 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eca47332-3c84-4251-a350-c92007726e0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.299 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10433,8 +10816,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2561-E-P")
-		(at 266.7 43.18 0)
+		(lib_id "springRC_2027_B:MCP2562FD-E-SN")
+		(at 367.03 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10445,7 +10828,7 @@
 		(fields_autoplaced yes)
 		(uuid "07dee2b3-80cc-43d8-84cc-2c3d6bd5fe89")
 		(property "Reference" "U1"
-			(at 268.8433 30.48 0)
+			(at 369.1733 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10455,8 +10838,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP2561-E-P"
-			(at 268.8433 33.02 0)
+		(property "Value" "MCP2562FD-E-SN"
+			(at 369.1733 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10466,8 +10849,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 266.7 55.88 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 367.03 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10478,8 +10861,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
-			(at 266.7 43.18 0)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf"
+			(at 367.03 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10489,8 +10872,8 @@
 				)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DIP-8"
-			(at 266.7 43.18 0)
+		(property "Description" "High-Speed CAN FD Transceiver, 8Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
+			(at 367.03 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11162,6 +11545,84 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 367.03 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "127b52db-e7eb-4cd6-9fbf-ed24b72b9eff")
+		(property "Reference" "#PWR02"
+			(at 367.03 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 367.03 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 367.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffc83560-ac4c-431e-bf94-3206ca6f3c96")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11931,6 +12392,83 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 350.52 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c389d46-add3-4774-a40f-bdd796014127")
+		(property "Reference" "#PWR07"
+			(at 350.52 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64e2cb38-f1df-487a-b8d7-8c4b39e195b0")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13470,6 +14008,85 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 354.33 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f08762-0751-4421-b0de-f2e52974d4c3")
+		(property "Reference" "#PWR01"
+			(at 358.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 350.52 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 354.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be785186-05bb-4330-804d-eeeeb1e914da")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 69.85 185.42 270)
 		(unit 1)
 		(body_style 1)
@@ -14316,6 +14933,85 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 354.33 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d42725-2c90-4a05-a4ad-1febc86f7501")
+		(property "Reference" "#PWR06"
+			(at 347.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 354.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1821cd38-51eb-4d30-8126-16aceb7ece3d")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17137,6 +17833,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 353.06 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5ec5dec-b909-4f08-ac85-b54a181fccac")
+		(property "Reference" "J2"
+			(at 353.06 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 353.06 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 353.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4466bfcc-bf5b-4a34-a6e5-3ccd603c50e3")
+		)
+		(pin "3"
+			(uuid "ea524ab0-3298-45aa-891c-716b712b4e98")
+		)
+		(pin "2"
+			(uuid "32b7809a-ac8c-4bb9-a021-87a79da25813")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 189.23 68.58 0)
 		(unit 1)
@@ -17212,6 +17991,84 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 367.03 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4cbb3e0-4d46-4677-a4ac-d922b535462c")
+		(property "Reference" "#PWR05"
+			(at 367.03 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 367.03 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e516b900-0266-4f95-b002-78206c5e27e1")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
