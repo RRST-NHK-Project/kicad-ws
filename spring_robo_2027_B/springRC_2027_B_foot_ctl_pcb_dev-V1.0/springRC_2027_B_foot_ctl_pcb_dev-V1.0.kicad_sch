@@ -2876,6 +2876,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_CAN_LIN:MCP2561-E-P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP2561-E-P"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DIP-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN Transceiver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP2561-E-P_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP2561-E-P_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SPLIT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4388,7 +4636,6 @@
 			)
 			(embedded_fonts no)
 		)
-
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -6081,7 +6328,30 @@
 		)
 		(uuid "fce29adc-9ad9-4605-a47a-2ee01884a95f")
 	)
-
+	(global_label "CAN_TX"
+		(shape input)
+		(at 254 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0267bbd0-e666-4fa1-8a05-ec1c8189ccd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.181 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO12"
 		(shape input)
 		(at 30.48 166.37 180)
@@ -6130,7 +6400,6 @@
 			)
 		)
 	)
-
 	(global_label "MD2_PWM2"
 		(shape input)
 		(at 270.51 109.22 270)
@@ -6251,7 +6520,6 @@
 			)
 		)
 	)
-
 	(global_label "RXD0"
 		(shape input)
 		(at 207.01 106.68 0)
@@ -6828,9 +7096,6 @@
 			)
 		)
 	)
-
-
-
 	(global_label "IO2"
 		(shape input)
 		(at 207.01 111.76 0)
@@ -6868,6 +7133,30 @@
 		(uuid "317b059a-b212-4aca-90f3-0541d0d6ba4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 150.8495 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 279.4 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32258894-6fd3-4c25-a664-ba7846760f9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.07 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6927,7 +7216,6 @@
 			)
 		)
 	)
-
 	(global_label "IO48"
 		(shape input)
 		(at 30.48 193.04 180)
@@ -7048,7 +7336,6 @@
 			)
 		)
 	)
-
 	(global_label "RE3"
 		(shape input)
 		(at 69.85 163.83 0)
@@ -7241,7 +7528,6 @@
 			)
 		)
 	)
-
 	(global_label "3V3"
 		(shape input)
 		(at 22.86 99.06 90)
@@ -7530,9 +7816,6 @@
 			)
 		)
 	)
-
-
-
 	(global_label "IO8"
 		(shape input)
 		(at 113.03 140.97 180)
@@ -7773,7 +8056,6 @@
 			)
 		)
 	)
-
 	(global_label "IO0"
 		(shape input)
 		(at 207.01 134.62 0)
@@ -7846,7 +8128,6 @@
 			)
 		)
 	)
-
 	(global_label "IO6"
 		(shape input)
 		(at 181.61 114.3 180)
@@ -7871,7 +8152,6 @@
 			)
 		)
 	)
-
 	(global_label "RE5"
 		(shape input)
 		(at 69.85 168.91 0)
@@ -8016,7 +8296,6 @@
 			)
 		)
 	)
-
 	(global_label "IO15"
 		(shape input)
 		(at 181.61 119.38 180)
@@ -8281,7 +8560,6 @@
 			)
 		)
 	)
-
 	(global_label "IO11"
 		(shape input)
 		(at 30.48 162.56 180)
@@ -8306,7 +8584,6 @@
 			)
 		)
 	)
-
 	(global_label "ENC1_B"
 		(shape input)
 		(at 247.65 77.47 270)
@@ -8499,8 +8776,6 @@
 			)
 		)
 	)
-
-
 	(global_label "IO42"
 		(shape input)
 		(at 143.51 151.13 0)
@@ -8765,6 +9040,30 @@
 			)
 		)
 	)
+	(global_label "CAN_RX"
+		(shape input)
+		(at 254 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae00877c-1992-4efd-8388-1682e20c61f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.8786 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ENC2_B"
 		(shape input)
 		(at 30.48 185.42 0)
@@ -8813,7 +9112,6 @@
 			)
 		)
 	)
-
 	(global_label "DP"
 		(shape input)
 		(at 152.4 128.27 0)
@@ -9054,8 +9352,6 @@
 			)
 		)
 	)
-
-
 	(global_label "3V3"
 		(shape input)
 		(at 228.6 106.68 90)
@@ -9536,6 +9832,30 @@
 			)
 		)
 	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 279.4 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e458b5df-35ad-4672-bac9-54369378b4ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.3724 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MD2_DIR2"
 		(shape input)
 		(at 30.48 162.56 0)
@@ -9848,7 +10168,6 @@
 			)
 		)
 	)
-
 	(global_label "IO36"
 		(shape input)
 		(at 143.51 135.89 0)
@@ -10110,6 +10429,107 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:MCP2561-E-P")
+		(at 266.7 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07dee2b3-80cc-43d8-84cc-2c3d6bd5fe89")
+		(property "Reference" "U1"
+			(at 268.8433 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP2561-E-P"
+			(at 268.8433 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 266.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
+			(at 266.7 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DIP-8"
+			(at 266.7 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64bb4a6b-0706-41c7-b46d-0f1509657e15")
+		)
+		(pin "2"
+			(uuid "82da34fc-316d-40d2-abfd-87a0d01f3e32")
+		)
+		(pin "3"
+			(uuid "5fb2a0d6-632c-4e9f-aece-d6cb6d09e227")
+		)
+		(pin "4"
+			(uuid "83b059a4-10c7-4951-876f-5d8507805857")
+		)
+		(pin "5"
+			(uuid "08af8161-7544-4f00-b70a-314f3091e4e7")
+		)
+		(pin "6"
+			(uuid "083e5715-156a-4cfb-8e16-ed9d3c16c4f9")
+		)
+		(pin "7"
+			(uuid "b0ce3807-191c-4a02-9a60-a50a0e09cd30")
+		)
+		(pin "8"
+			(uuid "fa41a254-9472-419d-9791-809b30786028")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.0"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "U1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10507,7 +10927,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 69.85 195.58 270)
@@ -10748,7 +11167,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "Connector:Conn_01x22_Pin")
 		(at 186.69 127 0)
@@ -11847,7 +12265,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "power:GND")
 		(at 69.85 187.96 90)
@@ -11927,8 +12344,6 @@
 			)
 		)
 	)
-
-
 	(symbol
 		(lib_id "power:GND")
 		(at 52.07 72.39 0)
@@ -13740,8 +14155,6 @@
 			)
 		)
 	)
-
-
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 69.85 143.51 90)
@@ -14949,7 +15362,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 251.46 104.14 90)
@@ -16001,7 +16413,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 64.77 179.07 180)
@@ -16171,7 +16582,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "power:GND")
 		(at 208.28 68.58 0)
@@ -16726,7 +17136,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "Device:R")
 		(at 189.23 68.58 0)
@@ -16897,7 +17306,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "Device:C")
 		(at 62.23 58.42 0)
