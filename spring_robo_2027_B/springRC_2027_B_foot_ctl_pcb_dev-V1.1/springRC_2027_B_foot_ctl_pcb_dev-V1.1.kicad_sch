@@ -22236,7 +22236,7 @@
 		)
 	)
 	(global_label "VBUS"
-		(shape bidirectional)
+		(shape input)
 		(at 101.6 190.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22325,7 +22325,7 @@
 		)
 	)
 	(global_label "CAN_H"
-		(shape bidirectional)
+		(shape input)
 		(at 101.6 198.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22414,7 +22414,7 @@
 		)
 	)
 	(global_label "CAN_L"
-		(shape bidirectional)
+		(shape input)
 		(at 101.6 205.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22503,7 +22503,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape bidirectional)
+		(shape input)
 		(at 101.6 213.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22592,7 +22592,7 @@
 		)
 	)
 	(global_label "DP"
-		(shape bidirectional)
+		(shape input)
 		(at 101.6 220.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22681,7 +22681,7 @@
 		)
 	)
 	(global_label "DN"
-		(shape bidirectional)
+		(shape input)
 		(at 101.6 228.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22770,7 +22770,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape bidirectional)
+		(shape input)
 		(at 101.6 236.22 180)
 		(fields_autoplaced yes)
 		(effects
