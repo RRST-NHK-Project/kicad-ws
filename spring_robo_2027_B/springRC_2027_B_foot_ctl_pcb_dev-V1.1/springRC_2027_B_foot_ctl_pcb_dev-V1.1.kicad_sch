@@ -6643,12 +6643,6 @@
 		(uuid "16b1b295-0478-45ee-b369-b4c5e4cde086")
 	)
 	(junction
-		(at 325.12 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f9a3dc5-9edd-47a2-8bd2-9bf74a751dbd")
-	)
-	(junction
 		(at 152.4 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6671,12 +6665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33bb8e25-dfa0-4393-b38c-16b320171416")
-	)
-	(junction
-		(at 83.82 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34e59fa5-76eb-4f2f-8d39-80ba18acdae6")
 	)
 	(junction
 		(at 73.66 46.99)
@@ -6703,12 +6691,6 @@
 		(uuid "48b8ad4b-37aa-4d2a-854c-c56d729ca3b6")
 	)
 	(junction
-		(at 280.67 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "542908a7-7264-4888-a3ac-1db38bd919d5")
-	)
-	(junction
 		(at 325.12 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6725,12 +6707,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7168bf6e-1482-4bf4-8800-f1b55bdaa277")
-	)
-	(junction
-		(at 280.67 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78f594ab-ccc9-4ba2-b070-785b0bd5d166")
 	)
 	(junction
 		(at 110.49 68.58)
@@ -6781,6 +6757,12 @@
 		(uuid "bb411045-d1b6-4eaf-b76c-fbd8275f2eb4")
 	)
 	(junction
+		(at 83.82 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b92509-6f75-4aad-9404-cb19bdb632ea")
+	)
+	(junction
 		(at 93.98 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6797,12 +6779,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1df500d-ec89-4eb2-b4b2-9c7dc9709f66")
-	)
-	(junction
-		(at 325.12 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1f74cdb-07b1-4668-8927-b8dbc778bcae")
 	)
 	(no_connect
 		(at 172.72 62.23)
@@ -7494,16 +7470,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 83.82 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e963a6-660a-4597-a39d-0318743d59d8")
-	)
-	(wire
-		(pts
 			(xy 128.27 106.68) (xy 128.27 110.49)
 		)
 		(stroke
@@ -7554,7 +7520,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 67.31) (xy 83.82 68.58)
+			(xy 83.82 54.61) (xy 83.82 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7674,6 +7640,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc12b51b-e3ec-4194-bd5d-966696062aad")
+	)
+	(wire
+		(pts
 			(xy 73.66 115.57) (xy 68.58 115.57)
 		)
 		(stroke
@@ -7701,6 +7677,16 @@
 			(type default)
 		)
 		(uuid "c6a75e4a-e071-4512-b101-e7eeb13c9405")
+	)
+	(wire
+		(pts
+			(xy 80.01 67.31) (xy 80.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74f11dc-1316-4199-b52b-e35778a093ab")
 	)
 	(wire
 		(pts
@@ -7901,6 +7887,16 @@
 			(type default)
 		)
 		(uuid "f5e4fc70-8156-4562-9a07-6b9b1310f205")
+	)
+	(wire
+		(pts
+			(xy 83.82 67.31) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90d697d-245d-4dc6-8b71-cf35bcc86147")
 	)
 	(wire
 		(pts
@@ -18631,7 +18627,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 83.82 67.31 90)
+		(at 80.01 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18639,10 +18635,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65c83a7a-07c1-4c36-9989-73c52827b345")
 		(property "Reference" "#FLG02"
-			(at 88.9 67.31 0)
+			(at 80.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18653,7 +18648,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 87.63 67.4369 90)
+			(at 78.232 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18664,7 +18659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 67.31 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18675,7 +18670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 67.31 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18686,7 +18681,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 83.82 67.31 0)
+			(at 80.01 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19061,7 +19056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
+		(property "Footprint" "springRC_2027_B:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 161.29 46.99 0)
 			(hide yes)
 			(show_name no)
