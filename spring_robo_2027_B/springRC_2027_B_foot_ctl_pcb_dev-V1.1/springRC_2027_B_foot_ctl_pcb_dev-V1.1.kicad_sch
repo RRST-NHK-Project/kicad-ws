@@ -6179,6 +6179,12 @@
 		(uuid "16b1b295-0478-45ee-b369-b4c5e4cde086")
 	)
 	(junction
+		(at 152.4 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "204079cf-9ccd-4d1b-b222-921dfdcf5cb4")
+	)
+	(junction
 		(at 93.98 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6890,6 +6896,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7debc58-d08f-4b26-b760-e54427acf6ba")
+	)
+	(wire
+		(pts
 			(xy 143.51 128.27) (xy 152.4 128.27)
 		)
 		(stroke
@@ -7000,6 +7016,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 161.29) (xy 152.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb4fbb7-708e-4860-a672-07dad4cfc281")
+	)
+	(wire
+		(pts
 			(xy 175.26 44.45) (xy 208.28 44.45)
 		)
 		(stroke
@@ -7057,6 +7083,26 @@
 			(type default)
 		)
 		(uuid "daedae0a-c677-49b7-9589-db48ee4a10ed")
+	)
+	(wire
+		(pts
+			(xy 153.67 153.67) (xy 152.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3e16da-e37a-4643-a226-a92c90a77555")
+	)
+	(wire
+		(pts
+			(xy 152.4 153.67) (xy 152.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25356ba-8c98-47eb-a90f-1af6ec7c43b9")
 	)
 	(wire
 		(pts
@@ -7534,7 +7580,7 @@
 	)
 	(global_label "IO45"
 		(shape input)
-		(at 143.51 153.67 0)
+		(at 153.67 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7544,7 +7590,7 @@
 		)
 		(uuid "159b257b-ff00-40ad-a3d6-2c822a65eb8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8495 153.67 0)
+			(at 161.0095 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12039,6 +12085,54 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
+		(at 379.73 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b7a922b-6f72-49a1-923e-059af0e20270")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 388.7024 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 379.73 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cbfa016-bb34-47ec-b79f-ea98eb4c10e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 388.7024 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape input)
 		(at 379.73 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14417,6 +14511,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 152.4 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e00cade-e439-4cca-813a-0d128504c5d3")
+		(property "Reference" "#PWR052"
+			(at 152.4 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6edd0837-0340-4642-8e12-f10b8992009e")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 62.23 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -15851,7 +16023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1-N16R2"
 			(at 130.4133 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22125,6 +22297,170 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "J5_ENC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 379.73 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f115a4d9-e440-41ba-a532-fcfff26d48fe")
+		(property "Reference" "R20"
+			(at 382.27000000000004 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 382.27000000000004 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 379.73 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 379.73 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "753eaf43-3572-4fc1-9509-25950367c930")
+		)
+		(pin "1"
+			(uuid "b119df38-87dc-483e-8513-f5c893bcb148")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 152.4 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5984d12-dbd9-40b2-8876-a35818554d52")
+		(property "Reference" "R19"
+			(at 154.94 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 154.94 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 152.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b824175-5e8c-4d96-a876-87080aab8cc4")
+		)
+		(pin "1"
+			(uuid "1a33b89e-babc-4b62-aff3-72958d28709a")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "R19")
 					(unit 1)
 				)
 			)
