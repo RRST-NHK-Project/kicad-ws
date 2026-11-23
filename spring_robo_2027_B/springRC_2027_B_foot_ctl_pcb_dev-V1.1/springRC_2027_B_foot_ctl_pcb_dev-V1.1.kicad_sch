@@ -13611,7 +13611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -13688,7 +13688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -14468,7 +14468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14787,7 +14787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 367.03 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -14880,7 +14880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15491,7 +15491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 325.12 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16385,7 +16385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -16461,7 +16461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16697,7 +16697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -17207,7 +17207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17515,7 +17515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 325.12 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17758,7 +17758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -18139,7 +18139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18349,7 +18349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -18504,7 +18504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18903,7 +18903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19440,7 +19440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19673,7 +19673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.67 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -19752,7 +19752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19986,7 +19986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20303,7 +20303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -21619,7 +21619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -21696,7 +21696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 254 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -22123,7 +22123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 252.73 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -22621,7 +22621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -23093,7 +23093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 273.05 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -23192,7 +23192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 379.73 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -23431,7 +23431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 64.77 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -23522,7 +23522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 292.1 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -24166,7 +24166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 311.15 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -24268,7 +24268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -24350,7 +24350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.67 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -24430,7 +24430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 347.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -24762,7 +24762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 271.78 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -24943,7 +24943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 137.16 0)
 			(hide yes)
 			(show_name no)
