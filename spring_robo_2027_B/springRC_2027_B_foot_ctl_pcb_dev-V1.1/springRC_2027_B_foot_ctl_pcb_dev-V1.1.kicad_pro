@@ -691,11 +691,11 @@
       },
       {
         "netclass": "CAN",
-        "pattern": "CANH"
+        "pattern": "CAN_H"
       },
       {
         "netclass": "CAN",
-        "pattern": "CANL"
+        "pattern": "CAN_L"
       },
       {
         "netclass": "USB",
@@ -707,7 +707,7 @@
       },
       {
         "netclass": "ENC",
-        "pattern": "ENC*"
+        "pattern": "ENC.*"
       }
     ]
   },
