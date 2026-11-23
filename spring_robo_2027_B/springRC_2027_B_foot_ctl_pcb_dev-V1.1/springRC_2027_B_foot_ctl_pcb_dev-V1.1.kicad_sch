@@ -18608,7 +18608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
+		(lib_id "power:PWR_FLAG")
 		(at 83.82 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -18619,7 +18619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c83a7a-07c1-4c36-9989-73c52827b345")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#FLG02"
 			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18630,7 +18630,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
+		(property "Value" "PWR_FLAG"
 			(at 87.63 67.4369 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18663,7 +18663,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 83.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18680,7 +18680,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR053")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
