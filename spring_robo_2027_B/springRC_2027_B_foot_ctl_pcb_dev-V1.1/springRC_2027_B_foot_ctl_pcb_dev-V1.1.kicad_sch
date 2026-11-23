@@ -14767,7 +14767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14fb1497-eae6-4352-900a-98f7ef801734")
-		(property "Reference" "J3"
+		(property "Reference" "J15"
 			(at 367.03 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14820,6 +14820,17 @@
 				)
 			)
 		)
+		(property "Function" "CAN2"
+			(at 367.03 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d72cadec-a665-4b7f-8003-aa9cb8135abe")
 		)
@@ -14832,7 +14843,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J3")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -15661,6 +15672,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "3V3"
 			(at 64.77 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -19072,6 +19094,17 @@
 				)
 			)
 		)
+		(property "Function" "USB"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B4"
 			(uuid "a01e630a-f54a-4cd9-a6d3-4797caa7052a")
 		)
@@ -19430,6 +19463,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 69.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "RESERVED"
 			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20359,6 +20403,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "3V3"
 			(at 64.77 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -21621,7 +21676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e612e6-4507-49a6-9cec-0cb16cdaebf3")
-		(property "Reference" "J2_ENC1"
+		(property "Reference" "J2"
 			(at 254 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21674,6 +21729,17 @@
 				)
 			)
 		)
+		(property "Function" "ENC1"
+			(at 254 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ebe4bab8-7de6-40d8-bf20-a97c8b0c4a22")
 		)
@@ -21692,7 +21758,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J2_ENC1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -22037,7 +22103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a825c08a-7ac5-4373-ad0e-f19f9e9c20c0")
-		(property "Reference" "J6_MD1"
+		(property "Reference" "J6"
 			(at 252.73 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22090,6 +22156,17 @@
 				)
 			)
 		)
+		(property "Function" "MD1"
+			(at 252.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "1e5d24e8-a243-484d-b011-443d81736112")
 		)
@@ -22108,7 +22185,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J6_MD1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -22996,7 +23073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caf0353f-36f0-4e38-be43-96510a038df2")
-		(property "Reference" "J3_ENC2"
+		(property "Reference" "J3"
 			(at 273.05 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23049,6 +23126,17 @@
 				)
 			)
 		)
+		(property "Function" "ENC2"
+			(at 273.05 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f874c7fd-1551-44d2-b34a-5789157d42eb")
 		)
@@ -23067,7 +23155,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J3_ENC2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -23376,6 +23464,17 @@
 				)
 			)
 		)
+		(property "Function" "PWR"
+			(at 64.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b890376-4ee6-4829-a994-62228b177cbd")
 		)
@@ -23403,7 +23502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5bb93b6-c86f-4257-93a8-70ea21d62bb4")
-		(property "Reference" "J4_ENC3"
+		(property "Reference" "J4"
 			(at 292.1 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23456,6 +23555,17 @@
 				)
 			)
 		)
+		(property "Function" "ENC3"
+			(at 292.1 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f04a058-e886-46e3-b684-4f6d871331f4")
 		)
@@ -23474,7 +23584,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J4_ENC3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -24036,7 +24146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b003f3-7ebc-4097-b29f-ca79647fa424")
-		(property "Reference" "J5_ENC4"
+		(property "Reference" "J5"
 			(at 311.15 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24089,6 +24199,17 @@
 				)
 			)
 		)
+		(property "Function" "ENC4"
+			(at 311.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b611640-06d9-4dac-8543-5295b64d25a2")
 		)
@@ -24107,7 +24228,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J5_ENC4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -24289,7 +24410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ec5dec-b909-4f08-ac85-b54a181fccac")
-		(property "Reference" "J2"
+		(property "Reference" "J14"
 			(at 347.98 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24342,6 +24463,17 @@
 				)
 			)
 		)
+		(property "Function" "CAN1"
+			(at 347.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4466bfcc-bf5b-4a34-a6e5-3ccd603c50e3")
 		)
@@ -24354,7 +24486,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J2")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -24610,7 +24742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ff5960-0646-4981-89df-20ec89c298a8")
-		(property "Reference" "J7_MD2"
+		(property "Reference" "J7"
 			(at 271.78 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24663,6 +24795,17 @@
 				)
 			)
 		)
+		(property "Function" "MD2"
+			(at 271.78 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "953e200a-c371-4195-a8d9-57e0829e34e2")
 		)
@@ -24681,7 +24824,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.1"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J7_MD2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
