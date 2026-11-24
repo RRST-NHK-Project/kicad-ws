@@ -16596,7 +16596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1-N16R2"
+		(property "Value" "ESP32-S3-WROOM-1-N16R8"
 			(at 130.4133 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)

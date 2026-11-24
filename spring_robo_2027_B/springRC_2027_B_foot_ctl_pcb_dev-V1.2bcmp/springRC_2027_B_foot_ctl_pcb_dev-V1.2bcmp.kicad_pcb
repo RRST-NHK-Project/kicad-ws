@@ -6021,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1-N16R2"
+		(property "Value" "ESP32-S3-WROOM-1-N16R8"
 			(at 0 14.6 180)
 			(unlocked yes)
 			(layer "F.Fab")
