@@ -3702,6 +3702,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6971,6 +7149,246 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 106.68) (xy 303.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6fd1af-687d-46c1-b8f7-b1827fb5a5b4")
+	)
+	(wire
+		(pts
+			(xy 308.61 106.68) (xy 311.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e1d1e8-a1e1-447d-b64c-b329d635dffa")
+	)
+	(wire
+		(pts
+			(xy 300.99 110.49) (xy 303.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5158c615-b408-46e7-9ff3-0f97964d6774")
+	)
+	(wire
+		(pts
+			(xy 308.61 110.49) (xy 311.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3387b28a-4be1-4653-af84-04cc207c75ed")
+	)
+	(wire
+		(pts
+			(xy 300.99 114.3) (xy 303.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b464ce5a-07b8-4cb5-9203-d168abc6f633")
+	)
+	(wire
+		(pts
+			(xy 308.61 114.3) (xy 311.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfbf715-6285-4e30-a1c9-4b66a38cbf16")
+	)
+	(wire
+		(pts
+			(xy 300.99 118.11) (xy 303.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8253be4-4592-4773-9020-c03c91c1b2b0")
+	)
+	(wire
+		(pts
+			(xy 308.61 118.11) (xy 311.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaa8f00-e4a5-4522-9539-38c04bdc59ab")
+	)
+	(wire
+		(pts
+			(xy 300.99 121.92) (xy 303.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2d52bd-1529-4f33-a75a-6088798a236c")
+	)
+	(wire
+		(pts
+			(xy 308.61 121.92) (xy 311.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ed14db-9c96-43e5-bade-c3798f4a820a")
+	)
+	(wire
+		(pts
+			(xy 300.99 125.73) (xy 303.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6347263a-ca39-4b44-b3f8-6f90c3e07e98")
+	)
+	(wire
+		(pts
+			(xy 308.61 125.73) (xy 311.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1e371f-92c1-408f-a31d-92096002b2e5")
+	)
+	(wire
+		(pts
+			(xy 300.99 129.54) (xy 303.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36560df9-d66c-4d79-a920-6032b4738c00")
+	)
+	(wire
+		(pts
+			(xy 308.61 129.54) (xy 311.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f3a631-6657-4f26-a84f-66889589c095")
+	)
+	(wire
+		(pts
+			(xy 300.99 133.35) (xy 303.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5697e7a-ba1f-45a8-bc36-94c344f4817a")
+	)
+	(wire
+		(pts
+			(xy 308.61 133.35) (xy 311.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f148cc38-f8a8-4c67-8e9f-664862838d23")
+	)
+	(wire
+		(pts
+			(xy 300.99 137.16) (xy 303.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f69e78-e8d4-4030-b527-b6fe6b5b2db8")
+	)
+	(wire
+		(pts
+			(xy 308.61 137.16) (xy 311.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5f7f26-a850-46c4-8a5d-5cea1851a9da")
+	)
+	(wire
+		(pts
+			(xy 300.99 140.97) (xy 303.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a7a948-8005-438e-aa61-4d20718b9cf4")
+	)
+	(wire
+		(pts
+			(xy 308.61 140.97) (xy 311.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fcec79-d626-420b-8155-b2e78aa951e7")
+	)
+	(wire
+		(pts
+			(xy 300.99 144.78) (xy 303.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f22bc04-c5d1-429b-ba53-167e9bc6e9fd")
+	)
+	(wire
+		(pts
+			(xy 308.61 144.78) (xy 311.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5a5478-4769-444c-8aab-18fe2cf65ac5")
+	)
+	(wire
+		(pts
+			(xy 300.99 148.59) (xy 303.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86472de0-748b-47da-a5c3-8926313434ec")
+	)
+	(wire
+		(pts
+			(xy 308.61 148.59) (xy 311.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8bd851-7f95-4c33-aeea-86f14663cd57")
+	)
+	(wire
+		(pts
 			(xy 93.98 114.3) (xy 105.41 114.3)
 		)
 		(stroke
@@ -7468,16 +7886,6 @@
 			(type default)
 		)
 		(uuid "729f94ed-984d-4268-b2f5-c2f741eca646")
-	)
-	(wire
-		(pts
-			(xy 170.18 152.4) (xy 181.61 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750911c8-8329-4888-ac82-2b50329397e9")
 	)
 	(wire
 		(pts
@@ -8397,30 +8805,6 @@
 			)
 		)
 	)
-	(global_label "RXD0"
-		(shape input)
-		(at 207.01 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10d23cf9-e732-4387-8618-1f9c7ec85afb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.9542 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO7"
 		(shape input)
 		(at 113.03 138.43 180)
@@ -8517,30 +8901,6 @@
 			)
 		)
 	)
-	(global_label "IO36"
-		(shape input)
-		(at 207.01 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15c8a68f-11f2-426e-9466-09a5ea13c800")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO7"
 		(shape input)
 		(at 69.85 158.75 180)
@@ -8613,30 +8973,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 207.01 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b67c43d-f1e6-4bf8-9184-eb3aebd6092c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8657 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ENC4_A"
 		(shape input)
 		(at 303.53 140.97 180)
@@ -8674,78 +9010,6 @@
 		(uuid "1cb8de2a-630e-48fe-86e5-edce3404ceda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254 93.8204 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO40"
-		(shape input)
-		(at 207.01 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1da514f2-2e53-4c48-80ae-ce35f4b64fc4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO16"
-		(shape input)
-		(at 181.61 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e3e8cfc-8c9f-4fae-b784-62087dca026e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO8"
-		(shape input)
-		(at 181.61 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e5ab0d0-42fa-497f-b4a4-1d907df33a56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.48 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8949,78 +9213,6 @@
 			)
 		)
 	)
-	(global_label "IO18"
-		(shape input)
-		(at 181.61 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29871788-87b5-49d7-b4da-d2da3b0bac12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO11"
-		(shape input)
-		(at 181.61 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29a0a48e-20fd-4383-848c-0c4c7edbf898")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO5"
-		(shape input)
-		(at 181.61 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29adbb5d-bd30-44e3-894d-55c32c6d681c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IO16"
 		(shape input)
 		(at 30.48 143.51 180)
@@ -9189,30 +9381,6 @@
 			)
 		)
 	)
-	(global_label "IO2"
-		(shape input)
-		(at 207.01 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3166e690-5f4b-4845-8047-72209fa1b480")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO47"
 		(shape input)
 		(at 143.51 158.75 0)
@@ -9250,30 +9418,6 @@
 		(uuid "32258894-6fd3-4c25-a664-ba7846760f9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 390.94 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO21"
-		(shape input)
-		(at 207.01 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "326fa41d-0d4c-4829-8234-9fd1c9d57db7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9429,30 +9573,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 181.61 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a7f9ad3-0b1a-428a-8365-404e427a2ae4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7543 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IO40"
 		(shape input)
 		(at 143.51 146.05 0)
@@ -9525,30 +9645,6 @@
 			)
 		)
 	)
-	(global_label "IO47"
-		(shape input)
-		(at 207.01 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e6c496e-1914-4a3a-ba92-ad687f912fff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ENC4_X_BUF"
 		(shape input)
 		(at 299.72 58.42 180)
@@ -9586,30 +9682,6 @@
 		(uuid "3eecb4f9-96b7-4146-950a-87def4469968")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.6905 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO7"
-		(shape input)
-		(at 181.61 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3fec1fda-609a-4ab6-a4be-74537543640f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.48 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9714,30 +9786,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "IO17"
-		(shape input)
-		(at 181.61 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44825cc9-d15d-4891-8182-bd355ad8ed4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9946,30 +9994,6 @@
 		(uuid "4e846146-dcdf-4f0d-a586-41055460e890")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 150.8495 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO41"
-		(shape input)
-		(at 207.01 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f5f7cde-f1d1-46d6-a0f3-87573458a36f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10388,30 +10412,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 207.01 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65f15055-fc63-440e-b662-90662453c0fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8657 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO2"
 		(shape input)
 		(at 113.03 125.73 180)
@@ -10460,30 +10460,6 @@
 			)
 		)
 	)
-	(global_label "IO1"
-		(shape input)
-		(at 207.01 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6815c049-d190-4c97-95dc-4069de13428d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.14 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO21"
 		(shape input)
 		(at 143.51 130.81 0)
@@ -10497,30 +10473,6 @@
 		(uuid "696ea5c8-e31a-4400-ba16-0f93a1ab3605")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 150.8495 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO0"
-		(shape input)
-		(at 207.01 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a5fab42-10d0-4be9-aedb-179daa7840c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.14 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10652,30 +10604,6 @@
 			)
 		)
 	)
-	(global_label "IO6"
-		(shape input)
-		(at 181.61 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "709624a5-c109-456a-a0a0-ef59ed072380")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.48 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RE5"
 		(shape input)
 		(at 69.85 168.91 0)
@@ -10721,30 +10649,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "IO37"
-		(shape input)
-		(at 207.01 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77b107a1-b7ed-4053-8279-3db8b266fdda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -10844,30 +10748,6 @@
 			)
 		)
 	)
-	(global_label "IO15"
-		(shape input)
-		(at 181.61 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7bdddf30-3cd1-4f4f-a22a-960f813e950b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IO8"
 		(shape input)
 		(at 69.85 161.29 180)
@@ -10881,54 +10761,6 @@
 		(uuid "7bf2573e-a9f8-41d1-9d17-904fa78a1c7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.72 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO12"
-		(shape input)
-		(at 181.61 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7bf5ecf3-191b-4c91-a639-e738a3cf4033")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO13"
-		(shape input)
-		(at 181.61 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d4aa839-1c37-447a-a7f2-3413bbe2177f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,30 +10793,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "IO39"
-		(shape input)
-		(at 207.01 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f3cba6c-dadb-4db2-bfbf-d960edf478e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11216,30 +11024,6 @@
 		(uuid "85849c29-658e-4c30-8b1c-b352a4e3c952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.2696 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO9"
-		(shape input)
-		(at 181.61 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85ac6bd1-9c9e-4538-a6f3-e78fe6878132")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.48 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11681,30 +11465,6 @@
 			)
 		)
 	)
-	(global_label "IO10"
-		(shape input)
-		(at 181.61 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a10d7b12-4b90-40c1-8e79-25b674b0c58b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IO13"
 		(shape input)
 		(at 113.03 153.67 180)
@@ -11801,54 +11561,6 @@
 			)
 		)
 	)
-	(global_label "EN"
-		(shape input)
-		(at 181.61 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a70f4016-98eb-4e16-bf00-9b8ddcadc54f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1453 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TXD0"
-		(shape input)
-		(at 207.01 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8aff24c-2957-45dc-8aa6-8fa2b7244a81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.6518 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ENC2_X"
 		(shape input)
 		(at 275.59 83.82 270)
@@ -11870,30 +11582,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 207.01 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abb6f6d8-9e2b-4de2-bd9b-ad51f8767ff4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8657 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -12281,30 +11969,6 @@
 			)
 		)
 	)
-	(global_label "IO38"
-		(shape input)
-		(at 207.01 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0052165-1a65-4208-9d44-9d1a2bc27584")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO15"
 		(shape input)
 		(at 113.03 158.75 180)
@@ -12638,54 +12302,6 @@
 			)
 		)
 	)
-	(global_label "IO42"
-		(shape input)
-		(at 207.01 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf26b550-2c5b-4cbe-b2d8-0ffb1ca2b887")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO4"
-		(shape input)
-		(at 181.61 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d025a33a-f672-45c9-8764-b7475e38f5dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.48 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MD1_PWM1"
 		(shape input)
 		(at 257.81 116.84 270)
@@ -12707,30 +12323,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "IO45"
-		(shape input)
-		(at 207.01 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d167f689-2d37-426a-9ba9-f0b7da8fcb61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -12795,30 +12387,6 @@
 		(uuid "d236e8b2-0e04-4882-a004-33c0cd9e4c96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.5105 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO46"
-		(shape input)
-		(at 181.61 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2c0a251-274f-4bb0-8231-3dc933afe7f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12998,30 +12566,6 @@
 			)
 		)
 	)
-	(global_label "IO35"
-		(shape input)
-		(at 207.01 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd455627-3ca7-402e-aa39-cf9863c9477e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ENC4_X"
 		(shape input)
 		(at 320.04 60.96 0)
@@ -13142,30 +12686,6 @@
 			)
 		)
 	)
-	(global_label "IO14"
-		(shape input)
-		(at 181.61 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6cd57a5-eb00-4167-8b5b-7b2243341fc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2705 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IO10"
 		(shape input)
 		(at 30.48 158.75 180)
@@ -13179,30 +12699,6 @@
 		(uuid "e6f38bed-a801-447b-81c0-c5f1d9c0f87f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.1405 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 181.61 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e7433462-f36d-4e3b-a437-ebf1de556f52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1172 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13251,30 +12747,6 @@
 		(uuid "e93718f6-87f6-46f2-ad86-7552a03e44e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.1518 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DP"
-		(shape input)
-		(at 207.01 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e95c4bbe-8f4e-42b4-88c5-098809824289")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.5352 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13382,54 +12854,6 @@
 			)
 		)
 	)
-	(global_label "IO48"
-		(shape input)
-		(at 207.01 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1acacd8-e247-49f3-8ed6-7bf9eac7c522")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3495 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DN"
-		(shape input)
-		(at 207.01 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1b4d182-50d0-49ae-a00a-90956ca5b59f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.5957 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO1"
 		(shape input)
 		(at 30.48 170.18 180)
@@ -13523,30 +12947,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "IO3"
-		(shape input)
-		(at 181.61 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f60a33e2-6e2f-41fd-82a7-dd7188de91fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -13742,19 +13142,29 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 181.61 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 198.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec7f3721-97e2-4bc5-991b-c873ecf9c610")
+		(property "Reference" "TP12"
+			(at 129.54 203.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right)
 		)
-		(uuid "fefbdc32-a3b0-49c9-80d3-d9f3e528086c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1172 104.14 0)
+		(property "Value" "IO46"
+			(at 127.0 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13762,11 +13172,467 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-	)
-	(symbol
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 154.94 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 154.94 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b5c7188-0806-454f-ab43-f455c3e8e1b1")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)	(global_label "IO46"
+		(shape input)
+		(at 154.94 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47ad0d36-e834-4286-9785-2b60f30d6eac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 190.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9dc4ed54-7f21-46c1-8e9d-96c21d97d3f6")
+		(property "Reference" "TP11"
+			(at 129.54 200.152 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO37"
+			(at 127.0 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 154.94 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 154.94 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "700301f7-2bf6-4f6d-b7d1-5b45316d6abc")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)	(global_label "IO37"
+		(shape input)
+		(at 154.94 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a773828-8e02-43a7-8047-79ff624d3744")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 182.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "804c7aaa-d9a0-4dc1-a474-da329a4fcee8")
+		(property "Reference" "TP10"
+			(at 129.54 196.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO36"
+			(at 127.0 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 154.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 154.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed78ce9f-ce64-4a64-a8b9-4f8abbdfd78c")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)	(global_label "IO36"
+		(shape input)
+		(at 154.94 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "210ed349-eebb-4ffb-a6ef-c62043920600")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98254b36-bcb8-45b6-a72d-26dbe2ac6ec0")
+		(property "Reference" "TP9"
+			(at 129.54 192.532 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO35"
+			(at 127.0 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c68ba78-124a-43c6-b07a-a020b69c11c9")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)	(global_label "IO35"
+		(shape input)
+		(at 154.94 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff8283b3-4761-4862-9067-de020e143b44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 167.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1d4c53f-00e5-40fe-81c4-80c3bf200d62")
+		(property "Reference" "TP8"
+			(at 129.54 188.722 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO3"
+			(at 127.0 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 154.94 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 154.94 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d5af290-08e3-48b3-9d44-1afbc87dc846")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)	(global_label "IO3"
+		(shape input)
+		(at 154.94 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45737929-137c-44d4-b474-de53f39d39e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 101.6 190.5 270)
 		(unit 1)
@@ -14546,8 +14412,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 121.92 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14556,8 +14422,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10e9161e-3be8-4b1d-94f9-6eb4c74c8c8c")
-		(property "Reference" "R11"
-			(at 306.07 122.682 90)
+		(property "Reference" "JP5"
+			(at 306.07 120.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14566,8 +14432,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 120.65 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14576,7 +14443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14598,7 +14465,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14618,7 +14485,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R11")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -14958,8 +14825,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 106.68 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14968,8 +14835,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18e331a2-4660-44da-b5f8-0d3f9809f87b")
-		(property "Reference" "R7"
-			(at 306.07 107.442 90)
+		(property "Reference" "JP1"
+			(at 306.07 104.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14978,8 +14845,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14988,7 +14856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15010,7 +14878,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15030,147 +14898,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x22_Pin")
-		(at 186.69 127 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "198a13ec-1f6c-4f3f-a8f8-9682c1921d6c")
-		(property "Reference" "J8"
-			(at 186.055 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x22_Pin"
-			(at 186.055 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical"
-			(at 186.69 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x22, script generated"
-			(at 186.69 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e889f0b-56f2-4d7a-9b0b-50f97a6abe64")
-		)
-		(pin "2"
-			(uuid "830af247-8783-4cd8-b04b-91291729dc0f")
-		)
-		(pin "5"
-			(uuid "9af7f744-b95b-4d11-820a-06e756b7400b")
-		)
-		(pin "21"
-			(uuid "03d69430-5837-4417-829b-db3012849975")
-		)
-		(pin "3"
-			(uuid "b807f770-0b65-43e3-a652-af2d45915d55")
-		)
-		(pin "18"
-			(uuid "cd5ba415-3fa8-44fd-adbb-37f85464c428")
-		)
-		(pin "6"
-			(uuid "3c999f6f-7745-4a0e-8389-cc0a48596081")
-		)
-		(pin "11"
-			(uuid "a20dcc5a-b66b-4d3c-9a8d-23f98925d62a")
-		)
-		(pin "7"
-			(uuid "dcc646bd-1885-4b8e-bc45-e3b0045a0691")
-		)
-		(pin "10"
-			(uuid "b1f2e864-c017-4885-bd0d-44f78fbf0db5")
-		)
-		(pin "8"
-			(uuid "a971645b-db6f-4182-83e4-eb2e60c67e09")
-		)
-		(pin "12"
-			(uuid "c416c406-755d-4543-8258-b55299732d64")
-		)
-		(pin "13"
-			(uuid "06bc63e7-9511-4ffd-9a94-9dcb18242264")
-		)
-		(pin "4"
-			(uuid "fd536d95-54d6-4560-9a68-25768b733f7e")
-		)
-		(pin "14"
-			(uuid "b4bafa64-5d72-4d67-8938-6e89d8ceda15")
-		)
-		(pin "15"
-			(uuid "821254b2-e656-44f9-9441-7d52ec00ff9d")
-		)
-		(pin "16"
-			(uuid "ee1e0f5a-1c7d-42d2-a9e1-770d5272e22a")
-		)
-		(pin "17"
-			(uuid "82008e61-897e-47d0-a532-eae43e51f32b")
-		)
-		(pin "19"
-			(uuid "553c551d-70b0-4fd0-834d-e753f61c91b5")
-		)
-		(pin "20"
-			(uuid "397d012a-8816-4357-80ef-a38b5b63aef0")
-		)
-		(pin "9"
-			(uuid "c65c58db-b622-4844-8811-fd6cc0a9362b")
-		)
-		(pin "22"
-			(uuid "9e0bd113-4c2a-487c-984e-788d7a93d3bd")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J8")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -16529,8 +16257,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 110.49 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16539,8 +16267,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35fc5e05-b681-48ac-af7b-10fb4fd8d537")
-		(property "Reference" "R8"
-			(at 306.07 111.252 90)
+		(property "Reference" "JP2"
+			(at 306.07 108.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16549,8 +16277,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 109.22 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16559,7 +16288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16581,7 +16310,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16601,7 +16330,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R8")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -16765,8 +16494,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 140.97 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16775,8 +16504,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46913868-63e7-441f-855a-cd8963edefaf")
-		(property "Reference" "R16"
-			(at 306.07 141.732 90)
+		(property "Reference" "JP10"
+			(at 306.07 139.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16785,8 +16514,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 139.7 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16795,7 +16525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16817,7 +16547,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16837,146 +16567,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x22_Pin")
-		(at 201.93 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "480753a4-64c7-4516-9ce0-0e25b0af68e8")
-		(property "Reference" "J9"
-			(at 202.565 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x22_Pin"
-			(at 202.565 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical"
-			(at 201.93 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x22, script generated"
-			(at 201.93 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66d5d876-f9d5-43c2-bc4e-f7eec2479599")
-		)
-		(pin "2"
-			(uuid "3aaeacdc-7017-4961-8e77-b97281be545b")
-		)
-		(pin "5"
-			(uuid "8a24354b-d454-4d80-abe4-0e671745a80a")
-		)
-		(pin "21"
-			(uuid "aac70f9b-b03a-454e-a706-7337424ccbd8")
-		)
-		(pin "3"
-			(uuid "e50f7a0c-f031-4639-9c21-bf4c7b33e51e")
-		)
-		(pin "18"
-			(uuid "7ff1a425-3f65-4dab-83f4-0fe97f58f99c")
-		)
-		(pin "6"
-			(uuid "a4b2b033-49df-4ef5-969d-fca83d75f283")
-		)
-		(pin "11"
-			(uuid "456aa16f-8d70-4651-9029-06b2fae371d3")
-		)
-		(pin "7"
-			(uuid "fac8266d-b2ce-4b5b-bf41-fef41846f41d")
-		)
-		(pin "10"
-			(uuid "eaa0b1dc-ed0e-45dc-bf52-7a7717121921")
-		)
-		(pin "8"
-			(uuid "51b2a6d4-2f79-4ff9-8f4c-8720f0e4d54f")
-		)
-		(pin "12"
-			(uuid "fd1ba6da-d299-4223-8c2b-40ca948cbcab")
-		)
-		(pin "13"
-			(uuid "b118865a-3e11-4e2f-aa87-bb974038efbf")
-		)
-		(pin "4"
-			(uuid "e6fdb780-b64b-446f-bb8f-6d0fa5536717")
-		)
-		(pin "14"
-			(uuid "c59af30f-e940-4684-ab0a-adb4a76c7fb8")
-		)
-		(pin "15"
-			(uuid "11be7c56-9fce-4a10-b7ef-0902d70ca120")
-		)
-		(pin "16"
-			(uuid "a2cfb0d4-f97b-4bf3-90b8-c376460a78db")
-		)
-		(pin "17"
-			(uuid "022453db-f697-4604-bdaa-bd11f2f3217b")
-		)
-		(pin "19"
-			(uuid "de78ed0d-a02b-45d2-8d4a-f9f48508b7ef")
-		)
-		(pin "20"
-			(uuid "fdc735aa-287a-4f28-8656-f67dc4acb187")
-		)
-		(pin "9"
-			(uuid "b04cf911-1352-44e2-a9e8-6b235cf24d1f")
-		)
-		(pin "22"
-			(uuid "0999e93a-58b8-4fcd-b551-1063b7ca3aae")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "J9")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -17275,8 +16866,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 118.11 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17285,8 +16876,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5255bf43-d3ec-46d1-94ef-a6b74bb47262")
-		(property "Reference" "R10"
-			(at 306.07 118.872 90)
+		(property "Reference" "JP4"
+			(at 306.07 116.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17295,8 +16886,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 116.84 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17305,7 +16897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17327,7 +16919,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17347,7 +16939,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R10")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -18207,8 +17799,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 125.73 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18217,8 +17809,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5972a7ea-c82a-484a-b1a1-77a517ab2107")
-		(property "Reference" "R12"
-			(at 306.07 126.492 90)
+		(property "Reference" "JP6"
+			(at 306.07 123.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18227,8 +17819,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 124.46 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18237,7 +17830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18259,7 +17852,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18279,7 +17872,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R12")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -18572,8 +18165,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 129.54 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18582,8 +18175,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64507f86-17b2-4165-92e5-75cd40d7c2f9")
-		(property "Reference" "R13"
-			(at 306.07 130.302 90)
+		(property "Reference" "JP7"
+			(at 306.07 127.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18592,8 +18185,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 128.27 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18602,7 +18196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18624,7 +18218,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18644,7 +18238,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R13")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -18970,8 +18564,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 133.35 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18980,8 +18574,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eecec49-62b3-4e52-bec3-3df4944309d3")
-		(property "Reference" "R14"
-			(at 306.07 134.112 90)
+		(property "Reference" "JP8"
+			(at 306.07 131.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18990,8 +18584,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 132.08 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19000,7 +18595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19022,7 +18617,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19042,7 +18637,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R14")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -19819,8 +19414,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 148.59 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19829,8 +19424,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d95b788-9243-42f4-a73c-f0c434626202")
-		(property "Reference" "R18"
-			(at 306.07 149.352 90)
+		(property "Reference" "JP12"
+			(at 306.07 146.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19839,8 +19434,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 147.32 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19849,7 +19445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19871,7 +19467,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19891,7 +19487,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R18")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -20053,8 +19649,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 144.78 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20063,8 +19659,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "853248ab-bf38-431b-8af5-73e8afaa9089")
-		(property "Reference" "R17"
-			(at 306.07 145.542 90)
+		(property "Reference" "JP11"
+			(at 306.07 142.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20073,8 +19669,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 143.51 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20083,7 +19680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20105,7 +19702,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20125,7 +19722,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R17")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -22609,8 +22206,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 114.3 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22619,8 +22216,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b01830d3-2697-460c-a357-d95153c46c99")
-		(property "Reference" "R9"
-			(at 306.07 115.062 90)
+		(property "Reference" "JP3"
+			(at 306.07 112.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22629,8 +22226,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 113.03 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22639,7 +22237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22661,7 +22259,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22681,7 +22279,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R9")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -22914,84 +22512,6 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 170.18 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf71e717-34ba-4723-bcc0-d5fb3630c3ce")
-		(property "Reference" "#PWR038"
-			(at 170.18 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 170.18 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 170.18 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99e0f92c-e438-47c5-857d-631133ab8093")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -24931,8 +24451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 137.16 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24941,8 +24461,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcca83bc-6b89-421e-b837-a4da6e05015a")
-		(property "Reference" "R15"
-			(at 306.07 137.922 90)
+		(property "Reference" "JP9"
+			(at 306.07 135.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24951,8 +24471,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 135.89 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24961,7 +24482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -24983,7 +24504,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -25003,7 +24524,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2b"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R15")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
