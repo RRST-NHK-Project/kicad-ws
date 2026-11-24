@@ -13643,5 +13643,26 @@
 			)
 		)
 	)
+	(zone
+		(net "GND")
+		(layers "In1.Cu")
+		(uuid "b3596bc0-e80f-4cd3-a48f-7bab2d7189a9")
+		(name "GND_In1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.2)
+		)
+		(min_thickness 0.25)
+		(fill yes
+			(thermal_gap 0.3)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 75 35) (xy 125 35) (xy 125 85) (xy 75 85)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
