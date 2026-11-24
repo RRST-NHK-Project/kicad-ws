@@ -6633,6 +6633,19 @@
 		)
 		(uuid "19ad7d22-596f-4df6-9c94-bd933ff29f43")
 	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 308.864 125.73 0)
+		(effects
+			(font
+				(size 25.4 25.4)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 10 26 1)
+			)
+		)
+		(uuid "237f1b8f-102d-4204-9b7b-3c90a99e195b")
+	)
 	(text "CAN\n"
 		(exclude_from_sim no)
 		(at 368.554 90.678 0)
@@ -6682,6 +6695,19 @@
 			)
 		)
 		(uuid "5d8becf2-becf-4f6e-849b-0da878dbbcbf")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 192.278 117.094 0)
+		(effects
+			(font
+				(size 25.4 25.4)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 10 26 1)
+			)
+		)
+		(uuid "6ec77ca7-750b-494d-83a0-1eba291da735")
 	)
 	(text "ESD保護"
 		(exclude_from_sim no)
@@ -6800,12 +6826,6 @@
 		(uuid "054ecbbb-ad32-4e84-9a91-d3f98899ce97")
 	)
 	(junction
-		(at 280.67 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08583245-4a4c-4a87-961e-b80440f264cc")
-	)
-	(junction
 		(at 52.07 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6836,12 +6856,6 @@
 		(uuid "22bc1bf3-89dc-4b87-ae46-398a57af6a29")
 	)
 	(junction
-		(at 280.67 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "239ef32e-f143-4194-96f1-ddc006e2eed2")
-	)
-	(junction
 		(at 44.45 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6870,12 +6884,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48b8ad4b-37aa-4d2a-854c-c56d729ca3b6")
-	)
-	(junction
-		(at 325.12 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6245562d-73aa-42f1-baf3-30860e65b07c")
 	)
 	(junction
 		(at 208.28 44.45)
@@ -6918,12 +6926,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c546dd1-e5c9-4690-8187-e1c495248690")
-	)
-	(junction
-		(at 325.12 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0b0af48-7953-42f7-accf-61bfa6178763")
 	)
 	(junction
 		(at 175.26 44.45)
@@ -8613,6 +8615,29 @@
 			)
 		)
 	)
+	(global_label "IO3"
+		(shape input)
+		(at 116.84 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31b06a10-19e3-4616-8dc8-56e2a3153516")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "CAN_L"
 		(shape input)
 		(at 382.27 43.18 0)
@@ -10241,6 +10266,29 @@
 			)
 		)
 	)
+	(global_label "IO36"
+		(shape input)
+		(at 116.84 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b25b23a4-219d-4c53-925c-22020939cd5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "DP"
 		(shape input)
 		(at 152.4 128.27 0)
@@ -11150,6 +11198,29 @@
 			)
 		)
 	)
+	(global_label "IO37"
+		(shape input)
+		(at 116.84 201.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb098b77-4306-47be-b5a1-7d3344b9b72f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "CAN_TX"
 		(shape input)
 		(at 30.48 220.98 0)
@@ -11366,6 +11437,52 @@
 			)
 		)
 	)
+	(global_label "IO46"
+		(shape input)
+		(at 116.84 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8a6fc95-725a-48e5-a7d0-81eccb6f887c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "IO35"
+		(shape input)
+		(at 116.84 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f97f15f7-be8d-4e35-82ce-d535bfacb92d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "IO11"
 		(shape input)
 		(at 113.03 148.59 180)
@@ -11463,496 +11580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 198.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4fccef3-137c-446e-bdcd-3fe597e46606")
-		(property "Reference" "TP12"
-			(at 129.54 203.962 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO46"
-			(at 127.0 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 154.94 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test point"
-			(at 154.94 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4d7bdc3-1cb5-40e3-8bbb-0f978f706e40")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)	(global_label "IO46"
-		(shape input)
-		(at 154.94 198.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8a6fc95-725a-48e5-a7d0-81eccb6f887c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 190.5 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b6063e0-8b46-4043-aebc-90effeb5ba18")
-		(property "Reference" "TP11"
-			(at 129.54 200.152 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO37"
-			(at 127.0 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 154.94 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test point"
-			(at 154.94 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f557a224-0c6f-493b-bdc6-c3b8c3f072b2")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)	(global_label "IO37"
-		(shape input)
-		(at 154.94 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb098b77-4306-47be-b5a1-7d3344b9b72f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 182.88 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f338356f-9e5a-4423-afc6-1f54a9ee3bb6")
-		(property "Reference" "TP10"
-			(at 129.54 196.342 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO36"
-			(at 127.0 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 154.94 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test point"
-			(at 154.94 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fdcb2ce-1968-490a-95e5-7f661abdfce5")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)	(global_label "IO36"
-		(shape input)
-		(at 154.94 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b25b23a4-219d-4c53-925c-22020939cd5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 175.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2dcb21bd-303a-4ad0-ae44-c43d0e455ad8")
-		(property "Reference" "TP9"
-			(at 129.54 192.532 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO35"
-			(at 127.0 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 154.94 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test point"
-			(at 154.94 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89a78677-67bf-4235-9757-d1c5893ce251")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)	(global_label "IO35"
-		(shape input)
-		(at 154.94 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f97f15f7-be8d-4e35-82ce-d535bfacb92d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 167.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af9fe1d2-a7c1-47e1-8990-0b2d6cd5c45d")
-		(property "Reference" "TP8"
-			(at 129.54 188.722 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO3"
-			(at 127.0 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 154.94 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test point"
-			(at 154.94 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5321360c-78b2-405c-af0b-c1bde348e415")
-		)
-		(instances
-			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
-				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)	(global_label "IO3"
-		(shape input)
-		(at 154.94 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31b06a10-19e3-4616-8dc8-56e2a3153516")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 101.6 190.5 270)
 		(unit 1)
@@ -13255,7 +12882,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e00cade-e439-4cca-813a-0d128504c5d3")
 		(property "Reference" "#PWR052"
 			(at 152.4 168.91 0)
@@ -13269,7 +12895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 167.64 0)
+			(at 152.4 168.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13643,6 +13269,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 201.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b6063e0-8b46-4043-aebc-90effeb5ba18")
+		(property "Reference" "TP11"
+			(at 123.698 202.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO37"
+			(at 88.9 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 116.84 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 116.84 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f557a224-0c6f-493b-bdc6-c3b8c3f072b2")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 345.44 71.12 0)
 		(unit 1)
@@ -13792,6 +13495,83 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 194.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2dcb21bd-303a-4ad0-ae44-c43d0e455ad8")
+		(property "Reference" "TP9"
+			(at 123.444 194.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO35"
+			(at 88.9 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 116.84 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 116.84 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89a78677-67bf-4235-9757-d1c5893ce251")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -18170,6 +17950,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 190.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af9fe1d2-a7c1-47e1-8990-0b2d6cd5c45d")
+		(property "Reference" "TP8"
+			(at 122.682 190.754 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO3"
+			(at 88.9 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 116.84 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 116.84 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5321360c-78b2-405c-af0b-c1bde348e415")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 297.18 83.82 0)
 		(unit 1)
@@ -19754,6 +19611,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 198.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f338356f-9e5a-4423-afc6-1f54a9ee3bb6")
+		(property "Reference" "TP10"
+			(at 123.952 198.374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO36"
+			(at 88.9 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 116.84 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 116.84 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fdcb2ce-1968-490a-95e5-7f661abdfce5")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 189.23 68.58 0)
 		(unit 1)
@@ -19907,6 +19841,83 @@
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 205.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4fccef3-137c-446e-bdcd-3fe597e46606")
+		(property "Reference" "TP12"
+			(at 123.698 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO46"
+			(at 88.9 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 116.84 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 116.84 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4d7bdc3-1cb5-40e3-8bbb-0f978f706e40")
+		)
+		(instances
+			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2"
+				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
