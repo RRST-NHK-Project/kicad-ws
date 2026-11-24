@@ -3702,6 +3702,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6968,6 +7146,246 @@
 	(no_connect
 		(at 172.72 59.69)
 		(uuid "759c9806-6c53-4595-81ae-39e777d30eab")
+	)
+	(wire
+		(pts
+			(xy 300.99 106.68) (xy 303.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6fd1af-687d-46c1-b8f7-b1827fb5a5b4")
+	)
+	(wire
+		(pts
+			(xy 308.61 106.68) (xy 311.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e1d1e8-a1e1-447d-b64c-b329d635dffa")
+	)
+	(wire
+		(pts
+			(xy 300.99 110.49) (xy 303.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5158c615-b408-46e7-9ff3-0f97964d6774")
+	)
+	(wire
+		(pts
+			(xy 308.61 110.49) (xy 311.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3387b28a-4be1-4653-af84-04cc207c75ed")
+	)
+	(wire
+		(pts
+			(xy 300.99 114.3) (xy 303.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b464ce5a-07b8-4cb5-9203-d168abc6f633")
+	)
+	(wire
+		(pts
+			(xy 308.61 114.3) (xy 311.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfbf715-6285-4e30-a1c9-4b66a38cbf16")
+	)
+	(wire
+		(pts
+			(xy 300.99 118.11) (xy 303.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8253be4-4592-4773-9020-c03c91c1b2b0")
+	)
+	(wire
+		(pts
+			(xy 308.61 118.11) (xy 311.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaa8f00-e4a5-4522-9539-38c04bdc59ab")
+	)
+	(wire
+		(pts
+			(xy 300.99 121.92) (xy 303.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2d52bd-1529-4f33-a75a-6088798a236c")
+	)
+	(wire
+		(pts
+			(xy 308.61 121.92) (xy 311.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ed14db-9c96-43e5-bade-c3798f4a820a")
+	)
+	(wire
+		(pts
+			(xy 300.99 125.73) (xy 303.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6347263a-ca39-4b44-b3f8-6f90c3e07e98")
+	)
+	(wire
+		(pts
+			(xy 308.61 125.73) (xy 311.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1e371f-92c1-408f-a31d-92096002b2e5")
+	)
+	(wire
+		(pts
+			(xy 300.99 129.54) (xy 303.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36560df9-d66c-4d79-a920-6032b4738c00")
+	)
+	(wire
+		(pts
+			(xy 308.61 129.54) (xy 311.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f3a631-6657-4f26-a84f-66889589c095")
+	)
+	(wire
+		(pts
+			(xy 300.99 133.35) (xy 303.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5697e7a-ba1f-45a8-bc36-94c344f4817a")
+	)
+	(wire
+		(pts
+			(xy 308.61 133.35) (xy 311.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f148cc38-f8a8-4c67-8e9f-664862838d23")
+	)
+	(wire
+		(pts
+			(xy 300.99 137.16) (xy 303.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f69e78-e8d4-4030-b527-b6fe6b5b2db8")
+	)
+	(wire
+		(pts
+			(xy 308.61 137.16) (xy 311.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5f7f26-a850-46c4-8a5d-5cea1851a9da")
+	)
+	(wire
+		(pts
+			(xy 300.99 140.97) (xy 303.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a7a948-8005-438e-aa61-4d20718b9cf4")
+	)
+	(wire
+		(pts
+			(xy 308.61 140.97) (xy 311.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fcec79-d626-420b-8155-b2e78aa951e7")
+	)
+	(wire
+		(pts
+			(xy 300.99 144.78) (xy 303.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f22bc04-c5d1-429b-ba53-167e9bc6e9fd")
+	)
+	(wire
+		(pts
+			(xy 308.61 144.78) (xy 311.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5a5478-4769-444c-8aab-18fe2cf65ac5")
+	)
+	(wire
+		(pts
+			(xy 300.99 148.59) (xy 303.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86472de0-748b-47da-a5c3-8926313434ec")
+	)
+	(wire
+		(pts
+			(xy 308.61 148.59) (xy 311.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8bd851-7f95-4c33-aeea-86f14663cd57")
 	)
 	(wire
 		(pts
@@ -14546,8 +14964,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 121.92 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14556,8 +14974,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10e9161e-3be8-4b1d-94f9-6eb4c74c8c8c")
-		(property "Reference" "R11"
-			(at 306.07 122.682 90)
+		(property "Reference" "JP5"
+			(at 306.07 120.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14566,8 +14984,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 120.65 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14576,7 +14995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14598,7 +15017,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14618,7 +15037,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R11")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -14958,8 +15377,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 106.68 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14968,8 +15387,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18e331a2-4660-44da-b5f8-0d3f9809f87b")
-		(property "Reference" "R7"
-			(at 306.07 107.442 90)
+		(property "Reference" "JP1"
+			(at 306.07 104.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14978,8 +15397,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14988,7 +15408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15010,7 +15430,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15030,7 +15450,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R7")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -16529,8 +16949,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 110.49 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16539,8 +16959,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35fc5e05-b681-48ac-af7b-10fb4fd8d537")
-		(property "Reference" "R8"
-			(at 306.07 111.252 90)
+		(property "Reference" "JP2"
+			(at 306.07 108.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16549,8 +16969,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 109.22 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16559,7 +16980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16581,7 +17002,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16601,7 +17022,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R8")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -16765,8 +17186,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 140.97 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16775,8 +17196,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46913868-63e7-441f-855a-cd8963edefaf")
-		(property "Reference" "R16"
-			(at 306.07 141.732 90)
+		(property "Reference" "JP10"
+			(at 306.07 139.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16785,8 +17206,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 139.7 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16795,7 +17217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16817,7 +17239,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16837,7 +17259,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R16")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -17275,8 +17697,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 118.11 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17285,8 +17707,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5255bf43-d3ec-46d1-94ef-a6b74bb47262")
-		(property "Reference" "R10"
-			(at 306.07 118.872 90)
+		(property "Reference" "JP4"
+			(at 306.07 116.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17295,8 +17717,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 116.84 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17305,7 +17728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17327,7 +17750,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17347,7 +17770,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R10")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -18207,8 +18630,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 125.73 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18217,8 +18640,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5972a7ea-c82a-484a-b1a1-77a517ab2107")
-		(property "Reference" "R12"
-			(at 306.07 126.492 90)
+		(property "Reference" "JP6"
+			(at 306.07 123.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18227,8 +18650,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 124.46 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18237,7 +18661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18259,7 +18683,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18279,7 +18703,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R12")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -18572,8 +18996,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 129.54 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18582,8 +19006,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64507f86-17b2-4165-92e5-75cd40d7c2f9")
-		(property "Reference" "R13"
-			(at 306.07 130.302 90)
+		(property "Reference" "JP7"
+			(at 306.07 127.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18592,8 +19016,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 128.27 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18602,7 +19027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18624,7 +19049,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18644,7 +19069,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R13")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -18970,8 +19395,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 133.35 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18980,8 +19405,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eecec49-62b3-4e52-bec3-3df4944309d3")
-		(property "Reference" "R14"
-			(at 306.07 134.112 90)
+		(property "Reference" "JP8"
+			(at 306.07 131.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18990,8 +19415,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 132.08 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19000,7 +19426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19022,7 +19448,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19042,7 +19468,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R14")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -19819,8 +20245,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 148.59 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19829,8 +20255,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d95b788-9243-42f4-a73c-f0c434626202")
-		(property "Reference" "R18"
-			(at 306.07 149.352 90)
+		(property "Reference" "JP12"
+			(at 306.07 146.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19839,8 +20265,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 147.32 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19849,7 +20276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19871,7 +20298,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19891,7 +20318,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R18")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -20053,8 +20480,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 144.78 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20063,8 +20490,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "853248ab-bf38-431b-8af5-73e8afaa9089")
-		(property "Reference" "R17"
-			(at 306.07 145.542 90)
+		(property "Reference" "JP11"
+			(at 306.07 142.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20073,8 +20500,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 143.51 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20083,7 +20511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20105,7 +20533,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20125,7 +20553,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R17")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -22609,8 +23037,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 114.3 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22619,8 +23047,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b01830d3-2697-460c-a357-d95153c46c99")
-		(property "Reference" "R9"
-			(at 306.07 115.062 90)
+		(property "Reference" "JP3"
+			(at 306.07 112.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22629,8 +23057,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 113.03 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22639,7 +23068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22661,7 +23090,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22681,7 +23110,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R9")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -24931,8 +25360,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 306.07 137.16 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 306.07 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24941,8 +25370,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcca83bc-6b89-421e-b837-a4da6e05015a")
-		(property "Reference" "R15"
-			(at 306.07 137.922 90)
+		(property "Reference" "JP9"
+			(at 306.07 135.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24951,8 +25380,9 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "Open"
 			(at 306.07 135.89 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24961,7 +25391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 306.07 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -24983,7 +25413,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 306.07 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -25003,7 +25433,7 @@
 		(instances
 			(project "springRC_2027_B_foot_ctl_pcb_dev-V1.2bcmp"
 				(path "/08e3d388-f335-4566-99a5-7a0a51e9e065"
-					(reference "R15")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
