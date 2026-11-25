@@ -30559,6 +30559,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "RRST NHK2027\nXIAO ESP32-S3\nVAR v1.0"
+		(at 99.45 55.95 90)
+		(layer "B.SilkS" knockout)
+		(uuid "e1750ab9-d38f-4506-ae2b-fd53c6e77d65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 90.2816 54.1916)
 		(end 90.2816 40.7896)
